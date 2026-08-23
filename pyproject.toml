@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["artifacts", "data", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# The promoted Agent is an immutable public-artifact payload loader. Formatting it would alter the
+# validated submission bytes; dynamic imports occur after the embedded modules are installed.
+"main.py" = ["E402", "E501", "I001", "UP034"]

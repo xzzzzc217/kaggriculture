@@ -1,0 +1,181 @@
+{
+  "experiment": "kaito_v36_clone_horizon_2",
+  "date": "2026-08-21",
+  "status": "SUBMITTED_COMPLETE_RATING_IN_PROGRESS",
+  "single_variable": {
+    "name": "clone_sell_preemption_horizon",
+    "from": 1,
+    "to": 2
+  },
+  "source": {
+    "author": "Kaito Fukami",
+    "notebook": "106-130-multi-generation-v36-robust-hybrid",
+    "agent_sha256": "f375ab7c67abecd116abd754ec76252d4e371f6e8d1743f88723e960e4eefc8f"
+  },
+  "candidate": {
+    "agent_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+    "bundle_sha256": "049d7cc9c56d99c964f1ee0259e1c0477b4ae511f63611352b5800a143a5d5fc",
+    "agent_bytes": 46981,
+    "bundle_bytes": 35088
+  },
+  "dynamic_holdout_20260911_20260920": {
+    "exact_kaito_v36": {
+      "games": 20,
+      "wins": 20,
+      "ties": 0,
+      "paired_positive": 10,
+      "paired_negative": 0,
+      "mean_margin": 2315.7,
+      "worst_margin": 1443.0
+    },
+    "boatlee_v16_rc5": {
+      "games": 20,
+      "wins": 20,
+      "ties": 0,
+      "paired_positive": 10,
+      "paired_negative": 0,
+      "mean_margin": 7166.05,
+      "worst_margin": 1408.0
+    },
+    "prvsiyan_moon": {
+      "games": 20,
+      "wins": 16,
+      "ties": 0,
+      "paired_positive": 9,
+      "paired_negative": 1,
+      "mean_margin": 4926.4,
+      "worst_margin": -6215.0
+    }
+  },
+  "public_action_stream_panel": {
+    "distinct_behaviours": 112,
+    "candidate_wins": 112,
+    "candidate_mean_margin": 90877.91071428571,
+    "candidate_worst_margin": 16341.0,
+    "reference_wins": 112,
+    "reference_mean_margin": 90861.14285714286,
+    "reference_worst_margin": 16341.0,
+    "outcome_flips": 0
+  },
+  "submission": {
+    "authorized": true,
+    "ref": 55658542,
+    "submitted_at_utc": "2026-08-21T02:41:43.663Z",
+    "description": "Kaito V36 clone-horizon2 controlled local champion",
+    "status": "COMPLETE",
+    "public_score": 2015.6
+  },
+  "online_snapshot": {
+    "observed_at_utc": "2026-08-21T03:44:09.889Z",
+    "finished_games": 4,
+    "wins": 3,
+    "losses": 1,
+    "in_progress": 1,
+    "rating_provisional": true
+  },
+  "first_loss_analysis": {
+    "episode_id": 95677563,
+    "seed": 628239158,
+    "opponent": "James Y",
+    "rewards": [
+      85208.0,
+      93759.0
+    ],
+    "margin": -8551.0,
+    "clone_gate_latched": false,
+    "maximum_near_streak": 6,
+    "runtime_stderr_records": 0,
+    "finding": "Structurally different fertilizer/wheat/sheep economy; not a clone-horizon failure."
+  },
+  "latest_online_snapshot": {
+    "observed_at_utc": "2026-08-21T11:46:47.044Z",
+    "submissions_api_score": 2015.6,
+    "episode_api_score": 2015.6876332805864,
+    "provisional_peak_api_score": 2015.6,
+    "change_from_first_observation": 172.9,
+    "public_episode_count": 77,
+    "latest_completed_episode_id": 95922096,
+    "asynchronous_surfaces": true,
+    "rolling_window_only": true,
+    "rating_provisional": true,
+    "second_submission_authorized": false
+  },
+  "new_loss_analyses": [
+    {
+      "episode_id": 95741586,
+      "seed": 2089855227,
+      "opponent": "tipstar0125",
+      "rewards": [
+        79339.0,
+        78745.0
+      ],
+      "margin": -594.0,
+      "clone_gate_latched": false,
+      "maximum_near_streak": 6,
+      "runtime_stderr_records": 0,
+      "opponent_sell_fertilizer": 1833,
+      "player_sell_fertilizer": 216,
+      "opponent_sell_wheat": 1031,
+      "player_sell_wheat": 739,
+      "failure_class": "fertilizer_wheat_heavy"
+    },
+    {
+      "episode_id": 95734726,
+      "seed": 1637208600,
+      "opponent": "Colton Martin",
+      "rewards": [
+        59461.0,
+        58872.0
+      ],
+      "margin": -589.0,
+      "clone_gate_latched": true,
+      "clone_latch_step": 48,
+      "maximum_near_streak": 720,
+      "median_public_state_distance": 1,
+      "runtime_stderr_records": 0,
+      "failure_class": "near_clone_market_timing"
+    },
+    {
+      "episode_id": 95780431,
+      "seed": 361349006,
+      "opponent": "vladee",
+      "rewards": [
+        95702.0,
+        90684.0
+      ],
+      "margin": -5018.0,
+      "clone_gate_latched": false,
+      "maximum_near_streak": 6,
+      "runtime_stderr_records": 0,
+      "opponent_sell_fertilizer": 1906,
+      "player_sell_fertilizer": 216,
+      "opponent_sell_wheat": 1147,
+      "player_sell_wheat": 718,
+      "failure_class": "fertilizer_wheat_heavy"
+    },
+    {
+      "episode_id": 95791884,
+      "seed": 853387973,
+      "opponent": "asi1024",
+      "rewards": [
+        96596.0,
+        97212.0
+      ],
+      "margin": -616.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "clone_gate_latched": true,
+      "clone_latch_step": 48,
+      "maximum_near_streak": 383,
+      "median_public_state_distance": 2,
+      "player_sell_fertilizer": 216,
+      "opponent_sell_fertilizer": 215,
+      "player_sell_wheat": 829,
+      "opponent_sell_wheat": 428,
+      "agent_log_available": false,
+      "failure_class": "near_clone_market_timing"
+    }
+  ]
+}
