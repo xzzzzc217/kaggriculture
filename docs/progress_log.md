@@ -357,3 +357,27 @@
   files, not fert_wheat satellite patches.
 - Result files: `experiments/candidates/g5_public_routes_20260823.json`,
   per-agent `g5_*.json` and `h2h_vs_h2_20260911_20260920.json`.
+
+## 2026-08-23 16:11 UTC+8 — boatlee_v21_r1 independent H2H vs h2 + Moon (no upload)
+
+- Champion `main.py` left untouched. SHA-256
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+  No Kaggle upload. V36 knobs not retuned. Did not overwrite h2.
+- Candidate: `experiments/candidates/boatlee_v21_r1/main.py` SHA-256
+  `c6f96a8521dc9aa369b6f27e5b36b9d481e5c1688f50c8ca215c3bb53f1f9eb8`.
+  Eval: `scripts/evaluate_head_to_head.py`, 720 steps, both seats.
+- Independent H2H vs h2, NEW seeds 20261021-20261030 (20 games):
+  **18-0-2**, paired+ **10/10**, mean margin **+3977.6**, worst **-1907**
+  (20261025 seat 0), Wilson 95 lower **0.699**.
+  JSON: `experiments/20260823_boatlee_v21_r1_vs_h2_20261021_20261030.json`.
+- H2H vs Moon (`artifacts/materialized/prvsiyan_moon/main.py`), G3-style seeds
+  20260911-20260920 both seats (20 games):
+  **13-0-7**, paired+ **7/10**, mean margin **-21.1**, worst **-5427**
+  (20260914 seat 0). Fail vs h2 Moon bar (>=16/20 and >=9/10 paired+).
+  JSON: `experiments/20260823_boatlee_v21_r1_vs_moon_20260911_20260920.json`.
+- 112-behavior public panel: **not run** (Moon slice not strong).
+- Route B slot 55698017 (~1782.7 / user 1779): **no**, boatlee is not close
+  enough to justify displacing that slot. The new h2 holdout is strong (18-2,
+  10/10 paired+), but Moon fails the same G3 bar that blocked Route A, G4 is
+  unearned, and a third upload would still deactivate live h2 55658542 (2036.2)
+  from newest-2. Do not displace h2.
