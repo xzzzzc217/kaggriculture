@@ -1,0 +1,36 @@
+{
+  "episode_id": 97399969,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55698017\\episode-97399969-replay.json",
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\kaitofukami_v41\\main.py",
+  "agent_sha256": "37b10294c8e7a9dd88355e70f1b67331fe22f112a1b3dbc68de7b3f8931b2380",
+  "seed": 1579218049,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "Subin An",
+  "teams": [
+    "heralces",
+    "Subin An"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    65999.0,
+    73104.0
+  ],
+  "recorded_margin": -7105.0,
+  "rewards": [
+    67549.0,
+    73440.0
+  ],
+  "own_reward": 67549.0,
+  "opponent_reward": 73440.0,
+  "margin": -5891.0,
+  "win": false,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 16.649073300002783,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}

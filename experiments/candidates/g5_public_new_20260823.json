@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-23",
+  "champion_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "upload": false,
+  "h2_g5_controls": {
+    "subin_an_97399969": -7107,
+    "james_y_95677563": -8551
+  },
+  "kernel_hunt": {
+    "searched": "kaggle kernels list --search kaggriculture --sort-by dateCreated; user kaitofukami; boatlee/prvsiyan/v36/v37/v41",
+    "already_scored": [
+      "boatlee_v16",
+      "boatlee_v21_r1",
+      "kaitofukami_v36",
+      "kaitofukami_v37_lb_wide",
+      "prvsiyan_moon",
+      "prvsiyan_soil",
+      "stevenleehans_strongest_farmer",
+      "joymietalicuad_ecobot_v2",
+      "ameythakur20_premium_first",
+      "tetsutani_adaptive"
+    ],
+    "skipped_not_new_agents": [
+      "alejandrofonda/kaggriculture-state-p1-2-2 (status sync, no standalone agent)",
+      "denizeryilmaz/v111-8c4s-economic-core-premium-lead (V16-RC5 writefile clone)",
+      "no boatlee after v21-r1"
+    ],
+    "materialized": [
+      "kaitofukami/22-24-unseen-lineages-v41-sparse-closed-loop",
+      "stevenleehans/kaggriculture-x578-i-m-the-strongest (emits X594)"
+    ]
+  },
+  "screens": [
+    {
+      "agent": "kaitofukami_v41",
+      "sha256": "37b10294c8e7a9dd88355e70f1b67331fe22f112a1b3dbc68de7b3f8931b2380",
+      "bytes": 70334,
+      "g5_subin": {
+        "margin": -5891,
+        "beats_h2": true,
+        "win": false
+      },
+      "g5_james": {
+        "margin": -9212,
+        "beats_h2": false,
+        "win": false
+      },
+      "pass_g5_both": false,
+      "moon_h2h": null
+    },
+    {
+      "agent": "stevenleehans_x594",
+      "sha256": "d946545e01d5a07485ca348c16080b61ecd4f2eff6a8c5fc08be7a449c43abc5",
+      "bytes": 57322,
+      "g5_subin": {
+        "margin": 18390,
+        "beats_h2": true,
+        "win": true
+      },
+      "g5_james": {
+        "margin": 37410,
+        "beats_h2": true,
+        "win": true
+      },
+      "pass_g5_both": true,
+      "moon_h2h": {
+        "seeds": "20260911-20260920 both seats",
+        "wins": 3,
+        "ties": 0,
+        "losses": 17,
+        "paired_positive": 0,
+        "paired_negative": 10,
+        "mean_margin": -10588.4,
+        "worst_margin": -26823.0,
+        "pass_moon": false
+      }
+    }
+  ],
+  "moon_g5_survivor": null,
+  "next_hunt": [
+    "Screen already-materialized prvsiyan_soil on the two G5 streams (not scored for fert class).",
+    "Pull tetsutani/read-the-town-build-the-farm-kaggriculture only if SHA differs from tetsutani_adaptive.",
+    "Pull xishengfeng/rl-v9-market-off-tape-rulemirror-league and vijaikm/kaggriculture-modular-agent-framework if they emit a stdlib main.py.",
+    "Search kernels for 4Q/8-sheep fertilizer-wheat routes that also claim Moon/melon holdouts (not V36 knobs, not fert_wheat wrappers).",
+    "Do not wrap V36. Do not upload. Do not displace h2."
+  ]
+}

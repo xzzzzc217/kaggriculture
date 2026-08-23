@@ -1,0 +1,36 @@
+{
+  "episode_id": 95677563,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\stevenleehans_x594\\main.py",
+  "agent_sha256": "d946545e01d5a07485ca348c16080b61ecd4f2eff6a8c5fc08be7a449c43abc5",
+  "seed": 628239158,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "James Y",
+  "teams": [
+    "heralces",
+    "James Y"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    85208.0,
+    93759.0
+  ],
+  "recorded_margin": -8551.0,
+  "rewards": [
+    108274.0,
+    70864.0
+  ],
+  "own_reward": 108274.0,
+  "opponent_reward": 70864.0,
+  "margin": 37410.0,
+  "win": true,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 16.589899199992942,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}

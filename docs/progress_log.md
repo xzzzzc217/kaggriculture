@@ -381,3 +381,47 @@
   10/10 paired+), but Moon fails the same G3 bar that blocked Route A, G4 is
   unearned, and a third upload would still deactivate live h2 55658542 (2036.2)
   from newest-2. Do not displace h2.
+
+## 2026-08-23 16:24 UTC+8 — public hunt: Kaito v41 + steven X594 (G5 + Moon)
+
+- Champion main.py left untouched. SHA-256
+  65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe.
+  No Kaggle upload. V36 knobs not retuned. Did not overwrite h2.
+- Kernel search (kaggle kernels list --search kaggriculture --sort-by dateCreated,
+  plus kaitofukami / boatlee / prvsiyan / v36 / v37 / v41). Already scored or
+  already materialized: boatlee V16/V21, Kaito V36/V37, Moon, Soil, steven
+  strongest-farmer, EcoBot, premium-first, tetsutani adaptive. No boatlee after
+  V21-R1. Kaito after V36 that was **not** scored: **v41**.
+- Skipped as not new playable agents: lejandrofonda/kaggriculture-state-p1-2-2
+  (P1.2.2 status sync, dataset copy, no standalone agent);
+  denizeryilmaz/v111-8c4s-economic-core-premium-lead (%%writefile of V16-RC5).
+- Materialized exact bytes (no Windows CRLF) via notebook literals, not notebook exec:
+  - kaitofukami/22-24-unseen-lineages-v41-sparse-closed-loop payload b85+zlib
+    experiments/candidates/kaitofukami_v41/main.py 70334 bytes SHA-256
+    37b10294c8e7a9dd88355e70f1b67331fe22f112a1b3dbc68de7b3f8931b2380
+    (notebook assert).
+  - stevenleehans/kaggriculture-x578-i-m-the-strongest emits **X594** raw b85
+    experiments/candidates/stevenleehans_x594/main.py 57322 bytes SHA-256
+    d946545e01d5a07485ca348c16080b61ecd4f2eff6a8c5fc08be7a449c43abc5
+    (notebook EXPECTED_SHA256). Distinct from strongest-farmer 3365ea27....
+- Recorded-seat G5 replay-callback (h2: Subin **-7107**, James Y **-8551**):
+  - v41 vs Subin An 97399969: 67549-73440, margin **-5891** (beats h2 margin, still loss)
+  - v41 vs James Y 95677563: 73963-83175, margin **-9212** (worse than h2) **FAIL**
+  - x594 vs Subin An: 47605-29215, margin **+18390** (beats h2, win)
+  - x594 vs James Y: 108274-70864, margin **+37410** (beats h2, win)
+- x594 passed both G5 streams. Moon H2H vs prvsiyan_moon, seeds 20260911-20260920
+  both seats (20 games): **3-0-17**, paired+ **0/10**, mean margin **-10588.4**,
+  worst **-26823**. Fail vs h2 Moon bar (>=16/20 and >=9/10 paired+).
+- **Moon+G5 survivor: none.** v41 is still a V37-backbone fert-class miss on James Y.
+  x594 is another G5-win / Moon-collapse public planner (same shape as boatlee V21
+  and steven strongest-farmer). Do not wrap V36. No upload.
+- Compact JSON: experiments/candidates/g5_public_new_20260823.json.
+- Next concrete hunt (not V36, not fert_wheat wrappers):
+  1. G5-screen already-materialized prvsiyan_soil (never scored on Subin/James).
+  2. Pull 	etsutani/read-the-town-build-the-farm-kaggriculture only if SHA differs
+     from 	etsutani_adaptive.
+  3. Inspect xishengfeng/rl-v9-market-off-tape-rulemirror-league and
+     ijaikm/kaggriculture-modular-agent-framework for a stdlib main.py.
+  4. Search public kernels that claim **both** a 4Q/8-sheep fertilizer-wheat route
+     **and** a Moon/melon holdout (the missing intersection).
+
