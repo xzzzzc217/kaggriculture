@@ -210,3 +210,65 @@
   Otherwise, restore `main.py` from `main.py.h2_pre_variant_001_20260823_031348`
   and document the result in `docs/route_b_triage_20260823.md`.
 
+## 2026-08-23 15:10 UTC+8 — variant_001 public-12 replay cluster
+
+- Live scores from `kaggle competitions submissions -c kaggriculture`: h2
+  submission `55658542` public `2036.2`; Route B variant_001 submission
+  `55698017` public `1782.7`. No upload was made in this cycle.
+- Local `main.py` is the rolled-back h2 champion. File SHA-256 is
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`
+  (46,981 bytes). Git `origin/main` already has commit `d49514b`
+  (`Rollback local champion to h2 after variant_001 scored 1782.7 vs h2 2036.2.`).
+- Route B is closed: variant_001 is the live regression (1782.7 vs 2036.2), not a
+  new local search axis.
+- Route A variant_000 G2/G3 already failed the frozen holdout recorded in
+  `artifacts/evaluations/route_a_smoke/`: Boat 18/20 (paired+ 9/10, mean
+  +4548.85, worst -741) vs Boatlee V16-RC5; Moon 13/20 (paired+ 7/10, mean
+  +2420.9, worst -14633) vs Moon. V36 knob sweeps remain exhausted.
+- Downloaded the 12 most recent PUBLIC completed episodes for `55698017` with
+  `kaggle competitions replay <id> -p artifacts/kaggle_runs/submission_55698017`.
+  Skipped VALIDATION episode `97030753`. Our team name on every replay is
+  `heralces`. Per-episode `analyze_episode.py` JSON is under
+  `experiments/submission_55698017_public12/`; compact cluster file is
+  `experiments/submission_55698017_public12_cluster.json`. Replay binaries stay
+  in `artifacts/` and are not committed.
+- Sample W/L: **7 wins, 5 losses, 0 ties**.
+
+  Wins: Komi ShouKo +8871 (97381779), hikaru kitagawa +4960 (97379585),
+  gezi +3251 (97276924), mountainbob +6161 (97247244), yw8837 +4386 (97244976),
+  vladee +2915 (97213114), Anaconda +4674 (97187880).
+
+  Losses (named opponents):
+  - Subin An 97399969 seat 0: 65999-73104, margin **-7105**. Clone gate not
+    latched (max near streak 6). Opp sold fertilizer 1760 / wheat 1465 vs our
+    216 / 780. Opp finished 4 quadrants and 8 sheep.
+  - SahilKumarTolani 97270136 seat 0: 141972-143778, margin **-1806**. Gate
+    not latched (streak 6). Opp fertilizer 1906 / wheat 1142 vs our 216 / 836.
+  - Kyle 97342898 seat 0: 90625-92424, margin **-1799**. **Near-clone**: latch
+    at step 48, max near streak 720, median distance 1, fertilizer 216 vs 216,
+    wheat 845 vs 786.
+  - Snipine 97406876 seat 1: 94863-96372, margin **-1509**. Gate not latched
+    (streak 6). Opp fertilizer 1794 / wheat 1014 vs our 216 / 738.
+  - TingyuanLi277 97313456 seat 0: 67222-67529, margin **-307**. Gate not
+    latched (streak 6). Opp fertilizer 1906 / wheat 1138 vs our 216 / 725.
+
+- Loss cluster: **4 fertilizer/wheat-heavy, 1 near-clone timing, 0 other**.
+  Same two classes as h2's documented live losses (James Y / tipstar0125 /
+  vladee fertilizer-wheat; Colton Martin / asi1024 near-clone). Fertilizer
+  volume on the four heavy losses is 1760-1906 vs our constant 216, matching
+  James Y 95677563. Subin An is the James Y board signature (4Q + 8 sheep)
+  and the largest new margin. The class is not an automatic loss: variant_001
+  also beat hikaru kitagawa, gezi, yw8837, vladee, and Anaconda while they
+  sold 1778-1906 fertilizer. Note only: h2 lost to vladee on 95780431;
+  variant_001 won this later public game 97213114.
+- Next recommended local experiment (do not upload; do not retune V36 knobs):
+  replay-callback closed loop of rolled-back h2 `main.py` against **Subin An
+  episode 97399969**, using the live recorded-action callback already in
+  `scripts/evaluate_replay_benchmark.py` (that CLI wants a parquet row; the
+  replay JSON is at
+  `artifacts/kaggle_runs/submission_55698017/episode-97399969-replay.json`).
+  Keep James Y `95677563` as the frozen class control. Why: G5 live-failure
+  coverage was waived pre-upload; Route A/B and V36 knobs are closed; 4/5
+  new losses are this class; Subin An is the worst named opponent in the
+  sample and matches James Y's fertilizer/wheat/sheep shape.
+

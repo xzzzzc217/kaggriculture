@@ -1,0 +1,435 @@
+{
+  "episode_id": 97276924,
+  "seed": 533787529,
+  "player": 1,
+  "teams": [
+    "gezi",
+    "heralces"
+  ],
+  "steps": 720,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "rewards": [
+    84135.0,
+    87386.0
+  ],
+  "margin": 3251.0,
+  "clone_gate": {
+    "threshold": 2.0,
+    "streak_required": 24,
+    "maximum_near_streak": 6,
+    "latched": false,
+    "latch_step": null,
+    "minimum_distance": 0,
+    "median_distance": 22,
+    "final_distance": 16
+  },
+  "money_checkpoints": [
+    {
+      "step": 23,
+      "day": 1,
+      "player_money": 9.0,
+      "opponent_money": 16.0
+    },
+    {
+      "step": 47,
+      "day": 2,
+      "player_money": 8.0,
+      "opponent_money": 171.0
+    },
+    {
+      "step": 71,
+      "day": 3,
+      "player_money": 18.0,
+      "opponent_money": 42.0
+    },
+    {
+      "step": 95,
+      "day": 4,
+      "player_money": 33.0,
+      "opponent_money": 1.0
+    },
+    {
+      "step": 119,
+      "day": 5,
+      "player_money": 379.0,
+      "opponent_money": 111.0
+    },
+    {
+      "step": 143,
+      "day": 6,
+      "player_money": 367.0,
+      "opponent_money": 37.0
+    },
+    {
+      "step": 167,
+      "day": 7,
+      "player_money": 2734.0,
+      "opponent_money": 850.0
+    },
+    {
+      "step": 191,
+      "day": 8,
+      "player_money": 739.0,
+      "opponent_money": 13.0
+    },
+    {
+      "step": 215,
+      "day": 9,
+      "player_money": 71.0,
+      "opponent_money": 854.0
+    },
+    {
+      "step": 239,
+      "day": 10,
+      "player_money": 1867.0,
+      "opponent_money": 1517.0
+    },
+    {
+      "step": 263,
+      "day": 11,
+      "player_money": 5515.0,
+      "opponent_money": 15304.0
+    },
+    {
+      "step": 287,
+      "day": 12,
+      "player_money": 6663.0,
+      "opponent_money": 12086.0
+    },
+    {
+      "step": 311,
+      "day": 13,
+      "player_money": 7803.0,
+      "opponent_money": 13058.0
+    },
+    {
+      "step": 335,
+      "day": 14,
+      "player_money": 9137.0,
+      "opponent_money": 14300.0
+    },
+    {
+      "step": 359,
+      "day": 15,
+      "player_money": 9925.0,
+      "opponent_money": 16496.0
+    },
+    {
+      "step": 383,
+      "day": 16,
+      "player_money": 10360.0,
+      "opponent_money": 18420.0
+    },
+    {
+      "step": 407,
+      "day": 17,
+      "player_money": 14099.0,
+      "opponent_money": 21059.0
+    },
+    {
+      "step": 431,
+      "day": 18,
+      "player_money": 15014.0,
+      "opponent_money": 26012.0
+    },
+    {
+      "step": 455,
+      "day": 19,
+      "player_money": 20334.0,
+      "opponent_money": 28536.0
+    },
+    {
+      "step": 479,
+      "day": 20,
+      "player_money": 22982.0,
+      "opponent_money": 31656.0
+    },
+    {
+      "step": 503,
+      "day": 21,
+      "player_money": 31361.0,
+      "opponent_money": 32627.0
+    },
+    {
+      "step": 527,
+      "day": 22,
+      "player_money": 37970.0,
+      "opponent_money": 39247.0
+    },
+    {
+      "step": 551,
+      "day": 23,
+      "player_money": 45759.0,
+      "opponent_money": 44724.0
+    },
+    {
+      "step": 575,
+      "day": 24,
+      "player_money": 50000.0,
+      "opponent_money": 52741.0
+    },
+    {
+      "step": 599,
+      "day": 25,
+      "player_money": 58727.0,
+      "opponent_money": 56815.0
+    },
+    {
+      "step": 623,
+      "day": 26,
+      "player_money": 64204.0,
+      "opponent_money": 63773.0
+    },
+    {
+      "step": 647,
+      "day": 27,
+      "player_money": 69393.0,
+      "opponent_money": 66419.0
+    },
+    {
+      "step": 671,
+      "day": 28,
+      "player_money": 74041.0,
+      "opponent_money": 72798.0
+    },
+    {
+      "step": 695,
+      "day": 29,
+      "player_money": 76989.0,
+      "opponent_money": 77056.0
+    },
+    {
+      "step": 719,
+      "day": 30,
+      "player_money": 87386.0,
+      "opponent_money": 84135.0
+    }
+  ],
+  "final_public_signatures": [
+    {
+      "hands": 8,
+      "unlocked_quadrants": 3,
+      "objects": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 9,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 1,
+        "SHEEP": 3,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 18,
+        "WHEAT": 1
+      }
+    },
+    {
+      "hands": 10,
+      "unlocked_quadrants": 3,
+      "objects": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 8,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 1,
+        "SHEEP": 4,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 6,
+        "WHEAT": 1
+      }
+    }
+  ],
+  "player_final_private": {
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 1,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 0,
+      "WOOL": 0
+    },
+    "seeds": {
+      "CARROT": 0,
+      "MELON": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 0
+    },
+    "inventories": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "market_order_counts": [
+    {
+      "HIRE:": 277,
+      "SELL:FERTILIZER": 211,
+      "SELL:WHEAT": 177,
+      "BUY_SEED:WHEAT": 88,
+      "BUY_PRODUCT:WHEAT": 71,
+      "SELL:MILK": 31,
+      "SELL:STRAWBERRY": 29,
+      "SELL:WOOL": 26,
+      "SELL:MELON": 17,
+      "BUY_SEED:CARROT": 8,
+      "BUY_SEED:MELON": 7,
+      "BUY_ANIMAL:COW": 6,
+      "BUY_SEED:STRAWBERRY": 5,
+      "SELL:CARROT": 4,
+      "BUY_ANIMAL:SHEEP": 3,
+      "BUY_LAND:": 2
+    },
+    {
+      "HIRE:": 264,
+      "BUY_PRODUCT:WHEAT": 155,
+      "SELL:WHEAT": 82,
+      "BUY_SEED:WHEAT": 48,
+      "SELL:FERTILIZER": 45,
+      "SELL:MILK": 34,
+      "SELL:STRAWBERRY": 20,
+      "SELL:MELON": 15,
+      "SELL:WOOL": 14,
+      "BUY_SEED:STRAWBERRY": 8,
+      "BUY_ANIMAL:COW": 5,
+      "BUY_SEED:MELON": 4,
+      "BUY_LAND:": 2,
+      "BUY_ANIMAL:SHEEP": 1
+    }
+  ],
+  "market_order_quantities": [
+    {
+      "HIRE:": 277,
+      "BUY_ANIMAL:COW": 10,
+      "BUY_ANIMAL:SHEEP": 4,
+      "BUY_SEED:WHEAT": 135,
+      "BUY_SEED:MELON": 20,
+      "BUY_PRODUCT:WHEAT": 522,
+      "SELL:WHEAT": 1142,
+      "SELL:FERTILIZER": 1906,
+      "BUY_SEED:CARROT": 14,
+      "BUY_SEED:STRAWBERRY": 34,
+      "SELL:WOOL": 120,
+      "BUY_LAND:": 2,
+      "SELL:MILK": 282,
+      "SELL:MELON": 120,
+      "SELL:STRAWBERRY": 258,
+      "SELL:CARROT": 15
+    },
+    {
+      "BUY_PRODUCT:WHEAT": 471,
+      "HIRE:": 264,
+      "BUY_ANIMAL:COW": 8,
+      "BUY_ANIMAL:SHEEP": 4,
+      "BUY_SEED:MELON": 20,
+      "BUY_SEED:WHEAT": 145,
+      "SELL:WHEAT": 710,
+      "SELL:FERTILIZER": 216,
+      "BUY_SEED:STRAWBERRY": 37,
+      "SELL:WOOL": 132,
+      "BUY_LAND:": 2,
+      "SELL:MILK": 215,
+      "SELL:MELON": 102,
+      "SELL:STRAWBERRY": 278
+    }
+  ],
+  "field_action_counts": [
+    {
+      "hand:WEST": 964,
+      "hand:NORTH": 926,
+      "hand:WATER": 901,
+      "hand:EAST": 739,
+      "hand:PASS": 593,
+      "hand:SOUTH": 576,
+      "hand:HARVEST": 365,
+      "hand:COLLECT_FERTILIZER": 296,
+      "hand:FEED": 202,
+      "hand:CARE": 200,
+      "hand:PLANT": 167,
+      "farmer:FEED": 118,
+      "farmer:CARE": 117,
+      "hand:PICKUP": 96,
+      "farmer:WEST": 82,
+      "farmer:NORTH": 76,
+      "farmer:PASS": 73,
+      "farmer:EAST": 67,
+      "hand:FERTILIZE": 64,
+      "hand:PLACE": 51,
+      "farmer:SOUTH": 48,
+      "farmer:WATER": 43,
+      "farmer:PICKUP": 31,
+      "farmer:HARVEST": 29,
+      "farmer:PLANT": 16,
+      "hand:DIG": 16,
+      "farmer:COLLECT_FERTILIZER": 10,
+      "hand:DROP": 9,
+      "hand:BUILD_PASTURE": 8,
+      "farmer:BUILD_PASTURE": 5,
+      "farmer:PLACE": 3,
+      "farmer:DIG": 1,
+      "farmer:DROP": 1
+    },
+    {
+      "hand:WATER": 960,
+      "hand:NORTH": 784,
+      "hand:WEST": 728,
+      "hand:CARE": 697,
+      "hand:EAST": 608,
+      "hand:SOUTH": 516,
+      "hand:HARVEST": 369,
+      "hand:PASS": 338,
+      "hand:FEED": 233,
+      "hand:COLLECT_FERTILIZER": 229,
+      "hand:PLANT": 190,
+      "farmer:CARE": 160,
+      "hand:PICKUP": 102,
+      "farmer:PASS": 85,
+      "farmer:WEST": 83,
+      "hand:FERTILIZE": 72,
+      "farmer:COLLECT_FERTILIZER": 66,
+      "hand:DROP": 64,
+      "farmer:WATER": 60,
+      "farmer:FEED": 58,
+      "farmer:NORTH": 51,
+      "farmer:EAST": 42,
+      "hand:DIG": 41,
+      "farmer:SOUTH": 40,
+      "farmer:PICKUP": 32,
+      "farmer:HARVEST": 21,
+      "hand:PLACE": 12,
+      "hand:BUILD_PASTURE": 10,
+      "farmer:PLANT": 9,
+      "farmer:DROP": 5,
+      "farmer:BUILD_PASTURE": 3,
+      "farmer:PLACE": 3,
+      "farmer:DIG": 2
+    }
+  ],
+  "runtime": {
+    "records": 0,
+    "mean_seconds": null,
+    "max_seconds": null,
+    "stderr_records": 0,
+    "stdout_records": 0,
+    "stderr_samples": []
+  }
+}

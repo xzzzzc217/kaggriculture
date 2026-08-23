@@ -1,0 +1,367 @@
+{
+  "as_of": "2026-08-23 15:10 UTC+8",
+  "submission_id": 55698017,
+  "agent": "variant_001 Route B ih=2",
+  "our_team": "heralces",
+  "public_score_variant_001": 1782.7,
+  "public_score_h2_55658542": 2036.2,
+  "skipped_validation_episode": 97030753,
+  "sample": "12 most recent PUBLIC completed episodes",
+  "wins": 7,
+  "losses": 5,
+  "ties": 0,
+  "loss_cluster_counts": {
+    "fertilizer_wheat_heavy": 4,
+    "near_clone_timing": 1
+  },
+  "loss_opponents": [
+    {
+      "opponent": "Snipine",
+      "episode_id": 97406876,
+      "margin": -1509.0,
+      "cluster": "fertilizer_wheat_heavy"
+    },
+    {
+      "opponent": "Subin An",
+      "episode_id": 97399969,
+      "margin": -7105.0,
+      "cluster": "fertilizer_wheat_heavy"
+    },
+    {
+      "opponent": "Kyle",
+      "episode_id": 97342898,
+      "margin": -1799.0,
+      "cluster": "near_clone_timing"
+    },
+    {
+      "opponent": "TingyuanLi277",
+      "episode_id": 97313456,
+      "margin": -307.0,
+      "cluster": "fertilizer_wheat_heavy"
+    },
+    {
+      "opponent": "SahilKumarTolani",
+      "episode_id": 97270136,
+      "margin": -1806.0,
+      "cluster": "fertilizer_wheat_heavy"
+    }
+  ],
+  "compare_to_h2_failure_modes": {
+    "fertilizer_wheat_heavy": "same class as James Y 95677563, tipstar0125 95741586, vladee 95780431",
+    "near_clone_timing": "same class as Colton Martin 95734726 and asi1024 95791884",
+    "other": "none in this 12-game sample"
+  },
+  "episodes": [
+    {
+      "episode_id": 97406876,
+      "create_time_utc": "2026-08-23T06:24:41.378000",
+      "our_team": "heralces",
+      "our_seat": 1,
+      "opponent": "Snipine",
+      "rewards": [
+        96372.0,
+        94863.0
+      ],
+      "margin": -1509.0,
+      "result": "LOSS",
+      "our_sell_wheat": 738,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1014,
+      "opp_sell_fertilizer": 1794,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 25,
+        "final_distance": 19
+      },
+      "cluster": "fertilizer_wheat_heavy",
+      "notes": "opp fert 1794 vs our 216; streak 6 never latched"
+    },
+    {
+      "episode_id": 97399969,
+      "create_time_utc": "2026-08-23T06:12:40.038000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "Subin An",
+      "rewards": [
+        65999.0,
+        73104.0
+      ],
+      "margin": -7105.0,
+      "result": "LOSS",
+      "our_sell_wheat": 780,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1465,
+      "opp_sell_fertilizer": 1760,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 37,
+        "final_distance": 38
+      },
+      "opp_final_signature": {
+        "hands": 8,
+        "unlocked_quadrants": 4,
+        "SHEEP": 8
+      },
+      "cluster": "fertilizer_wheat_heavy",
+      "notes": "largest loss; 4 quadrants + 8 sheep like James Y 95677563"
+    },
+    {
+      "episode_id": 97381779,
+      "create_time_utc": "2026-08-23T05:40:45.996000",
+      "our_team": "heralces",
+      "our_seat": 1,
+      "opponent": "Komi ShouKo",
+      "rewards": [
+        96166.0,
+        105037.0
+      ],
+      "margin": 8871.0,
+      "result": "WIN",
+      "our_sell_wheat": 742,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 612,
+      "opp_sell_fertilizer": 215,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 19
+      },
+      "cluster": "win_not_clustered"
+    },
+    {
+      "episode_id": 97379585,
+      "create_time_utc": "2026-08-23T05:36:44.559000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "hikaru kitagawa",
+      "rewards": [
+        123785.0,
+        118825.0
+      ],
+      "margin": 4960.0,
+      "result": "WIN",
+      "our_sell_wheat": 739,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1077,
+      "opp_sell_fertilizer": 1778,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 21,
+        "final_distance": 18
+      },
+      "cluster": "win_not_clustered",
+      "notes": "won despite opponent fertilizer/wheat-heavy sells"
+    },
+    {
+      "episode_id": 97342898,
+      "create_time_utc": "2026-08-23T04:32:33.678000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "Kyle",
+      "rewards": [
+        90625.0,
+        92424.0
+      ],
+      "margin": -1799.0,
+      "result": "LOSS",
+      "our_sell_wheat": 845,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 786,
+      "opp_sell_fertilizer": 216,
+      "clone_gate": {
+        "latched": true,
+        "latch_step": 48,
+        "maximum_near_streak": 720,
+        "median_distance": 1,
+        "final_distance": 1
+      },
+      "cluster": "near_clone_timing",
+      "notes": "latch at step 48; fertilizer equal 216; boards nearly identical"
+    },
+    {
+      "episode_id": 97313456,
+      "create_time_utc": "2026-08-23T03:40:36.061000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "TingyuanLi277",
+      "rewards": [
+        67222.0,
+        67529.0
+      ],
+      "margin": -307.0,
+      "result": "LOSS",
+      "our_sell_wheat": 725,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1138,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 21,
+        "final_distance": 17
+      },
+      "cluster": "fertilizer_wheat_heavy"
+    },
+    {
+      "episode_id": 97276924,
+      "create_time_utc": "2026-08-23T02:36:33.396000",
+      "our_team": "heralces",
+      "our_seat": 1,
+      "opponent": "gezi",
+      "rewards": [
+        84135.0,
+        87386.0
+      ],
+      "margin": 3251.0,
+      "result": "WIN",
+      "our_sell_wheat": 710,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1142,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 16
+      },
+      "cluster": "win_not_clustered"
+    },
+    {
+      "episode_id": 97270136,
+      "create_time_utc": "2026-08-23T02:24:38.189000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "SahilKumarTolani",
+      "rewards": [
+        141972.0,
+        143778.0
+      ],
+      "margin": -1806.0,
+      "result": "LOSS",
+      "our_sell_wheat": 836,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1142,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 17
+      },
+      "cluster": "fertilizer_wheat_heavy"
+    },
+    {
+      "episode_id": 97247244,
+      "create_time_utc": "2026-08-23T01:44:33.337000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "mountainbob",
+      "rewards": [
+        61937.0,
+        55776.0
+      ],
+      "margin": 6161.0,
+      "result": "WIN",
+      "our_sell_wheat": 771,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 457,
+      "opp_sell_fertilizer": 265,
+      "clone_gate": {
+        "latched": true,
+        "latch_step": 48,
+        "maximum_near_streak": 145,
+        "median_distance": 2,
+        "final_distance": 2
+      },
+      "cluster": "win_not_clustered",
+      "notes": "near-clone latch but we won"
+    },
+    {
+      "episode_id": 97244976,
+      "create_time_utc": "2026-08-23T01:40:35.662000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "yw8837",
+      "rewards": [
+        103645.0,
+        99259.0
+      ],
+      "margin": 4386.0,
+      "result": "WIN",
+      "our_sell_wheat": 766,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1142,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 16
+      },
+      "cluster": "win_not_clustered"
+    },
+    {
+      "episode_id": 97213114,
+      "create_time_utc": "2026-08-23T00:44:33.054000",
+      "our_team": "heralces",
+      "our_seat": 1,
+      "opponent": "vladee",
+      "rewards": [
+        69486.0,
+        72401.0
+      ],
+      "margin": 2915.0,
+      "result": "WIN",
+      "our_sell_wheat": 700,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1149,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 18
+      },
+      "cluster": "win_not_clustered",
+      "notes": "h2 lost to vladee on 95780431; variant_001 won this later public game"
+    },
+    {
+      "episode_id": 97187880,
+      "create_time_utc": "2026-08-23T00:00:33.863000",
+      "our_team": "heralces",
+      "our_seat": 0,
+      "opponent": "Anaconda",
+      "rewards": [
+        117334.0,
+        112660.0
+      ],
+      "margin": 4674.0,
+      "result": "WIN",
+      "our_sell_wheat": 689,
+      "our_sell_fertilizer": 216,
+      "opp_sell_wheat": 1138,
+      "opp_sell_fertilizer": 1906,
+      "clone_gate": {
+        "latched": false,
+        "latch_step": null,
+        "maximum_near_streak": 6,
+        "median_distance": 22,
+        "final_distance": 17
+      },
+      "cluster": "win_not_clustered"
+    }
+  ]
+}
