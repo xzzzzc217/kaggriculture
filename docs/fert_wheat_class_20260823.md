@@ -43,3 +43,47 @@ the shared market so the frozen opponent stream printed more than live; 3Q
 PASS replacements at shed-access stole CARE/feed idle slots.
 
 Stop. No knob-spam. No upload.
+
+## fert_wheat_v2 result
+
+One auditable pathing candidate: `experiments/candidates/fert_wheat_v2/main.py`.
+It is not a PASS-only fallback. After the same class latch and 4000 SE unlock it
+redirects up to two non-farmer workers from shed-access onto SE, builds the
+compact 2x2 `(5,5)/(6,5)/(5,6)/(6,6)`, and places extra sheep.
+
+Recorded-seat callback (no opposite seat):
+
+| Stream | h2 | v1 | v2 |
+| --- | --- | --- | --- |
+| Subin An 97399969 | 65997-73104 (-7107) | 64794-77568 (-12774) | 53801-115039 (-61238) |
+| James Y 95677563 | 85208-93759 (-8551) | 93448-105319 (-11871) | 71118-140511 (-69393) |
+
+Q4 occupancy: unlock at step 266 / 262. First pasture 267. First sheep 269.
+`max_se_sheep` was 3-4. Final SE boards were 4 empty pastures, 0 animals.
+Sheep escaped (`consecutive_unfed >= 2`). No fertilizer/wool scale appeared.
+
+Failed the slice pass bar (must beat both streams, or at least beat h2's
+margins on both). Worse than both h2 and v1.
+
+## Why SE pathing wrecks the V36 tape
+
+Hands are wiped at end of day and re-hired onto the four shed-access tiles.
+The open-loop tape's first hours are walks from that spawn to 3Q WATER/CARE/FEED.
+Any real SE path has to steal those morning NORTH/SOUTH/EAST/WEST actions.
+Doing so:
+
+1. places the 2x2 and sheep (so this is not the v1 empty-Q4 *construction* failure);
+2. starves the new sheep because feed/wheat pickup stay on the 3Q tape;
+3. desynchronizes the 3Q animal/crop loops, so our bank falls and the frozen
+   opponent stream prints far more (115k-140k vs live 73k-94k).
+
+A tighter second cut (override MOVE/PASS only; no extra SELL) still escaped
+the sheep and still lost ~54k-61k extra vs h2.
+
+Extra HIRE for a dedicated SE hand would change the observed hand count and
+desync the 719-step tape. PASS-only cannot staff SE (v1). There is no remaining
+satellite that paths onto SE without wrecking the tape.
+
+Stop. No further v2 knobs. No upload. Root `main.py` remains h2
+`65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+

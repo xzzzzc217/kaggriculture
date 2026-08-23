@@ -299,3 +299,20 @@
   quadrant was bought without a worker path onto SE, so the 4000 land spend
   and extra sheep did not become fertilizer/wool scale, and the shared market
   moved in the frozen stream's favor. Stopped. No further knobs.
+
+## 2026-08-23 15:35 UTC+8 — fert_wheat_v2 SE path (G5 slice, stop)
+
+- Champion `main.py` left untouched. SHA-256
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+  No Kaggle upload. V36 knobs not retuned.
+- Candidate: `experiments/candidates/fert_wheat_v2/main.py` (copy also under
+  gitignored `artifacts/variants/fert_wheat_v2/`). Class-latched BUY_LAND plus
+  shed→SE worker path onto a 2x2 pasture block and extra sheep.
+- Recorded-seat callback:
+  - Subin An 97399969: 53801-115039, margin **-61238** (h2 -7107, v1 -12774).
+  - James Y 95677563: 71118-140511, margin **-69393** (h2 -8551, v1 -11871).
+- Q4 did get pastures (4) and animals (max 3-4 sheep at steps 269+), then the
+  sheep escaped unfed. Final SE: 4 empty pastures, 0 animals. Not fertilizer scale.
+- Failed the pass bar. Morning shed-spawn pathing steals the V36 tape's 3Q
+  walks. Further satellite edits would be tape-wreck or v1-style land-without-path.
+  Stopped. Design note in `docs/fert_wheat_class_20260823.md`.

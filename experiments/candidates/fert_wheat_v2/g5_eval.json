@@ -1,0 +1,124 @@
+[
+  {
+    "episode_id": 97399969,
+    "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55698017\\episode-97399969-replay.json",
+    "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\fert_wheat_v2\\main.py",
+    "agent_sha256": "f76250a33b63a06f9874f913c04abb0b9986570b4d951c3b561d2d65b430f8c8",
+    "seed": 1579218049,
+    "seat": 0,
+    "our_team": "heralces",
+    "opponent_team": "Subin An",
+    "teams": [
+      "heralces",
+      "Subin An"
+    ],
+    "n_opponent_actions": 720,
+    "recorded_rewards": [
+      65999.0,
+      73104.0
+    ],
+    "recorded_margin": -7105.0,
+    "rewards": [
+      53801.0,
+      115039.0
+    ],
+    "own_reward": 53801.0,
+    "opponent_reward": 115039.0,
+    "margin": -61238.0,
+    "win": false,
+    "tie": false,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime_seconds": 9.919529099999636,
+    "env_steps": 720,
+    "opposite_seat_run": false,
+    "se_final": {
+      "unlocked": [
+        "NW",
+        "NE",
+        "SW",
+        "SE"
+      ],
+      "se_counts": {
+        "PASTURE": 4,
+        "WEED": 7,
+        "EMPTY": 14
+      },
+      "se_animals": [],
+      "final_on_se": [],
+      "n_hands": 10
+    },
+    "se_progress": {
+      "first_se_unlock_step": 266,
+      "first_se_pasture_step": 267,
+      "first_se_sheep_step": 269,
+      "max_se_sheep": 3
+    },
+    "vs_h2_margin": -54131.0,
+    "vs_v1_margin": -48464.0,
+    "stream": "subin_an_97399969"
+  },
+  {
+    "episode_id": 95677563,
+    "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+    "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\fert_wheat_v2\\main.py",
+    "agent_sha256": "f76250a33b63a06f9874f913c04abb0b9986570b4d951c3b561d2d65b430f8c8",
+    "seed": 628239158,
+    "seat": 0,
+    "our_team": "heralces",
+    "opponent_team": "James Y",
+    "teams": [
+      "heralces",
+      "James Y"
+    ],
+    "n_opponent_actions": 720,
+    "recorded_rewards": [
+      85208.0,
+      93759.0
+    ],
+    "recorded_margin": -8551.0,
+    "rewards": [
+      71118.0,
+      140511.0
+    ],
+    "own_reward": 71118.0,
+    "opponent_reward": 140511.0,
+    "margin": -69393.0,
+    "win": false,
+    "tie": false,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime_seconds": 10.403675900000962,
+    "env_steps": 720,
+    "opposite_seat_run": false,
+    "se_final": {
+      "unlocked": [
+        "NW",
+        "NE",
+        "SW",
+        "SE"
+      ],
+      "se_counts": {
+        "PASTURE": 4,
+        "EMPTY": 15,
+        "WEED": 6
+      },
+      "se_animals": [],
+      "final_on_se": [],
+      "n_hands": 10
+    },
+    "se_progress": {
+      "first_se_unlock_step": 262,
+      "first_se_pasture_step": 267,
+      "first_se_sheep_step": 269,
+      "max_se_sheep": 3
+    },
+    "vs_h2_margin": -60842.0,
+    "vs_v1_margin": -57522.0,
+    "stream": "james_y_95677563"
+  }
+]
