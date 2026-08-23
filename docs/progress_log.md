@@ -272,3 +272,10 @@
   new losses are this class; Subin An is the worst named opponent in the
   sample and matches James Y's fertilizer/wheat/sheep shape.
 
+## 2026-08-23 15:20 UTC+8 — h2 closed-loop vs Subin An 97399969 (G5 control)
+
+- Ran rolled-back h2 main.py (SHA-256 65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe) against the recorded Subin An action stream from episode 97399969. Seed 1579218049, seat 0 (heralces), 720 steps, replay-callback via kaggle_environments.make. main.py was not modified. No upload.
+- Action index is the live applied stream (actions[t] = steps[t+1][opponent]). Using parquet-style steps[t] (dummy PASS at t=0) is off-by-one and collapsed Subin An to 19129; that alignment was discarded.
+- Live recorded banks 65999-73104, margin **-7105**. h2 replay-callback 65997-73104, margin **-7107** (opponent bank exact; ours 2 coins off). h2 still loses badly. Result: experiments/20260823_h2_vs_subin_an_97399969.json.
+- James Y episode 95677563 replay exists locally at artifacts/kaggle_runs/submission_55658542/episodes/95677563.json. Same protocol, seed 628239158, seat 0: live and h2 callback both 85208-93759, margin **-8551** (exact). Result: experiments/20260823_h2_vs_james_y_95677563.json.
+- Opposite seats skipped. Both streams are usable frozen G5 fertilizer/wheat/sheep controls. h2 does not crush the class; no upload.

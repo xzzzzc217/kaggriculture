@@ -1,0 +1,38 @@
+{
+  "episode_id": 97399969,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55698017\\episode-97399969-replay.json",
+  "agent": "D:\\kaggle\\kaggriculture\\main.py",
+  "agent_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "seed": 1579218049,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "Subin An",
+  "teams": [
+    "heralces",
+    "Subin An"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    65999.0,
+    73104.0
+  ],
+  "recorded_margin": -7105.0,
+  "rewards": [
+    65997.0,
+    73104.0
+  ],
+  "own_reward": 65997.0,
+  "opponent_reward": 73104.0,
+  "margin": -7107.0,
+  "win": false,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 10.144154200002959,
+  "env_steps": 720,
+  "comparison": "live recorded banks 65999-73104 margin -7105; h2 replay-callback 65997-73104 margin -7107",
+  "action_alignment": "actions[t] = replay.steps[t+1][opponent].action (live applied stream); steps[0] dummy PASS is not used. Opposite seat skipped.",
+  "opposite_seat_run": false
+}
