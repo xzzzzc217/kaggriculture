@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-23",
+  "champion_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "upload": false,
+  "h2_g5_controls": {
+    "subin_an_97399969": -7107,
+    "james_y_95677563": -8551
+  },
+  "screens": [
+    {
+      "agent": "prvsiyan_soil",
+      "path": "artifacts/materialized/prvsiyan_soil/main.py",
+      "sha256": "bb3c3a68897ba93a411751b75ed7a3ad18da218e7e0e92fbf247b46b4a993e24",
+      "g5_subin": {
+        "margin": -4436,
+        "beats_h2": true,
+        "win": false,
+        "scores": [
+          67729,
+          72165
+        ]
+      },
+      "g5_james": {
+        "margin": -9369,
+        "beats_h2": false,
+        "win": false,
+        "scores": [
+          73873,
+          83242
+        ]
+      },
+      "pass_g5_both": false,
+      "moon_h2h": null,
+      "note": "James miss (same fert-class James miss as Kaito v41). Moon skipped."
+    },
+    {
+      "agent": "tetsutani_read_the_town",
+      "kernel": "tetsutani/read-the-town-build-the-farm-kaggriculture",
+      "sha256": "73834889054bb6a515fbb40a306a7e0e609105049c781e32197a205f6c339c4f",
+      "bytes": 151151,
+      "adaptive_sha256": "f34a54b960a0ebd304d8f3592c334108a6bdf772f164921d3e16380c5dba2ee8",
+      "sha_differs_from_adaptive": true,
+      "g5_subin": {
+        "margin": 12445,
+        "beats_h2": true,
+        "win": true,
+        "scores": [
+          101190,
+          88745
+        ]
+      },
+      "g5_james": {
+        "margin": 11778,
+        "beats_h2": true,
+        "win": true,
+        "scores": [
+          68100,
+          56322
+        ]
+      },
+      "pass_g5_both": true,
+      "moon_h2h": {
+        "seeds": "20260911-20260920 both seats",
+        "wins": 0,
+        "ties": 0,
+        "losses": 20,
+        "paired_positive": 0,
+        "paired_negative": 10,
+        "mean_margin": -1056.5,
+        "worst_margin": -2865.0,
+        "pass_moon": false
+      }
+    }
+  ],
+  "optional_kernels": [
+    {
+      "kernel": "xishengfeng/rl-v9-market-off-tape-rulemirror-league",
+      "emits_stdlib_main_py": false,
+      "skip_reason": "torch/numpy PPO trainer; RuleMirror is V16-RC5 port; no standalone stdlib main.py"
+    },
+    {
+      "kernel": "vijaikm/kaggriculture-modular-agent-framework",
+      "emits_stdlib_main_py": false,
+      "skip_reason": "notebook-only framework (numpy/pandas/matplotlib/seaborn); embedded baseline is not a standalone stdlib main.py agent"
+    }
+  ],
+  "moon_g5_survivor": null,
+  "main_py_untouched": true
+}

@@ -425,3 +425,39 @@
   4. Search public kernels that claim **both** a 4Q/8-sheep fertilizer-wheat route
      **and** a Moon/melon holdout (the missing intersection).
 
+## 2026-08-23 16:34 UTC+8 — prvsiyan_soil G5 + tetsutani read-the-town (G5 + Moon)
+
+- Champion main.py left untouched. SHA-256
+  65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe.
+  No Kaggle upload. Did not overwrite h2.
+- G5-screen already-materialized prvsiyan_soil
+  (rtifacts/materialized/prvsiyan_soil/main.py, SHA-256
+  b3c3a68897ba93a411751b75ed7a3ad18da218e7e0e92fbf247b46b4a993e24)
+  via recorded-seat replay-callback (h2: Subin **-7107**, James Y **-8551**):
+  - soil vs Subin An 97399969: 67729-72165, margin **-4436** (beats h2 margin, still loss)
+  - soil vs James Y 95677563: 73873-83242, margin **-9369** (worse than h2) **FAIL**
+  - Moon H2H skipped (both-stream G5 bar not met).
+- Pulled 	etsutani/read-the-town-build-the-farm-kaggriculture without notebook exec.
+  Embedded TOP_AGENT_FILES['main.py'] is 151151 bytes, SHA-256
+  73834889054bb6a515fbb40a306a7e0e609105049c781e32197a205f6c339c4f.
+  Differs from already-scored tetsutani_adaptive
+  (34a54b960a0ebd304d8f3592c334108a6bdf772f164921d3e16380c5dba2ee8, 149042 bytes).
+  Materialized LF-only to experiments/candidates/tetsutani_read_the_town/main.py; compile ok.
+- Recorded-seat G5:
+  - tetsutani vs Subin An: 101190-88745, margin **+12445** (beats h2, win)
+  - tetsutani vs James Y: 68100-56322, margin **+11778** (beats h2, win)
+- Both G5 streams passed. Moon H2H vs prvsiyan_moon, seeds 20260911-20260920
+  both seats (20 games): **0-0-20**, paired+ **0/10**, mean margin **-1056.5**,
+  worst **-2865**. Fail vs h2 Moon bar (>=16/20 and >=9/10 paired+).
+- Optional kernels inspected, **no stdlib main.py agent emitted**:
+  - xishengfeng/rl-v9-market-off-tape-rulemirror-league: torch/numpy PPO trainer;
+    RuleMirror comment is a V16-RC5 port. Skipped.
+  - vijaikm/kaggriculture-modular-agent-framework: notebook-only (numpy/pandas/
+    matplotlib/seaborn) plus an embedded simple baseline string. Skipped.
+- **Moon+G5 survivor: none.** Soil is a James fert-class miss (v41 shape).
+  tetsutani read-the-town is another G5-win / Moon-collapse public planner
+  (same intersection miss as boatlee V21, steven strongest-farmer, and X594;
+  Moon loss is narrow, not a blowout). Do not wrap V36. No upload.
+- Compact JSON: experiments/candidates/g5_soil_tetsutani_20260823.json.
+  Per-stream: experiments/candidates/g5_soil_*.json, g5_tetsutani_rtt_*.json.
+  Moon: experiments/20260823_tetsutani_rtt_vs_moon_20260911_20260920.json.

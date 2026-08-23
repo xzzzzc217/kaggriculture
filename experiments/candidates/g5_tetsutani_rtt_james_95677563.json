@@ -1,0 +1,36 @@
+{
+  "episode_id": 95677563,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\tetsutani_read_the_town\\main.py",
+  "agent_sha256": "73834889054bb6a515fbb40a306a7e0e609105049c781e32197a205f6c339c4f",
+  "seed": 628239158,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "James Y",
+  "teams": [
+    "heralces",
+    "James Y"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    85208.0,
+    93759.0
+  ],
+  "recorded_margin": -8551.0,
+  "rewards": [
+    68100.0,
+    56322.0
+  ],
+  "own_reward": 68100.0,
+  "opponent_reward": 56322.0,
+  "margin": 11778.0,
+  "win": true,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 9.900018699998327,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}

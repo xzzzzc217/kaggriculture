@@ -1,0 +1,36 @@
+{
+  "episode_id": 97399969,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55698017\\episode-97399969-replay.json",
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\tetsutani_read_the_town\\main.py",
+  "agent_sha256": "73834889054bb6a515fbb40a306a7e0e609105049c781e32197a205f6c339c4f",
+  "seed": 1579218049,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "Subin An",
+  "teams": [
+    "heralces",
+    "Subin An"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    65999.0,
+    73104.0
+  ],
+  "recorded_margin": -7105.0,
+  "rewards": [
+    101190.0,
+    88745.0
+  ],
+  "own_reward": 101190.0,
+  "opponent_reward": 88745.0,
+  "margin": 12445.0,
+  "win": true,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 10.025351999996928,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}

@@ -1,0 +1,36 @@
+{
+  "episode_id": 95677563,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+  "agent": "D:\\kaggle\\kaggriculture\\artifacts\\materialized\\prvsiyan_soil\\main.py",
+  "agent_sha256": "bb3c3a68897ba93a411751b75ed7a3ad18da218e7e0e92fbf247b46b4a993e24",
+  "seed": 628239158,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "James Y",
+  "teams": [
+    "heralces",
+    "James Y"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    85208.0,
+    93759.0
+  ],
+  "recorded_margin": -8551.0,
+  "rewards": [
+    73873.0,
+    83242.0
+  ],
+  "own_reward": 73873.0,
+  "opponent_reward": 83242.0,
+  "margin": -9369.0,
+  "win": false,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 16.266089500000817,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}
