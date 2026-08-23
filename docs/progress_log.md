@@ -316,3 +316,44 @@
 - Failed the pass bar. Morning shed-spawn pathing steals the V36 tape's 3Q
   walks. Further satellite edits would be tape-wreck or v1-style land-without-path.
   Stopped. Design note in `docs/fert_wheat_class_20260823.md`.
+
+
+## 2026-08-23 15:58 UTC+8 — public alternate routes materialized (G5 + H2H)
+
+- Champion `main.py` left untouched. SHA-256
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+  No Kaggle upload. V36 knobs not retuned.
+- Pulled kernels (not executed):
+  - `boatlee/v21-r1-public-state-route-portfolio`
+  - `joymietalicuad/economics-driven-rule-agent-ecobot-v2`
+  - `stevenleehans/kaggriculture-strongest-farmer-of-today` (optional third)
+- Extracted with `scripts/materialize_public_agent.py` helpers (`extract_writefile`,
+  `find_literal`). EcoBot is `%%writefile main.py`. Boatlee payload is standard
+  **b64+zlib** (`PAYLOAD`), not the script's b85-zlib mode. Steven is raw **b85**
+  (`SOURCE_B85`, no zlib). Wrote exact bytes (no Windows CRLF).
+- Materialized (also copied under `experiments/candidates/` because `artifacts/` is gitignored):
+  - boatlee_v21_r1 `main.py` 158309 bytes SHA-256 `c6f96a8521dc9aa369b6f27e5b36b9d481e5c1688f50c8ca215c3bb53f1f9eb8` (notebook EXPECTED_SOURCE_SHA)
+  - joymietalicuad_ecobot_v2 `main.py` 37311 bytes SHA-256 `03999840f728abe38f0b076204ab534cb4e48413636771b4d14289a812449a26`
+  - stevenleehans_strongest_farmer `main.py` 223502 bytes SHA-256 `3365ea27d2bb236cddbe9e700df5d6583efd517b53d085742cb9bd43ee7e248a` (notebook EXPECTED_SHA256)
+- Recorded-seat replay-callback (`experiments/candidates/run_replay_callback.py`)
+  vs h2 G5 controls (h2: Subin **-7107**, James Y **-8551**):
+  - boatlee vs Subin An 97399969: 87217-80547, margin **+6670** (beats h2, win)
+  - boatlee vs James Y 95677563: 68013-55542, margin **+12471** (beats h2, win)
+  - ecobot vs Subin An: 85802-94487, margin **-8685** (worse than h2)
+  - ecobot vs James Y: 66885-69499, margin **-2614** (beats h2 margin, still loss)
+  - steven vs Subin An: 101343-88140, margin **+13203** (beats h2, win)
+  - steven vs James Y: 69172-59798, margin **+9374** (beats h2, win)
+- EcoBot failed the both-stream pass bar. Boatlee and steven beat **both** G5 streams
+  (public fertilizer/wheat routes, not V36 satellite clones).
+- Follow-up `evaluate_head_to_head` vs current h2 `main.py`, seeds 20260911-20260920,
+  both seats (20 games):
+  - boatlee: **13-7**, mean margin **+1939**, paired 7-3, Wilson 95 lower 0.433, worst -17840 (seed 20260919 seat 0)
+  - steven: **9-11**, mean margin **-2375**, paired 5-5, Wilson 95 lower 0.258, worst -27315
+- Upload-eligible: **not uploaded**. G5 gate is passed by boatlee and steven (they
+  crush the frozen streams rather than clone h2). Boatlee also leads this 20-game
+  H2H slice. Still withheld: uploading a third agent would deactivate the older of
+  the newest two and risk dropping live h2 55658542 (2036.2). n=20 is not a medal
+  holdout. No clone-gate latch vs h2 was run this step; these are distinct public
+  files, not fert_wheat satellite patches.
+- Result files: `experiments/candidates/g5_public_routes_20260823.json`,
+  per-agent `g5_*.json` and `h2h_vs_h2_20260911_20260920.json`.

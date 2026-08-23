@@ -1,0 +1,92 @@
+[
+  {
+    "agent": "boatlee_v21_r1",
+    "replay": "subin_an_97399969",
+    "margin": 6670.0,
+    "own": 87217.0,
+    "opp": 80547.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 25.88042100000166,
+    "h2_margin": -7107,
+    "beats_h2": true
+  },
+  {
+    "agent": "boatlee_v21_r1",
+    "replay": "james_y_95677563",
+    "margin": 12471.0,
+    "own": 68013.0,
+    "opp": 55542.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 26.809490400002687,
+    "h2_margin": -8551,
+    "beats_h2": true
+  },
+  {
+    "agent": "joymietalicuad_ecobot_v2",
+    "replay": "subin_an_97399969",
+    "margin": -8685.0,
+    "own": 85802.0,
+    "opp": 94487.0,
+    "win": false,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 15.648932299998705,
+    "h2_margin": -7107,
+    "beats_h2": false
+  },
+  {
+    "agent": "joymietalicuad_ecobot_v2",
+    "replay": "james_y_95677563",
+    "margin": -2614.0,
+    "own": 66885.0,
+    "opp": 69499.0,
+    "win": false,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 15.590588400002162,
+    "h2_margin": -8551,
+    "beats_h2": true
+  },
+  {
+    "agent": "stevenleehans_strongest_farmer",
+    "replay": "subin_an_97399969",
+    "margin": 13203.0,
+    "own": 101343.0,
+    "opp": 88140.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 16.489009799995983,
+    "h2_margin": -7107,
+    "beats_h2": true
+  },
+  {
+    "agent": "stevenleehans_strongest_farmer",
+    "replay": "james_y_95677563",
+    "margin": 9374.0,
+    "own": 69172.0,
+    "opp": 59798.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "runtime": 16.358877700004086,
+    "h2_margin": -8551,
+    "beats_h2": true
+  }
+]

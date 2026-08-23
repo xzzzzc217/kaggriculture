@@ -1,0 +1,36 @@
+{
+  "episode_id": 95677563,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\boatlee_v21_r1\\main.py",
+  "agent_sha256": "c6f96a8521dc9aa369b6f27e5b36b9d481e5c1688f50c8ca215c3bb53f1f9eb8",
+  "seed": 628239158,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "James Y",
+  "teams": [
+    "heralces",
+    "James Y"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    85208.0,
+    93759.0
+  ],
+  "recorded_margin": -8551.0,
+  "rewards": [
+    68013.0,
+    55542.0
+  ],
+  "own_reward": 68013.0,
+  "opponent_reward": 55542.0,
+  "margin": 12471.0,
+  "win": true,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 26.809490400002687,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}
