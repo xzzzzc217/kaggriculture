@@ -1,0 +1,36 @@
+{
+  "episode_id": 97399969,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55698017\\episode-97399969-replay.json",
+  "agent": "D:\\kaggle\\kaggriculture\\artifacts\\variants\\fert_wheat_v1\\main.py",
+  "agent_sha256": "9904392a7c43c62700af011efea0296177d87604c45c539d921615f1abc1ff1b",
+  "seed": 1579218049,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "Subin An",
+  "teams": [
+    "heralces",
+    "Subin An"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    65999.0,
+    73104.0
+  ],
+  "recorded_margin": -7105.0,
+  "rewards": [
+    64794.0,
+    77568.0
+  ],
+  "own_reward": 64794.0,
+  "opponent_reward": 77568.0,
+  "margin": -12774.0,
+  "win": false,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 10.346967500001483,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}

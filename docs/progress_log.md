@@ -279,3 +279,23 @@
 - Live recorded banks 65999-73104, margin **-7105**. h2 replay-callback 65997-73104, margin **-7107** (opponent bank exact; ours 2 coins off). h2 still loses badly. Result: experiments/20260823_h2_vs_subin_an_97399969.json.
 - James Y episode 95677563 replay exists locally at artifacts/kaggle_runs/submission_55658542/episodes/95677563.json. Same protocol, seed 628239158, seat 0: live and h2 callback both 85208-93759, margin **-8551** (exact). Result: experiments/20260823_h2_vs_james_y_95677563.json.
 - Opposite seats skipped. Both streams are usable frozen G5 fertilizer/wheat/sheep controls. h2 does not crush the class; no upload.
+
+## 2026-08-23 16:10 UTC+8 — fert_wheat_v1 vs Subin An + James Y (G5 slice)
+
+- Champion `main.py` left untouched. SHA-256
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+  No Kaggle upload. V36 knobs (clone_horizon, msb, mr, market window) not retuned.
+- Episode analysis of the two frozen streams: both opponents are 4Q / 8 sheep /
+  4 pasture / fertilizer-wheat dumps; h2 stays 3Q / 8 cow / 4 sheep / 216 fert.
+  Writeup: `docs/fert_wheat_class_20260823.md`.
+- One candidate: `artifacts/variants/fert_wheat_v1/main.py`. Class-conditional
+  BUY_LAND + extra SHEEP + PASS-only SE/shed DIG/PASTURE/PLACE. Replay runner:
+  `experiments/candidates/run_replay_callback.py` (live alignment
+  `actions[t] = steps[t+1][opponent]`).
+- Recorded-seat callback (no opposite seat):
+  - Subin An 97399969: 64794-77568, margin **-12774** (h2 was -7107).
+  - James Y 95677563: 93448-105319, margin **-11871** (h2 was -8551).
+- Failed the slice pass bar (must beat both streams). Lost because the 4th
+  quadrant was bought without a worker path onto SE, so the 4000 land spend
+  and extra sheep did not become fertilizer/wool scale, and the shared market
+  moved in the frozen stream's favor. Stopped. No further knobs.

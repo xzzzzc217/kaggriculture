@@ -1,0 +1,36 @@
+{
+  "episode_id": 95677563,
+  "replay_path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55658542\\episodes\\95677563.json",
+  "agent": "D:\\kaggle\\kaggriculture\\artifacts\\variants\\fert_wheat_v1\\main.py",
+  "agent_sha256": "9904392a7c43c62700af011efea0296177d87604c45c539d921615f1abc1ff1b",
+  "seed": 628239158,
+  "seat": 0,
+  "our_team": "heralces",
+  "opponent_team": "James Y",
+  "teams": [
+    "heralces",
+    "James Y"
+  ],
+  "n_opponent_actions": 720,
+  "recorded_rewards": [
+    85208.0,
+    93759.0
+  ],
+  "recorded_margin": -8551.0,
+  "rewards": [
+    93448.0,
+    105319.0
+  ],
+  "own_reward": 93448.0,
+  "opponent_reward": 105319.0,
+  "margin": -11871.0,
+  "win": false,
+  "tie": false,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "runtime_seconds": 10.639510799999698,
+  "env_steps": 720,
+  "opposite_seat_run": false
+}
