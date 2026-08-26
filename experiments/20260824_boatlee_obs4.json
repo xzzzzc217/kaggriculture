@@ -1,0 +1,298 @@
+{
+  "leaderboard": {
+    "n_teams": 6151,
+    "gold21": {
+      "rank": 21,
+      "score": 2773.6,
+      "team": "Egor Trushin"
+    },
+    "silver297": {
+      "rank": 297,
+      "score": 2211.5,
+      "team": "mandgeee"
+    },
+    "bronze595": {
+      "rank": 595,
+      "score": 1978.0,
+      "team": "Natalia Mawyin"
+    },
+    "top15": [
+      {
+        "rank": 1,
+        "score": 3093.4,
+        "team": "Ryo Hasegawa"
+      },
+      {
+        "rank": 2,
+        "score": 3023.3,
+        "team": "Crop Dusta"
+      },
+      {
+        "rank": 3,
+        "score": 2983.7,
+        "team": "Subramanya N"
+      },
+      {
+        "rank": 4,
+        "score": 2971.7,
+        "team": "junseok lee"
+      },
+      {
+        "rank": 5,
+        "score": 2910.7,
+        "team": "Say My Name ?"
+      },
+      {
+        "rank": 6,
+        "score": 2905.8,
+        "team": "Arman Tuganbaev"
+      },
+      {
+        "rank": 7,
+        "score": 2896.5,
+        "team": "Yizuki"
+      },
+      {
+        "rank": 8,
+        "score": 2868.0,
+        "team": "Kaileh57"
+      },
+      {
+        "rank": 9,
+        "score": 2867.7,
+        "team": "Ueddy"
+      },
+      {
+        "rank": 10,
+        "score": 2857.6,
+        "team": "ActiveMusyoku"
+      },
+      {
+        "rank": 11,
+        "score": 2834.0,
+        "team": "Izzoudine Mohamed KANTA"
+      },
+      {
+        "rank": 12,
+        "score": 2825.1,
+        "team": "OceanMix"
+      },
+      {
+        "rank": 13,
+        "score": 2814.5,
+        "team": "test_money"
+      },
+      {
+        "rank": 14,
+        "score": 2812.7,
+        "team": "Kazama Yusuke"
+      },
+      {
+        "rank": 15,
+        "score": 2809.5,
+        "team": "taiseiu"
+      }
+    ],
+    "heralces": {
+      "rank": 394,
+      "score": 2117.3,
+      "team": "heralces",
+      "row": {
+        "\ufeffRank": "394",
+        "TeamId": "16749576",
+        "TeamName": "heralces",
+        "LastSubmissionDate": "2026-08-23 09:04:01",
+        "Score": "2117.3",
+        "SubmissionCount": "2",
+        "TeamMemberUserNames": "heralces"
+      }
+    },
+    "named": [
+      {
+        "rank": 8,
+        "score": 2868.0,
+        "team": "Kaileh57"
+      },
+      {
+        "rank": 12,
+        "score": 2825.1,
+        "team": "OceanMix"
+      },
+      {
+        "rank": 156,
+        "score": 2390.9,
+        "team": "Black Mamba Farm"
+      },
+      {
+        "rank": 164,
+        "score": 2384.2,
+        "team": "Kaito Fukami"
+      },
+      {
+        "rank": 189,
+        "score": 2338.7,
+        "team": "One-For-All"
+      },
+      {
+        "rank": 279,
+        "score": 2235.2,
+        "team": "Amy Yuan"
+      },
+      {
+        "rank": 331,
+        "score": 2178.2,
+        "team": "Audric LOKO"
+      },
+      {
+        "rank": 367,
+        "score": 2140.0,
+        "team": "S\u00e9bastien Mametz (Pixs)"
+      },
+      {
+        "rank": 387,
+        "score": 2123.2,
+        "team": "boatlee"
+      },
+      {
+        "rank": 394,
+        "score": 2117.3,
+        "team": "heralces"
+      },
+      {
+        "rank": 421,
+        "score": 2088.2,
+        "team": "CoorDi"
+      },
+      {
+        "rank": 687,
+        "score": 1925.1,
+        "team": "Amey Thakur"
+      },
+      {
+        "rank": 868,
+        "score": 1825.8,
+        "team": "Jiachen Li"
+      },
+      {
+        "rank": 917,
+        "score": 1807.3,
+        "team": "prvsiyan"
+      },
+      {
+        "rank": 3248,
+        "score": 715.3,
+        "team": "Kaito Ichikawa"
+      },
+      {
+        "rank": 4614,
+        "score": 470.9,
+        "team": "karinkaito"
+      },
+      {
+        "rank": 5381,
+        "score": 330.1,
+        "team": "Amey Malpurkar"
+      }
+    ]
+  },
+  "games": [
+    {
+      "episode": 98383311,
+      "seed": 525736430,
+      "opp": "alessandrozonta",
+      "teams": [
+        "alessandrozonta",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -7389.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        63624.0,
+        56235.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        10,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        2935,
+        400
+      ],
+      "wheat": [
+        856,
+        326
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 18,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55710781\\obs4\\episode-98383311-replay.json"
+    },
+    {
+      "episode": 98447342,
+      "seed": 2086607455,
+      "opp": "Carson Zhang",
+      "teams": [
+        "Carson Zhang",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "rewards": [
+        68586.0,
+        68586.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        8,
+        8
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        2932,
+        2932
+      ],
+      "wheat": [
+        856,
+        856
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55710781\\obs4\\episode-98447342-replay.json"
+    }
+  ]
+}

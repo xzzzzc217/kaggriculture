@@ -1,0 +1,109 @@
+{
+  "n": 2,
+  "wtl": [
+    0,
+    0,
+    2
+  ],
+  "mean_margin": -8280.0,
+  "games": [
+    {
+      "episode": 98474778,
+      "seed": 1203350166,
+      "opp": "boatlee",
+      "teams": [
+        "boatlee",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -11149.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        110024.0,
+        98875.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        10,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        2935,
+        400
+      ],
+      "wheat": [
+        856,
+        326
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 18,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55710781\\obs5\\episode-98474778-replay.json"
+    },
+    {
+      "episode": 98472503,
+      "seed": 1828277021,
+      "opp": "BurntPotato",
+      "teams": [
+        "BurntPotato",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -5411.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        90593.0,
+        85182.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        8,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        2935,
+        400
+      ],
+      "wheat": [
+        856,
+        326
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 19,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55710781\\obs5\\episode-98472503-replay.json"
+    }
+  ]
+}

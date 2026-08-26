@@ -1,0 +1,109 @@
+{
+  "n": 2,
+  "wtl": [
+    2,
+    0,
+    0
+  ],
+  "mean_margin": 6434.0,
+  "games": [
+    {
+      "episode": 98916553,
+      "seed": 2020791658,
+      "opp": "Tien N.",
+      "teams": [
+        "Tien N.",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 4016.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        104971.0,
+        108987.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        4
+      ],
+      "sheep": [
+        10,
+        8
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        299,
+        1735
+      ],
+      "wheat": [
+        216,
+        1469
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 25,
+      "path": "artifacts\\kaggle_runs\\submission_55744278\\public12c\\episode-98916553-replay.json"
+    },
+    {
+      "episode": 98909778,
+      "seed": 1805761847,
+      "opp": "\u0418\u0422\u041c\u041e\u041d\u0418 AI B2B 67 SaaS",
+      "teams": [
+        "heralces",
+        "\u0418\u0422\u041c\u041e\u041d\u0418 AI B2B 67 SaaS"
+      ],
+      "seat": 0,
+      "margin": 8852.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        125894.0,
+        117042.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        8
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        284,
+        2932
+      ],
+      "wheat": [
+        183,
+        856
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 18,
+      "path": "artifacts\\kaggle_runs\\submission_55744278\\public12c\\episode-98909778-replay.json"
+    }
+  ]
+}

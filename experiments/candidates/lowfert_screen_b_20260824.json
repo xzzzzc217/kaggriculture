@@ -1,0 +1,281 @@
+{
+  "date": "2026-08-24",
+  "screens": [
+    {
+      "agent": "h2",
+      "path": "D:\\kaggle\\kaggriculture\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -4831.0,
+        "scores": [
+          61781.0,
+          66612.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 15.70701949999966
+      },
+      "kaileh57_98118767": {
+        "margin": 3331.0,
+        "scores": [
+          75780.0,
+          72449.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 13.407582300000286
+      },
+      "alessandrozonta_98383311": {
+        "margin": 3622.0,
+        "scores": [
+          80779.0,
+          77157.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -7389,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 17.002962699999443
+      },
+      "wins": 2,
+      "n": 3
+    },
+    {
+      "agent": "mugundhjb_v21_guarder",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\mugundhjb_v21_guarder\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -10306.0,
+        "scores": [
+          110176.0,
+          120482.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 15.06563770000048
+      },
+      "kaileh57_98118767": {
+        "margin": -12865.0,
+        "scores": [
+          80089.0,
+          92954.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 16.51462360000005
+      },
+      "alessandrozonta_98383311": {
+        "margin": -7523.0,
+        "scores": [
+          56251.0,
+          63774.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -7389,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 14.66510500000004
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "ecobot_v4",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\ecobot_v4\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -33317.0,
+        "scores": [
+          72258.0,
+          105575.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 14.739840400000503
+      },
+      "kaileh57_98118767": {
+        "margin": -20222.0,
+        "scores": [
+          73282.0,
+          93504.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 15.19949810000071
+      },
+      "alessandrozonta_98383311": {
+        "margin": -33606.0,
+        "scores": [
+          41739.0,
+          75345.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -7389,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 14.482458499999666
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "llccqq624_counterbook",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_counterbook\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -10424.0,
+        "scores": [
+          110110.0,
+          120534.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 15.673841299999367
+      },
+      "kaileh57_98118767": {
+        "margin": -13154.0,
+        "scores": [
+          79938.0,
+          93092.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 14.85323040000003
+      },
+      "alessandrozonta_98383311": {
+        "margin": -7609.0,
+        "scores": [
+          56202.0,
+          63811.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -7389,
+        "beats_live_boatlee": false,
+        "runtime_seconds": 16.425421699999788
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "llccqq624_shops",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_shops\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": 1344.0,
+        "scores": [
+          78053.0,
+          76709.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 15.706685500000276
+      },
+      "kaileh57_98118767": {
+        "margin": 1368.0,
+        "scores": [
+          88255.0,
+          86887.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 14.543909299999541
+      },
+      "alessandrozonta_98383311": {
+        "margin": 1010.0,
+        "scores": [
+          55532.0,
+          54522.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -7389,
+        "beats_live_boatlee": true,
+        "runtime_seconds": 14.760180000000219
+      },
+      "wins": 3,
+      "n": 3
+    }
+  ],
+  "elapsed": 242.15221649999967
+}

@@ -1,0 +1,34 @@
+{
+  "agent": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_shops\\main.py",
+  "g5": {
+    "subin_97399969": {
+      "margin": 19547.0,
+      "scores": [
+        83830.0,
+        64283.0
+      ],
+      "win": true,
+      "beats_h2": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime_seconds": 15.188180699999975
+    },
+    "james_95677563": {
+      "margin": 67847.0,
+      "scores": [
+        167948.0,
+        100101.0
+      ],
+      "win": true,
+      "beats_h2": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime_seconds": 13.767437200000131
+    }
+  },
+  "elapsed": 30.496170899999925
+}

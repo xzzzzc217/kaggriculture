@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-23",
+  "champion_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "upload": false,
+  "live": {
+    "heralces_rank": 528,
+    "heralces_score": 2044.7,
+    "h2_submission": "55658542",
+    "variant_001_submission": "55698017",
+    "variant_001_score": 1784.5,
+    "n_teams": 5952,
+    "gold_cutoff_rank_score": [21, 2729.1],
+    "silver_cutoff_rank_score": [297, 2246.4],
+    "bronze_cutoff_rank_score": [595, 2002.1],
+    "analogs": {
+      "boatlee": [106, 2494.0],
+      "flexonafft": [224, 2342.9],
+      "stevenleehans": [242, 2314.1],
+      "ameythakur20": [434, 2117.3],
+      "tetsutani": [575, 2012.5],
+      "kaitofukami": [818, 1882.3],
+      "prvsiyan": [1389, 1619.7]
+    }
+  },
+  "g5_pass_both_win": [
+    {
+      "agent": "stevenleehans_e284",
+      "sha256": "b5c2e156689b41cea5f2e1a0a1cae2e18fd70423931bbac0885bba8b2142c497",
+      "subin": 4101,
+      "james": 39908
+    },
+    {
+      "agent": "stevenleehans_x544",
+      "sha256": "e38006a10ce29518c44e79f46422959c818531185b66f5f51a2b6ff3847684a7",
+      "subin": 454,
+      "james": 38250
+    },
+    {
+      "agent": "prvsiyan_moon_rerun",
+      "sha256": "a7a6b4f5317938fdbeb79b54fa1ceab9fc884a5f027f61a3b65cf7a212dd6676",
+      "note": "Moon V127",
+      "subin": 13248,
+      "james": 45193
+    },
+    {
+      "agent": "flexonafft_rerun",
+      "sha256": "8ac34abce129cf5c9456776c90edf7d2233b3a280bbdcf7622628825ef3669a0",
+      "subin": 12445,
+      "james": 11778,
+      "note": "same G5 banks as tetsutani_read_the_town; SHA equals boatlee V20 packed source"
+    },
+    {
+      "agent": "amey_premium_first_rerun",
+      "sha256": "176594f37f05641ad587d9a7c651354a20c380797d4f0fff92bd9514d995ce20",
+      "subin": 13248,
+      "james": 45193,
+      "note": "identical G5 margins to Moon V127, different SHA"
+    }
+  ],
+  "g5_fail": [
+    "tuannm3812_htdc_v12",
+    "v22r2_second_yarn_6c8 (bank stayed 3000; overlay crash)",
+    "v22r2_second_yarn_hold (bank stayed 3000; overlay crash)",
+    "maverickss26_v1",
+    "nekkon_replay_agent"
+  ],
+  "h2h_vs_h2_seeds_20260911_20260920": {
+    "flexonafft_rerun": {"wtl": [4, 0, 16], "paired_plus": 1, "mean": -5552.7, "worst": -30586},
+    "stevenleehans_e284": {"wtl": [6, 0, 14], "paired_plus": 3, "mean": -44.55, "worst": -21548},
+    "prvsiyan_moon_v127": {"wtl": [15, 0, 5], "paired_plus": 8, "mean": 5735.35, "worst": -2981},
+    "boatlee_v21_r1_prior": {"wtl": [13, 0, 7], "paired_plus": 7, "mean": 1939, "worst": -17840}
+  },
+  "h2h_vs_h2_independent_20261021_20261030": {
+    "prvsiyan_moon_v127": {"wtl": [13, 0, 7], "paired_plus": 7, "mean": 4944.1, "worst": -2648, "pass_g1_18_10": false},
+    "boatlee_v21_r1_prior": {"wtl": [18, 0, 2], "paired_plus": 10, "mean": 3977.6, "worst": -1907, "pass_g1_18_10": true}
+  },
+  "moon_v127_vs_boatlee_v21_20260911_20260920": {
+    "wtl": [10, 0, 10],
+    "paired_plus": 5,
+    "mean": 1243.6,
+    "worst": -566
+  },
+  "recommendation": {
+    "upload_now": false,
+    "preferred_candidate": "boatlee_v21_r1",
+    "reason": "Only G5-winner that also passed the independent 18/20 10/10 h2 holdout. Live analog boatlee 2494 is silver. Moon V127 beats h2 on both seed sets but 13-7/15-5 fails G1 and prvsiyan live 1619 would drop bronze. flex public loses to h2 4-16. Any new upload deactivates h2 unless followed by an immediate h2 re-upload.",
+    "upload_sequence_if_authorized": [
+      "submit boatlee_v21_r1 bundle (displaces h2; newest2 = boatlee + variant_001 1784)",
+      "immediately resubmit existing h2 bundle (newest2 = h2 + boatlee)"
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "candidate": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_shops\\main.py",
+  "opponent": "D:\\kaggle\\kaggriculture\\main.py",
+  "games": 20,
+  "wins": 6,
+  "ties": 0,
+  "win_rate": 0.3,
+  "wilson_95_lower": 0.14547527396899385,
+  "mean_margin": -800.85,
+  "worst_margin": -10700.0,
+  "paired_positive": 4,
+  "paired_zero": 0,
+  "paired_negative": 6,
+  "mean_runtime_seconds": 10.811954880000007,
+  "pairs": [
+    {
+      "seed": 20261021,
+      "paired_margin": 14756.0
+    },
+    {
+      "seed": 20261022,
+      "paired_margin": -14416.0
+    },
+    {
+      "seed": 20261023,
+      "paired_margin": -16677.0
+    },
+    {
+      "seed": 20261024,
+      "paired_margin": -4489.0
+    },
+    {
+      "seed": 20261025,
+      "paired_margin": 14739.0
+    },
+    {
+      "seed": 20261026,
+      "paired_margin": -5910.0
+    },
+    {
+      "seed": 20261027,
+      "paired_margin": -4294.0
+    },
+    {
+      "seed": 20261028,
+      "paired_margin": 1638.0
+    },
+    {
+      "seed": 20261029,
+      "paired_margin": 5526.0
+    },
+    {
+      "seed": 20261030,
+      "paired_margin": -6890.0
+    }
+  ],
+  "results": [
+    {
+      "seed": 20261021,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 101571.0,
+      "opponent_reward": 94193.0,
+      "margin": 7378.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.67273780000005
+    },
+    {
+      "seed": 20261021,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 101571.0,
+      "opponent_reward": 94193.0,
+      "margin": 7378.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.837404500000048
+    },
+    {
+      "seed": 20261022,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 63235.0,
+      "opponent_reward": 70721.0,
+      "margin": -7486.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.826234300000124
+    },
+    {
+      "seed": 20261022,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 63578.0,
+      "opponent_reward": 70508.0,
+      "margin": -6930.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.793837900000199
+    },
+    {
+      "seed": 20261023,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 76931.0,
+      "opponent_reward": 87631.0,
+      "margin": -10700.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.72474659999989
+    },
+    {
+      "seed": 20261023,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 77863.0,
+      "opponent_reward": 83840.0,
+      "margin": -5977.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.841446200000064
+    },
+    {
+      "seed": 20261024,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 58918.0,
+      "opponent_reward": 61837.0,
+      "margin": -2919.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.865153199999895
+    },
+    {
+      "seed": 20261024,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 59909.0,
+      "opponent_reward": 61479.0,
+      "margin": -1570.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.86505790000001
+    },
+    {
+      "seed": 20261025,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 83688.0,
+      "opponent_reward": 65792.0,
+      "margin": 17896.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.567079699999795
+    },
+    {
+      "seed": 20261025,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 91286.0,
+      "opponent_reward": 94443.0,
+      "margin": -3157.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.707853599999908
+    },
+    {
+      "seed": 20261026,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 54156.0,
+      "opponent_reward": 56872.0,
+      "margin": -2716.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.743477500000154
+    },
+    {
+      "seed": 20261026,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 53844.0,
+      "opponent_reward": 57038.0,
+      "margin": -3194.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.811178599999948
+    },
+    {
+      "seed": 20261027,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 86047.0,
+      "opponent_reward": 88194.0,
+      "margin": -2147.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.844827800000076
+    },
+    {
+      "seed": 20261027,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 86047.0,
+      "opponent_reward": 88194.0,
+      "margin": -2147.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.9459638000003
+    },
+    {
+      "seed": 20261028,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 64499.0,
+      "opponent_reward": 64805.0,
+      "margin": -306.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.990803100000448
+    },
+    {
+      "seed": 20261028,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 78764.0,
+      "opponent_reward": 76820.0,
+      "margin": 1944.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.80822339999986
+    },
+    {
+      "seed": 20261029,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 78623.0,
+      "opponent_reward": 76652.0,
+      "margin": 1971.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.764452399999755
+    },
+    {
+      "seed": 20261029,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 79939.0,
+      "opponent_reward": 76384.0,
+      "margin": 3555.0,
+      "win": true,
+      "tie": false,
+      "runtime_seconds": 10.878089199999977
+    },
+    {
+      "seed": 20261030,
+      "seat": 0,
+      "steps": 720,
+      "own_reward": 85625.0,
+      "opponent_reward": 89070.0,
+      "margin": -3445.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.922787299999982
+    },
+    {
+      "seed": 20261030,
+      "seat": 1,
+      "steps": 720,
+      "own_reward": 85625.0,
+      "opponent_reward": 89070.0,
+      "margin": -3445.0,
+      "win": false,
+      "tie": false,
+      "runtime_seconds": 10.827742799999669
+    }
+  ]
+}

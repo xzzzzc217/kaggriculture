@@ -1,0 +1,494 @@
+[
+  {
+    "episode": 97854402,
+    "opp": "ChrisXie",
+    "seat": 0,
+    "margin": 1162.0,
+    "win": true,
+    "rewards": [
+      77858.0,
+      76696.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      6,
+      10
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      2932
+    ],
+    "wheat": [
+      861,
+      856
+    ],
+    "clone": true,
+    "max_near": 270
+  },
+  {
+    "episode": 97902180,
+    "opp": "automatylicza",
+    "seat": 0,
+    "margin": -2916.0,
+    "win": false,
+    "rewards": [
+      113131.0,
+      116047.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      4
+    ],
+    "sheep": [
+      8,
+      9
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2932,
+      2701
+    ],
+    "wheat": [
+      856,
+      1178
+    ],
+    "clone": true,
+    "max_near": 189
+  },
+  {
+    "episode": 97934028,
+    "opp": "BorisV",
+    "seat": 1,
+    "margin": -564.0,
+    "win": false,
+    "rewards": [
+      40316.0,
+      40880.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      8,
+      8
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      2935
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 720
+  },
+  {
+    "episode": 97936127,
+    "opp": "Jingxiang",
+    "seat": 1,
+    "margin": -2109.0,
+    "win": false,
+    "rewards": [
+      89033.0,
+      91142.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2932,
+      2932
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 720
+  },
+  {
+    "episode": 97940918,
+    "opp": "notoverkil",
+    "seat": 0,
+    "margin": 2426.0,
+    "win": true,
+    "rewards": [
+      90297.0,
+      87871.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      6
+    ],
+    "cow": [
+      10,
+      6
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      237
+    ],
+    "wheat": [
+      854,
+      483
+    ],
+    "clone": false,
+    "max_near": 3
+  },
+  {
+    "episode": 97979706,
+    "opp": "next-best-agent",
+    "seat": 1,
+    "margin": 5173.0,
+    "win": true,
+    "rewards": [
+      49156.0,
+      43983.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      6
+    ],
+    "cow": [
+      8,
+      8
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      2932
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 267
+  },
+  {
+    "episode": 98002483,
+    "opp": "Bruce Zheng",
+    "seat": 0,
+    "margin": -116.0,
+    "win": false,
+    "rewards": [
+      85228.0,
+      85344.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      10,
+      10
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      2935
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 720
+  },
+  {
+    "episode": 98027432,
+    "opp": "Carson Zhang",
+    "seat": 1,
+    "margin": 1.0,
+    "win": true,
+    "rewards": [
+      72876.0,
+      72875.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2932,
+      2932
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 720
+  },
+  {
+    "episode": 98031955,
+    "opp": "OceanMix",
+    "seat": 1,
+    "margin": -9800.0,
+    "win": false,
+    "rewards": [
+      114390.0,
+      124190.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      8,
+      11
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      400
+    ],
+    "wheat": [
+      856,
+      326
+    ],
+    "clone": false,
+    "max_near": 1
+  },
+  {
+    "episode": 98036786,
+    "opp": "Hassan Algizani",
+    "seat": 0,
+    "margin": 18776.0,
+    "win": true,
+    "rewards": [
+      141579.0,
+      122803.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      3,
+      4
+    ],
+    "cow": [
+      10,
+      7
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      1906,
+      306
+    ],
+    "wheat": [
+      967,
+      479
+    ],
+    "clone": false,
+    "max_near": 6
+  },
+  {
+    "episode": 98045786,
+    "opp": "Liquidus",
+    "seat": 0,
+    "margin": 0.0,
+    "win": false,
+    "rewards": [
+      57285.0,
+      57285.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      8,
+      8
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      2935
+    ],
+    "wheat": [
+      856,
+      856
+    ],
+    "clone": true,
+    "max_near": 720
+  },
+  {
+    "episode": 98077640,
+    "opp": "Ignat",
+    "seat": 1,
+    "margin": -3447.0,
+    "win": false,
+    "rewards": [
+      69174.0,
+      72621.0
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      1
+    ],
+    "cow": [
+      10,
+      9
+    ],
+    "melon": [
+      0,
+      0
+    ],
+    "fert": [
+      2935,
+      1572
+    ],
+    "wheat": [
+      856,
+      1082
+    ],
+    "clone": true,
+    "max_near": 70
+  }
+]

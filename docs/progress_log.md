@@ -461,3 +461,421 @@
 - Compact JSON: experiments/candidates/g5_soil_tetsutani_20260823.json.
   Per-stream: experiments/candidates/g5_soil_*.json, g5_tetsutani_rtt_*.json.
   Moon: experiments/20260823_tetsutani_rtt_vs_moon_20260911_20260920.json.
+
+## 2026-08-23 17:10 UTC+8 — medal hunt: public G5 screen + Moon V127 vs boatlee
+
+- Champion `main.py` left untouched. SHA-256
+  `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`.
+  No Kaggle upload. Did not overwrite h2. V36 knobs not retuned.
+- Live snapshot (`kaggle competitions leaderboard -c kaggriculture -d`,
+  5952 teams): heralces **rank 528 / 2044.7**. Featured 1000+ medal bars
+  used here: gold rank 21 / 2729.1, silver rank 297 / 2246.4, bronze
+  rank 595 / 2002.1. h2 submission `55658542` is 2044.7; variant_001
+  `55698017` is 1784.5. Bronze is held by ~42 rating / 67 places.
+  Analog live scores: boatlee 2494 (rank 106), flexonafft 2342 (224),
+  stevenleehans 2314 (242), Amey 2117 (434), tetsutani 2012 (575),
+  Kaito Fukami 1882 (818), prvsiyan 1619 (1389).
+- destbreso `dissecting-the-top-two`: ranks 1–2 are mutants of the
+  public flexonafft/BL-MDgogo multi-route chassis, not the 4Q/8-sheep
+  fertilizer class. Winning knob is route-mix bias toward the
+  lower-melon / higher-strawberry tape. Flex 3Q tapes still sell ~2932
+  fertilizer (h2 sells 216), so the chassis already covers the G5 dump
+  without buying SE.
+- Static hunt (no notebook exec). New unique stdlib agents materialized
+  under `experiments/candidates/`. Duplicates: andrewsokolovsky V22
+  payload == boatlee V21 SHA `c6f96a85...`; strongest-farmer rerun
+  unchanged; boatlee V20 packed source == flexonafft_rerun SHA
+  `8ac34abce1...`.
+- G5 recorded-seat vs Subin 97399969 / James Y 95677563 (h2 −7107 / −8551):
+
+  | agent | Subin | James | both-win |
+  |---|---:|---:|---|
+  | stevenleehans_e284 | +4101 | +39908 | yes |
+  | stevenleehans_x544 | +454 | +38250 | yes |
+  | prvsiyan_moon_v127 | +13248 | +45193 | yes |
+  | flexonafft_rerun | +12445 | +11778 | yes (same banks as tetsutani RTT) |
+  | amey_premium_first_rerun | +13248 | +45193 | yes (same margins as Moon V127, different SHA) |
+  | tuannm3812_htdc_v12 | −115543 | −106962 | no |
+  | v22r2 6c8 / hold | 3000–138821 | 3000–126543 | no (agent idle) |
+  | maverickss26_v1 / nekkon | loss | loss | no |
+
+- H2H vs h2, seeds 20260911–20260920 both seats:
+  - flexonafft: **4–16**, paired+ 1/10, mean **−5552.7**
+  - e284: **6–14**, paired+ 3/10, mean **−44.6**
+  - Moon V127: **15–5**, paired+ 8/10, mean **+5735.4**, worst −2981
+- Moon V127 independent vs h2, seeds 20261021–20261030: **13–7**,
+  paired+ 7/10, mean **+4944.1**, worst −2648. Fails G1 (≥18/20 and
+  10/10 paired+). boatlee V21 on the same independent set remains
+  **18–2 / 10/10 / +3977.6**.
+- Moon V127 vs boatlee V21, seeds 20260911–20260920: **10–10**,
+  paired+ 5/10, mean **+1243.6**, worst −566. Locally a coin flip;
+  boatlee keeps the only G1-pass vs h2 plus a silver live analog.
+- V22-R2 (second-YARN → 6c8 overlay on exact V21) compiled and SHA
+  `b43d2eb0...`, but G5 banks stayed at the $3000 open. Overlay is
+  closed; do not upload.
+- Bundle built only, not submitted:
+  `artifacts/submission/boatlee_v21_r1/submission.tar.gz`
+  agent SHA `c6f96a85...` (158309 bytes), bundle SHA `d65410a4...`
+  (124624 bytes), members `['main.py']`. Matches the V22 notebook's
+  V21 `EXPECTED_ARCHIVE_SHA`.
+- Compact JSON: `experiments/candidates/g5_hunt_20260823.json` and
+  `experiments/candidates/g5_hunt_h2h_20260823.json`.
+- **No upload.** Newest-2 would deactivate live h2 55658542 unless a
+  second slot is used to re-upload h2 immediately after. Moon V127 is
+  the first G5-winner that also beats h2 on both seed sets, but
+  prvsiyan live 1619 would risk bronze. Preferred candidate if
+  authorized: boatlee V21, then re-upload h2 so both stay active.
+
+## 2026-08-23 17:04 UTC+8 — uploaded boatlee V21 then re-uploaded h2
+
+- User instruction: act as the Kaggle participant; do not wait for a
+  per-upload decision. Executed the two-slot plan immediately.
+- **Upload 1** boatlee V21-R1:
+  - Kaggle submission ID: `55710781`
+  - Time: 2026-08-23 09:03:48 UTC
+  - Bundle: `artifacts/submission/boatlee_v21_r1/submission.tar.gz`
+  - Agent SHA-256: `c6f96a8521dc9aa369b6f27e5b36b9d481e5c1688f50c8ca215c3bb53f1f9eb8`
+  - Bundle SHA-256: `d65410a4fc8a31226055e43085131468ac8af5721aabdf3593cb8eade59cabe3`
+  - Status at upload: `PENDING`
+- **Upload 2** h2 bytes (new submission, does not inherit 55658542 rating):
+  - Kaggle submission ID: `55710788`
+  - Time: 2026-08-23 09:04:01 UTC (13 seconds later)
+  - Bundle: `artifacts/submission/kaito_v36_h2/submission.tar.gz`
+  - Agent SHA-256: `65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`
+  - Bundle SHA-256: `049d7cc9c56d99c964f1ee0259e1c0477b4ae511f63611352b5800a143a5d5fc`
+  - Status at upload: `PENDING`
+- Active newest-2: `55710788` (h2) + `55710781` (boatlee). Inactive:
+  variant_001 `55698017` (1784.5) and original h2 `55658542` (2044.7).
+- Daily quota after both: 3 remaining. Root `main.py` still h2
+  `65e6f5cd...`. Not overwritten with boatlee.
+- Rating note: each submission is a new agent. Re-uploading h2 keeps
+  the policy in the arena but **does not keep the 2044.7 BT rating**.
+  Team score will be provisional while both new agents play. This is
+  accepted: the 1784 second slot was wasted, and boatlee's live analog
+  is 2494. Do not panic-upload a third agent today.
+- Next: poll `55710781` / `55710788` until COMPLETE, then first
+  public episodes. No GPU/TPU job in this cycle — still CPU simulator.
+
+## 2026-08-23 20:40 UTC+8 — first live scores after boatlee+h2 pair
+
+- Both new submissions `COMPLETE`. API scores: boatlee `55710781`
+  **2115.2**; h2 re-upload `55710788` **1817.9**. Team leaderboard
+  (5984 teams): **rank 429 / 2115.2** (was 528 / 2044.7). Medal bars:
+  gold 21 / 2727.7, silver 299 / 2243.4, bronze 598 / 1997.9. Silver
+  is +128 rating / 130 places. Bronze buffer is now ~117 rating.
+- Newest-2 remain boatlee + h2. No third upload. 3 daily slots left,
+  unused.
+- Boatlee latest 12 public replays: **8-0-4**, mean margin **+208**.
+  11/12 are 3Q fertilizer-dump mirrors (our fert 2932–2935). Clone
+  latch on 11/12. Losses:
+  - radji kraim 97591649 **−8132**: clone, opp 4Q, wheat 1205 vs 856
+  - TIM 97603102 **−1828**: clone 3Q, fert 2985 vs 2935
+  - Amey Thakur 97605392 **−373**: near-clone, identical 2935/856/4 sheep
+  - Black Mamba Farm 97612240 **−19545**: **not clone**, opp fert 311
+    wheat 384, 10 sheep vs our 8. New structural miss, not a fert-dump
+    loss. Do not retune from n=1.
+- h2 re-upload latest 8 public: **5-0-3**, mean **+3616**. Wins include
+  fert-heavy opponents (1735 / 1906 / 1906). All three losses are
+  near-clone 216-fert / 4-sheep timing (same class as Colton / asi1024).
+  1817.9 is a fresh BT climb (old h2 opened at 1842.7); not a regression
+  of the policy.
+- Compact JSON: `experiments/20260823_live_sample_55710781_55710788.json`.
+  Replay binaries stay under gitignored `artifacts/kaggle_runs/`.
+- Decision: **hold**. boatlee is already the team score and is above
+  the retired 2044.7. Let both agents play. Do not displace boatlee
+  with Moon V127 or another public kernel today.
+
+## 2026-08-23 20:55 UTC+8 — boatlee still climbing
+
+- API: boatlee `55710781` **2125.4** (was 2115.2); h2 re-upload
+  `55710788` 1818.4 (was 1817.9). Team **rank 416 / 2125.4** of 5990
+  (was 429 / 2115.2). Silver bar 299 / 2239.9, gap **+114**. Bronze
+  599 / 1998. 56 public episodes on boatlee, 5 new since the 12-game
+  sample. No upload.
+
+## 2026-08-23 21:20 UTC+8 — boatlee 2150.5 / rank 388
+
+- API: boatlee `55710781` **2150.5** (was 2125.4, +25.1); h2 re-upload
+  `55710788` 1823.1 (was 1818.4). Team **rank 388 / 2150.5** of 5999
+  (was 416 / 2125.4). Silver 299 / 2238.6, gap **+88**. Bronze 599 /
+  1997. boatlee 64 public episodes. No upload.
+
+## 2026-08-24 — climb slowing, hold
+
+- API: boatlee `55710781` **2163.3** (was 2150.5, +12.8); h2 re-upload
+  `55710788` **1802.3** (was 1823.1, down). Team **rank 364 / 2163.3**
+  of 6030 (was 388 / 2150.5). Silver bar eased to 301 / **2223.7**,
+  gap **+60**. Bronze 603 / 1979.9. boatlee analog still 2492 / rank
+  102. Public episode list shows 68 rows (matchmaking cadence down
+  from ~10/h early to ~3/h). No new public stdlib agent worth
+  swapping. No upload. Let the BT estimate settle.
+
+## 2026-08-24 — first dip: 2163.3 -> 2153.5, hold
+
+- API: boatlee `55710781` **2153.5** (peak this cycle 2163.3, **-9.8**);
+  h2 re-upload `55710788` 1799.5. Team **rank 366 / 2153.5** of 6086
+  (peak equivalent ~359 at 2163). Silver 304 / 2218.0, gap **+64.5**.
+  Bronze 608 / 1987.7. Daily quota 5 remaining. 82 public episodes.
+- Newest 12 public replays: **5-1-6**, mean +716. Eight of twelve are
+  3Q fertilizer-dump near-clones (fert 2932–2935). Timing losses to
+  the same chassis: BorisV −564, Jingxiang −2109, Bruce Zheng −116,
+  Liquidus 0, Ignat −3447. One 4Q wheat loss (automatylicza −2916).
+  One structural blowout: OceanMix −9800, opp fert 400, not clone
+  (same shape as Black Mamba Farm −19545).
+- This is the expected BT pullback after leaving the weak-field
+  opener, not a runtime failure (all DONE). Do not upload. Do not
+  displace 2153. Watch whether the next 12h settles 2130–2160 or
+  keeps sliding.
+
+## 2026-08-24 later — still sliding: 2153.5 -> 2137.6
+
+- API: boatlee `55710781` **2137.6**; h2 re-upload 1805.0. Team **rank
+  385 / 2137.6** of 6108 (was 366 / 2153.5; peak 2163.3 / ~359).
+  Silver 305 / 2212.6, gap **+75**. Bronze 610 / 1983.7. 87 public
+  episodes listed. No upload.
+- Five newest publics after the dip sample: **0-1-4**. Kaileh57 twice
+  (−12982, −9768) and One-For-All (−10844): 3Q, **not clone**, opp
+  fertilizer 397–400 / wheat 313–326. Same structural miss as OceanMix
+  and Black Mamba Farm. Ayush_Patel clone tie. Pixs −1751 (opp fert
+  204). The late-window mix is this low-fert family, which explains
+  the second dip. Still above retired h2 2044.7. Hold.
+
+## 2026-08-24 continue — 2137.6 -> 2122.8; low-fert screen
+
+- API: boatlee `55710781` **2122.8**; h2 re-upload 1802.2. Team **rank
+  390 / 2122.8** of 6127 (peak 2163.3 / ~359). Silver 306 / 2206.5,
+  gap **+84**. Bronze 612 / 1972. Newest-3 publics all losses: Amy Yuan
+  −9485 (fert 400, same class), Audric −1922 clone, CoorDi −21 clone.
+- Named crushers on the live board: OceanMix **rank 13 / 2820**,
+  Black Mamba Farm 145 / 2403, One-For-All 188 / 2341, Kaileh57 353 /
+  2156. boatlee the author submitted today and is **907 / 1810** (they
+  reset their 2492 agent).
+- Pulled `indarkarhana/rank-top10-read-the-market-choose-the-farm`
+  (SHA `d39dba50...`) and thunder tape 2948.9 (SHA `18dd8cb9...`).
+  Recorded-seat vs OceanMix 98031955 and Kaileh57 98118767:
+
+  | agent | OceanMix | Kaileh57 |
+  |---|---:|---:|
+  | boatlee V21 (live match) | −9800 | −12982 |
+  | h2 | −4831 | **+3331 win** |
+  | Moon V127 | −7194 | −9181 |
+  | Top10 | −7489 | −6155 |
+  | flex | −10424 | −13154 |
+  | thunder 2948 tape | −20998 | −21311 |
+
+- Frozen-stream h2 beats Kaileh57 and loses less to OceanMix. No
+  pulled public kernel wins OceanMix. Do not upload. Do not displace
+  boatlee: 2122 is still the team score and still above 2044. If
+  boatlee keeps sliding under ~2050 while new h2 climbs, revisit.
+
+## 2026-08-24 — 2122.8 -> 2117.3; shops v43 uploaded as 55744278
+
+- API: boatlee `55710781` **2117.3** (peak 2163.3, **−46.0**); h2
+  re-upload `55710788` **1782.8** (still not climbing). Team **rank
+  394 / 2117.3** of 6151. Silver 297 / **2211.5**, gap **+94.2**.
+  Bronze 595 / 1978.0. Daily quota before this upload: 5 remaining.
+- Newest two boatlee publics after obs3:
+  - 98383311 alessandrozonta seat 1: **−7389**, not clone, opp fert
+    **400** / wheat 326 vs our 2935 / 856. Same low-fert class.
+  - 98447342 Carson Zhang seat 1: **tie 0**, perfect clone (max near
+    720, median distance 0, fert 2932/2932).
+- Named crushers now: Kaileh57 **rank 8 / 2868**, OceanMix 12 / 2825,
+  Black Mamba Farm 156 / 2391, One-For-All 189 / 2339. boatlee the
+  author 387 / 2123. Jiachen Li 868 / 1825.8.
+- destbreso week-four x-ray (public, not executed): top five are live
+  policies; the V21-style clade is a frozen plan plus sell layer; the
+  public trail is one generation behind. Matches the live slide.
+- Static hunt (no notebook exec), unique stdlib agents:
+
+  | agent | SHA-256 prefix | OceanMix | Kaileh57 | Aless |
+  |---|---|---:|---:|---:|
+  | h2 | `65e6f5cd` | −4831 | **+3331** | **+3622** |
+  | mugundhjb V21 guarder 10C4S | `c12f9704` | −10306 | −12865 | −7523 |
+  | EcoBot v4 | `96ab5e6b` | −33317 | −20222 | −33606 |
+  | llccqq624 counterbook | `c26402b6` | −10424 | −13154 | −7609 |
+  | **llccqq624 shops v43** | `69f06a80` | **+1344** | **+1368** | **+1010** |
+
+- shops v43 is the first public kernel that **wins OceanMix**. G5
+  recorded-seat: Subin **+19547**, James Y **+67847**. Closed-loop
+  20260911-20260920 both seats:
+  - vs boatlee V21: **20-0-0**, paired+ **10/10**, mean **+9796.45**,
+    worst **+2456**, Wilson 95 lower **0.839**
+  - vs h2: **16-4**, paired+ **8/10**, mean **+6297.6**, worst
+    **−6542**. Fails the strict G1 18/20 and 10/10 bar.
+- Moon H2H: **not run** this cycle.
+- **Upload** shops v43 only. Did **not** re-upload boatlee (that would
+  reset the 2117.3 rating, same trap as the h2 re-upload). Did not
+  overwrite root `main.py` (still h2 `65e6f5cd...`).
+  - Kaggle submission ID: `55744278`
+  - Time: 2026-08-24 13:33:39 UTC
+  - Bundle: `artifacts/submission/llccqq624_shops/submission.tar.gz`
+  - Agent SHA-256: `69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3`
+  - Bundle SHA-256: `fb821a9f9867cd413e40323e1e79f1014b74eac7aab3db2bcdbfc6eea5e36a10`
+  - Bundle size: 48105 bytes, members `['main.py']`, compile and
+    byte-identity passed
+  - Status at upload: `PENDING`
+  - Daily quota after: 4 remaining
+- Active newest-2: `55744278` (shops) + `55710781` (boatlee 2117.3).
+  Inactive: h2 re-upload `55710788` (1782.8), variant_001 `55698017`
+  (1784.5), original h2 `55658542` (2044.7).
+- Analog risk: Jiachen Li live 1825.8 may be a different submission.
+  Team score stays boatlee 2117.3 until shops completes and plays.
+  Complementary pair: boatlee covers the V21 clone/fert-dump field;
+  shops is the first local winner of the low-fert class that has been
+  pulling boatlee down.
+- Compact JSON: `experiments/20260824_boatlee_obs4.json`,
+  `experiments/candidates/lowfert_screen_b_20260824.json`,
+  `experiments/candidates/shops_g5_20260824.json`,
+  `experiments/candidates/llccqq624_shops/h2h_vs_boatlee_20260911_20260920.json`,
+  `experiments/candidates/llccqq624_shops/h2h_vs_h2_20260911_20260920.json`.
+- Next: poll `55744278` until COMPLETE, then first public episodes.
+  Do not panic-upload a third agent today. Independent 20261021-30
+  and Moon vs shops remain local follow-ups.
+
+## 2026-08-25 — team row is shops 1995.1 / rank 579; hold
+
+- User reported rank 578. Public CSV
+  `kaggriculture-publicleaderboard-2026-08-24T16:39:34.csv`:
+  **rank 579 / 1995.1** of 6177. Medal bars: gold 21 / 2766.7, silver
+  297 / 2213.9, bronze 595 / **1984.6**. Bronze buffer is **10.5
+  rating / 16 places**.
+- Submissions API (still newest-2 = shops + boatlee):
+  - shops `55744278` **1995.1** COMPLETE
+  - boatlee `55710781` **2108.4** (was 2117.3)
+  - h2 re-upload `55710788` 1782.1 inactive
+- The public **team score is shops**, not max(2108.4, 1995.1). Same
+  number the user sees. Re-uploading boatlee would reset 2108 and
+  would not restore rank 394. Do not do it.
+- shops latest 12 publics: **9-0-3**, mean **+5894**, all DONE, all
+  3Q, our fertilizer **400** (or 284 twice). Not a clone of V21.
+
+  Wins vs 2932-class dumps: KoRo2_JP +14918, lemon1219 +6804,
+  Наталья Скляр +10163, N_Matsumoto24 +11310, SCLim +6168, dk2lone
+  +10892. Also beat 4Q 2026-fert (ra5anchor +293, Hồ Tuấn Khôi
+  +12498) and a 216-fert (bangqun ZHAO +9118).
+
+  Losses: Dread Development **−6553** (opp fert 2935, V21 dump that
+  shops did not always beat); Leifson1337 **−598** (opp fert 338);
+  JALKARNA GAUTAM **−4283** (opp fert 302). Two of three losses are
+  other low-fert 300–338 tapes.
+- boatlee after shops went live: only two more publics, both the
+  same miss — 98474778 vs **boatlee** **−11149** (opp fert 400);
+  98472503 vs BurntPotato **−5411** (opp fert 400). Then matchmaking
+  moved to shops. The author is rank 375 / 2129 and is now the
+  400-fert side.
+- Jiachen Li live analog fell to 1689 / 1465.6; our shops 1995 is
+  already a different, better submission than that analog.
+- Decision: **hold**. 9-3 +5894 is a better opener than original h2
+  at 1842. Let shops climb. Daily quota today unused. No third
+  Agent. Compact JSON: `experiments/20260825_shops_public12.json`,
+  `experiments/20260825_boatlee_obs5.json`.
+
+## 2026-08-25 — shops 1995.1 -> 2072.5, rank 579 -> 443; hold
+
+- User reported rank 444. Public CSV
+  `kaggriculture-publicleaderboard-2026-08-25T02:25:05.csv`:
+  **rank 443 / 2072.5** of 6231. Medal bars: gold 21 / 2733.8, silver
+  297 / **2208.2** (gap **+135.7**), bronze 595 / **1971.0** (buffer
+  **+101.5 / 152 places**). Above retired h2 2044.7.
+- Submissions API: shops `55744278` **2072.5**; boatlee `55710781`
+  still **2108.4**; h2 re-upload 1755.2 inactive. Public team row
+  remains shops. Newest-2 unchanged. No upload.
+- Latest 12 shops publics (98752625–98891557): **5-1-6**, mean
+  **+449**, all DONE. The opener's V21-dump diet is thinning; this
+  window is mostly other 400-fert clones.
+
+  Still beating 2932-class: Valmorlee +13977 (our 299 vs 2932),
+  tellurium_rrr +11693, Alexander Nord +2355.
+
+  Clone/low-fert mixed: Pavlo Ivanin 0 (400/400), Chandramouli +132
+  (400/327). Losses: Semyon Epanov −6340 (400/400 clone), Timass
+  −7416 (284/304 clone), Umut Keltek −1199 and Mohamed El-Nageeb
+  −1258 (400 vs 397 clone), GarrieD −4969 (299/299 clone),
+  DOM-VASCONCELOS −9088 after an earlier +7503 vs the same name
+  (opp fert 243).
+- Analog movement: Jiachen Li is now **rank 31 / 2706.5** (was 1689 /
+  1465). They shipped something stronger than the v43 we have. OceanMix
+  250 / 2254, Kaileh57 532 / 2012, boatlee the author 325 / 2172.
+  Do not chase Jiachen's new private agent from this rank tick.
+- Decision: **hold**. 579→443 is the expected BT climb, not a new
+  route. Re-uploading boatlee still resets 2108. Daily quota unused.
+  Compact JSON: `experiments/20260825_shops_public12b.json`.
+
+## 2026-08-25 — shops 2072.5 -> 2079.9, rank 443 -> 433; hold
+
+- Public CSV `kaggriculture-publicleaderboard-2026-08-25T03:25:17.csv`:
+  **rank 433 / 2079.9** of 6235 (was 443 / 2072.5 of 6231). Medal bars:
+  gold 21 / 2733.1, silver 297 / **2206.2** (gap **+126.3**), bronze
+  595 / **1970.5** (buffer **+109.4 / 162 places**). Still above
+  retired h2 2044.7.
+- Submissions API: shops `55744278` **2079.9**; boatlee `55710781`
+  still **2108.4**; h2 re-upload 1755.2 inactive. Public team row
+  remains shops. Newest-2 unchanged. No upload.
+- Two new shops publics after 98891557, both DONE, both wins:
+  - 98916553 Tien N. seat 1 **+4016**: not clone, opp 4Q fert **1735**
+    wheat **1469** vs our 299 / 216, sheep 10 vs 8. Fert-wheat 4Q class
+    that original h2 lost (James Y / vladee family).
+  - 98909778 ИТМОНИ AI B2B 67 SaaS seat 0 **+8852**: not clone, opp
+    fert **2932** wheat 856 vs our 284 / 183. V21 dump still beaten.
+- Rolling latest 12 (98772886–98916553): **5-1-6**, mean **+351**, all
+  DONE. Same 400-fert clone diet as the prior window; the two new wins
+  replaced older dump wins (tellurium +11693, Alexander Nord +2355),
+  so the mean eased from +449.
+- Analog movement: Jiachen Li **31 / 2700.9** (still a different,
+  stronger private agent). OceanMix **45 / 2652.1** (was 250 / 2254).
+  Kaileh57 **362 / 2139.5** (was 532 / 2012). boatlee the author
+  323 / 2171.6. Do not chase Jiachen from this tick. Frozen-stream
+  shops already beat OceanMix; the live analog climb is expected.
+- Decision: **hold**. +7.4 rating / +10 places is the expected slow
+  BT step, not a new route. Re-uploading boatlee still resets 2108.
+  Daily quota unused. Compact JSON:
+  `experiments/20260825_shops_public12c.json`,
+  `experiments/20260825_shops_public12c_new2.json`.
+- Deferred local Moon H2H, seeds 20260911-20260920 both seats, 720
+  turns: shops vs Moon V127 **17-0-3**, paired+ **9/10**, mean
+  **+6091.15**, worst **-2142**, Wilson 95 lower **0.640**. Losses
+  are seed 20260914 seat 0 (−1050) and 20260915 both seats (−2142 /
+  −2053). h2 on the same seeds was 16/20, 9/10 paired+, mean ~+4930.
+  shops is not Moon-weak like V37 (8/20). This does not authorize a
+  third upload. JSON:
+  `experiments/candidates/llccqq624_shops/h2h_vs_moon_20260911_20260920.json`.
+- Deferred independent shops vs h2, seeds 20261021-20261030 both
+  seats: **6-0-14**, paired+ **4/10**, mean **-800.85**, worst
+  **-10700**, Wilson 95 lower **0.145**. Opposite of the original
+  20260911-20 slice (16-4, 8/10, mean +6298). shops is seed-sensitive
+  against h2 and is **not** a general local upgrade. Do not overwrite
+  root `main.py`. Do not upload h2 into newest-2: that would drop
+  shops 2079.9 or boatlee 2108.4. JSON:
+  `experiments/candidates/llccqq624_shops/h2h_vs_h2_20261021_20261030.json`.
+
+## 2026-08-26 — shops 2079.9 -> 2077.6, rank 433 -> 399; hold
+
+- Public CSV `kaggriculture-publicleaderboard-2026-08-26T02:25:29.csv`:
+  **rank 399 / 2077.6** of 6372 (was 433 / 2079.9 of 6235). Medal bars:
+  gold 21 / 2733.1, silver 297 / **2177.6** (gap **+100.0**), bronze
+  595 / **1946.7** (buffer **+130.9 / 196 places**). Score dipped 2.3;
+  rank improved because the field grew and the silver bar eased.
+- Submissions API: shops `55744278` **2077.6**; boatlee `55710781`
+  still **2108.4**; h2 re-upload `55710788` 1729.9 inactive. Public
+  team row remains shops. Newest-2 unchanged. Daily quota unused
+  (0/5). No upload.
+- Latest 12 shops publics (99539249–99703632): **4-2-6**, mean
+  **+545**, all DONE. Same 400-fert clone diet as 8/25.
+
+  Wins: ra5anchor +11857 (opp fert 2932, V21 dump), animal crossing
+  +5733 (opp 4Q fert 2026 / wheat 1648), sana slama +9401 (opp fert
+  240), gnanadeepika karanam +670 (400/400 clone).
+
+  Ties: chaojiwudiwujie 0 (284/284), El Mehdi EL JAIR 0 (400/400).
+
+  Losses are clone timing, not runtime: Nozprod −9358 (400 vs 397),
+  Ricky Shao −4498 (284 vs 397), AI After Hours −5059, Thomas
+  Tschinkel −1765, Andrey Chankin −307, WeAreFarmers −132.
+- Analog movement: Kaileh57 **16 / 2775.0** (was 362 / 2139.5).
+  boatlee the author **85 / 2540.0**. Jiachen Li **235 / 2267.6**
+  (was 31 / 2700.9). OceanMix **342 / 2136.1** (was 45 / 2652.1).
+  Do not chase Kaileh or Jiachen private agents from this tick.
+- Decision: **hold**. −2.3 rating is noise on the same 400-fert
+  clone mix. Re-uploading boatlee still resets 2108. Compact JSON:
+  `experiments/20260826_shops_public12d.json`. Snapshot:
+  `artifacts/leaderboard_snapshots/20260826_obs1/`.

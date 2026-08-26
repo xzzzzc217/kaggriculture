@@ -1,0 +1,1246 @@
+{
+  "boatlee_sample": [
+    {
+      "episode": 97589365,
+      "seed": 1060211086,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "motemen",
+      "rewards": [
+        83167.0,
+        83986.0
+      ],
+      "margin": 819.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2932,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    },
+    {
+      "episode": 97591649,
+      "seed": 1976774751,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "radji kraim",
+      "rewards": [
+        88333.0,
+        96465.0
+      ],
+      "margin": -8132.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 4,
+        "board": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 7,
+          "GOOSE": 0,
+          "PASTURE": 5,
+          "COOP": 0,
+          "WEED": 32
+        }
+      },
+      "sell_fert_us": 2932,
+      "sell_fert_op": 2703,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 1205,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 189,
+      "median_dist": 25
+    },
+    {
+      "episode": 97593929,
+      "seed": 531106503,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "amaotone",
+      "rewards": [
+        126894.0,
+        128637.0
+      ],
+      "margin": 1743.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2932,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    },
+    {
+      "episode": 97596236,
+      "seed": 1469170752,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "Rokaiya Somapti",
+      "rewards": [
+        81778.0,
+        59582.0
+      ],
+      "margin": 22196.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 18
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 1906,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 1138,
+      "sell_melon_us": 72,
+      "sell_melon_op": 120,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 92,
+      "median_dist": 17
+    },
+    {
+      "episode": 97598579,
+      "seed": 1863222756,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "Fih",
+      "rewards": [
+        98071.0,
+        98174.0
+      ],
+      "margin": 103.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 2,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 2,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2935,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    },
+    {
+      "episode": 97600810,
+      "seed": 1828517187,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "Less",
+      "rewards": [
+        97749.0,
+        96075.0
+      ],
+      "margin": 1674.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2932,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    },
+    {
+      "episode": 97603102,
+      "seed": 1656018887,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "TIM",
+      "rewards": [
+        79153.0,
+        80981.0
+      ],
+      "margin": -1828.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 9,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 2,
+          "GOOSE": 0,
+          "PASTURE": 2,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2985,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 861,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 335,
+      "median_dist": 1
+    },
+    {
+      "episode": 97605392,
+      "seed": 1979461713,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "Amey Thakur",
+      "rewards": [
+        127082.0,
+        126709.0
+      ],
+      "margin": -373.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 12
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2935,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 2
+    },
+    {
+      "episode": 97607673,
+      "seed": 707393440,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "iamlonely",
+      "rewards": [
+        65912.0,
+        69204.0
+      ],
+      "margin": 3292.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2935,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 441,
+      "median_dist": 2
+    },
+    {
+      "episode": 97609959,
+      "seed": 1646712676,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "Ivan Vorfolomeev",
+      "rewards": [
+        73791.0,
+        75051.0
+      ],
+      "margin": 1260.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2932,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    },
+    {
+      "episode": 97612240,
+      "seed": 1739604339,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "Black Mamba Farm",
+      "rewards": [
+        135560.0,
+        116015.0
+      ],
+      "margin": -19545.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 6,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 7,
+          "SHEEP": 10,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 3
+        }
+      },
+      "sell_fert_us": 2932,
+      "sell_fert_op": 311,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 384,
+      "sell_melon_us": 72,
+      "sell_melon_op": 66,
+      "clone_latched": false,
+      "latch_step": null,
+      "max_near_streak": 18,
+      "median_dist": 25
+    },
+    {
+      "episode": 97614540,
+      "seed": 1430923625,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "llRX",
+      "rewards": [
+        116204.0,
+        114912.0
+      ],
+      "margin": 1292.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 12
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 3,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 11
+        }
+      },
+      "sell_fert_us": 2935,
+      "sell_fert_op": 2932,
+      "sell_wheat_us": 856,
+      "sell_wheat_op": 856,
+      "sell_melon_us": 72,
+      "sell_melon_op": 72,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 0
+    }
+  ],
+  "h2_sample": [
+    {
+      "episode": 97600817,
+      "seed": 436929758,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "Spintronic",
+      "rewards": [
+        100191.0,
+        117507.0
+      ],
+      "margin": 17316.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 4,
+        "board": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "COW": 4,
+          "SHEEP": 8,
+          "GOOSE": 0,
+          "PASTURE": 4,
+          "COOP": 0,
+          "WEED": 25
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 1735,
+      "sell_wheat_us": 783,
+      "sell_wheat_op": 1465,
+      "sell_melon_us": 102,
+      "sell_melon_op": 120,
+      "clone_latched": false,
+      "latch_step": null,
+      "max_near_streak": 6,
+      "median_dist": 38
+    },
+    {
+      "episode": 97603105,
+      "seed": 2022179920,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "Said Mohamed Omary",
+      "rewards": [
+        119698.0,
+        114735.0
+      ],
+      "margin": 4963.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 6
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 9,
+          "SHEEP": 3,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 19
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 1906,
+      "sell_wheat_us": 772,
+      "sell_wheat_op": 1142,
+      "sell_melon_us": 102,
+      "sell_melon_op": 124,
+      "clone_latched": false,
+      "latch_step": null,
+      "max_near_streak": 6,
+      "median_dist": 22
+    },
+    {
+      "episode": 97605395,
+      "seed": 1061329360,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "20237208_\u9ec4\u5955\u607a",
+      "rewards": [
+        99452.0,
+        101448.0
+      ],
+      "margin": -1996.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 216,
+      "sell_wheat_us": 739,
+      "sell_wheat_op": 428,
+      "sell_melon_us": 102,
+      "sell_melon_op": 102,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 507,
+      "median_dist": 1
+    },
+    {
+      "episode": 97607679,
+      "seed": 814404623,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "R3ddrag0n",
+      "rewards": [
+        104648.0,
+        102827.0
+      ],
+      "margin": 1821.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 9,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 219,
+      "sell_wheat_us": 766,
+      "sell_wheat_op": 441,
+      "sell_melon_us": 102,
+      "sell_melon_op": 108,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 321,
+      "median_dist": 2
+    },
+    {
+      "episode": 97609962,
+      "seed": 670477468,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "AdarshAleti",
+      "rewards": [
+        73099.0,
+        74422.0
+      ],
+      "margin": 1323.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 10,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 0,
+          "COOP": 0,
+          "WEED": 19
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 1906,
+      "sell_wheat_us": 724,
+      "sell_wheat_op": 1138,
+      "sell_melon_us": 102,
+      "sell_melon_op": 120,
+      "clone_latched": false,
+      "latch_step": null,
+      "max_near_streak": 6,
+      "median_dist": 21
+    },
+    {
+      "episode": 97612164,
+      "seed": 1060254321,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "Napier1550",
+      "rewards": [
+        107316.0,
+        107868.0
+      ],
+      "margin": -552.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 6
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 216,
+      "sell_wheat_us": 786,
+      "sell_wheat_op": 770,
+      "sell_melon_us": 102,
+      "sell_melon_op": 186,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 1
+    },
+    {
+      "episode": 97612260,
+      "seed": 2124443686,
+      "seat": 1,
+      "us": "heralces",
+      "opp": "just_calculate",
+      "rewards": [
+        52965.0,
+        52355.0
+      ],
+      "margin": -610.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 5
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 215,
+      "sell_wheat_us": 816,
+      "sell_wheat_op": 428,
+      "sell_melon_us": 102,
+      "sell_melon_op": 102,
+      "clone_latched": true,
+      "latch_step": 48,
+      "max_near_streak": 720,
+      "median_dist": 1
+    },
+    {
+      "episode": 97614545,
+      "seed": 1296375099,
+      "seat": 0,
+      "us": "heralces",
+      "opp": "cf696666",
+      "rewards": [
+        127854.0,
+        121193.0
+      ],
+      "margin": 6661.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "us_Q_hands_board": {
+        "hands": 10,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 8,
+          "SHEEP": 4,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 6
+        }
+      },
+      "op_Q_hands_board": {
+        "hands": 8,
+        "Q": 3,
+        "board": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "COW": 9,
+          "SHEEP": 3,
+          "GOOSE": 0,
+          "PASTURE": 1,
+          "COOP": 0,
+          "WEED": 18
+        }
+      },
+      "sell_fert_us": 216,
+      "sell_fert_op": 1906,
+      "sell_wheat_us": 775,
+      "sell_wheat_op": 1142,
+      "sell_melon_us": 102,
+      "sell_melon_op": 120,
+      "clone_latched": false,
+      "latch_step": null,
+      "max_near_streak": 6,
+      "median_dist": 22
+    }
+  ]
+}

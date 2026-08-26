@@ -1,0 +1,45 @@
+{
+  "agents": [
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\mugundhjb_v21_guarder\\main.py",
+      "bytes": 150527,
+      "sha256": "c12f97043fa709e85107dd93e4d5b310d5171841c8bac75f5eaf0427cc3f47e5",
+      "agent": "mugundhjb_v21_guarder",
+      "duplicate_of": []
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\ecobot_v4\\main.py",
+      "bytes": 53291,
+      "sha256": "96ab5e6b5034a8090923f06d462423cdc174ed7ded968e356fc81a2d641fb652",
+      "agent": "ecobot_v4",
+      "duplicate_of": []
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_counterbook\\main.py",
+      "bytes": 148034,
+      "sha256": "c26402b67a0d04a46348353069645b1a49c3cb3df6df69d7fa35d8adbbdbeae4",
+      "kind": "source-string",
+      "agent": "llccqq624_counterbook",
+      "notebook": "kaggriculture-adaptive-counterbook.ipynb",
+      "duplicate_of": []
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_shops\\main.py",
+      "bytes": 63309,
+      "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "kind": "source-string",
+      "agent": "llccqq624_shops",
+      "notebook": "kaggriculture-the-shops-remember-the-route.ipynb",
+      "duplicate_of": []
+    }
+  ],
+  "known_sha": {
+    "boatlee_v21": "c6f96a8521dc9aa369b6f27e5b36b9d481e5c1688f50c8ca215c3bb53f1f9eb8",
+    "flexonafft": "8ac34abce129cf5c9456776c90edf7d2233b3a280bbdcf7622628825ef3669a0",
+    "ecobot_v2": "03999840f728abe38f0b076204ab534cb4e48413636771b4d14289a812449a26",
+    "h2": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+    "moon_v127": "a7a6b4f5317938fdbeb79b54fa1ceab9fc884a5f027f61a3b65cf7a212dd6676",
+    "tetsutani_rtt": "73834889054bb6a515fbb40a306a7e0e609105049c781e32197a205f6c339c4f",
+    "steven_strongest": "3365ea27d2bb236cddbe9e700df5d6583efd517b53d085742cb9bd43ee7e248a"
+  }
+}

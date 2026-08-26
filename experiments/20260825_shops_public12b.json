@@ -1,0 +1,599 @@
+{
+  "n": 12,
+  "wtl": [
+    5,
+    1,
+    6
+  ],
+  "mean_margin": 449.1666666666667,
+  "games": [
+    {
+      "episode": 98891557,
+      "seed": 605267465,
+      "opp": "GarrieD",
+      "teams": [
+        "GarrieD",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -4969.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        130977.0,
+        126008.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        10
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        299,
+        299
+      ],
+      "wheat": [
+        216,
+        215
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98891557-replay.json"
+    },
+    {
+      "episode": 98871116,
+      "seed": 677250908,
+      "opp": "Pavlo Ivanin",
+      "teams": [
+        "heralces",
+        "Pavlo Ivanin"
+      ],
+      "seat": 0,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "rewards": [
+        105404.0,
+        105404.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98871116-replay.json"
+    },
+    {
+      "episode": 98829940,
+      "seed": 800314663,
+      "opp": "Semyon Epanov",
+      "teams": [
+        "heralces",
+        "Semyon Epanov"
+      ],
+      "seat": 0,
+      "margin": -6340.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        96669.0,
+        103009.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 271,
+      "median_distance": 5,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98829940-replay.json"
+    },
+    {
+      "episode": 98802549,
+      "seed": 790791581,
+      "opp": "DOM-VASCONCELOS",
+      "teams": [
+        "heralces",
+        "DOM-VASCONCELOS"
+      ],
+      "seat": 0,
+      "margin": -9088.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        40734.0,
+        49822.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        9
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        243
+      ],
+      "wheat": [
+        326,
+        601
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 21,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98802549-replay.json"
+    },
+    {
+      "episode": 98800358,
+      "seed": 1126539405,
+      "opp": "Valmorlee",
+      "teams": [
+        "Valmorlee",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 13977.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        112147.0,
+        126124.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        8
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        299,
+        2932
+      ],
+      "wheat": [
+        216,
+        856
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 22,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98800358-replay.json"
+    },
+    {
+      "episode": 98797972,
+      "seed": 736618500,
+      "opp": "ChandramouliNagasundaram",
+      "teams": [
+        "heralces",
+        "ChandramouliNagasundaram"
+      ],
+      "seat": 0,
+      "margin": 132.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        124564.0,
+        124432.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        327
+      ],
+      "wheat": [
+        326,
+        331
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98797972-replay.json"
+    },
+    {
+      "episode": 98793273,
+      "seed": 1431673630,
+      "opp": "Timass",
+      "teams": [
+        "heralces",
+        "Timass"
+      ],
+      "seat": 0,
+      "margin": -7416.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        80449.0,
+        87865.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        9,
+        10
+      ],
+      "cow": [
+        5,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        284,
+        304
+      ],
+      "wheat": [
+        183,
+        225
+      ],
+      "clone": true,
+      "max_near": 696,
+      "median_distance": 2,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98793273-replay.json"
+    },
+    {
+      "episode": 98786531,
+      "seed": 1924022467,
+      "opp": "Umut Keltek",
+      "teams": [
+        "heralces",
+        "Umut Keltek"
+      ],
+      "seat": 0,
+      "margin": -1199.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        64580.0,
+        65779.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 260,
+      "median_distance": 3,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98786531-replay.json"
+    },
+    {
+      "episode": 98782079,
+      "seed": 1114566000,
+      "opp": "Mohamed El-Nageeb",
+      "teams": [
+        "heralces",
+        "Mohamed El-Nageeb"
+      ],
+      "seat": 0,
+      "margin": -1258.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        125856.0,
+        127114.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98782079-replay.json"
+    },
+    {
+      "episode": 98772886,
+      "seed": 660605838,
+      "opp": "DOM-VASCONCELOS",
+      "teams": [
+        "DOM-VASCONCELOS",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 7503.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        108396.0,
+        115899.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        2
+      ],
+      "cow": [
+        11,
+        10
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        243
+      ],
+      "wheat": [
+        326,
+        628
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 21,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98772886-replay.json"
+    },
+    {
+      "episode": 98759214,
+      "seed": 159155865,
+      "opp": "Alexander Nord",
+      "teams": [
+        "Alexander Nord",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 2355.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        47765.0,
+        50120.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        2935
+      ],
+      "wheat": [
+        326,
+        856
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 19,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98759214-replay.json"
+    },
+    {
+      "episode": 98752625,
+      "seed": 1575507638,
+      "opp": "tellurium_rrr",
+      "teams": [
+        "tellurium_rrr",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 11693.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        113541.0,
+        125234.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        10
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        2948
+      ],
+      "wheat": [
+        326,
+        999
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 18,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\submission_55744278\\public12b\\episode-98752625-replay.json"
+    }
+  ]
+}

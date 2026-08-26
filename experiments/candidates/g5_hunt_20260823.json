@@ -1,0 +1,367 @@
+{
+  "date": "2026-08-23",
+  "h2_g5_controls": {
+    "subin_an_97399969": -7107,
+    "james_y_95677563": -8551
+  },
+  "screens": [
+    {
+      "agent": "tuannm3812_htdc_v12",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\tuannm3812_htdc_v12\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": -115543.0,
+        "scores": [
+          8819.0,
+          124362.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 21.80180449999898
+      },
+      "g5_james": {
+        "margin": -106962.0,
+        "scores": [
+          14401.0,
+          121363.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 22.71845320000284
+      },
+      "pass_g5_both": false,
+      "beats_h2_both": false
+    },
+    {
+      "agent": "stevenleehans_e284",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\stevenleehans_e284\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": 4101.0,
+        "scores": [
+          105045.0,
+          100944.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 16.656434600001376
+      },
+      "g5_james": {
+        "margin": 39908.0,
+        "scores": [
+          123074.0,
+          83166.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 17.04587619999802
+      },
+      "pass_g5_both": true,
+      "beats_h2_both": true
+    },
+    {
+      "agent": "stevenleehans_x544",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\stevenleehans_x544\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": 454.0,
+        "scores": [
+          57314.0,
+          56860.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 17.333574799995404
+      },
+      "g5_james": {
+        "margin": 38250.0,
+        "scores": [
+          121440.0,
+          83190.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 17.348499500003527
+      },
+      "pass_g5_both": true,
+      "beats_h2_both": true
+    },
+    {
+      "agent": "prvsiyan_moon_rerun",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\prvsiyan_moon_rerun\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": 13248.0,
+        "scores": [
+          101260.0,
+          88012.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 12.321129899995867
+      },
+      "g5_james": {
+        "margin": 45193.0,
+        "scores": [
+          111010.0,
+          65817.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.891033300002164
+      },
+      "pass_g5_both": true,
+      "beats_h2_both": true
+    },
+    {
+      "agent": "flexonafft_rerun",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\flexonafft_rerun\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": 12445.0,
+        "scores": [
+          101190.0,
+          88745.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.855311999999685
+      },
+      "g5_james": {
+        "margin": 11778.0,
+        "scores": [
+          68100.0,
+          56322.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.87394559999666
+      },
+      "pass_g5_both": true,
+      "beats_h2_both": true
+    },
+    {
+      "agent": "amey_premium_first_rerun",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\amey_premium_first_rerun\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": 13248.0,
+        "scores": [
+          101260.0,
+          88012.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 10.248599200000172
+      },
+      "g5_james": {
+        "margin": 45193.0,
+        "scores": [
+          111010.0,
+          65817.0
+        ],
+        "win": true,
+        "beats_h2": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 10.176580100000137
+      },
+      "pass_g5_both": true,
+      "beats_h2_both": true
+    },
+    {
+      "agent": "v22r2_second_yarn_6c8",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\v22r2_second_yarn_6c8\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": -135821.0,
+        "scores": [
+          3000.0,
+          138821.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 6.405233099998441
+      },
+      "g5_james": {
+        "margin": -123543.0,
+        "scores": [
+          3000.0,
+          126543.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 6.30148509999708
+      },
+      "pass_g5_both": false,
+      "beats_h2_both": false
+    },
+    {
+      "agent": "v22r2_second_yarn_hold",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\v22r2_second_yarn_hold\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": -135821.0,
+        "scores": [
+          3000.0,
+          138821.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 6.396175200003199
+      },
+      "g5_james": {
+        "margin": -123543.0,
+        "scores": [
+          3000.0,
+          126543.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 6.2317921000067145
+      },
+      "pass_g5_both": false,
+      "beats_h2_both": false
+    },
+    {
+      "agent": "maverickss26_v1",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\maverickss26_v1\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": -134305.0,
+        "scores": [
+          8862.0,
+          143167.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.23277099999541
+      },
+      "g5_james": {
+        "margin": -107920.0,
+        "scores": [
+          16384.0,
+          124304.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.436911400000099
+      },
+      "pass_g5_both": false,
+      "beats_h2_both": false
+    },
+    {
+      "agent": "nekkon_replay_agent",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\nekkon_replay_agent\\main.py",
+      "exists": true,
+      "g5_subin": {
+        "margin": -67478.0,
+        "scores": [
+          23138.0,
+          90616.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.766547500003071
+      },
+      "g5_james": {
+        "margin": -23691.0,
+        "scores": [
+          79874.0,
+          103565.0
+        ],
+        "win": false,
+        "beats_h2": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.799801900000602
+      },
+      "pass_g5_both": false,
+      "beats_h2_both": false
+    }
+  ],
+  "elapsed_seconds": 249.56208630000037,
+  "moon_g5_survivor": [
+    "stevenleehans_e284",
+    "stevenleehans_x544",
+    "prvsiyan_moon_rerun",
+    "flexonafft_rerun",
+    "amey_premium_first_rerun"
+  ]
+}

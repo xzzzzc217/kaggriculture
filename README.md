@@ -1,12 +1,14 @@
 # Kaggriculture medal sprint
 
-Status as of 2026-08-21: `heralces` has joined Kaggriculture and accepted the rules. After explicit
-user authorization, the verified local champion was uploaded once as submission `55658542`; its
-current status is `COMPLETE`. The submissions API score rose from `1842.7` to `2015.6`, while the
-latest completed public episode reports `2015.69`; intermediate observations were `1942.9`,
-`1998.8`, `1973.8`, `2001.5`, `2005.2`, and `2011.0`. The live game panel updates on a different
-cadence. The rating remains
-provisional and is not yet a stable estimate of medal strength.
+Status as of 2026-08-26: local `main.py` is still h2 (SHA-256
+`65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`). The
+public leaderboard follows shops v43 `55744278` at **rank 399 / 2077.6** of
+6372 (was 433 / 2079.9 of 6235). Bronze 595 / 1946.7; silver 297 / 2177.6
+(gap +100). Boatlee V21-R1 `55710781` is still selected at **2108.4** on
+the submissions API; the team row is shops. Newest-2 remain shops +
+boatlee. Do not re-upload boatlee. Latest shops public-12 is 4-2-6, mean
++545, all DONE, still mostly 400-fert clones plus one V21-dump win
+(ra5anchor +11857). Hold.
 
 ## Competition and medal objective
 

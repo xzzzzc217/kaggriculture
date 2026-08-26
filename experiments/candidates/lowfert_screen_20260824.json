@@ -1,0 +1,204 @@
+{
+  "date": "2026-08-24",
+  "screens": [
+    {
+      "agent": "boatlee_v21",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\boatlee_v21_r1\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -9800.0,
+        "scores": [
+          114390.0,
+          124190.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false
+      },
+      "kaileh57_98118767": {
+        "margin": -12982.0,
+        "scores": [
+          79985.0,
+          92967.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": false
+      }
+    },
+    {
+      "agent": "h2",
+      "path": "D:\\kaggle\\kaggriculture\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -4831.0,
+        "scores": [
+          61781.0,
+          66612.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": true
+      },
+      "kaileh57_98118767": {
+        "margin": 3331.0,
+        "scores": [
+          75780.0,
+          72449.0
+        ],
+        "win": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true
+      }
+    },
+    {
+      "agent": "moon_v127",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\prvsiyan_moon_rerun\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -7194.0,
+        "scores": [
+          75630.0,
+          82824.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": true
+      },
+      "kaileh57_98118767": {
+        "margin": -9181.0,
+        "scores": [
+          62123.0,
+          71304.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true
+      }
+    },
+    {
+      "agent": "top10",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\indarkarhana_top10\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -7489.0,
+        "scores": [
+          88565.0,
+          96054.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": true
+      },
+      "kaileh57_98118767": {
+        "margin": -6155.0,
+        "scores": [
+          89338.0,
+          95493.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": true
+      }
+    },
+    {
+      "agent": "thunder_2948",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\indarkarhana_thunder_2948\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -20998.0,
+        "scores": [
+          72290.0,
+          93288.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false
+      },
+      "kaileh57_98118767": {
+        "margin": -21311.0,
+        "scores": [
+          56897.0,
+          78208.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": false
+      }
+    },
+    {
+      "agent": "flexonafft",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\flexonafft_rerun\\main.py",
+      "sha_exists": true,
+      "oceanmix_98031955": {
+        "margin": -10424.0,
+        "scores": [
+          110110.0,
+          120534.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -9800,
+        "beats_live_boatlee": false
+      },
+      "kaileh57_98118767": {
+        "margin": -13154.0,
+        "scores": [
+          79938.0,
+          93092.0
+        ],
+        "win": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "live_margin": -12982,
+        "beats_live_boatlee": false
+      }
+    }
+  ],
+  "elapsed": 232.11521310001262
+}
