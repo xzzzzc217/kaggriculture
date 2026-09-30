@@ -1,8 +1,11 @@
 """Official-engine iteration loop.
 
-Each launch plays the candidate from both seats for every requested cycle,
-appends one decision record per cycle, and does not submit unless ``--submit``
-is set and the promotion predicate accepts a full 720-turn cycle.
+Each launch reads an optional public leaderboard snapshot. When that snapshot
+places heralces inside the gold cutoff, the launch records the gold condition,
+submits nothing, and plays no match cycles. Otherwise it plays the candidate
+from both seats for every requested cycle, appends one decision record per
+cycle, and does not submit unless ``--submit`` is set and this cycle's own
+games pass the promotion predicate on a 720-turn season.
 """
 
 from __future__ import annotations
@@ -10,11 +13,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+from collections.abc import Mapping
 from pathlib import Path
 from typing import Any
 
-from kaggle_environments import make
-
+from iteration_loop.leaderboard import heralces_from_csv
 from iteration_loop.promotion import NON_PROMOTING_OPPONENTS, decide
 from iteration_loop.submit_guard import promotion_upload
 
@@ -46,6 +49,83 @@ def append_cycle(path: Path, record: dict[str, Any]) -> None:
         handle.write(line + "\n")
 
 
+def leaderboard_status(path: Path | None) -> dict[str, Any]:
+    """Gold comes only from a public leaderboard snapshot, never from local coins."""
+    if path is None:
+        return {
+            "gold_condition": False,
+            "gold_cutoff": None,
+            "in_gold": False,
+            "rank": None,
+            "score": None,
+            "team_count": None,
+        }
+    board = heralces_from_csv(path.read_text(encoding="utf-8"))
+    in_gold = bool(board["in_gold"])
+    return {
+        "gold_condition": in_gold,
+        "gold_cutoff": board["gold_cutoff"],
+        "in_gold": in_gold,
+        "rank": board["rank"],
+        "score": board["score"],
+        "team_count": board["team_count"],
+    }
+
+
+def resolve_upload(
+    record: Mapping[str, Any],
+    *,
+    submit: bool,
+    episode_steps: int,
+    candidate_main: Path,
+    then_best_main: Path | None,
+    output_dir: Path,
+    client: Any | None,
+    root_sha: str,
+) -> dict[str, Any]:
+    """Decide from this cycle's games, then apply the upload guard.
+
+    Pre-baked ``decision`` and ``upload_eligible`` fields on ``record`` are
+    ignored. A forged accept flag cannot upload.
+    """
+    verdict = decide(record)
+    if not submit:
+        upload_meta: dict[str, Any] = {
+            "reason": "submit_not_requested",
+            "reuploaded_best": False,
+            "submitted": False,
+        }
+    elif root_sha != CHAMPION_SHA256:
+        upload_meta = {
+            "reason": "root_main_is_not_champion",
+            "reuploaded_best": False,
+            "submitted": False,
+        }
+    elif then_best_main is None:
+        upload_meta = {
+            "reason": "then_best_required",
+            "reuploaded_best": False,
+            "submitted": False,
+        }
+    else:
+        upload_meta = promotion_upload(
+            eligible=bool(verdict["upload_eligible"]),
+            submit=True,
+            episode_steps=episode_steps,
+            candidate_main=candidate_main,
+            then_best_main=then_best_main,
+            output_dir=output_dir,
+            client=client,
+        )
+    return {
+        "decision": verdict["decision"],
+        "reasons": verdict["reasons"],
+        "submitted": bool(upload_meta["submitted"]),
+        "upload": upload_meta,
+        "upload_eligible": verdict["upload_eligible"],
+    }
+
+
 def classify_opponent(opponent: str, candidate: str, root_main: Path) -> str:
     if opponent in {"pass", "starter"}:
         return opponent
@@ -71,6 +151,8 @@ def play_match(
     opponent_id: str,
     opponent_public_score: float | None,
 ) -> dict[str, Any]:
+    from kaggle_environments import make
+
     players = [candidate, opponent] if seat == 0 else [opponent, candidate]
     env = make(
         "kaggriculture",
@@ -166,6 +248,23 @@ def _candidate_main(candidate: str, root_main: Path) -> Path:
     return root_main
 
 
+def _gold_stop_summary(status: Mapping[str, Any], root_sha: str) -> dict[str, Any]:
+    return {
+        "cycles_completed": 0,
+        "decisions": [],
+        "gold_condition": True,
+        "gold_cutoff": status["gold_cutoff"],
+        "in_gold": True,
+        "rank": status["rank"],
+        "root_main_sha256": root_sha,
+        "root_main_unchanged": True,
+        "score": status["score"],
+        "submitted": False,
+        "team_count": status["team_count"],
+        "upload_eligible": [],
+    }
+
+
 def launch(argv: list[str] | None = None, client: Any | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cycles", type=int, default=DEFAULT_CYCLES)
@@ -174,6 +273,7 @@ def launch(argv: list[str] | None = None, client: Any | None = None) -> int:
     parser.add_argument("--opponent", default="pass")
     parser.add_argument("--candidate", default=None)
     parser.add_argument("--log", type=Path, default=None)
+    parser.add_argument("--leaderboard", type=Path, default=None)
     parser.add_argument("--manifest", type=Path, default=None)
     parser.add_argument("--submit", action="store_true")
     parser.add_argument("--then-best", type=Path, default=None)
@@ -185,6 +285,14 @@ def launch(argv: list[str] | None = None, client: Any | None = None) -> int:
     repo_root = args.repo_root.resolve()
     root_main = repo_root / "main.py"
     before = sha256_file(root_main)
+    status = leaderboard_status(args.leaderboard)
+    if status["in_gold"]:
+        after = sha256_file(root_main)
+        if before != after:
+            raise RuntimeError("root main.py bytes changed during the loop")
+        print(json.dumps(_gold_stop_summary(status, before), sort_keys=True))
+        return 0
+
     candidate = str(root_main if args.candidate is None else Path(args.candidate))
     log_path = (
         args.log
@@ -222,42 +330,23 @@ def launch(argv: list[str] | None = None, client: Any | None = None) -> int:
             "root_main_sha256": before,
             "seed": args.seed,
         }
-        verdict = decide(partial)
-        upload_meta: dict[str, Any] = {
-            "reason": "submit_not_requested",
-            "reuploaded_best": False,
-            "submitted": False,
-        }
-        if args.submit:
-            if before != CHAMPION_SHA256:
-                upload_meta = {
-                    "reason": "root_main_is_not_champion",
-                    "reuploaded_best": False,
-                    "submitted": False,
-                }
-            elif args.then_best is None:
-                upload_meta = {
-                    "reason": "then_best_required",
-                    "reuploaded_best": False,
-                    "submitted": False,
-                }
-            else:
-                upload_meta = promotion_upload(
-                    eligible=bool(verdict["upload_eligible"]),
-                    submit=True,
-                    episode_steps=args.steps,
-                    candidate_main=_candidate_main(candidate, root_main),
-                    then_best_main=args.then_best,
-                    output_dir=log_path.parent / f"cycle_{cycle_number}",
-                    client=client,
-                )
+        resolved = resolve_upload(
+            partial,
+            submit=bool(args.submit),
+            episode_steps=args.steps,
+            candidate_main=_candidate_main(candidate, root_main),
+            then_best_main=args.then_best,
+            output_dir=log_path.parent / f"cycle_{cycle_number}",
+            client=client,
+            root_sha=before,
+        )
         record = {
             **partial,
-            "decision": verdict["decision"],
-            "reasons": verdict["reasons"],
-            "submitted": bool(upload_meta["submitted"]),
-            "upload": upload_meta,
-            "upload_eligible": verdict["upload_eligible"],
+            "decision": resolved["decision"],
+            "reasons": resolved["reasons"],
+            "submitted": resolved["submitted"],
+            "upload": resolved["upload"],
+            "upload_eligible": resolved["upload_eligible"],
         }
         append_cycle(log_path, record)
         new_rows.append(record)
@@ -268,9 +357,15 @@ def launch(argv: list[str] | None = None, client: Any | None = None) -> int:
     summary = {
         "cycles_completed": len(new_rows),
         "decisions": [row["decision"] for row in new_rows],
+        "gold_condition": False,
+        "gold_cutoff": status["gold_cutoff"],
+        "in_gold": False,
+        "rank": status["rank"],
         "root_main_sha256": before,
         "root_main_unchanged": True,
+        "score": status["score"],
         "submitted": any(row["submitted"] for row in new_rows),
+        "team_count": status["team_count"],
         "upload_eligible": [row["upload_eligible"] for row in new_rows],
     }
     print(json.dumps(summary, sort_keys=True))
