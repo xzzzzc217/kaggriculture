@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914c",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108762693,
+    108723413,
+    108704919,
+    108686716,
+    108669139,
+    108658948,
+    108656070,
+    108642657,
+    108636667,
+    108635673,
+    108620320,
+    108594800
+  ],
+  "ids_0914b": [
+    108753975,
+    108751924,
+    108744906,
+    108741805,
+    108608562,
+    108604498,
+    108586169,
+    108559476,
+    108550653,
+    108545775,
+    108534412,
+    108520439
+  ],
+  "disjoint_from_0914b": true,
+  "all_720_done_done": true,
+  "wtl": [
+    2,
+    0,
+    10
+  ],
+  "mean_margin": -6781.9,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108762693": 223,
+    "108723413": 43,
+    "108704919": 174,
+    "108686716": 183,
+    "108669139": 43,
+    "108658948": 1,
+    "108656070": 227,
+    "108642657": 1,
+    "108636667": 1,
+    "108635673": 1,
+    "108620320": 237,
+    "108594800": 11
+  },
+  "wool_432": {
+    "108762693": 200,
+    "108723413": 1,
+    "108704919": 161,
+    "108686716": 189,
+    "108669139": 1,
+    "108658948": 1,
+    "108656070": 129,
+    "108642657": 1,
+    "108636667": 1,
+    "108635673": 5,
+    "108620320": 234,
+    "108594800": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-14/09-14b: extra-animal 8c6s3g plus extra-sheep plus extra-goose plus identical-clone extra-goose. WTL 2-0-10 mean -6781.9 vs 09-14b 5-0-7 mean -3771.8. New window game is \u0438\u0442\u043c\u043e\u043d\u044f\u044f\u044f 108762693 -6320. clone=11/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (LuanHengYu 108636667 9c5s vs 8c6s3g PET_CAFE extra sheep 218/227 extra geese 242/266 -20223; Les 2 oies 108642657 9c5s3g vs 8c6s3g SMOOTHIE extra sheep 218/227 extra geese 242/266 -12935; \u0438\u0442\u043c\u043e\u043d\u044f\u044f\u044f 108762693 10c8s vs 8c6s3g PET_CAFE extra sheep 218/227 extra geese 242/266 and we already bought extra cow 218 extra sheep 227/242/266 -6320; BigAngel 108635673 7c6s vs 8c6s3g BRUNCH extra sheep 218/227 extra geese 242/266 -5892) + extra-sheep (Gracie 108656070 9c8s vs 7c16s1g PIZZA clone=0 extra sheep 227/242/266 already bought -14565; Pietro Valocchi 108658948 7c6s vs 8c9s FARMERS_MARKET extra sheep 218/227/242/266 -12549; Akhil Chinta 108620320 4c15s vs 6c10s BAKERY extra sheep 218/242/266 already bought -1911) + extra-goose (here we go 108704919 9c5s3g vs 6c6s6g FARMERS_MARKET extra geese 227/242 already bought -7788; higuuu 108594800 9c5s3g vs 6c6s6g PET_CAFE extra geese 227/242 already bought -1087) + identical-clone extra-goose (Cuong Le 108686716 9c5s3g vs 9c5s3g extra geese 227/242 already bought -590). Wins: Surya Bhattiprol 108669139 9c5s3g vs 9c5s4g +1729 extra geese 227/242 already bought; zard599 108723413 9c5s3g vs 9c5s4g +748 extra geese 227/242 already bought. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: LuanHengYu/Les 2 oies/BigAngel lost extra-animal after opp extra sheep 218/227 extra geese 242/266; \u0438\u0442\u043c\u043e\u043d\u044f\u044f\u044f already bought extra sheep 227/242/266 and lost vs 8c6s3g; Gracie already bought extra sheep 227/242/266 and lost 16s; Akhil already bought 218/242/266 and lost 15s; here we go/higuuu already bought extra geese 227/242 and lost vs 6g; Cuong Le already bought extra geese 227/242 and lost identical-clone; zard599/Surya already bought extra geese 227/242 and won vs 4g.",
+  "worst_losses": [
+    {
+      "id": 108636667,
+      "opp": "LuanHengYu",
+      "margin": -20223.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "PET_CAFE"
+      ]
+    }
+  ]
+}

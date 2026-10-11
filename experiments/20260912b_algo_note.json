@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912b",
+  "role": "strategy/algorithm analyst",
+  "no_upload": true,
+  "root_main_py": "unchanged",
+  "windows_agent_so": false,
+  "cells_executed": false,
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e",
+      "score_complete": 1799.3,
+      "dropped_from_newest_2": true
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+      "score_complete": 1864.4,
+      "dropped_from_newest_2": true
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "submissionId": 56151152,
+      "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+      "score_complete_0912": 1730.1,
+      "csv_0912b_team_score": 1695.1,
+      "status": "COMPLETE"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "lineage": 55962761,
+      "score_complete": 1323.5,
+      "newer_than_cut16": true
+    },
+    "newest_2": [
+      56151155,
+      56151152
+    ],
+    "rank_csv_0912b": 1910
+  },
+  "cut16_live_failure_class": {
+    "0912": {
+      "file": "experiments/20260912_cut16_rolling.json",
+      "ids": [
+        108010033,
+        108002820,
+        108000306,
+        107994448,
+        107990300,
+        107990012,
+        107989781,
+        107988750,
+        107978396,
+        107973398,
+        107970942,
+        107959708
+      ],
+      "wtl": [
+        6,
+        0,
+        6
+      ],
+      "mean_margin": -3452.1,
+      "class": "extra-animal 8c6s3g (wool still priced) + extra-goose/identical-clone"
+    },
+    "0912b": {
+      "file": "experiments/20260912b_cut16_rolling.json",
+      "ids": [
+        108208866,
+        108204278,
+        108191120,
+        108175982,
+        108172639,
+        108166009,
+        108162165,
+        108161412,
+        108153141,
+        108139022,
+        108138037,
+        108124312
+      ],
+      "wtl": [
+        3,
+        0,
+        9
+      ],
+      "mean_margin": -3919.9,
+      "clone": "11/12",
+      "class": "same extra-animal 8c6s3g family; wool now $1 by 360 on the 8c6s3g losses; plus YARN clone timing",
+      "heavy": [
+        {
+          "id": 108166009,
+          "opp": "IskanderAkhmetov",
+          "margin": -12967,
+          "shops72": [
+            "SMOOTHIE_SHOP"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "us216": [
+            314
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108139022,
+          "opp": "Juank Suarez",
+          "margin": -12889,
+          "shops72": [
+            "YARN_STORE"
+          ],
+          "buy": "6c11s vs 6c11s",
+          "wool_px_360": 236
+        }
+      ]
+    }
+  },
+  "q1_reselect_after_216": {
+    "licensed_this_fire": false,
+    "note": "y3uanm v20 is cut 14 SHA acf7c664. crystalbaby is Ahmed v37 SHA 94c1c2c0. dmitrii is 144/648 sale overlay. No new Windows Python farm/route reselect after 216 distinct from cuts 14/15/16."
+  }
+}

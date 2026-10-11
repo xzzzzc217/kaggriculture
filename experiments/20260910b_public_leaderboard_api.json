@@ -1,0 +1,30 @@
+{
+  "n": 8566,
+  "csv": "artifacts/kaggle_runs/lb_20260910b/kaggriculture-publicleaderboard-2026-09-10T20:08:14.csv",
+  "csv_time": "2026-09-10T20:08:14",
+  "live_getleaderboard_note": "CompetitionApiService GetLeaderboard during fetch had Otter Vibe #2 3043.3 and ymg_aq #3 3040.1. CSV snapshot still ranked ymg_aq #2 3040.2.",
+  "picked": {
+    "team": "ymg_aq",
+    "teamId": 16732403,
+    "submissionId": 56147445,
+    "csv_rank": 2,
+    "live_rank": 3,
+    "csv_score": "3040.2",
+    "public_score": "3040.1",
+    "dateSubmitted": "2026-09-10 15:39:37.930000"
+  },
+  "csv_top5": [
+    {"rank": 1, "teamId": 16640510, "teamName": "SpaTaro", "score": "3109.9"},
+    {"rank": 2, "teamId": 16732403, "teamName": "ymg_aq", "score": "3040.2"},
+    {"rank": 3, "teamId": 16760569, "teamName": "Otter Vibe", "score": "3038.7"},
+    {"rank": 4, "teamId": 16730612, "teamName": "Unknown Mother-Goose", "score": "3009.1"},
+    {"rank": 5, "teamId": 16805699, "teamName": "feel the agi", "score": "2994.0"}
+  ],
+  "heralces_csv": {
+    "rank": 1530,
+    "teamId": 16749576,
+    "score": "1868.7",
+    "lastSubmissionDate": "2026-09-10 14:24:40"
+  },
+  "gold21_csv": {"rank": 21, "team": "lc今天刷了吗", "score": "2909.7"}
+}

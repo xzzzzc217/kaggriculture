@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-27",
+  "agents": [
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_pqs\\main.py",
+      "bytes": 19330,
+      "sha256": "f1941cf01f8d821f6a3ed6c384c58bc98de63914ace21ddc1526052b5c9ef829",
+      "duplicate_of": [],
+      "agent": "llccqq624_pqs",
+      "kind": "BLOB",
+      "expected_live_analog": "Jiachen Li"
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\kaitofukami_v48\\main.py",
+      "bytes": 107008,
+      "sha256": "dadee25a9840313218384208c53b2c4752f82c3209cc654632e0b96c65e2664a",
+      "duplicate_of": [],
+      "agent": "kaitofukami_v48",
+      "kind": "payload",
+      "notebook_sha": "dadee25a9840313218384208c53b2c4752f82c3209cc654632e0b96c65e2664a",
+      "sha_match": true
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\kaitofukami_v43_sparse\\main.py",
+      "bytes": 63309,
+      "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "duplicate_of": [
+        "shops_v43"
+      ],
+      "agent": "kaitofukami_v43_sparse",
+      "kind": "payload",
+      "notebook_sha": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "sha_match": true
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\shop_guard\\main.py",
+      "bytes": 93579,
+      "sha256": "2fe711896465626350efafc87960a6d2f05b510ec7af62bc4679a80cdf3f9fc7",
+      "duplicate_of": [],
+      "agent": "shop_guard",
+      "kind": "BLOB",
+      "forks": [
+        "reyhanksatria",
+        "morinokuma3",
+        "hboyang"
+      ]
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\yamakawanin_v21\\main.py",
+      "bytes": 174502,
+      "sha256": "9b5e1157af3d4a643fcd818f5c290003d2672230d5ae8c0024fae0836cc894df",
+      "duplicate_of": [],
+      "agent": "yamakawanin_v21",
+      "kind": "writefile"
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\evelyn_scheduler_v1\\main.py",
+      "bytes": 47392,
+      "sha256": "73802ab6b716293d01a992395918624ba3a122221bb4fc2c915b3fcfef9dc872",
+      "duplicate_of": [],
+      "agent": "evelyn_scheduler_v1",
+      "kind": "raw-py"
+    },
+    {
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\lixiuqixiaoke_v24\\main.py",
+      "bytes": 20430,
+      "sha256": "4d22dff496de88420b8aaaf74f3ca9eeceb0d08644061feff8f8706df19e19e3",
+      "duplicate_of": [],
+      "agent": "lixiuqixiaoke_v24",
+      "kind": "raw-py"
+    }
+  ],
+  "unique_new": [
+    "llccqq624_pqs",
+    "kaitofukami_v48",
+    "shop_guard",
+    "yamakawanin_v21",
+    "evelyn_scheduler_v1",
+    "lixiuqixiaoke_v24"
+  ],
+  "duplicates": [
+    "kaitofukami_v43_sparse"
+  ]
+}

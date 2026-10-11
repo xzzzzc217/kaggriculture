@@ -1,0 +1,1050 @@
+[
+  {
+    "team": "Jesse Bullard",
+    "id": 105398564,
+    "opp": "Yuan800",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 5539.0,
+    "win": true,
+    "clone": true,
+    "max_near": 155,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 5,
+      "SHEEP": 13
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      13,
+      10
+    ],
+    "cow": [
+      4,
+      6
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      277,
+      380
+    ],
+    "wool": [
+      299,
+      287
+    ],
+    "milk": [
+      136,
+      233
+    ],
+    "fert": [
+      315,
+      475
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      96,
+      98
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      78704.0,
+      73165.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 179,
+        "day": 8,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 197,
+        "day": 9,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 218,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE",
+          "PIZZA_SHOP"
+        ]
+      },
+      {
+        "step": 251,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 10,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE",
+          "PIZZA_SHOP"
+        ]
+      },
+      {
+        "step": 252,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 11,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE",
+          "PIZZA_SHOP"
+        ]
+      },
+      {
+        "step": 253,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 12,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE",
+          "PIZZA_SHOP"
+        ]
+      },
+      {
+        "step": 265,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 13,
+        "cow_cum": 5,
+        "shops": [
+          "PET_CAFE",
+          "YARN_STORE",
+          "PIZZA_SHOP"
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Jesse Bullard",
+    "id": 105398563,
+    "opp": "Giulio Ravasio",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 757.0,
+    "win": true,
+    "clone": true,
+    "max_near": 720,
+    "shops72": [
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 11,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      9,
+      9
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      371,
+      404
+    ],
+    "wool": [
+      138,
+      138
+    ],
+    "milk": [
+      271,
+      270
+    ],
+    "fert": [
+      278,
+      333
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      120267.0,
+      119510.0
+    ],
+    "extra_sheep_steps": []
+  },
+  {
+    "team": "Jesse Bullard",
+    "id": 105395068,
+    "opp": "Giulio Ravasio",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 2879.0,
+    "win": true,
+    "clone": true,
+    "max_near": 155,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "buy": {
+      "COW": 5,
+      "SHEEP": 17
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      21,
+      17
+    ],
+    "land": [
+      151,
+      266,
+      267
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      4,
+      3
+    ],
+    "sheep": [
+      17,
+      11
+    ],
+    "cow": [
+      4,
+      6
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      295,
+      2386
+    ],
+    "wool": [
+      352,
+      293
+    ],
+    "milk": [
+      136,
+      195
+    ],
+    "fert": [
+      337,
+      2007
+    ],
+    "melon": [
+      72,
+      2070
+    ],
+    "tomato": [
+      0,
+      1998
+    ],
+    "carrot": [
+      16,
+      18
+    ],
+    "egg": [
+      0,
+      1998
+    ],
+    "rewards": [
+      109848.0,
+      112727.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 179,
+        "day": 8,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 197,
+        "day": 9,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 218,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 251,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 10,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 252,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 11,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 253,
+        "day": 11,
+        "qty": 1,
+        "sheep_cum": 12,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 265,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 13,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 267,
+        "day": 12,
+        "qty": 4,
+        "sheep_cum": 17,
+        "cow_cum": 5,
+        "shops": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Jesse Bullard",
+    "id": 105391580,
+    "opp": "AI\u662f\u6211\u7684\u8c46\u5305",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": -474.0,
+    "win": false,
+    "clone": true,
+    "max_near": 346,
+    "shops72": [
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 11,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 8,
+      "SHEEP": 5,
+      "GOOSE": 1
+    },
+    "pasture": [
+      17,
+      16
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      9,
+      8
+    ],
+    "goose": [
+      0,
+      1
+    ],
+    "wheat": [
+      397,
+      402
+    ],
+    "wool": [
+      138,
+      138
+    ],
+    "milk": [
+      271,
+      246
+    ],
+    "fert": [
+      297,
+      330
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      15
+    ],
+    "egg": [
+      0,
+      26
+    ],
+    "rewards": [
+      58329.0,
+      57855.0
+    ],
+    "extra_sheep_steps": []
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 105395079,
+    "opp": "mtmr_s1",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 7712.0,
+    "win": true,
+    "clone": true,
+    "max_near": 209,
+    "shops72": [
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      9,
+      8
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      371,
+      371
+    ],
+    "wool": [
+      262,
+      262
+    ],
+    "milk": [
+      330,
+      330
+    ],
+    "fert": [
+      357,
+      357
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      14,
+      14
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      116828.0,
+      124540.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 227,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 9,
+        "shops": [
+          "PIZZA_SHOP",
+          "ICE_CREAM_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 242,
+        "day": 11,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 9,
+        "shops": [
+          "PIZZA_SHOP",
+          "ICE_CREAM_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 266,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 9,
+        "shops": [
+          "PIZZA_SHOP",
+          "ICE_CREAM_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 105391598,
+    "opp": "Morylov Yehor",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": -1530.0,
+    "win": false,
+    "clone": true,
+    "max_near": 720,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      9,
+      9
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      371,
+      373
+    ],
+    "wool": [
+      262,
+      276
+    ],
+    "milk": [
+      330,
+      389
+    ],
+    "fert": [
+      357,
+      357
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      14,
+      14
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      129341.0,
+      130871.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 227,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 9,
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 242,
+        "day": 11,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 9,
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 266,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 9,
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 105388041,
+    "opp": "My second life",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 527.0,
+    "win": true,
+    "clone": true,
+    "max_near": 720,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      9,
+      9
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      364,
+      364
+    ],
+    "wool": [
+      266,
+      266
+    ],
+    "milk": [
+      333,
+      333
+    ],
+    "fert": [
+      355,
+      355
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      14,
+      14
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      89883.0,
+      89356.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 227,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 9,
+        "shops": [
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 242,
+        "day": 11,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 9,
+        "shops": [
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      },
+      {
+        "step": 266,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 9,
+        "shops": [
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ]
+      }
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 105384084,
+    "opp": "OverfitOracle",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 0.0,
+    "win": false,
+    "clone": true,
+    "max_near": 720,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 9
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      8,
+      8
+    ],
+    "cow": [
+      9,
+      9
+    ],
+    "goose": [
+      0,
+      0
+    ],
+    "wheat": [
+      364,
+      364
+    ],
+    "wool": [
+      266,
+      266
+    ],
+    "milk": [
+      333,
+      333
+    ],
+    "fert": [
+      355,
+      355
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      14,
+      14
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "rewards": [
+      78463.0,
+      78463.0
+    ],
+    "extra_sheep_steps": [
+      {
+        "step": 227,
+        "day": 10,
+        "qty": 1,
+        "sheep_cum": 6,
+        "cow_cum": 9,
+        "shops": [
+          "BAKERY",
+          "PIZZA_SHOP",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 242,
+        "day": 11,
+        "qty": 2,
+        "sheep_cum": 8,
+        "cow_cum": 9,
+        "shops": [
+          "BAKERY",
+          "PIZZA_SHOP",
+          "YARN_STORE"
+        ]
+      },
+      {
+        "step": 266,
+        "day": 12,
+        "qty": 1,
+        "sheep_cum": 9,
+        "cow_cum": 9,
+        "shops": [
+          "BAKERY",
+          "PIZZA_SHOP",
+          "YARN_STORE"
+        ]
+      }
+    ]
+  }
+]

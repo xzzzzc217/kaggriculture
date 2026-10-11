@@ -1,0 +1,565 @@
+{
+  "reference_episode": 105395079,
+  "reference_shops72": [
+    "PIZZA_SHOP"
+  ],
+  "vs_balanced_0_216": {
+    "farmer": 180,
+    "hands": 209,
+    "market": 101,
+    "first": 1
+  },
+  "vs_balanced_217_266_no_sheep": {
+    "farmer": 41,
+    "hands": 50,
+    "market": 43,
+    "first": 217
+  },
+  "balanced_tail_samples": [
+    {
+      "step": 217,
+      "parts": [
+        "hands",
+        "market"
+      ],
+      "a_market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "STRAWBERRY",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "b_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          1
+        ]
+      ]
+    },
+    {
+      "step": 218,
+      "parts": [
+        "farmer",
+        "hands",
+        "market"
+      ],
+      "a_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          1
+        ]
+      ],
+      "b_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "step": 219,
+      "parts": [
+        "hands",
+        "market"
+      ],
+      "a_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ],
+      "b_market": []
+    },
+    {
+      "step": 220,
+      "parts": [
+        "farmer",
+        "hands",
+        "market"
+      ],
+      "a_market": [],
+      "b_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "step": 221,
+      "parts": [
+        "farmer",
+        "hands",
+        "market"
+      ],
+      "a_market": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ],
+      "b_market": []
+    },
+    {
+      "step": 222,
+      "parts": [
+        "farmer",
+        "hands",
+        "market"
+      ],
+      "a_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ],
+      "b_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    }
+  ],
+  "newest_two": [
+    {
+      "id": 105440805,
+      "opp": "kaggle Osaka",
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops216": [
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "vs_old_tape_0_266": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0,
+        "first": null
+      },
+      "vs_old_tape_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0,
+        "first": null
+      },
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101,
+        "first": 1
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43,
+        "first": 217
+      },
+      "balanced_tail_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105437312,
+      "opp": "OceanMix",
+      "shops72": [
+        "FARMERS_MARKET"
+      ],
+      "shops216": [
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP"
+      ],
+      "vs_old_tape_0_266": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0,
+        "first": null
+      },
+      "vs_old_tape_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0,
+        "first": null
+      },
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101,
+        "first": 1
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43,
+        "first": 217
+      },
+      "balanced_tail_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "pairwise_old_four_identical_0_266": true,
+  "verdict": "Neither later-block reselect after 216 nor a Fieldbook BALANCED-tail patch. Yusuke live 55975994 is one shop-independent action stream through step 266 (four 09-05 games pairwise identical; two newest games match that tape). Prefix already differs from Fieldbook BALANCED from step 1 (farmer=180 hands=209 market=101). After 216, farmer/hands/market still diverge from BALANCED beyond the extra SHEEP buys (farmer=41 hands=50 market=43, first=217). Extra SHEEP on that tape: 227/242/266 after a 5th sheep at 218.",
+  "is_balanced_tail_patch": false,
+  "is_later_block_reselect": false
+}

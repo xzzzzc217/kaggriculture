@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912e",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108259280,
+    108227462,
+    108224822,
+    108222615,
+    108124312,
+    108123019,
+    108108832,
+    108105086,
+    108102116,
+    108097920,
+    108093419,
+    108081993
+  ],
+  "ids_0912d": [
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982,
+    108172639,
+    108166009,
+    108162165,
+    108161412,
+    108153141,
+    108139022,
+    108138037
+  ],
+  "disjoint_from_0912d": true,
+  "all_720_done_done": true,
+  "wtl": [
+    2,
+    0,
+    10
+  ],
+  "mean_margin": -5766.8,
+  "clone_n": 12,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2); opp 151/266",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108259280": 37,
+    "108227462": 37,
+    "108224822": 1,
+    "108222615": 154,
+    "108124312": 237,
+    "108123019": 226,
+    "108108832": 37,
+    "108105086": 11,
+    "108102116": 37,
+    "108097920": 37,
+    "108093419": 1,
+    "108081993": 1
+  },
+  "wool_432": {
+    "108259280": 1,
+    "108227462": 129,
+    "108224822": 72,
+    "108222615": 164,
+    "108124312": 227,
+    "108123019": 221,
+    "108108832": 1,
+    "108105086": 1,
+    "108102116": 1,
+    "108097920": 1,
+    "108093419": 5,
+    "108081993": 1
+  },
+  "same_class_as_0912d": true,
+  "same_class_note": "Same extra-animal 8c6s3g family as 09-12d/09-12c. WTL 2-0-10 mean -5766.8 vs 09-12d 4-0-8 mean -3151.0. Wool $1 by 360 on Robson/yomogii/Jun AKita. clone=12/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (wool $1 by 360 on Robson/yomogii/Jun AKita) + extra-goose/identical-clone + YARN clone timing. (1) extra-animal vs 8c6s3g \u2014 MoZayed 108222615 9c5s vs 8c6s3g clone=1 PET_CAFE extra sheep only 314 -17529; yomogii 108093419 7c6s vs 8c6s3g BRUNCH no extra sheep after 216, wool $1 at 360 -16881; Jun AKita 108081993 9c5s vs 8c6s3g PIZZA extra sheep 314, wool $1 at 360 -12531; Robson 108224822 9c5s vs 9c5s3g SMOOTHIE extra sheep 314, wool $1 at 360 -7905. (2) YARN clone timing \u2014 TERMINUS 108124312 6c11s vs 7c11s -9174 wool still 237/227. (3) extra-goose/identical-clone siren2345 9c5s3g vs 6c6s6g -1408; identical 9c5s3g Gappy/phi/Alexander Nord. New 108259280 phi identical 9c5s3g PIZZA -14. sol12378 108123019 identical 9c8s already bought extra sheep 227/242/266 and won +117. clone=12/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: 8c6s3g losses bought sheep at 314 or not after 216; sol12378 108123019 already bought extra sheep 227/242/266 (9c8s identical clone) and the margin is a coin-flip +117.",
+  "worst_losses": [
+    {
+      "id": 108222615,
+      "opp": "MoZayed",
+      "margin": -17529.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "PET_CAFE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108093419,
+      "opp": "yomogii",
+      "margin": -16881.0,
+      "herd_us": "7c6s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "BRUNCH_SPOT"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196
+      ]
+    },
+    {
+      "id": 108081993,
+      "opp": "Jun AKita",
+      "margin": -12531.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "PIZZA_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

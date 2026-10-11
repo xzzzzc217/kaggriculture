@@ -1,0 +1,587 @@
+{
+  "n": 12,
+  "wtl": [
+    1,
+    1,
+    10
+  ],
+  "mean_margin": -5818.416666666667,
+  "games": [
+    {
+      "episode": 100535823,
+      "seed": 934734678,
+      "opp": "Kyohei",
+      "teams": [
+        "Kyohei",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -902.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        116363.0,
+        115461.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        10
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        284,
+        291
+      ],
+      "wheat": [
+        183,
+        185
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100504057,
+      "seed": 1585156845,
+      "opp": "fufufukakaka",
+      "teams": [
+        "heralces",
+        "fufufukakaka"
+      ],
+      "seat": 0,
+      "margin": -13387.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        112846.0,
+        126233.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 249,
+      "median_distance": 6
+    },
+    {
+      "episode": 100490332,
+      "seed": 175459425,
+      "opp": "SOSyuki",
+      "teams": [
+        "SOSyuki",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -8329.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        146757.0,
+        138428.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        8,
+        10
+      ],
+      "cow": [
+        5,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        284,
+        305
+      ],
+      "wheat": [
+        183,
+        176
+      ],
+      "clone": true,
+      "max_near": 576,
+      "median_distance": 0
+    },
+    {
+      "episode": 100453808,
+      "seed": 584293355,
+      "opp": "vinceybb",
+      "teams": [
+        "heralces",
+        "vinceybb"
+      ],
+      "seat": 0,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "rewards": [
+        130265.0,
+        130265.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100444716,
+      "seed": 1031343338,
+      "opp": "ActiveMusyoku",
+      "teams": [
+        "heralces",
+        "ActiveMusyoku"
+      ],
+      "seat": 0,
+      "margin": -6722.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        70425.0,
+        77147.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 269,
+      "median_distance": 4
+    },
+    {
+      "episode": 100444645,
+      "seed": 550478355,
+      "opp": "masayoshi",
+      "teams": [
+        "heralces",
+        "masayoshi"
+      ],
+      "seat": 0,
+      "margin": -9937.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        92918.0,
+        102855.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 260,
+      "median_distance": 6
+    },
+    {
+      "episode": 100414840,
+      "seed": 903338673,
+      "opp": "old macdonald",
+      "teams": [
+        "old macdonald",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 3892.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        117017.0,
+        120909.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        0
+      ],
+      "cow": [
+        11,
+        14
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        259
+      ],
+      "wheat": [
+        326,
+        218
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 17
+    },
+    {
+      "episode": 100385232,
+      "seed": 871430598,
+      "opp": "Kazama Yusuke",
+      "teams": [
+        "heralces",
+        "Kazama Yusuke"
+      ],
+      "seat": 0,
+      "margin": -672.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        69344.0,
+        70016.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100373816,
+      "seed": 466188384,
+      "opp": "Izzoudine Mohamed KANTA",
+      "teams": [
+        "heralces",
+        "Izzoudine Mohamed KANTA"
+      ],
+      "seat": 0,
+      "margin": -9336.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        105178.0,
+        114514.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 272,
+      "median_distance": 5
+    },
+    {
+      "episode": 100348898,
+      "seed": 1460971113,
+      "opp": "prvsiyan",
+      "teams": [
+        "prvsiyan",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -14190.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        100111.0,
+        85921.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        9,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 120,
+      "median_distance": 7
+    },
+    {
+      "episode": 100330656,
+      "seed": 1812367675,
+      "opp": "TIM",
+      "teams": [
+        "heralces",
+        "TIM"
+      ],
+      "seat": 0,
+      "margin": -7184.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        77729.0,
+        84913.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 270,
+      "median_distance": 5
+    },
+    {
+      "episode": 100312532,
+      "seed": 1178891837,
+      "opp": "ComposeMage",
+      "teams": [
+        "heralces",
+        "ComposeMage"
+      ],
+      "seat": 0,
+      "margin": -3054.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        66353.0,
+        69407.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        8
+      ],
+      "cow": [
+        11,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        2935
+      ],
+      "wheat": [
+        326,
+        856
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 21
+    }
+  ]
+}

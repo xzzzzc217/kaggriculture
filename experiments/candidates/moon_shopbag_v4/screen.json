@@ -1,0 +1,130 @@
+{
+  "agent": "moon_shopbag_v4",
+  "wins": 5,
+  "n": 8,
+  "flips": [
+    "hanserong_11sheep"
+  ],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 5964.0,
+      "shopbag": 5964,
+      "delta": 0.0,
+      "scores": [
+        98699.0,
+        92735.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 24.95
+    },
+    "fufu_clone": {
+      "margin": 6937.0,
+      "shopbag": 6937,
+      "delta": 0.0,
+      "scores": [
+        88578.0,
+        81641.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.58
+    },
+    "masa_clone": {
+      "margin": 7511.0,
+      "shopbag": 7511,
+      "delta": 0.0,
+      "scores": [
+        90690.0,
+        83179.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.65
+    },
+    "mtn_11sheep": {
+      "margin": -759.0,
+      "shopbag": -17420,
+      "delta": 16661.0,
+      "scores": [
+        123573.0,
+        124332.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.5
+    },
+    "yusuke_11sheep": {
+      "margin": -13434.0,
+      "shopbag": -13434,
+      "delta": 0.0,
+      "scores": [
+        100803.0,
+        114237.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.42
+    },
+    "hanserong_11sheep": {
+      "margin": 3879.0,
+      "shopbag": -14707,
+      "delta": 18586.0,
+      "scores": [
+        115846.0,
+        111967.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.51
+    },
+    "hanserong_clone_L": {
+      "margin": -11247.0,
+      "shopbag": -11247,
+      "delta": 0.0,
+      "scores": [
+        80181.0,
+        91428.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.55
+    },
+    "lynxx_win": {
+      "margin": 9240.0,
+      "shopbag": 9240,
+      "delta": 0.0,
+      "scores": [
+        98610.0,
+        89370.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.77
+    }
+  }
+}

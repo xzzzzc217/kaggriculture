@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912d",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "nusrati/2650-score",
+      "verdict": "reject_sale_overlay",
+      "note": "Ahmed V35 reprint writefile SHA 294e7e4d. Shop0909 144/648 + 288 four-turn + 712 planner + 216-227 milk livestock. Not later-block. Cells not executed. Did not extract to candidates/."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-v4",
+      "verdict": "reject_shop0909_t4_overlay",
+      "note": "Shop0909 ROUTE_STEP=144 FINAL_PLAN_STEP=648 plus T4 overlay / 712 planner. Not after-216 farm reselect."
+    },
+    {
+      "kernel": "zhincez/ten-ppo-runs-one-fake-win-zero-real-ones",
+      "verdict": "reject_analysis",
+      "note": "No agent."
+    },
+    {
+      "kernel": "zhincez/the-market-half-is-worth-zero-on-its-own",
+      "verdict": "reject_analysis",
+      "note": "No agent."
+    },
+    {
+      "kernel": "ahmedberatozer/smarter-feed-stronger-margins",
+      "verdict": "reject_sale_overlay",
+      "note": "Still newest public search hit. 0912c already rejected SHA a2047ebd. Did not re-pull."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Author list 2026-09-12d: still newest Yusuke kaggriculture kernel (2026-09-11 08:38). Day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Author list: still newest y3uanm kaggriculture kernel. Writefile SHA acf7c664 = live cut 14. Did not re-pull."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1686.8,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1328.2,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912d",
+  "hunt_report": "experiments/20260912d_hunt_report.json",
+  "named_kernels_scanned": [
+    "nusrati/2650-score",
+    "sunil123kumar/kaggriculture-v4",
+    "zhincez/ten-ppo-runs-one-fake-win-zero-real-ones",
+    "zhincez/the-market-half-is-worth-zero-on-its-own"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1686.8 partnered with newer shopbag 56151155 COMPLETE 1328.2 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No legal after-216 public-state Python appeared this fire (nusrati is Ahmed V35 reprint SHA 294e7e4d; sunil v4 is Shop0909 144/648 T4 overlay + 712 planner; two zhincez are analysis; Yusuke/king/Thomas/y3uanm author lists have no new later-block). Did not extract, did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: this window's 8c6s3g losses bought sheep at 314 or not after 216; Bonkoturyu 108243488 already bought extra sheep at 227/242/266 (9c8s identical clone) and won a coin-flip +53."
+}

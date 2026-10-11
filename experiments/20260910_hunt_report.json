@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-10",
+  "kernels_not_in_0909_packet": true,
+  "no_upload": true,
+  "root_main_py": "unchanged",
+  "leaderboard": {
+    "zip": "artifacts/kaggle_runs/lb_20260910/kaggriculture.zip",
+    "csv": "kaggriculture-publicleaderboard-2026-09-10T14:10:04.csv",
+    "n_teams": 8523,
+    "rank1": {"team": "SpaTaro", "score": 3089.8, "teamId": 16640510, "submissionId": 56114097}
+  },
+  "top_board_team": "Otter Vibe",
+  "rank": 2,
+  "teamId": 16760569,
+  "submissionId": 56097405,
+  "score": 3025.3,
+  "lastSubmissionDate": "2026-09-08T11:36:43.510Z",
+  "episodes_file": "experiments/episodes_sub_56097405_otter_vibe.json",
+  "replays": "artifacts/kaggle_runs/top_20260910",
+  "games_file": "experiments/20260910_top10_games.json",
+  "episode_ids": [107493475, 107487687, 107482596, 107481864],
+  "episode_ids_disjoint_from_0909": true,
+  "skipped_0909_ids": [106976067, 106976069, 106976065, 106958424],
+  "why_not_spataro": "Current #1 is still SpaTaro (already in 20260909_top10_games.json). Prefer missing high-rank team Otter Vibe (#2) over re-measuring SpaTaro.",
+  "games": [
+    {
+      "id": 107493475,
+      "opp": "kay.liechtenstein",
+      "win": false,
+      "margin": -3114.0,
+      "land": [121, 247],
+      "herd": "7c5s8g",
+      "wheat": 445,
+      "clone": false,
+      "shops72": ["SMOOTHIE_SHOP"],
+      "shops144": ["SMOOTHIE_SHOP", "FARMERS_MARKET"]
+    },
+    {
+      "id": 107487687,
+      "opp": "Unknown Mother-Goose",
+      "win": false,
+      "margin": -754.0,
+      "land": [121, 247],
+      "herd": "7c3s9g",
+      "wheat": 494,
+      "clone": false,
+      "shops72": ["ICE_CREAM_SHOP"],
+      "shops144": ["ICE_CREAM_SHOP", "BAKERY"]
+    },
+    {
+      "id": 107482596,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 2186.0,
+      "land": [121, 247],
+      "herd": "5c3s10g",
+      "wheat": 361,
+      "clone": false,
+      "shops72": ["FARMERS_MARKET"],
+      "shops144": ["FARMERS_MARKET", "BAKERY"]
+    },
+    {
+      "id": 107481864,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 186.0,
+      "land": [121, 242],
+      "herd": "5c10s5g",
+      "wheat": 391,
+      "clone": false,
+      "shops72": ["YARN_STORE"],
+      "shops144": ["YARN_STORE", "FARMERS_MARKET"]
+    }
+  ],
+  "opening_land_vs_later_block": {
+    "class": "mid_land_not_opening_not_later_block",
+    "land_pattern": "BUY_LAND at 121 then 242/247 in all four games",
+    "not_opening_land": "First land is day-5 step 121, not SpaTaro opening 2/3/74.",
+    "not_sixday_151_266": true,
+    "not_227_242_266_wrap": "One game's second BUY_LAND is step 242. That is a land buy, not a 227/242/266 later-block wrap. Do not invent one.",
+    "clone": false,
+    "herd": "Goose-heavy 5–10g; cows 5–7; sheep 3–10. Variable, not freeze 9c9s.",
+    "wheat": "361–494 own SELL:WHEAT; not a wheat mountain.",
+    "shops": "First shop by 72 varies (SMOOTHIE / ICE_CREAM / FARMERS_MARKET / YARN_STORE).",
+    "note": "Opening land is not a later-block license. Otter Vibe mid-land + goose herd is not a public-state reselect after 216."
+  },
+  "hunt_dir": "artifacts/public_sources/_hunt_20260910",
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "hunt": [
+    {
+      "kernel": "yhay81/shop-router-0909",
+      "path": "artifacts/public_sources/_hunt_20260910/yhay81__shop-router-0909/shop-router-0909.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python %%writefile main.py (NOT ctypes native unlike shop-router-0908). Shop-pair plan at ROUTE_STEP=144, liquidate 648. writefile sha256 0e0c25080a96f916c016c110ae385f5ffe67d993114e2ea8670de36d5edb27a5. No reselect after 216. Cells not executed. Do not run agent.so."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v2",
+      "path": "artifacts/public_sources/_hunt_20260910/aurax7__kaggriculture-shop-router-reactive-v2/kaggriculture-shop-router-reactive-v2.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python shop-pair ROUTE_STEP=144, FINAL_PLAN_STEP=648. Near-copy of yhay81/shop-router-0909 with docstring stripped (writefile sha256 cae96f7f9f033b3f9d871cf2d899a4420b679a1170800dafe8d09887534721d1). No after-216 reselect. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-7-turn-rescue-historical-lb-2800",
+      "path": "artifacts/public_sources/_hunt_20260910/dmitriigluzdov__kaggriculture-7-turn-rescue-historical-lb-2800/kaggriculture-7-turn-rescue-historical-lb-2800.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python overlay on unmodified Shop0909 v3. Actions 0–711 parent (router_parent.py sha256 0e0c2508… same as yhay81 0909). Terminal planner 712–718 harvest/SELL only. gzip ROUTE_DATA contains a CDLL substring false positive; no ctypes.CDLL / agent.so in plaintext. Not a public-state later-block at 226/360/433. Cells not executed."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-most-powerfull-route",
+      "path": "artifacts/public_sources/_hunt_20260910/flexonafft__kaggriculture-most-powerfull-route/kaggriculture-most-powerfull-route.ipynb",
+      "verdict": "reject_copy",
+      "note": "Byte-same E182 Shop0909+712 overlay as dmitriigluzdov 7-turn rescue (policy.py sha256 349aaceaa7025689b2e47640491f605b038071fe3428a47dc7463bf748ca516a; router_parent 0e0c2508…). Cells not executed."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-market-impact-router-v4",
+      "path": "artifacts/public_sources/_hunt_20260910/y3uanm__kaggriculture-market-impact-router-v4/kaggriculture-market-impact-router-v4.ipynb",
+      "verdict": "reject_already_uploaded",
+      "note": "Prefix-guarded later-block 226 yarn / 360 carrot / 433 milk. Older v4 of cut 14 y3uanm/kaggriculture-conservative-market-router-v5 (uploaded 56111821, v5 sha256 acf7c664…). v4 writefile sha256 07e39f3d850093c74b70ed2a61ebb45cf5c680f8243c40b8faa08ade5a052cf1. Did not extract; did not overwrite y3uanm_router_v5. Cells not executed."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "path": "artifacts/public_sources/_hunt_20260910/thomastschinkel__kaggriculture-93-8-win-rate-public-state-router/kaggriculture-93-8-win-rate-public-state-router.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Six-day 144-turn slices. Switch at turn 144 (yarn/milk) and day 24. Not after-216 226/360/433. Same public-state-router lineage as last-packet 95.5 (reject_day6_only). Cells not executed."
+    },
+    {
+      "kernel": "souvikdbiswas/kaggriculture-v5-hybrid-agent",
+      "path": "artifacts/public_sources/_hunt_20260910/souvikdbiswas__kaggriculture-v5-hybrid-agent/kaggriculture-v5-hybrid-agent.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Five-tape portfolio switching at 0/144/288/432/576. Mentions 226/360/433 only as an audit of the y3uanm baseline. Weed-dig repair. No %%writefile (string dump of main.py). Cells not executed."
+    },
+    {
+      "kernel": "reyhanksatria/kaggriculture-dynamic-route-agent",
+      "path": "artifacts/public_sources/_hunt_20260910/reyhanksatria__kaggriculture-dynamic-route-agent/kaggriculture-dynamic-route-agent.ipynb",
+      "verdict": "other",
+      "note": "Two-cell Base85+zlib reconstruct of main.py+actions.json. No plaintext later-block / ctypes / %%writefile. Reconstruct cell would exec_module; not executed and payload not decoded. Cannot claim after-216 without running it."
+    }
+  ]
+}

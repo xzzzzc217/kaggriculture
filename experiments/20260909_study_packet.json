@@ -1,0 +1,159 @@
+{
+  "title": "Kaggriculture study packet 2026-09-09",
+  "not_the_0908_packet": true,
+  "no_upload": "Uploaded 56111821 cut 14 and shopbag reupload 56112309 (lineage 55962761). Newest-2: 56111821 + 56112309. Six-day 56028043 drops. Do not reupload boatlee 55710781.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260909b/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-09T02:24:27.csv",
+    "leaderboard_api": "experiments/20260909_public_leaderboard_api.json",
+    "episodes": "experiments/episodes_56028043.json",
+    "sixday_replays": "artifacts/kaggle_runs/sixday_20260909",
+    "top_replays": "artifacts/kaggle_runs/top_20260909",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260909b",
+    "daily_zip_status": "No 09-08/09-09 official daily zip used. Newest six-day/SpaTaro publics are 2026-09-08 17:08–2026-09-09 02:08 UTC via kaggleusercontent episode JSON + EpisodeService. Local 09-03 zip remains fallback.",
+    "cut14_screen": "experiments/candidates/y3uanm_router_v5/screen.json",
+    "cut14_divergence": "experiments/20260909_cut14_divergence.json"
+  },
+  "live": {
+    "sixday": 56028043,
+    "score": 1590.8,
+    "status": "COMPLETE",
+    "team_score": 1114.7,
+    "rank": 1735,
+    "n_teams": 8262,
+    "shopbag_previous": 55962761,
+    "shopbag_reupload": 56112309,
+    "shopbag_status": "PENDING",
+    "shopbag_score": null,
+    "newest_2": [56112309, 56111821],
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "cut14": 56111821,
+    "cut14_status": "COMPLETE",
+    "cut14_score": 1114.7,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2812.7,
+    "rank10": {"team": "Sonu Yadav", "score": 2846.0},
+    "rank1": {"team": "SpaTaro", "score": 2961.4, "submissionId": 56089825},
+    "public": {"n": 346, "wtl": [138, 0, 208], "mean_margin": -26303.7}
+  },
+  "rolling": {
+    "previous": "experiments/20260908_sixday_rolling.json",
+    "live_sixday": "experiments/20260909_sixday_rolling.json",
+    "ids": [106973284, 106953063, 106950143, 106949244, 106937090, 106917612, 106911627, 106891732, 106889156, 106869362, 106868762, 106850799],
+    "ids_not_identical_to_0908": true,
+    "n": 12,
+    "wtl": [4, 0, 8],
+    "mean_margin": -21257.2,
+    "loss_class": "mixed: (1) opening-broke no-land — SOUTA 106891732 -122575 and Eesh 106869362 -169174, Q=1, cash 0 by step 24, BUY_LAND at 151/266 no-ops; not fixable after 216. (2) clone later-block wool-crash — AM 11c5s+3g -21692 wool=$1 by 432; Filippo 9c5s wheat-mountain 2429 vs 398 -17166; plus 8c9s/6c11s coin-flips. Not freeze-after-day-9 9c9s. Not the failed s3/s4 milk-heavy cuts 12/13."
+  },
+  "souta": {
+    "id": 106891732,
+    "margin": -122575,
+    "clone": false,
+    "Q": [1, 3],
+    "cash_24": 0,
+    "cash_144": 1,
+    "buy_land_noop": [151, 266]
+  },
+  "eesh": {
+    "id": 106869362,
+    "margin": -169174,
+    "clone": false,
+    "Q": [1, 3],
+    "cash_24": 0,
+    "cash_144": 2,
+    "buy_land_noop": [151, 266]
+  },
+  "am": {
+    "id": 106950143,
+    "margin": -21692,
+    "clone": true,
+    "buy_us": {"COW": 7, "SHEEP": 10},
+    "buy_opp": {"COW": 11, "SHEEP": 5, "GOOSE": 3},
+    "wool_price_432": 1,
+    "cash_gap_432": -5122,
+    "cash_gap_576": -17388
+  },
+  "top_board": {
+    "source": "experiments/20260909_top10_games.json",
+    "not_copied_from": [
+      "experiments/20260904_top10_games.json",
+      "experiments/20260905_top10_games.json",
+      "experiments/20260906_top10_games.json"
+    ],
+    "SpaTaro": {
+      "land": [[74, 122, 151, 199], [2, 3, 151, 198], [74, 146, 147, 151, 223], [122, 151, 198]],
+      "herd": ["10c18s", "8c6s", "14c4s", "11c6s"],
+      "wheat": [697, 1086, 763, 986],
+      "shops": ["ICE_CREAM_SHOP", "BAKERY", "BRUNCH_SPOT"],
+      "clone": false,
+      "melon": [94, 108, 91, 84],
+      "episodes": [106976067, 106976069, 106976065, 106958424],
+      "note": "Current #1. Absent from 09-04/05/06 top-board files. Not Giulio/Knight/sbol/Jesse/keiz. Early/multi land buys, not six-day 151/266. Variable herd. clone=0. Opening land is not a later-block license."
+    }
+  },
+  "cut12": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo. This cycle did not re-upload it."
+  },
+  "cut13": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo/Stefano/fufu. This cycle did not re-upload it. Not a 227/242/266 BALANCED wrap."
+  },
+  "cut14": {
+    "name": "y3uanm later-block reselect 226 yarn / 360 carrot / 433 milk",
+    "hold": false,
+    "uploaded": 56111821,
+    "status": "COMPLETE",
+    "score": 600.0,
+    "windows_agent_so": false,
+    "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+    "agent_sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e",
+    "reselect_steps": [226, 360, 433],
+    "sheep_200_267": [217, 265],
+    "not_227_242_266_wrap": true,
+    "clone_g5": {
+      "prvsiyan_clone": 22889.0,
+      "fufu_clone": 27316.0,
+      "masa_clone": 17295.0,
+      "subin_97399969": 27188.0,
+      "james_95677563": 69612.0
+    },
+    "why": "Windows-runnable Python later-block. Public-state reselect after 216. Prefix-guarded tape tails. Recorded-seat clone 3-0 and G5 both-win 1.32.7 720 DONE/DONE. After-216 differs from live six-day and Fieldbook BALANCED. Extra sheep 217/265 not 227/242/266. Not cut 12/13. Opening-broke is not this cut's license; clone/G5 is."
+  },
+  "hunt": [
+    {
+      "kernel": "yhay81/shop-router-0908",
+      "verdict": "reject_ctypes_native",
+      "note": "ShopForge 3-day hybrid. Branches at 144 (yarn) and 648 (eggs). observation.py ctypes.CDLL native policy (.so/.dylib). Cells not executed. Windows cannot honestly clone/G5 it."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "verdict": "cut14_uploaded",
+      "note": "Python prefix-guarded later-block at 226/360/433. Static writefile extract. Cells not executed. Clone 3-0 and G5 both-win. Uploaded 56111821."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-reactive-router",
+      "verdict": "reject_no_later_block",
+      "note": "Python writefile SHA 53070a6a. FRONT_RUN reactive. No reselect after 216. Cells not executed."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+      "verdict": "reject_day6_only",
+      "note": "Public-state splice at turn 144 (wool/milk shops). Not after 216. Cells not executed."
+    },
+    {
+      "kernel": "tetsutani/market-smart-farming-kaggriculture",
+      "verdict": "reject_eda",
+      "note": "Four-tape 144/648 yarn/egg EDA. No %%writefile agent. Cells not executed."
+    },
+    {
+      "kernel": "nusrati/2715-6",
+      "verdict": "reject_copy",
+      "note": "Same shop-router-0908 tar.gz payload as yhay81. Cells not executed."
+    }
+  ]
+}

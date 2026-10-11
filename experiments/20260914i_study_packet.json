@@ -1,0 +1,284 @@
+{
+  "title": "Kaggriculture study packet 2026-09-14i",
+  "not_the_0914h_packet": true,
+  "no_upload": "HOLD. Upload-bail (c): newest cut 56151152 COMPLETE 1632.1 would drop without a >=1500 COMPLETE newest-2 partner (shopbag 56151155 COMPLETE 1298.7 < 1500 and newer than cut 16; a new cut alone keeps shopbag and drops 1632.1; re-upload is 600-provisional not a partner). No licensed later-block. Hunt no new slug vs _hunt_20260914h (public search newest still xuantianfengwu/kaggriculture-adaptive-land-allocator-r10 SHA 3b8a1d4d heuristic 6-cow). Do not reupload boatlee 55710781. Cut 12/13 Hold.",
+  "upload_bail": true,
+  "upload_bail_reasons": {
+    "a_newest_cut_pending": false,
+    "b_newest_cut_complete_below_1500": false,
+    "c_drop_ge1500_without_ge1500_partner": true
+  },
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260914i/kaggriculture.zip",
+    "leaderboard_csv": "artifacts/kaggle_runs/lb_20260914i/kaggriculture-publicleaderboard-2026-09-14T09-47-25.csv",
+    "leaderboard_api": "experiments/20260914i_public_leaderboard_api.json",
+    "episodes_cut16": "experiments/episodes_56151152.json",
+    "cut16_replays": "artifacts/kaggle_runs/cut16_20260914i",
+    "top_replays": "artifacts/kaggle_runs/top_20260914i",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260914i",
+    "cut16_screen": "experiments/candidates/yamakawanin_king_v4e_rc4/screen.json",
+    "cut16_divergence": "experiments/20260910b_cut16_divergence.json",
+    "gate": "experiments/20260914i_gate.json",
+    "episode_report": "experiments/20260914i_episode_report.json",
+    "hunt_report": "experiments/20260914i_hunt_report.json",
+    "algo_note": "experiments/20260914i_algo_note.json",
+    "loss_class": "experiments/20260914i_cut16_loss_class.json"
+  },
+  "live": {
+    "sixday": 56028043,
+    "sixday_score": 1590.8,
+    "sixday_status": "COMPLETE",
+    "team_score": 1632.1,
+    "rank": 2124,
+    "n_teams": 8980,
+    "shopbag_previous": 56112309,
+    "shopbag_reupload": 56151155,
+    "shopbag_status": "COMPLETE",
+    "shopbag_score": 1298.7,
+    "newest_2": [
+      56151155,
+      56151152
+    ],
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "cut14": 56111821,
+    "cut14_status": "COMPLETE",
+    "cut14_score": 1799.3,
+    "cut15": 56146106,
+    "cut15_status": "COMPLETE",
+    "cut15_score": 1864.4,
+    "cut16": 56151152,
+    "cut16_status": "COMPLETE",
+    "cut16_score": 1632.1,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2924.1,
+    "rank10": {
+      "team": "Orbital Terraformer",
+      "score": 2968.7
+    },
+    "rank1": {
+      "team": "Majkel1337",
+      "score": 3208.0,
+      "submissionId": 56156662
+    },
+    "public_cut16": {
+      "n": 260,
+      "wtl": [
+        110,
+        2,
+        148
+      ],
+      "mean_margin": -1632.1
+    }
+  },
+  "rolling": {
+    "previous": "experiments/20260914h_cut16_rolling.json",
+    "live_cut16": "experiments/20260914i_cut16_rolling.json",
+    "ids": [
+      108851261,
+      108822458,
+      108817790,
+      108787437,
+      108762693,
+      108723413,
+      108704919,
+      108686716,
+      108669139,
+      108658948,
+      108656070,
+      108642657
+    ],
+    "ids_not_identical_to_0914h": true,
+    "n": 12,
+    "wtl": [
+      2,
+      0,
+      10
+    ],
+    "mean_margin": -7716.1,
+    "loss_class": "mixed extra-animal 8c6s3g (Les 2 oies 108642657 9c5s3g vs 8c6s3g SMOOTHIE extra sheep 218/227 extra geese 242/266 -12935; HaoChi 108817790 7c6s vs 8c6s3g BRUNCH extra cow 218 vs opp extra sheep 218/227 extra geese 242/266 -6212; \u0438\u0442\u043c\u043e\u043d\u044f\u044f\u044f 108762693 10c8s vs 8c6s3g PET_CAFE extra cow 218 extra sheep 227/242/266 already bought vs opp extra sheep 218/227 extra geese 242/266 -6320) + extra-sheep (Gracie 108656070 9c8s vs 7c16s1g PIZZA clone=0 extra sheep 227/242/266 already bought -14565; Pietro Valocchi 108658948 7c6s vs 8c9s FARMERS_MARKET extra cow 218 vs opp extra sheep 218/227/242/266 -12549; Revanth Tambisetty 108822458 4c15s vs 6c11s SMOOTHIE extra sheep 218/242/266 already bought vs opp extra sheep 218/227 -11033) + extra-goose (LaiCxm 108851261 9c5s vs 9c5s3g PIZZA extra cow 218 extra sheep 227 extra geese 242/266 -16092; here we go 108704919 9c5s3g vs 6c6s6g FARMERS_MARKET extra geese 227/242 already bought -7788; Toru59er 108787437 9c5s vs 9c5s3g ICE_CREAM extra cow 218 extra sheep 227 extra geese 242/266 -6986) + identical-clone extra-goose (Cuong Le 108686716 9c5s3g vs 9c5s3g extra geese 227/242 already bought -590). Wins: Surya Bhattiprol 108669139 9c5s3g vs 9c5s4g +1729 extra geese 227/242 already bought; zard599 108723413 9c5s3g vs 9c5s4g +748 extra geese 227/242 already bought. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-22 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: LaiCxm lost extra-goose after opp extra cow 218 extra sheep 227 extra geese 242/266; Les 2 oies/HaoChi lost extra-animal after opp extra sheep 218/227 extra geese 242/266; \u0438\u0442\u043c\u043e\u043d\u044f\u044f\u044f already bought extra sheep 227/242/266 and lost vs 8c6s3g; Gracie already bought extra sheep 227/242/266 and lost 16s; Revanth already bought extra sheep 218/242/266 and lost 15s vs 11s; Pietro lost extra-sheep after opp extra sheep 218/227/242/266; here we go already bought extra geese 227/242 and lost vs 6g; Toru59er lost extra-goose after opp extra cow 218 extra sheep 227 extra geese 242/266; Cuong Le already bought extra geese 227/242 and lost identical-clone; zard599/Surya already bought extra geese 227/242 and won vs 4g."
+  },
+  "excluding": {
+    "id": 108851261,
+    "margin": -16092.0,
+    "clone": true,
+    "Q": [
+      3,
+      3
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "herd_us": "9c5s",
+    "herd_opp": "9c5s3g",
+    "sheep_steps_us": [
+      2,
+      196,
+      314
+    ]
+  },
+  "top_board": {
+    "source": "experiments/20260914i_top10_games.json",
+    "not_copied_from": [
+      "experiments/20260904_top10_games.json",
+      "experiments/20260905_top10_games.json",
+      "experiments/20260906_top10_games.json",
+      "experiments/20260909_top10_games.json",
+      "experiments/20260910_top10_games.json",
+      "experiments/20260911_top10_games.json",
+      "experiments/20260911b_top10_games.json",
+      "experiments/20260912_top10_games.json",
+      "experiments/20260912b_top10_games.json",
+      "experiments/20260912c_top10_games.json",
+      "experiments/20260912d_top10_games.json",
+      "experiments/20260912e_top10_games.json",
+      "experiments/20260913_top10_games.json",
+      "experiments/20260913b_top10_games.json",
+      "experiments/20260913c_top10_games.json",
+      "experiments/20260913d_top10_games.json",
+      "experiments/20260913e_top10_games.json",
+      "experiments/20260913f_top10_games.json",
+      "experiments/20260913g_top10_games.json",
+      "experiments/20260913h_top10_games.json",
+      "experiments/20260913i_top10_games.json",
+      "experiments/20260913j_top10_games.json",
+      "experiments/20260913k_top10_games.json",
+      "experiments/20260913l_top10_games.json",
+      "experiments/20260913m_top10_games.json",
+      "experiments/20260913n_top10_games.json",
+      "experiments/20260913o_top10_games.json",
+      "experiments/20260913p_top10_games.json",
+      "experiments/20260913q_top10_games.json",
+      "experiments/20260913r_top10_games.json",
+      "experiments/20260913s_top10_games.json",
+      "experiments/20260913t_top10_games.json",
+      "experiments/20260913u_top10_games.json",
+      "experiments/20260913v_top10_games.json",
+      "experiments/20260914_top10_games.json",
+      "experiments/20260914b_top10_games.json",
+      "experiments/20260914c_top10_games.json",
+      "experiments/20260914d_top10_games.json",
+      "experiments/20260914e_top10_games.json",
+      "experiments/20260914f_top10_games.json",
+      "experiments/20260914g_top10_games.json",
+      "experiments/20260914h_top10_games.json"
+    ],
+    "Majkel1337": {
+      "land": [
+        [
+          150,
+          220,
+          222
+        ],
+        [
+          150,
+          218
+        ],
+        [
+          150,
+          220,
+          222
+        ],
+        [
+          150,
+          218
+        ]
+      ],
+      "herd": [
+        "9c3s2g",
+        "8c3s4g",
+        "9c3s2g",
+        "9c3s2g"
+      ],
+      "wheat": [
+        446,
+        388,
+        404,
+        494
+      ],
+      "shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP"
+      ],
+      "clone": "1_of_4",
+      "episodes": [
+        108860017,
+        108853969,
+        108848607,
+        108698225
+      ],
+      "note": "CSV #1 3208.0 live 3208.0 scoring sub 56156662 (current sub 56216119 is 2998.1). Ids disjoint from 20260914h Majkel set. Mid-land 150 then 218-222 (two 150/220/222; two 150/218), wheat 388-494, clone=1 on 4/4, goose mix 2g/4g/2g/2g. Opening land is not a later-block license."
+    }
+  },
+  "cut12": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo. No flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. This cycle did not re-upload it."
+  },
+  "cut13": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo/Stefano/fufu. This cycle did not re-upload it. Not a 227/242/266 BALANCED wrap."
+  },
+  "cut15": {
+    "name": "thomastschinkel later-block reselect 144/288/432/576",
+    "hold": false,
+    "uploaded": 56146106,
+    "status": "COMPLETE",
+    "score": 1864.4,
+    "dropped_from_newest_2": true,
+    "windows_agent_so": false
+  },
+  "cut16": {
+    "name": "yamakawanin king-v4e-rc4 shop-family later-block P3+ 288/360/432/576",
+    "hold": false,
+    "uploaded": 56151152,
+    "status": "COMPLETE",
+    "score": 1632.1,
+    "windows_agent_so": false,
+    "kernel": "yamakawanin/king-v4e-rc4",
+    "agent_sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+    "reselect_steps": [
+      216,
+      240,
+      241,
+      288,
+      360,
+      385,
+      432,
+      576
+    ],
+    "reselect_after_216": [
+      240,
+      241,
+      288,
+      360,
+      385,
+      432,
+      576
+    ],
+    "sheep_200_267": [
+      226,
+      241,
+      265
+    ],
+    "not_227_242_266_wrap": true,
+    "clone_g5": {
+      "prvsiyan_clone": 12627.0,
+      "fufu_clone": 12014.0,
+      "masa_clone": 40050.0,
+      "subin_97399969": 27159.0,
+      "james_95677563": 77153.0
+    },
+    "why": "Already live COMPLETE 1632.1. This cycle Hold: upload-bail (c) plus no new licensed later-block. Extra sheep 226/241/265 not 227/242/266. Rolling 108851261 extra cow 218 extra sheep 227 extra geese 242/266 and lost 9c5s vs 9c5s3g -16092; 108656070 extra sheep 227/242/266 already bought and lost 8s vs 16s -14565; 108642657 extra geese 227/242 already bought and lost 9c5s3g vs 8c6s3g -12935. New-window LaiCxm 108851261 extra-goose 3g. Not cut 12/13."
+  },
+  "cut17": {
+    "hold": true,
+    "uploaded": null,
+    "why": "No Windows-runnable Python later-block after 216 distinct from live cuts 14/15/16. Hunt: no new slug vs 0914h; public search newest still xuantianfengwu/kaggriculture-adaptive-land-allocator-r10 SHA 3b8a1d4d heuristic 6-cow; no king rc5 / y3uanm v6 / Thomas tree that actually splits after 216. Upload-bail would block even a licensed freeze: shopbag 56151155 is newer than cut 16, so a new cut alone drops 1632.1 and keeps 1298.7."
+  },
+  "hunt": []
+}

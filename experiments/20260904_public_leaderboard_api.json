@@ -1,0 +1,442 @@
+{
+  "n": 7546,
+  "top40": [
+    {
+      "teamId": 16714457,
+      "submissionId": 55929317,
+      "rank": 1,
+      "displayScore": "3021.1",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16674508,
+      "submissionId": 55977032,
+      "rank": 2,
+      "displayScore": "2956.4",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16621243,
+      "submissionId": 55982495,
+      "rank": 3,
+      "displayScore": "2942.9",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16651244,
+      "submissionId": 55982487,
+      "rank": 4,
+      "displayScore": "2940.8",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16728071,
+      "submissionId": 55990218,
+      "rank": 5,
+      "displayScore": "2919.1",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16743484,
+      "submissionId": 55982173,
+      "rank": 6,
+      "displayScore": "2909.3",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16743647,
+      "submissionId": 55977674,
+      "rank": 7,
+      "displayScore": "2900.2",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16767215,
+      "submissionId": 55982835,
+      "rank": 8,
+      "displayScore": "2878.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16749520,
+      "submissionId": 55994691,
+      "rank": 9,
+      "displayScore": "2876.7",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16622898,
+      "submissionId": 55964860,
+      "rank": 10,
+      "displayScore": "2873.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16657785,
+      "submissionId": 55983353,
+      "rank": 11,
+      "displayScore": "2868.7",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16698308,
+      "submissionId": 55982178,
+      "rank": 12,
+      "displayScore": "2867.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16684202,
+      "submissionId": 55997561,
+      "rank": 13,
+      "displayScore": "2867.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16757809,
+      "submissionId": 55991755,
+      "rank": 14,
+      "displayScore": "2852.1",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16624484,
+      "submissionId": 55964653,
+      "rank": 15,
+      "displayScore": "2843.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16684402,
+      "submissionId": 55982260,
+      "rank": 16,
+      "displayScore": "2839.3",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16655383,
+      "submissionId": 55982036,
+      "rank": 17,
+      "displayScore": "2836.6",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16669926,
+      "submissionId": 55994139,
+      "rank": 18,
+      "displayScore": "2835.3",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16749061,
+      "submissionId": 55977407,
+      "rank": 19,
+      "displayScore": "2831.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16730735,
+      "submissionId": 55993931,
+      "rank": 20,
+      "displayScore": "2830.7",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16807802,
+      "submissionId": 55981238,
+      "rank": 21,
+      "displayScore": "2830.3",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16778340,
+      "submissionId": 55977778,
+      "rank": 22,
+      "displayScore": "2829.7",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16804549,
+      "submissionId": 55991056,
+      "rank": 23,
+      "displayScore": "2813.6",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16658149,
+      "submissionId": 55982473,
+      "rank": 24,
+      "displayScore": "2809.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16758882,
+      "submissionId": 55991638,
+      "rank": 25,
+      "displayScore": "2801.9",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16677337,
+      "submissionId": 55979116,
+      "rank": 26,
+      "displayScore": "2795.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16709967,
+      "submissionId": 55982343,
+      "rank": 27,
+      "displayScore": "2790.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16665134,
+      "submissionId": 55996499,
+      "rank": 28,
+      "displayScore": "2789.9",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16768603,
+      "submissionId": 55971325,
+      "rank": 29,
+      "displayScore": "2788.1",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16623630,
+      "submissionId": 55980706,
+      "rank": 30,
+      "displayScore": "2786.4",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16688294,
+      "submissionId": 55975992,
+      "rank": 31,
+      "displayScore": "2783.0",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16632240,
+      "submissionId": 55978345,
+      "rank": 32,
+      "displayScore": "2782.9",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16768236,
+      "submissionId": 55938634,
+      "rank": 33,
+      "displayScore": "2781.4",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16684093,
+      "submissionId": 55978848,
+      "rank": 34,
+      "displayScore": "2779.6",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16772723,
+      "submissionId": 55981634,
+      "rank": 35,
+      "displayScore": "2779.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16685634,
+      "submissionId": 55995673,
+      "rank": 36,
+      "displayScore": "2776.2",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16697229,
+      "submissionId": 55979639,
+      "rank": 37,
+      "displayScore": "2765.7",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16635969,
+      "submissionId": 55983309,
+      "rank": 38,
+      "displayScore": "2763.4",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16712863,
+      "submissionId": 55981022,
+      "rank": 39,
+      "displayScore": "2762.5",
+      "teamName": null,
+      "lastSubmissionDate": null
+    },
+    {
+      "teamId": 16681405,
+      "submissionId": 55975994,
+      "rank": 40,
+      "displayScore": "2761.9",
+      "teamName": null,
+      "lastSubmissionDate": null
+    }
+  ],
+  "raw_top15": [
+    {
+      "teamId": 16714457,
+      "submissionId": 55929317,
+      "rank": 1,
+      "displayScore": "3021.1",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16674508,
+      "submissionId": 55977032,
+      "rank": 2,
+      "displayScore": "2956.4",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16621243,
+      "submissionId": 55982495,
+      "rank": 3,
+      "displayScore": "2942.9",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16651244,
+      "submissionId": 55982487,
+      "rank": 4,
+      "displayScore": "2940.8",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16728071,
+      "submissionId": 55990218,
+      "rank": 5,
+      "displayScore": "2919.1",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16743484,
+      "submissionId": 55982173,
+      "rank": 6,
+      "displayScore": "2909.3",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16743647,
+      "submissionId": 55977674,
+      "rank": 7,
+      "displayScore": "2900.2",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16767215,
+      "submissionId": 55982835,
+      "rank": 8,
+      "displayScore": "2878.0",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16749520,
+      "submissionId": 55994691,
+      "rank": 9,
+      "displayScore": "2876.7",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16622898,
+      "submissionId": 55964860,
+      "rank": 10,
+      "displayScore": "2873.5",
+      "medal": "GOLD",
+      "inTheMoney": true
+    },
+    {
+      "teamId": 16657785,
+      "submissionId": 55983353,
+      "rank": 11,
+      "displayScore": "2868.7",
+      "medal": "GOLD"
+    },
+    {
+      "teamId": 16698308,
+      "submissionId": 55982178,
+      "rank": 12,
+      "displayScore": "2867.5",
+      "medal": "GOLD"
+    },
+    {
+      "teamId": 16684202,
+      "submissionId": 55997561,
+      "rank": 13,
+      "displayScore": "2867.0",
+      "medal": "GOLD"
+    },
+    {
+      "teamId": 16757809,
+      "submissionId": 55991755,
+      "rank": 14,
+      "displayScore": "2852.1",
+      "medal": "GOLD"
+    },
+    {
+      "teamId": 16624484,
+      "submissionId": 55964653,
+      "rank": 15,
+      "displayScore": "2843.5",
+      "medal": "GOLD"
+    }
+  ]
+}

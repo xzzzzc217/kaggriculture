@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-10b",
+  "kernels_not_in_0910_packet": true,
+  "no_upload": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "root_main_py": "unchanged",
+  "leaderboard": {
+    "zip": "artifacts/kaggle_runs/lb_20260910b/kaggriculture.zip",
+    "csv": "kaggriculture-publicleaderboard-2026-09-10T20:08:14.csv",
+    "n_teams": 8566,
+    "rank1": {"team": "SpaTaro", "score": 3109.9, "teamId": 16640510}
+  },
+  "top_board_team": "ymg_aq",
+  "rank": 2,
+  "live_rank_at_fetch": 3,
+  "teamId": 16732403,
+  "submissionId": 56147445,
+  "score": 3040.2,
+  "live_public_score": 3040.1,
+  "lastSubmissionDate": "2026-09-10T15:39:37.930Z",
+  "episodes_file": "experiments/episodes_sub_56147445_ymg_aq.json",
+  "replays": "artifacts/kaggle_runs/top_20260910b",
+  "games_file": "experiments/20260910b_top10_games.json",
+  "episode_ids": [107582281, 107581290, 107580344, 107579345],
+  "episode_ids_disjoint_from_0910": true,
+  "skipped_ids": [106976067, 106976069, 106976065, 106958424, 107493475, 107487687, 107482596, 107481864],
+  "why_not_spataro_or_otter": "CSV #1 still SpaTaro (20260909_top10_games.json). Live GetLeaderboard still had Otter Vibe at #2 (20260910_top10_games.json). CSV ranked missing team ymg_aq #2 / 3040.2; live API had it #3 / 3040.1. Prefer missing top-10 name over re-measuring SpaTaro or Otter Vibe.",
+  "games": [
+    {
+      "id": 107582281,
+      "opp": "Otter Vibe",
+      "win": false,
+      "margin": -4907.0,
+      "land": [121, 170],
+      "herd": "9c3s6g",
+      "wheat": 1478,
+      "clone": false,
+      "shops72": ["BAKERY"],
+      "shops144": ["BAKERY", "SMOOTHIE_SHOP"]
+    },
+    {
+      "id": 107581290,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 1416.0,
+      "land": [121, 170],
+      "herd": "8c10s4g",
+      "wheat": 1445,
+      "clone": false,
+      "shops72": ["PET_CAFE"],
+      "shops144": ["PET_CAFE", "ICE_CREAM_SHOP"]
+    },
+    {
+      "id": 107580344,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 4146.0,
+      "land": [121, 170],
+      "herd": "7c4s6g",
+      "wheat": 1301,
+      "clone": false,
+      "shops72": ["FARMERS_MARKET"],
+      "shops144": ["FARMERS_MARKET", "PET_CAFE"]
+    },
+    {
+      "id": 107579345,
+      "opp": "kanno",
+      "win": true,
+      "margin": 54335.0,
+      "land": [121, 170],
+      "herd": "9c3s4g",
+      "wheat": 1451,
+      "clone": false,
+      "shops72": ["BRUNCH_SPOT"],
+      "shops144": ["BRUNCH_SPOT", "ICE_CREAM_SHOP"]
+    }
+  ],
+  "opening_land_vs_later_block": {
+    "class": "mid_land_not_opening_not_later_block",
+    "land_pattern": "BUY_LAND at 121 then 170 in all four games",
+    "not_opening_land": "First land is day-5 step 121, not SpaTaro opening 2/3/74.",
+    "not_sixday_151_266": true,
+    "not_227_242_266_wrap": "Second BUY_LAND is step 170. That is a land buy, not a 227/242/266 later-block wrap. Do not invent one. kanno (opp on 107579345) lands 151/266; ymg_aq does not.",
+    "clone": false,
+    "herd": "Cow-led 7–9c, sheep 3–10, goose 4–6. Variable, not freeze 9c9s.",
+    "wheat": "1301–1478 own SELL:WHEAT. Wheat-heavy vs Otter Vibe 361–494. Not a later-block license.",
+    "shops": "First shop by 72 varies (BAKERY / PET_CAFE / FARMERS_MARKET / BRUNCH_SPOT).",
+    "note": "Opening land is not a later-block license. ymg_aq mid-land 121/170 + wheat-heavy herd is not a public-state reselect after 216."
+  },
+  "hunt_dir": "artifacts/public_sources/_hunt_20260910b",
+  "hunt": [
+    {
+      "kernel": "lucifer19/harvest-nocturne-the-market-has-a-rhythm",
+      "path": "artifacts/public_sources/_hunt_20260910b/lucifer19__harvest-nocturne-the-market-has-a-rhythm/harvest-nocturne-the-market-has-a-rhythm.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "No %%writefile. lzma+base64 library restore of Two Coins / Moon / Kaggricult-Man sources (actions.json sha 17d503f2… same as dmitrii two-coins). Readable Harvest Nocturne agent is a sale-rhythm overlay on a frozen farm plan after setup. CDLL is a gzip/lzma blob false positive; no ctypes.CDLL / agent.so in plaintext. Shop choice at 144. Not a public-state farm reselect after 216. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "shashwat12a/kaggriculture-rl-model",
+      "path": "artifacts/public_sources/_hunt_20260910b/shashwat12a__kaggriculture-rl-model/kaggriculture-rl-model.ipynb",
+      "verdict": "reject_eda",
+      "note": "Q-learning RL prototype vs random. No %%writefile, ctypes, later-block, or 226/360/433. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook20e618e50b",
+      "path": "artifacts/public_sources/_hunt_20260910b/ahmedberatozer__notebook20e618e50b/notebook20e618e50b.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile main.py sha256 ee7ce9f3c3fef310ce695b985f0353515b8c77cb244d5f1896207eed14bc027e. v33 = Shop Router 0909 tapes + two-turn sale reservations from 288 + livestock substitution 216–227 in milk shops. 226/360/433 appear as numbers/V226 wheat lineage, not y3uanm DECISIONS. Terminal window from 696. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep-lb-2700",
+      "path": "artifacts/public_sources/_hunt_20260910b/dmitriigluzdov__kaggriculture-two-coins-one-sheep-lb-2700/kaggriculture-two-coins-one-sheep-lb-2700.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python writefile router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380. Moon/Shop0909 parent ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288 two-turn sale horizon. First 12 days parent. V226 is wheat topup, not yarn later-block. gzip actions.json sha 17d503f2…; CDLL substring false positive. No ctypes.CDLL / agent.so. Cells not executed."
+    },
+    {
+      "kernel": "mzcao7/kaggriculture-forkable-baseline-paired-tests",
+      "path": "artifacts/public_sources/_hunt_20260910b/mzcao7__kaggriculture-forkable-baseline-paired-tests/kaggriculture-forkable-baseline-paired-tests.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile main.py sha256 7ce060d8551cf3e7a20a800c1eea2e18ece63d6d6eab8e21199b65f9b78e4794. Frozen COK-ZhangZiliang V7 shop-route baseline (submission 55696502 snapshot 1357.1). Route label from shops; no after-216 public-state reselect. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook07b5f4563e",
+      "path": "artifacts/public_sources/_hunt_20260910b/ahmedberatozer__notebook07b5f4563e/notebook07b5f4563e.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python %%writefile main.py sha256 bb3109331d4087d5e5890515f9b1d1e0d4f9ea6015ee3d1b172a93b8b1d8dbb4. Shop Router 0908 production v25 + sale-lead + terminal cargo rescue. Day-6 shop-pair chassis. No reselect after 216. Cells not executed."
+    },
+    {
+      "kernel": "yamakawanin/kaggriculture-2312-9-q30-v2a",
+      "path": "artifacts/public_sources/_hunt_20260910b/yamakawanin__kaggriculture-2312-9-q30-v2a/kaggriculture-2312-9-q30-v2a.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile-a stack. Base writefile sha256 5f72374278e304b9ff7acff1e813c5cce7285749996aec8e9b65b8657a2a3b1b. Replay-programme network (OceanMix 72-turn blocks + q30 overlays). 216–288 P3_YARN_THIRD is programme routing, not 226/360/433 or 144/288/432/576 public-state later-block. Distinct kernel from gate king-v4e-rc4. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "path": "artifacts/public_sources/_hunt_20260910b/boatlee__v29-r1-adaptive-market-hysteresis/v29-r1-adaptive-market-hysteresis.ipynb",
+      "verdict": "other",
+      "note": "No plaintext %%writefile. zlib+base64 PAYLOAD, source sha256 c4a6964cec3c1c99207c32bb1fd91e53c3ec01e6890da5734331cbeab1cc1267. Markdown: market hysteresis on a three-quadrant production program. Payload not decoded; cells not executed. Cannot claim after-216 without running it. Do not run agent.so."
+    }
+  ]
+}

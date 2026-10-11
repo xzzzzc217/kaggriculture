@@ -1,0 +1,117 @@
+{
+  "title": "Kaggriculture study packet 2026-09-05",
+  "no_upload": "Do not submit Yusuke six-day until the user says 提交 and Linux clone/G5 exists.",
+  "not_the_0904_packet": true,
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260905/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-04T07:23:44.csv",
+    "newest_daily_zip": "artifacts/kaggle_runs/episodes_20260903/kaggriculture-episodes-2026-09-03.zip",
+    "daily_zip_status": "09-03 zip already local (538048136 bytes). No 09-04 daily zip published yet. Newest Fieldbook/Jesse/Yusuke publics are 09-04 06:24–07:21 UTC via kaggleusercontent episode JSON + EpisodeService.",
+    "fieldbook_replays": "artifacts/kaggle_runs/fieldbook_20260905",
+    "top_replays": "artifacts/kaggle_runs/top_20260905",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260905"
+  },
+  "live": {
+    "fieldbook": 55962758,
+    "score": 1896.5,
+    "rank": 886,
+    "n_teams": 7567,
+    "shopbag_reupload": 55962761,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "public": {"n": 347, "wtl": [124, 57, 166], "mean_margin": 421.2},
+    "gold21": 2814.7,
+    "rank10": {"team": "Andrey Tikhomirov", "score": 2873.7}
+  },
+  "rolling12": {
+    "previous": "experiments/20260904_fieldbook_rolling12.json",
+    "live_fieldbook": "experiments/20260905_fieldbook_rolling12.json",
+    "ids": [105398589, 105397154, 105394980, 105394617, 105394546, 105394233, 105394115, 105390780, 105390647, 105388499, 105385931, 105385215],
+    "ids_differ_from_0904": true,
+    "wtl": [3, 1, 8],
+    "mean_margin": -19163.0,
+    "loss_class": "Still freeze-after-day-9 vs later 9c9s at steps 227/242/266 and heavier wheat tails; this window also has a Bantam hinge dump and one clone=0 pasture-11 blowout vs east, not a new Fieldbook tape."
+  },
+  "top_board": {
+    "source": "experiments/20260905_top10_games.json",
+    "not_copied_from": "experiments/20260904_top10_games.json",
+    "Jesse Bullard": {
+      "land": [151, 266],
+      "herd": ["5c13s", "5c17s", "11c5s"],
+      "wheat": [277, 397],
+      "shops": ["PET_CAFE", "PIZZA_SHOP", "BRUNCH_SPOT"],
+      "clone": true,
+      "melon": 72,
+      "note": "Absent from 20260904_top10_games.json. Yarn-second extra sheep from step 179; pizza-first stays 11c5s. Beat Giulio twice. Not Giulio 9c5s, not Knight 1000+ dump, not sbol 4c14s."
+    }
+  },
+  "extra_sheep": {
+    "source": "experiments/20260905_9c9s_sheep_steps.json",
+    "yusuke_live": {
+      "submission": 55975994,
+      "episodes": [105395079, 105391598, 105388041, 105384084],
+      "steps": [227, 242, 266],
+      "qty": [1, 2, 1],
+      "sheep_cum": [6, 8, 9],
+      "shops_at_step": "third shop already open; first shop PIZZA/ICE_CREAM/PET_CAFE/BAKERY does not change the steps",
+      "note": "After Fieldbook freeze (day 9 / step 216)."
+    },
+    "fieldbook_yarn_late": {
+      "episodes": [105390780],
+      "steps": [218, 242, 266],
+      "qty": [2, 2, 1],
+      "sheep_cum": [6, 8, 9],
+      "only_when": "YARN_STORE is the third shop"
+    },
+    "rolling12_9c9s_opponents": [
+      {"id": 105394617, "team": "jasonstillchasin", "steps": [227, 242, 266], "shops": ["BAKERY", "BAKERY", "BRUNCH_SPOT"]},
+      {"id": 105394233, "team": "Adrian Dubois", "steps": [227, 242, 266], "shops": ["ICE_CREAM_SHOP", "BRUNCH_SPOT", "BAKERY"]},
+      {"id": 105388499, "team": "Tien N.", "steps": [227, 242, 266], "shops": ["YARN_STORE", "FARMERS_MARKET", "PET_CAFE"]}
+    ]
+  },
+  "cut10_screen": {
+    "agent": "experiments/candidates/yusuke_fieldbook/main.py",
+    "sha256_prefix": "de668f7f",
+    "clone": "3-0",
+    "v5": "superseded",
+    "windows_agent_so": false
+  },
+  "cut11": {
+    "name": "Yusuke six-day public-state Fieldbook",
+    "hold": true,
+    "why": "Reselect at 144/288/432/576 covers the 227/242/266 extra-sheep block. C++ agent.so; no Windows clone/G5.",
+    "notes": "experiments/candidates/yusuke_sixday/README.md"
+  },
+  "next_chassis": "Yusuke six-day public-state Fieldbook (cut 11). Live cut 10 stays. No new Python cut. Do not compile-and-hope agent.so on Windows.",
+  "hunt": [
+    {
+      "kernel": "yhay81/six-day-public-state-fieldbook",
+      "verdict": "gated_next_not_uploaded",
+      "note": "Still the only public later-block reselect chassis. Not executed."
+    },
+    {
+      "kernel": "tetsutani/shape-the-shop-work-the-pasture-kaggriculture",
+      "verdict": "reject_for_now",
+      "note": "Absent from 09-04 packet hunt. Six-day guard + last-turn SELL on two native tapes. Still C++ agent.so, not a Windows 9c9s wrap."
+    },
+    {
+      "kernel": "aamir28/a-minimal-kaggriculture-agent-debugged-live",
+      "verdict": "reject_beginner",
+      "note": "Absent from 09-04 packet hunt. Tutorial starter, not later-block 9c9s."
+    },
+    {
+      "kernel": "dariushafshar/banked-3000-every-game-the-last-callable-trap",
+      "verdict": "infra",
+      "note": "Absent from 09-04 packet hunt. get_last_callable diagnostic. Not an agent."
+    },
+    {
+      "kernel": "destbreso/x-ray-your-agent",
+      "verdict": "infra",
+      "note": "Absent from 09-04 packet hunt. Replay x-ray. Cells not executed."
+    },
+    {
+      "kernel": "yhay81/fieldbook-commit-for-three-days",
+      "verdict": "already_live_cut10",
+      "note": "Three-day freeze is the current chassis. 227/242/266 is after its last branch."
+    }
+  ]
+}

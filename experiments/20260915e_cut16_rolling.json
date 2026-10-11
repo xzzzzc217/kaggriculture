@@ -1,0 +1,1701 @@
+{
+  "games": [
+    {
+      "team": "heralces",
+      "id": 109329693,
+      "opp": "Corgi-Samoyed",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -325.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 156,
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "FARMERS_MARKET"
+      ],
+      "sheep": [
+        0,
+        4
+      ],
+      "cow": [
+        0,
+        6
+      ],
+      "goose": [
+        3,
+        5
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "pasture": [
+        14,
+        12
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        373,
+        428
+      ],
+      "wool": [
+        121,
+        1000282
+      ],
+      "milk": [
+        188,
+        1000408
+      ],
+      "fert": [
+        331,
+        334
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        93,
+        4000050
+      ],
+      "egg": [
+        79,
+        1000136
+      ],
+      "rewards": [
+        87098.0,
+        86773.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "cash_24": 22.0,
+      "cash_144": 265.0
+    },
+    {
+      "team": "heralces",
+      "id": 109297997,
+      "opp": "Gaddam Shiva Teja",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -26009.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 74,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        5,
+        5
+      ],
+      "cow": [
+        7,
+        9
+      ],
+      "goose": [
+        3,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "buy_opp": {
+        "COW": 11,
+        "SHEEP": 5
+      },
+      "pasture": [
+        12,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        336,
+        298
+      ],
+      "wool": [
+        131,
+        138
+      ],
+      "milk": [
+        197,
+        271
+      ],
+      "fert": [
+        314,
+        297
+      ],
+      "melon": [
+        48,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        86,
+        99
+      ],
+      "egg": [
+        75,
+        0
+      ],
+      "rewards": [
+        122354.0,
+        148363.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 1
+        },
+        {
+          "step": 3,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 328,
+          "qty": 1
+        }
+      ],
+      "cash_24": 1.0,
+      "cash_144": 134.0
+    },
+    {
+      "team": "heralces",
+      "id": 109184094,
+      "opp": "Stephen Schott",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": 13159.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 111,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        13,
+        6
+      ],
+      "cow": [
+        3,
+        8
+      ],
+      "goose": [
+        0,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 4,
+        "SHEEP": 15
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "pasture": [
+        16,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        398,
+        402
+      ],
+      "wool": [
+        357,
+        4224
+      ],
+      "milk": [
+        245,
+        2340
+      ],
+      "fert": [
+        359,
+        491
+      ],
+      "melon": [
+        72,
+        143
+      ],
+      "tomato": [
+        0,
+        2074
+      ],
+      "carrot": [
+        18,
+        1185
+      ],
+      "egg": [
+        0,
+        140
+      ],
+      "rewards": [
+        124819.0,
+        111660.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 170,
+          "qty": 1
+        },
+        {
+          "step": 177,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 2
+        },
+        {
+          "step": 242,
+          "qty": 3
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 197,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 1
+        },
+        {
+          "step": 229,
+          "qty": 1
+        }
+      ],
+      "cash_24": 5.0,
+      "cash_144": 551.0
+    },
+    {
+      "team": "heralces",
+      "id": 109178619,
+      "opp": "Huy L\u00ea Ng\u1ecdc Gia",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -13645.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 112,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep": [
+        6,
+        6
+      ],
+      "cow": [
+        6,
+        8
+      ],
+      "goose": [
+        0,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "pasture": [
+        13,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        486,
+        17282
+      ],
+      "wool": [
+        109,
+        6188
+      ],
+      "milk": [
+        226,
+        8257
+      ],
+      "fert": [
+        285,
+        10357
+      ],
+      "melon": [
+        72,
+        6072
+      ],
+      "tomato": [
+        0,
+        6000
+      ],
+      "carrot": [
+        34,
+        17048
+      ],
+      "egg": [
+        0,
+        8077
+      ],
+      "rewards": [
+        105646.0,
+        119291.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 197,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 1
+        },
+        {
+          "step": 227,
+          "qty": 1
+        }
+      ],
+      "cash_24": 3.0,
+      "cash_144": 268.0
+    },
+    {
+      "team": "heralces",
+      "id": 109169017,
+      "opp": "Grim Reaper",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -10132.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 121,
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "sheep": [
+        11,
+        0
+      ],
+      "cow": [
+        6,
+        0
+      ],
+      "goose": [
+        0,
+        2
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 3,
+        "SHEEP": 13,
+        "GOOSE": 2
+      },
+      "pasture": [
+        17,
+        16
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        265
+      ],
+      "wheat": [
+        398,
+        356
+      ],
+      "wool": [
+        308,
+        213
+      ],
+      "milk": [
+        236,
+        55
+      ],
+      "fert": [
+        362,
+        252
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        44
+      ],
+      "carrot": [
+        27,
+        195
+      ],
+      "egg": [
+        0,
+        70
+      ],
+      "rewards": [
+        73562.0,
+        63430.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 2
+        },
+        {
+          "step": 242,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 92,
+          "qty": 1
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 197,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 1
+        },
+        {
+          "step": 227,
+          "qty": 1
+        },
+        {
+          "step": 242,
+          "qty": 2
+        },
+        {
+          "step": 265,
+          "qty": 1
+        },
+        {
+          "step": 265,
+          "qty": 1
+        }
+      ],
+      "cash_24": 29.0,
+      "cash_144": 364.0
+    },
+    {
+      "team": "heralces",
+      "id": 109168637,
+      "opp": "3G \ud83d\udc2e\ud83c\udf7a",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -10063.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 672,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        5,
+        5
+      ],
+      "cow": [
+        8,
+        9
+      ],
+      "goose": [
+        3,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        335,
+        507
+      ],
+      "wool": [
+        130,
+        131
+      ],
+      "milk": [
+        236,
+        263
+      ],
+      "fert": [
+        345,
+        342
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        89,
+        95
+      ],
+      "egg": [
+        78,
+        93
+      ],
+      "rewards": [
+        152533.0,
+        142470.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "cash_24": 22.0,
+      "cash_144": 265.0
+    },
+    {
+      "team": "heralces",
+      "id": 109159847,
+      "opp": "Filip Strza\u0142ka",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -6855.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 103,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "BAKERY"
+      ],
+      "sheep": [
+        6,
+        6
+      ],
+      "cow": [
+        7,
+        8
+      ],
+      "goose": [
+        0,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        481,
+        17405
+      ],
+      "wool": [
+        109,
+        6204
+      ],
+      "milk": [
+        263,
+        8279
+      ],
+      "fert": [
+        287,
+        10351
+      ],
+      "melon": [
+        72,
+        6072
+      ],
+      "tomato": [
+        0,
+        6000
+      ],
+      "carrot": [
+        34,
+        17048
+      ],
+      "egg": [
+        0,
+        8086
+      ],
+      "rewards": [
+        93474.0,
+        100329.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 197,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 1
+        },
+        {
+          "step": 227,
+          "qty": 1
+        }
+      ],
+      "cash_24": 10.0,
+      "cash_144": 448.0
+    },
+    {
+      "team": "heralces",
+      "id": 109152510,
+      "opp": "Suliman Tadros",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": 43169.0,
+      "win": true,
+      "tie": false,
+      "clone": false,
+      "max_near": 2,
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops144": [
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        13,
+        0
+      ],
+      "cow": [
+        4,
+        5
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 4,
+        "SHEEP": 15
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 3
+      },
+      "pasture": [
+        17,
+        12
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        122,
+        196
+      ],
+      "wheat": [
+        397,
+        1057
+      ],
+      "wool": [
+        357,
+        78
+      ],
+      "milk": [
+        233,
+        257
+      ],
+      "fert": [
+        367,
+        218
+      ],
+      "melon": [
+        72,
+        178
+      ],
+      "tomato": [
+        0,
+        34
+      ],
+      "carrot": [
+        26,
+        301
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        69175.0,
+        112344.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 170,
+          "qty": 1
+        },
+        {
+          "step": 177,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 2
+        },
+        {
+          "step": 242,
+          "qty": 3
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 1,
+          "qty": 2
+        },
+        {
+          "step": 2,
+          "qty": 1
+        }
+      ],
+      "cash_24": 21.0,
+      "cash_144": 295.0
+    },
+    {
+      "team": "heralces",
+      "id": 109149160,
+      "opp": "Dhruv #2",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": -12590.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 112,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        13,
+        10
+      ],
+      "cow": [
+        3,
+        6
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 4,
+        "SHEEP": 15
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 10
+      },
+      "pasture": [
+        16,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        399,
+        24267
+      ],
+      "wool": [
+        346,
+        11706
+      ],
+      "milk": [
+        249,
+        9322
+      ],
+      "fert": [
+        359,
+        18346
+      ],
+      "melon": [
+        72,
+        7072
+      ],
+      "tomato": [
+        0,
+        7000
+      ],
+      "carrot": [
+        26,
+        18048
+      ],
+      "egg": [
+        0,
+        9070
+      ],
+      "rewards": [
+        75248.0,
+        87838.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 151,
+          "qty": 2
+        },
+        {
+          "step": 170,
+          "qty": 1
+        },
+        {
+          "step": 177,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 2
+        },
+        {
+          "step": 242,
+          "qty": 3
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 170,
+          "qty": 1
+        },
+        {
+          "step": 177,
+          "qty": 1
+        },
+        {
+          "step": 197,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 1
+        },
+        {
+          "step": 252,
+          "qty": 1
+        },
+        {
+          "step": 253,
+          "qty": 1
+        },
+        {
+          "step": 265,
+          "qty": 1
+        }
+      ],
+      "cash_24": 3.0,
+      "cash_144": 268.0
+    },
+    {
+      "team": "heralces",
+      "id": 109142116,
+      "opp": "ocean240812",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": 74.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 156,
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "BAKERY"
+      ],
+      "sheep": [
+        8,
+        4
+      ],
+      "cow": [
+        8,
+        6
+      ],
+      "goose": [
+        0,
+        5
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 8
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "pasture": [
+        17,
+        12
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        408,
+        3000477
+      ],
+      "wool": [
+        195,
+        1000279
+      ],
+      "milk": [
+        236,
+        2000413
+      ],
+      "fert": [
+        350,
+        334
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        9,
+        2000012
+      ],
+      "egg": [
+        0,
+        2000136
+      ],
+      "rewards": [
+        73042.0,
+        72968.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 227,
+          "qty": 1
+        },
+        {
+          "step": 242,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 1
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "cash_24": 22.0,
+      "cash_144": 265.0
+    },
+    {
+      "team": "heralces",
+      "id": 109135062,
+      "opp": "Duc-Anh Nguyen",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": 2713.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 288,
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "sheep": [
+        5,
+        3
+      ],
+      "cow": [
+        8,
+        9
+      ],
+      "goose": [
+        3,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 4
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        335,
+        428
+      ],
+      "wool": [
+        130,
+        1000282
+      ],
+      "milk": [
+        236,
+        1000408
+      ],
+      "fert": [
+        345,
+        333
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        89,
+        4000050
+      ],
+      "egg": [
+        78,
+        1000136
+      ],
+      "rewards": [
+        79450.0,
+        82163.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "cash_24": 22.0,
+      "cash_144": 265.0
+    },
+    {
+      "team": "heralces",
+      "id": 109111080,
+      "opp": "Yichi",
+      "n_steps": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "margin": 6951.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 258,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        8,
+        5
+      ],
+      "cow": [
+        8,
+        9
+      ],
+      "goose": [
+        0,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 8
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "pasture": [
+        17,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        415,
+        500
+      ],
+      "wool": [
+        195,
+        131
+      ],
+      "milk": [
+        236,
+        263
+      ],
+      "fert": [
+        350,
+        342
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        9,
+        95
+      ],
+      "egg": [
+        0,
+        93
+      ],
+      "rewards": [
+        98754.0,
+        105705.0
+      ],
+      "sheep_steps_us": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 227,
+          "qty": 1
+        },
+        {
+          "step": 242,
+          "qty": 2
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "sheep_steps_opp": [
+        {
+          "step": 2,
+          "qty": 2
+        },
+        {
+          "step": 196,
+          "qty": 2
+        },
+        {
+          "step": 218,
+          "qty": 0
+        },
+        {
+          "step": 266,
+          "qty": 1
+        }
+      ],
+      "cash_24": 22.0,
+      "cash_144": 265.0
+    }
+  ]
+}

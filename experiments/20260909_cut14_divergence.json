@@ -1,0 +1,49 @@
+{
+  "cut": 14,
+  "agent": "y3uanm_router_v5",
+  "reselect_steps": [
+    226,
+    360,
+    433
+  ],
+  "not_cut12": true,
+  "not_cut13": true,
+  "windows_agent_so": false,
+  "live_217_differs_from_sixday": true,
+  "live_217_differs_from_balanced": true,
+  "tape_217_differs_from_sixday": true,
+  "tape_217_differs_from_balanced": true,
+  "diffs_217_266_vs_sixday": 9,
+  "diffs_217_266_vs_balanced": 49,
+  "main_sheep_200_267": [
+    217,
+    265
+  ],
+  "main_sheep_all": [
+    1,
+    195,
+    217,
+    265
+  ],
+  "not_227_242_266_wrap": true,
+  "decisions": [
+    [
+      226,
+      "shop_YARN_STORE",
+      1,
+      "dc76e4003029ac51"
+    ],
+    [
+      360,
+      "px_CARROT",
+      42,
+      "ab9669b9abfbea4e"
+    ],
+    [
+      433,
+      "inv_MILK",
+      10067,
+      "a84d06f1d12add7c"
+    ]
+  ]
+}

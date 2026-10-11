@@ -1,0 +1,1556 @@
+[
+  {
+    "episode": 111660965,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "YARN_STORE"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 143028.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111652959,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 128239.0,
+    "opp": "Majkel1337",
+    "n": 719
+  },
+  {
+    "episode": 111645359,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 92503.0,
+    "opp": "Majkel1337",
+    "n": 719
+  },
+  {
+    "episode": 111638537,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 109974.0,
+    "opp": "ymg_aq",
+    "n": 719
+  },
+  {
+    "episode": 111631683,
+    "seat": 0,
+    "shops": [
+      "BRUNCH_SPOT",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 129192.0,
+    "opp": "Unknown Mother-Goose",
+    "n": 719
+  },
+  {
+    "episode": 111624998,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 74979.0,
+    "opp": "SpaTaro",
+    "n": 719
+  },
+  {
+    "episode": 111618294,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 100040.0,
+    "opp": "SpaTaro",
+    "n": 719
+  },
+  {
+    "episode": 111618250,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "BAKERY"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 91206.0,
+    "opp": "Majkel1337",
+    "n": 719
+  },
+  {
+    "episode": 111611608,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 78169.0,
+    "opp": "Unknown Mother-Goose",
+    "n": 719
+  },
+  {
+    "episode": 111605012,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 143550.0,
+    "opp": "SpaTaro",
+    "n": 719
+  },
+  {
+    "episode": 111603805,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 111188.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111597204,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 105609.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111590647,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 113759.0,
+    "opp": "ymg_aq",
+    "n": 719
+  },
+  {
+    "episode": 111583977,
+    "seat": 1,
+    "shops": [
+      "FARMERS_MARKET",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 124869.0,
+    "opp": "QQ",
+    "n": 719
+  },
+  {
+    "episode": 111578434,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 107377.0,
+    "opp": "ymg_aq",
+    "n": 719
+  },
+  {
+    "episode": 111577256,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 107049.0,
+    "opp": "QQ",
+    "n": 719
+  },
+  {
+    "episode": 111570578,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 109125.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111563933,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 113099.0,
+    "opp": "kwa",
+    "n": 719
+  },
+  {
+    "episode": 111557260,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 99385.0,
+    "opp": "QQ",
+    "n": 719
+  },
+  {
+    "episode": 111550540,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 186136.0,
+    "opp": "THIRD FARM CLUB",
+    "n": 719
+  },
+  {
+    "episode": 111550040,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 97138.0,
+    "opp": "ymg_aq",
+    "n": 719
+  },
+  {
+    "episode": 111547146,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "PET_CAFE"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 119094.0,
+    "opp": "Unknown Mother-Goose",
+    "n": 719
+  },
+  {
+    "episode": 111540496,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 103718.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111533747,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 102793.0,
+    "opp": "Unknown Mother-Goose",
+    "n": 719
+  },
+  {
+    "episode": 111527147,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 127595.0,
+    "opp": "\ud83d\udc1aseek inspiration\ud83d\udc1a",
+    "n": 719
+  },
+  {
+    "episode": 111523636,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 144585.0,
+    "opp": "Orbital Terraformer",
+    "n": 719
+  },
+  {
+    "episode": 111516989,
+    "seat": 1,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 126674.0,
+    "opp": "SpaTaro",
+    "n": 719
+  },
+  {
+    "episode": 111510335,
+    "seat": 1,
+    "shops": [
+      "BRUNCH_SPOT",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 140275.0,
+    "opp": "DeeperNet",
+    "n": 719
+  },
+  {
+    "episode": 111509074,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "YARN_STORE"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 134986.0,
+    "opp": "Otter Vibe",
+    "n": 719
+  },
+  {
+    "episode": 111507915,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 102914.0,
+    "opp": "Yannik Schiffner",
+    "n": 719
+  },
+  {
+    "episode": 111507281,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 88916.0,
+    "opp": "Arda Ceylan",
+    "n": 719
+  },
+  {
+    "episode": 111506844,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 96038.0,
+    "opp": "\u5403\u767d\u996d\u7684\u5927\u80a5\u9c7c",
+    "n": 719
+  },
+  {
+    "episode": 111505677,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 79951.0,
+    "opp": "SpaTaro",
+    "n": 719
+  },
+  {
+    "episode": 111504553,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "PET_CAFE"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 81971.0,
+    "opp": "Vadim Vasilenko",
+    "n": 719
+  },
+  {
+    "episode": 111503420,
+    "seat": 1,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 112765.0,
+    "opp": "binghua",
+    "n": 719
+  },
+  {
+    "episode": 111502298,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 93146.0,
+    "opp": "mtmr_s1",
+    "n": 719
+  },
+  {
+    "episode": 111501166,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 93482.0,
+    "opp": "RangerSnow",
+    "n": 719
+  },
+  {
+    "episode": 111500309,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 130967.0,
+    "opp": "THIRD FARM CLUB",
+    "n": 719
+  },
+  {
+    "episode": 111500046,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 176117.0,
+    "opp": "Dieter",
+    "n": 719
+  },
+  {
+    "episode": 111498931,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "YARN_STORE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 120863.0,
+    "opp": "Driz Lo",
+    "n": 719
+  },
+  {
+    "episode": 111497817,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "BAKERY"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 86499.0,
+    "opp": "Excluding",
+    "n": 719
+  },
+  {
+    "episode": 111496707,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 85507.0,
+    "opp": "DeeperNet",
+    "n": 719
+  },
+  {
+    "episode": 111495581,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 115430.0,
+    "opp": "Sida Zuo",
+    "n": 719
+  },
+  {
+    "episode": 111494462,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "BAKERY"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 111962.0,
+    "opp": "Artem The Farmer \ud83c\udf45",
+    "n": 719
+  },
+  {
+    "episode": 111493341,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 103672.0,
+    "opp": "Sida Zuo",
+    "n": 719
+  },
+  {
+    "episode": 111492235,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 116140.0,
+    "opp": "THUNDER THUNDER",
+    "n": 719
+  },
+  {
+    "episode": 111491109,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 107027.0,
+    "opp": "DeeperNet",
+    "n": 719
+  },
+  {
+    "episode": 111489998,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "YARN_STORE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 135549.0,
+    "opp": "Ebi",
+    "n": 719
+  },
+  {
+    "episode": 111488887,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 103023.0,
+    "opp": "QQ",
+    "n": 719
+  },
+  {
+    "episode": 111487763,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 128074.0,
+    "opp": "\u5730\u4e3b",
+    "n": 719
+  },
+  {
+    "episode": 111486537,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 94967.0,
+    "opp": "batuhan kalem",
+    "n": 719
+  },
+  {
+    "episode": 111485544,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 120938.0,
+    "opp": "THUNDER THUNDER",
+    "n": 719
+  },
+  {
+    "episode": 111484412,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 127475.0,
+    "opp": "chungkuangwen",
+    "n": 719
+  },
+  {
+    "episode": 111483312,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 91696.0,
+    "opp": "Congy",
+    "n": 719
+  },
+  {
+    "episode": 111482201,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 100898.0,
+    "opp": "RS Turley",
+    "n": 719
+  },
+  {
+    "episode": 111481086,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "YARN_STORE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 120807.0,
+    "opp": "webmaking",
+    "n": 719
+  },
+  {
+    "episode": 111480260,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "YARN_STORE"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 145039.0,
+    "opp": "Kaggriculture Agent",
+    "n": 719
+  },
+  {
+    "episode": 111479960,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 123893.0,
+    "opp": "Excluding",
+    "n": 719
+  },
+  {
+    "episode": 111478936,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "BAKERY"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 76718.0,
+    "opp": "HadBoumoussa's Farm \ud83c\udf3e",
+    "n": 719
+  },
+  {
+    "episode": 111477745,
+    "seat": 1,
+    "shops": [
+      "FARMERS_MARKET",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 123561.0,
+    "opp": "Zhongyi Dai",
+    "n": 719
+  },
+  {
+    "episode": 111476631,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 89934.0,
+    "opp": "Jeryos",
+    "n": 719
+  },
+  {
+    "episode": 111475512,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 173272.0,
+    "opp": "Matsu",
+    "n": 719
+  },
+  {
+    "episode": 111474387,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 136502.0,
+    "opp": "Sakthei",
+    "n": 719
+  },
+  {
+    "episode": 111473265,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 86651.0,
+    "opp": "curiosity",
+    "n": 719
+  },
+  {
+    "episode": 111472163,
+    "seat": 1,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 134275.0,
+    "opp": "qq\u7267\u573a",
+    "n": 719
+  },
+  {
+    "episode": 111471044,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 109974.0,
+    "opp": "Chirantan Bhardwaj",
+    "n": 719
+  },
+  {
+    "episode": 111469807,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 142717.0,
+    "opp": "lizs",
+    "n": 719
+  },
+  {
+    "episode": 111468810,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 114333.0,
+    "opp": "Adarsh",
+    "n": 719
+  },
+  {
+    "episode": 111468110,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 85966.0,
+    "opp": "GURU Prasaatha S",
+    "n": 719
+  },
+  {
+    "episode": 111467685,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "YARN_STORE"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 141438.0,
+    "opp": "LK30",
+    "n": 719
+  },
+  {
+    "episode": 111466583,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 88890.0,
+    "opp": "Yuxiao Wang",
+    "n": 719
+  },
+  {
+    "episode": 111465451,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 143196.0,
+    "opp": "zijun zhang",
+    "n": 719
+  },
+  {
+    "episode": 111464337,
+    "seat": 0,
+    "shops": [
+      "BRUNCH_SPOT",
+      "PET_CAFE"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 115774.0,
+    "opp": "yang zhang",
+    "n": 719
+  },
+  {
+    "episode": 111463210,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 135278.0,
+    "opp": "uninhibited-scholar",
+    "n": 719
+  },
+  {
+    "episode": 111462086,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "PET_CAFE"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 93074.0,
+    "opp": "Komi ShouKo",
+    "n": 719
+  },
+  {
+    "episode": 111460993,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "PET_CAFE"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 94141.0,
+    "opp": "takumina",
+    "n": 719
+  },
+  {
+    "episode": 111460340,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 97809.0,
+    "opp": "kavipavi19",
+    "n": 719
+  },
+  {
+    "episode": 111459860,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "BAKERY"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 82391.0,
+    "opp": "shfyyds12138",
+    "n": 719
+  },
+  {
+    "episode": 111458736,
+    "seat": 1,
+    "shops": [
+      "PIZZA_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 131862.0,
+    "opp": "dvv_ram",
+    "n": 719
+  },
+  {
+    "episode": 111457621,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 107441.0,
+    "opp": "nk for work",
+    "n": 719
+  },
+  {
+    "episode": 111456502,
+    "seat": 0,
+    "shops": [
+      "YARN_STORE",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 113099.0,
+    "opp": "\u6613\u601d\u8a00ysy",
+    "n": 719
+  },
+  {
+    "episode": 111455380,
+    "seat": 0,
+    "shops": [
+      "PIZZA_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "PIZZA_SHOP"
+    ],
+    "reward": 114633.0,
+    "opp": "Mumtaz Ahmad Maitla",
+    "n": 719
+  },
+  {
+    "episode": 111454259,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 124809.0,
+    "opp": "Kinance",
+    "n": 719
+  },
+  {
+    "episode": 111453066,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "YARN_STORE"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 101253.0,
+    "opp": "Zhenrui.Weng",
+    "n": 719
+  },
+  {
+    "episode": 111452032,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 99541.0,
+    "opp": "Kilupy",
+    "n": 719
+  },
+  {
+    "episode": 111450907,
+    "seat": 0,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 129286.0,
+    "opp": "Van-Phuc Huynh",
+    "n": 719
+  },
+  {
+    "episode": 111449780,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 120910.0,
+    "opp": "YJR",
+    "n": 719
+  },
+  {
+    "episode": 111449710,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 83306.0,
+    "opp": "Vaibhav Gupta",
+    "n": 719
+  },
+  {
+    "episode": 111448653,
+    "seat": 1,
+    "shops": [
+      "BRUNCH_SPOT",
+      "YARN_STORE"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 117579.0,
+    "opp": "Fabian Friedland",
+    "n": 719
+  },
+  {
+    "episode": 111447481,
+    "seat": 0,
+    "shops": [
+      "BRUNCH_SPOT",
+      "BAKERY"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 87591.0,
+    "opp": "\u041e\u043b\u0435\u0433 \u0411\u0430\u0431\u043a\u043e\u0432",
+    "n": 719
+  },
+  {
+    "episode": 111446393,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 147582.0,
+    "opp": "Phoenix750",
+    "n": 719
+  },
+  {
+    "episode": 111445239,
+    "seat": 0,
+    "shops": [
+      "PET_CAFE",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 112171.0,
+    "opp": "Danil Bashkirov",
+    "n": 719
+  },
+  {
+    "episode": 111444774,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "BAKERY"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 79925.0,
+    "opp": "islet",
+    "n": 719
+  },
+  {
+    "episode": 111444105,
+    "seat": 1,
+    "shops": [
+      "BRUNCH_SPOT",
+      "YARN_STORE"
+    ],
+    "first": [
+      "BRUNCH_SPOT"
+    ],
+    "reward": 155549.0,
+    "opp": "Aleksey SCHUKIN",
+    "n": 719
+  },
+  {
+    "episode": 111443761,
+    "seat": 1,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 151783.0,
+    "opp": "Rayk Kretzschmar",
+    "n": 719
+  },
+  {
+    "episode": 111442991,
+    "seat": 0,
+    "shops": [
+      "BAKERY",
+      "PIZZA_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 89251.0,
+    "opp": "hongzhouzhou",
+    "n": 719
+  },
+  {
+    "episode": 111441882,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 133841.0,
+    "opp": "mocatti",
+    "n": 719
+  },
+  {
+    "episode": 111440788,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 117190.0,
+    "opp": "ka4869",
+    "n": 719
+  },
+  {
+    "episode": 111439682,
+    "seat": 1,
+    "shops": [
+      "YARN_STORE",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "YARN_STORE"
+    ],
+    "reward": 111745.0,
+    "opp": "Keside Onyeocha",
+    "n": 719
+  },
+  {
+    "episode": 111438595,
+    "seat": 0,
+    "shops": [
+      "FARMERS_MARKET",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 140083.0,
+    "opp": "Shadow",
+    "n": 719
+  },
+  {
+    "episode": 111437478,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 91768.0,
+    "opp": "Ahmed Ansari",
+    "n": 719
+  },
+  {
+    "episode": 111436359,
+    "seat": 0,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "YARN_STORE"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 126151.0,
+    "opp": "M4nd4l0r14n",
+    "n": 719
+  },
+  {
+    "episode": 111435287,
+    "seat": 1,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 116121.0,
+    "opp": "dengddd",
+    "n": 719
+  },
+  {
+    "episode": 111434197,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 95510.0,
+    "opp": "Busya PRIME",
+    "n": 719
+  },
+  {
+    "episode": 111433076,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "ICE_CREAM_SHOP"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 119993.0,
+    "opp": "Vishal Khomane",
+    "n": 719
+  },
+  {
+    "episode": 111432010,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "PET_CAFE"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 99621.0,
+    "opp": "bouiboui",
+    "n": 719
+  },
+  {
+    "episode": 111430912,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "FARMERS_MARKET"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 95255.0,
+    "opp": "notoverkil",
+    "n": 719
+  },
+  {
+    "episode": 111429839,
+    "seat": 1,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "first": [
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 140135.0,
+    "opp": "Dang Khoa Nguyen",
+    "n": 719
+  },
+  {
+    "episode": 111428732,
+    "seat": 1,
+    "shops": [
+      "BAKERY",
+      "PET_CAFE"
+    ],
+    "first": [
+      "BAKERY"
+    ],
+    "reward": 113071.0,
+    "opp": "Zerabyte_X",
+    "n": 719
+  },
+  {
+    "episode": 111428721,
+    "seat": 1,
+    "shops": [
+      "FARMERS_MARKET",
+      "BAKERY"
+    ],
+    "first": [
+      "FARMERS_MARKET"
+    ],
+    "reward": 90395.0,
+    "opp": "huangbin",
+    "n": 719
+  },
+  {
+    "episode": 111427635,
+    "seat": 1,
+    "shops": [
+      "PET_CAFE",
+      "BRUNCH_SPOT"
+    ],
+    "first": [
+      "PET_CAFE"
+    ],
+    "reward": 132962.0,
+    "opp": "Daniel Gallardo G\u00f3mez",
+    "n": 719
+  }
+]

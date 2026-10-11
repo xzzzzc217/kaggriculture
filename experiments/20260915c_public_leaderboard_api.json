@@ -1,0 +1,366 @@
+{
+  "n": 9128,
+  "csv": "D:/kaggle/kaggriculture/artifacts/kaggle_runs/lb_20260915c/kaggriculture-publicleaderboard-2026-09-15T14-03-28.csv",
+  "csv_time": "2026-09-15T14:03:28",
+  "csv_top15": [
+    {
+      "rank": 1,
+      "teamId": 16718819,
+      "teamName": "Majkel1337",
+      "score": "3147.0",
+      "lastSubmissionDate": "2026-09-13 23:03:27",
+      "missing_from_04_13l": false
+    },
+    {
+      "rank": 2,
+      "teamId": 16621799,
+      "teamName": "Artem The Farmer \ud83c\udf45",
+      "score": "3146.4",
+      "lastSubmissionDate": "2026-09-14 15:34:54",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 3,
+      "teamId": 16730612,
+      "teamName": "Unknown Mother-Goose",
+      "score": "3089.1",
+      "lastSubmissionDate": "2026-09-14 16:09:01",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 4,
+      "teamId": 16640510,
+      "teamName": "SpaTaro",
+      "score": "3041.7",
+      "lastSubmissionDate": "2026-09-14 15:08:48",
+      "missing_from_04_13l": false
+    },
+    {
+      "rank": 5,
+      "teamId": 16732748,
+      "teamName": "DSM",
+      "score": "3039.4",
+      "lastSubmissionDate": "2026-09-15 03:34:32",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 6,
+      "teamId": 16664246,
+      "teamName": "Sida Zuo",
+      "score": "3013.1",
+      "lastSubmissionDate": "2026-09-15 09:43:54",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 7,
+      "teamId": 16730524,
+      "teamName": "THIRD FARM CLUB",
+      "score": "3012.3",
+      "lastSubmissionDate": "2026-09-15 13:41:00",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 8,
+      "teamId": 16675778,
+      "teamName": "Orbital Terraformer",
+      "score": "3003.1",
+      "lastSubmissionDate": "2026-09-13 18:05:36",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 9,
+      "teamId": 16732403,
+      "teamName": "ymg_aq",
+      "score": "2996.4",
+      "lastSubmissionDate": "2026-09-15 05:29:28",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 10,
+      "teamId": 16637255,
+      "teamName": "leave you",
+      "score": "2987.6",
+      "lastSubmissionDate": "2026-09-15 08:18:51",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 11,
+      "teamId": 16660726,
+      "teamName": "\u73b0\u5b9e\u662f\u4e2a\u4e50\u5b50",
+      "score": "2984.4",
+      "lastSubmissionDate": "2026-09-15 11:18:33",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 12,
+      "teamId": 16622349,
+      "teamName": "Mengfei Li",
+      "score": "2980.1",
+      "lastSubmissionDate": "2026-09-11 21:52:47",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 13,
+      "teamId": 16640467,
+      "teamName": "Catalyst",
+      "score": "2977.8",
+      "lastSubmissionDate": "2026-09-15 00:26:25",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 14,
+      "teamId": 16690867,
+      "teamName": "HowardLeeTW",
+      "score": "2976.0",
+      "lastSubmissionDate": "2026-09-13 08:07:14",
+      "missing_from_04_13l": true
+    },
+    {
+      "rank": 15,
+      "teamId": 16805699,
+      "teamName": "feel the agi",
+      "score": "2964.3",
+      "lastSubmissionDate": "2026-09-13 14:05:13",
+      "missing_from_04_13l": true
+    }
+  ],
+  "picked": {
+    "team": "Majkel1337",
+    "teamId": 16718819,
+    "submissionId": 56156662,
+    "csv_rank": 1,
+    "public_score": "3147.0",
+    "scoring_sub_id": 56156662,
+    "scoring_sub_score": "3147.0",
+    "current_sub_id": 56216119,
+    "current_sub_public_score": "3144.5",
+    "max_score_sub_id": 56156662,
+    "max_score_sub_score": "3147.0",
+    "last_updated_score": 3147.092516249778,
+    "dateSubmitted": "2026-09-11 02:18:56.837000",
+    "picked_ids": [
+      109308893,
+      109302525,
+      109302443,
+      109296294
+    ]
+  },
+  "heralces_csv": {
+    "rank": 2291,
+    "teamId": 16749576,
+    "score": "1582.4",
+    "lastSubmissionDate": "2026-09-10 20:20:39"
+  },
+  "gold21_csv": {
+    "rank": 21,
+    "team": "Ebi",
+    "score": "2953.4"
+  },
+  "rank1": {
+    "team": "Majkel1337",
+    "score": "3147.0",
+    "teamId": 16718819
+  },
+  "rank10": {
+    "team": "leave you",
+    "score": "2987.6",
+    "teamId": 16637255
+  },
+  "cut16": {
+    "submissionId": 56151152,
+    "n_public": 301,
+    "n_validation": 1,
+    "wtl": [
+      124,
+      2,
+      175
+    ],
+    "mean_margin": -2069.5,
+    "updatedScore": 1582.4157988350564,
+    "rolling_ids": [
+      109297997,
+      109159847,
+      109152510,
+      109149160,
+      109142116,
+      109135062,
+      109111080,
+      109091091,
+      109078755,
+      109057555,
+      109054323,
+      109044160
+    ],
+    "rolling_wtl": [
+      5,
+      0,
+      7
+    ],
+    "rolling_mean": -3963.6
+  },
+  "shopbag": {
+    "submissionId": 56151155,
+    "n_public": 165,
+    "wtl": [
+      69,
+      2,
+      94
+    ],
+    "mean_margin": -4330.8,
+    "updatedScore": 1286.1182802892286
+  },
+  "submissions_api": {
+    "cut16": {
+      "id": 56151152,
+      "status": "COMPLETE",
+      "publicScore": 1582.4
+    },
+    "shopbag": {
+      "id": 56151155,
+      "status": "COMPLETE",
+      "publicScore": 1286.1
+    }
+  },
+  "live_getleaderboard_top20": [
+    {
+      "rank": 1,
+      "teamId": 16718819,
+      "teamName": "Majkel1337",
+      "score": "3147.0",
+      "submissionDate": "2026-09-13 23:03:27.150000"
+    },
+    {
+      "rank": 2,
+      "teamId": 16621799,
+      "teamName": "Artem The Farmer \ud83c\udf45",
+      "score": "3146.4",
+      "submissionDate": "2026-09-14 15:34:54.926000"
+    },
+    {
+      "rank": 3,
+      "teamId": 16730612,
+      "teamName": "Unknown Mother-Goose",
+      "score": "3089.1",
+      "submissionDate": "2026-09-14 16:09:01.266000"
+    },
+    {
+      "rank": 4,
+      "teamId": 16640510,
+      "teamName": "SpaTaro",
+      "score": "3041.7",
+      "submissionDate": "2026-09-14 15:08:48.636000"
+    },
+    {
+      "rank": 5,
+      "teamId": 16732748,
+      "teamName": "DSM",
+      "score": "3039.4",
+      "submissionDate": "2026-09-15 03:34:32.186000"
+    },
+    {
+      "rank": 6,
+      "teamId": 16664246,
+      "teamName": "Sida Zuo",
+      "score": "3021.3",
+      "submissionDate": "2026-09-15 09:43:54.853000"
+    },
+    {
+      "rank": 7,
+      "teamId": 16730524,
+      "teamName": "THIRD FARM CLUB",
+      "score": "3012.3",
+      "submissionDate": "2026-09-15 13:41:00.986000"
+    },
+    {
+      "rank": 8,
+      "teamId": 16675778,
+      "teamName": "Orbital Terraformer",
+      "score": "3004.9",
+      "submissionDate": "2026-09-13 18:05:36.753000"
+    },
+    {
+      "rank": 9,
+      "teamId": 16732403,
+      "teamName": "ymg_aq",
+      "score": "2996.4",
+      "submissionDate": "2026-09-15 05:29:28.193000"
+    },
+    {
+      "rank": 10,
+      "teamId": 16637255,
+      "teamName": "leave you",
+      "score": "2987.6",
+      "submissionDate": "2026-09-15 08:18:51.480000"
+    },
+    {
+      "rank": 11,
+      "teamId": 16622349,
+      "teamName": "Mengfei Li",
+      "score": "2981.1",
+      "submissionDate": "2026-09-11 21:52:47.823000"
+    },
+    {
+      "rank": 12,
+      "teamId": 16640467,
+      "teamName": "Catalyst",
+      "score": "2977.8",
+      "submissionDate": "2026-09-15 00:26:25.156000"
+    },
+    {
+      "rank": 13,
+      "teamId": 16690867,
+      "teamName": "HowardLeeTW",
+      "score": "2976.0",
+      "submissionDate": "2026-09-13 08:07:14.343000"
+    },
+    {
+      "rank": 14,
+      "teamId": 16805699,
+      "teamName": "feel the agi",
+      "score": "2969.4",
+      "submissionDate": "2026-09-13 14:05:13.300000"
+    },
+    {
+      "rank": 15,
+      "teamId": 16723379,
+      "teamName": "local",
+      "score": "2960.1",
+      "submissionDate": "2026-09-15 12:08:25.196000"
+    },
+    {
+      "rank": 16,
+      "teamId": 16671741,
+      "teamName": "Excluding",
+      "score": "2959.0",
+      "submissionDate": "2026-09-15 05:48:25.716000"
+    },
+    {
+      "rank": 17,
+      "teamId": 16706321,
+      "teamName": "lumen",
+      "score": "2957.0",
+      "submissionDate": "2026-09-15 06:00:37.253000"
+    },
+    {
+      "rank": 18,
+      "teamId": 16773026,
+      "teamName": "\u30a2\u30eb\u30e2\u30f3\u30c9",
+      "score": "2954.8",
+      "submissionDate": "2026-09-15 13:47:18.063000"
+    },
+    {
+      "rank": 19,
+      "teamId": 16633178,
+      "teamName": "Cow Boy",
+      "score": "2953.9",
+      "submissionDate": "2026-09-14 07:41:05.443000"
+    },
+    {
+      "rank": 20,
+      "teamId": 16882725,
+      "teamName": "Ebi",
+      "score": "2953.4",
+      "submissionDate": "2026-09-15 10:01:29.283000"
+    }
+  ]
+}

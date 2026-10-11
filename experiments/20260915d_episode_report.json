@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915d",
+  "utc": "2026-09-15T15:01:30Z",
+  "no_upload": true,
+  "upload_bail": true,
+  "hold": true,
+  "root_main_py_untouched": true,
+  "root_main_py_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56151152,
+  "live_newest_score": 1573.9,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "yamakawanin_king_v4e_rc4 cut 16",
+  "live_newest_note": "COMPLETE 1573.9 CSV / ListEpisodes 1573.96 (submissions 1578.6, was 1582.4). Newest public 109323301. Newest-2 = shopbag reupload 56151155 (newer id, submissions 1282.2 / ListEpisodes last_updated 1282.250) + cut 16 56151152. Upload-bail TRUE (c): shopbag partner 1282.2 < 1500 and is newer than cut 16, so a new cut alone would drop the >=1500 COMPLETE. Study anyway. Hold.",
+  "cut15_id": 56146106,
+  "cut15_score": 1864.4,
+  "cut15_status": "COMPLETE",
+  "cut15_note": "DROPPED from newest-2.",
+  "shopbag_id": 56151155,
+  "shopbag_score": 1282.2,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "newest_2": [
+    56151155,
+    56151152
+  ],
+  "heralces_rank_csv": 2300,
+  "heralces_score": 1573.9,
+  "n_teams_csv": 9136,
+  "public_56151152": {
+    "n_public": 305,
+    "n_validation": 1,
+    "n_completed_public": 305,
+    "wtl": [
+      125,
+      2,
+      178
+    ],
+    "mean_margin": -2122.2,
+    "status": "COMPLETE",
+    "publicScore": 1573.9
+  },
+  "rolling_ids": [
+    109323301,
+    109321947,
+    109316981,
+    109309340,
+    109274859,
+    109251218,
+    109247247,
+    109241224,
+    109227483,
+    109208871,
+    109205772,
+    109205359
+  ],
+  "rolling_forbidden_0915c": [
+    109297997,
+    109159847,
+    109152510,
+    109149160,
+    109142116,
+    109135062,
+    109111080,
+    109091091,
+    109078755,
+    109057555,
+    109054323,
+    109044160
+  ],
+  "ids_not_identical_to_0915c": true,
+  "ids_disjoint_from_0915c": true,
+  "rolling_n": 12,
+  "rolling_n_steps": 720,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -4182.2,
+  "all_720_done_done": true
+}

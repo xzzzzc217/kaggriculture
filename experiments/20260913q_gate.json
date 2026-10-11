@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913q",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v40-plans-that-fit-the-shops",
+      "path": "artifacts/public_sources/_hunt_20260913q/ahmedberatozer__kaggriculture-v40-plans-that-fit-the-shops/kaggriculture-v40-plans-that-fit-the-shops.ipynb",
+      "verdict": "reject_v40_shop0909_overlay",
+      "sha256": "546c42248996ea4bf9d13bbe713440f7428770b85fba92a886a20af4f3ce25d5",
+      "note": "New slug vs _hunt_20260913p (lastRunTime 2026-09-13 12:12:24.867000; public-search newest by dateCreated). Python %%writefile main.py SHA 546c4224... matches EXPECTED_MAIN_SHA256. Distinct from cut14 acf7c664, cut15 b87a27ed, cut16 26ffba52, already-rejected V39 708c7485, and yhay81 shop-router-0913 77cf6772. Archive cell names submission_competitive_v40.tar.gz. Opening inspired by yhay81/shop-router-0911-simple. day6 at 144, day27 at 648, E182 Shop0909 last-seven-turn 712 planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect. 288 sales-first / R37 horizon overlay. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "guruprasaathas111/kaggriculture-master-engine-v53e01d74d8f",
+      "verdict": "reject_v39_reprint_shop0909_overlay",
+      "note": "Still a public search hit. 0913p already rejected SHA 708c7485 V39 reprint Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "yhay81/shop-router-0913",
+      "verdict": "reject_day6_144_648",
+      "note": "Still a public search hit. 0913o already rejected SHA 77cf6772 day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "wei111111/v46d-skill-rebuild-review-guide",
+      "verdict": "reject_analysis_review_guide",
+      "note": "Still a public search hit (lastRunTime 2026-09-13 11:23:54). Same analysis slug, no writefile agent. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v39-ready-before-the-rush",
+      "verdict": "reject_v39_reprint_shop0909_overlay",
+      "note": "0913n already rejected SHA 708c7485 V39 reprint Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v4",
+      "verdict": "reject_day6_144_648_and_712_overlay",
+      "note": "Still a public search hit. 0913m already rejected SHA 3dd123c5 day-6 144/648 + Shop0909 712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "crystalbaby/kaggriculture-v38-public-submission",
+      "verdict": "reject_v38_reprint",
+      "note": "Still a public search hit. 0913l already rejected SHA a2047ebd Ahmed V38 Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/notebookda72f457f5",
+      "verdict": "reject_v39_shop0909_overlay",
+      "note": "Still a public search hit. 0913e already rejected SHA 708c7485. Did not re-pull."
+    },
+    {
+      "kernel": "prvsiyan/kaggriculture-market-ledger-seasonal-counterplay",
+      "verdict": "reject_educational_framework",
+      "note": "0913c already rejected SHA 1c98c297. Did not re-pull."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-timed-six-cow",
+      "verdict": "reject_heuristic_six_cow",
+      "note": "0913b already rejected SHA 5dc0c68c. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v38-smarter-feed-stronger-margins",
+      "verdict": "reject_v38_reprint",
+      "note": "0913b already rejected SHA a2047ebd. Did not re-pull."
+    },
+    {
+      "kernel": "lokesh0252/kaggriculture-v1",
+      "verdict": "reject_v37_reprint",
+      "note": "0912e already rejected SHA 94c1c2c0. Did not re-pull."
+    },
+    {
+      "kernel": "melomanpanda/main-py",
+      "verdict": "reject_heuristic",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "crystalbaby/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_v37_reprint",
+      "note": "Already rejected SHA 94c1c2c0. Did not re-pull."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Author list: still newest y3uanm kaggriculture kernel. Writefile SHA acf7c664 = live cut 14. Did not re-pull."
+    },
+    {
+      "kernel": "municef1/lb-2448-single-file-kaggriculture-agent",
+      "verdict": "reject_tape",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "zhincez/the-base-schedule-is-a-plateau-not-a-lever",
+      "verdict": "reject_analysis",
+      "note": "Already rejected plateau tape 07f6c806 + analysis nbs. Did not re-pull."
+    },
+    {
+      "kernel": "bernubritz/kaggriculture-h4-best",
+      "verdict": "reject_tape",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+      "verdict": "reject_sale_horizon",
+      "note": "Already rejected sale_horizon=5. Did not re-pull."
+    },
+    {
+      "kernel": "nusrati/2650-score",
+      "verdict": "reject_sale_overlay",
+      "note": "0912d already rejected Ahmed V35 reprint SHA 294e7e4d. Did not re-pull."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-v4",
+      "verdict": "reject_shop0909_t4_overlay",
+      "note": "0912d already rejected Shop0909 T4 overlay / 712 planner. Did not re-pull."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Superseded on author list by shop-router-0913. Day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g / YARN 6c11s / extra-goose is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1687.3,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1315.6,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913q",
+  "hunt_report": "experiments/20260913q_hunt_report.json",
+  "named_kernels_scanned": [
+    "ahmedberatozer/kaggriculture-v40-plans-that-fit-the-shops"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1687.3 partnered with newer shopbag 56151155 COMPLETE 1315.6 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. New public slug ahmedberatozer/kaggriculture-v40-plans-that-fit-the-shops writefile SHA 546c4224 is V40 Shop0909 144/648 + 288/712 overlay, not a later-block. king/Thomas/y3uanm/yhay81 author lists have no new later-block. Did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: Ju/linyifang/carlos/Brian lost extra-animal after opp extra sheep 218/227 extra geese 242/266; wuwuwu already bought 218/242/266 and lost YARN 6c11s; maverick already bought extra geese 227/242 and lost identical-clone -1920."
+}

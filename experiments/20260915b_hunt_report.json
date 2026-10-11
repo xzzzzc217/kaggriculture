@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915b",
+  "kernels_not_in_0915_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260915b",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260915b.py",
+    "experiments/candidates/inspect_hunt_20260915b.py",
+    "experiments/candidates/_inspect_hunt_payloads_20260915b.py",
+    "experiments/candidates/_extract_pipe4_20260915b.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_static_hash_only",
+  "compare_0915": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260915",
+    "hunt_report": "experiments/20260915_hunt_report.json",
+    "gate": "experiments/20260915_gate.json",
+    "note": "3 new slugs vs _hunt_20260915. Public search newest is now anandkumar369o/kagg-team-decisions (lastRunTime 2026-09-15 08:55:04.753000). Did not re-pull rejected kernels (xuantianfengwu terminal-logistics SHA 364ca885, taylorclark637 sovereign-swarm SHA ffc0e6e2, ahmedberatozer v43 SHA 919fc1d6, prvsiyan field-clock, alperen adaptive-route SHA 77cf6772, destbreso telemetry, alperen harvestforge SHA 01f0cd47, nathanjacob clustering, hosen42 validation, nathanjacob pipe-2 SHA 728fdfb4, leoprovorov god-s-mode, sunil v6 SHA 8951ff93, xuantianfengwu hour-4 SHA dc07c7a9, guruprasaathas111 fully-dynamic SHA f4e3935c, rohitt94 SHA 62a80706, xuantianfengwu r10 SHA 3b8a1d4d, aurax7 v5, lime0001 t23, Ahmed V41 SHA 8951ff93, yhay81 0913, y3uanm rollback-v20)."
+  },
+  "public_search_newest": "anandkumar369o/kagg-team-decisions",
+  "public_search_newest_lastRunTime": "2026-09-15 08:55:04.753000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "anandkumar369o/kagg-team-decisions",
+    "nathanjacob/beyond-v43-what-the-top-clusters-do-on-turn-1",
+    "kenanzhang9/notebook6cc8bf1c92"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "anandkumar369o/kagg-team-decisions",
+      "path": "artifacts/public_sources/_hunt_20260915b/anandkumar369o__kagg-team-decisions/kagg-team-decisions.py",
+      "verdict": "reject_analysis_script_no_agent",
+      "sha256": "595d29fe7b1ddbfaf066fe973c0269d8df088f5915f16b4a86c143a97b6eb635",
+      "note": "New slug vs _hunt_20260915 (lastRunTime 2026-09-15 08:55:04.753000; public-search newest by dateCreated). Python analysis of top-500 team turn decisions (parquet/CSV aggregates). SHA 595d29fe... No %%writefile agent, no farm/route reselect after 216, no ctypes/agent.so. Cells not executed. File hashed in hunt dir only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "nathanjacob/beyond-v43-what-the-top-clusters-do-on-turn-1",
+      "path": "artifacts/public_sources/_hunt_20260915b/nathanjacob__beyond-v43-what-the-top-clusters-do-on-turn-1/beyond-v43-what-the-top-clusters-do-on-turn-1.ipynb",
+      "verdict": "reject_v43_c9_opening_shop0909_overlay",
+      "sha256": "7a37397fdb29cbbb17aaf7577352bef910fb4dd0f19bf763b9dcaff68595da54",
+      "note": "New slug vs _hunt_20260915 (lastRunTime 2026-09-15 07:12:17.730000). B85/gzip static reconstruct SHA 7a37397f... pipe-4 = Ahmed V43 Shop0909 chassis plus C9 turn-1 opening. Distinct from V43 SHA 919fc1d6, V42 728fdfb4, pipe-2 SHA 728fdfb4, and live cuts 14/15/16. Day-6 144/648 plus _R37_HORIZONS from 288 plus 712 terminal planner. 216<=step<=227 is milk-shop livestock sub; C9 opening is step 0/24/25, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "kenanzhang9/notebook6cc8bf1c92",
+      "path": "artifacts/public_sources/_hunt_20260915b/kenanzhang9__notebook6cc8bf1c92/notebook6cc8bf1c92.ipynb",
+      "verdict": "reject_shop0909_144_648_and_712_overlay",
+      "sha256": "602ae8be5b1e0d0c7483837c2e305dbf5d3aa41b6fe02c4efb3d1ca753820388",
+      "note": "New slug vs _hunt_20260915 (lastRunTime 2026-09-15 03:50:34.430000). Python %%writefile /kaggle/working/main.py SHA 602ae8be... V37-A3.1 Shop0909 overlay; distinct from Ahmed V43 SHA 919fc1d6, V42 728fdfb4, crystalbaby V37/V38, and live cuts 14/15/16. Notebook embeds cut15 SHA b87a27ed as comment/payload. Day-6 144/648 plus 288 sale overlay (_R37_HORIZONS 4/5 from 288) plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

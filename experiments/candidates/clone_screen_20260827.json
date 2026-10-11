@@ -1,0 +1,561 @@
+{
+  "date": "2026-08-27",
+  "clone": [
+    {
+      "agent": "shops_v43",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_shops\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -14190.0,
+        "scores": [
+          85921.0,
+          100111.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 14.73
+      },
+      "fufufukakaka_100504057": {
+        "margin": -13387.0,
+        "scores": [
+          112846.0,
+          126233.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 15.09
+      },
+      "masayoshi_100444645": {
+        "margin": -9937.0,
+        "scores": [
+          92918.0,
+          102855.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 15.39
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "llccqq624_pqs",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_pqs\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -16949.0,
+        "scores": [
+          124686.0,
+          141635.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 10.41
+      },
+      "fufufukakaka_100504057": {
+        "margin": 37.0,
+        "scores": [
+          70085.0,
+          70048.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.82
+      },
+      "masayoshi_100444645": {
+        "margin": -3084.0,
+        "scores": [
+          84152.0,
+          87236.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.81
+      },
+      "wins": 1,
+      "n": 3
+    },
+    {
+      "agent": "kaitofukami_v48",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\kaitofukami_v48\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -12192.0,
+        "scores": [
+          104837.0,
+          117029.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 16.01
+      },
+      "fufufukakaka_100504057": {
+        "margin": -4214.0,
+        "scores": [
+          106832.0,
+          111046.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 13.79
+      },
+      "masayoshi_100444645": {
+        "margin": -9937.0,
+        "scores": [
+          92918.0,
+          102855.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 13.32
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "shop_guard",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\shop_guard\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -15031.0,
+        "scores": [
+          115773.0,
+          130804.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 15.34
+      },
+      "fufufukakaka_100504057": {
+        "margin": -4214.0,
+        "scores": [
+          106832.0,
+          111046.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 15.95
+      },
+      "masayoshi_100444645": {
+        "margin": -9937.0,
+        "scores": [
+          92918.0,
+          102855.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 17.39
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "yamakawanin_v21",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\yamakawanin_v21\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -12697.0,
+        "scores": [
+          97528.0,
+          110225.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 20.82
+      },
+      "fufufukakaka_100504057": {
+        "margin": -13968.0,
+        "scores": [
+          75264.0,
+          89232.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 25.91
+      },
+      "masayoshi_100444645": {
+        "margin": -3613.0,
+        "scores": [
+          53536.0,
+          57149.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 24.46
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "evelyn_scheduler_v1",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\evelyn_scheduler_v1\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -138700.0,
+        "scores": [
+          11438.0,
+          150138.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.63
+      },
+      "fufufukakaka_100504057": {
+        "margin": -152326.0,
+        "scores": [
+          17880.0,
+          170206.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.67
+      },
+      "masayoshi_100444645": {
+        "margin": -146397.0,
+        "scores": [
+          12179.0,
+          158576.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 8.65
+      },
+      "wins": 0,
+      "n": 3
+    },
+    {
+      "agent": "lixiuqixiaoke_v24",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\lixiuqixiaoke_v24\\main.py",
+      "exists": true,
+      "prvsiyan_100348898": {
+        "margin": -16706.0,
+        "scores": [
+          63656.0,
+          80362.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 11.81
+      },
+      "fufufukakaka_100504057": {
+        "margin": -12625.0,
+        "scores": [
+          73082.0,
+          85707.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.62
+      },
+      "masayoshi_100444645": {
+        "margin": -8435.0,
+        "scores": [
+          48879.0,
+          57314.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 9.64
+      },
+      "wins": 0,
+      "n": 3
+    }
+  ],
+  "g5": [
+    {
+      "agent": "llccqq624_pqs",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\llccqq624_pqs\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": -6121.0,
+        "scores": [
+          67686.0,
+          73807.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 13.48
+      },
+      "james_95677563": {
+        "margin": -9654.0,
+        "scores": [
+          73931.0,
+          83585.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 16.38
+      },
+      "wins": 0,
+      "n": 2
+    },
+    {
+      "agent": "kaitofukami_v48",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\kaitofukami_v48\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": 19584.0,
+        "scores": [
+          83867.0,
+          64283.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 15.86
+      },
+      "james_95677563": {
+        "margin": 67847.0,
+        "scores": [
+          167948.0,
+          100101.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 16.24
+      },
+      "wins": 2,
+      "n": 2
+    },
+    {
+      "agent": "shop_guard",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\shop_guard\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": 19584.0,
+        "scores": [
+          83867.0,
+          64283.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 16.92
+      },
+      "james_95677563": {
+        "margin": 67847.0,
+        "scores": [
+          167948.0,
+          100101.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 17.06
+      },
+      "wins": 2,
+      "n": 2
+    },
+    {
+      "agent": "yamakawanin_v21",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\yamakawanin_v21\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": 7988.0,
+        "scores": [
+          87806.0,
+          79818.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 25.81
+      },
+      "james_95677563": {
+        "margin": 13159.0,
+        "scores": [
+          68316.0,
+          55157.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 27.48
+      },
+      "wins": 2,
+      "n": 2
+    },
+    {
+      "agent": "evelyn_scheduler_v1",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\evelyn_scheduler_v1\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": -144183.0,
+        "scores": [
+          13896.0,
+          158079.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 12.77
+      },
+      "james_95677563": {
+        "margin": -69858.0,
+        "scores": [
+          12092.0,
+          81950.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 12.67
+      },
+      "wins": 0,
+      "n": 2
+    },
+    {
+      "agent": "lixiuqixiaoke_v24",
+      "path": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\lixiuqixiaoke_v24\\main.py",
+      "exists": true,
+      "subin_97399969": {
+        "margin": -13917.0,
+        "scores": [
+          67929.0,
+          81846.0
+        ],
+        "win": false,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 14.14
+      },
+      "james_95677563": {
+        "margin": 11381.0,
+        "scores": [
+          68457.0,
+          57076.0
+        ],
+        "win": true,
+        "tie": false,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "runtime_seconds": 14.1
+      },
+      "wins": 1,
+      "n": 2
+    }
+  ],
+  "elapsed_seconds": 525.2
+}

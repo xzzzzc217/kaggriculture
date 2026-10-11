@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913",
+  "team": "Majkel1337",
+  "teamId": 16718819,
+  "rank": 1,
+  "scoring_sub": 56156662,
+  "score": 3249.7,
+  "last_updated_score": 3249.799613383989,
+  "dateSubmitted": "2026-09-11 02:18:56.837000",
+  "csv": "D:/kaggle/kaggriculture/artifacts/kaggle_runs/lb_20260913/kaggriculture-publicleaderboard-2026-09-12T19-37-07.csv",
+  "csv_time": "2026-09-12T19:37:07",
+  "live_score": "3249.7",
+  "replays": "artifacts/kaggle_runs/top_20260913",
+  "games_file": "experiments/20260913_top10_games.json",
+  "games_json_complete": true,
+  "episodes_file": "experiments/episodes_sub_56156662_majkel1337.json",
+  "leaderboard_snapshot": "experiments/20260913_public_leaderboard_api.json",
+  "episode_ids": [
+    108280666,
+    108275644,
+    108270468,
+    108171145
+  ],
+  "disjoint_from_0912e": true,
+  "0912e_ids": [
+    108264640,
+    108259398,
+    108183191,
+    108177210
+  ],
+  "0912e_same_sub": 56156662,
+  "record": "4-0",
+  "clone": "mixed_1_of_4",
+  "class": "mid_land_not_opening_not_later_block",
+  "note": "CSV #1 3249.7 live 3249.7 scoring sub 56156662. Ids disjoint from 20260912e Majkel set. Mid-land 150 then 218-222, wheat 293-607, clone=0 on 3/4 (BAKERY 108275644 clone=1), geese this window. Opening land is not a later-block license."
+}

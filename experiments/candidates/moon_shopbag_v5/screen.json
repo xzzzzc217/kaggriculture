@@ -1,0 +1,192 @@
+{
+  "agent": "moon_shopbag_v5",
+  "wins": 9,
+  "n": 12,
+  "flips": [
+    "loss_plantcity",
+    "loss_fernando",
+    "loss_liquidus"
+  ],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 6567.0,
+      "base": 5964,
+      "delta": 603.0,
+      "scores": [
+        108829.0,
+        102262.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.48
+    },
+    "fufu_clone": {
+      "margin": 10499.0,
+      "base": 6937,
+      "delta": 3562.0,
+      "scores": [
+        65160.0,
+        54661.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.16
+    },
+    "masa_clone": {
+      "margin": 10131.0,
+      "base": 7511,
+      "delta": 2620.0,
+      "scores": [
+        86687.0,
+        76556.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.99
+    },
+    "loss_3junghun": {
+      "margin": -3024.0,
+      "base": -5290,
+      "delta": 2266.0,
+      "scores": [
+        95480.0,
+        98504.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.63
+    },
+    "loss_satoooh": {
+      "margin": -1657.0,
+      "base": -3181,
+      "delta": 1524.0,
+      "scores": [
+        56088.0,
+        57745.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.84
+    },
+    "loss_plantcity": {
+      "margin": 6222.0,
+      "base": -4198,
+      "delta": 10420.0,
+      "scores": [
+        108108.0,
+        101886.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.72
+    },
+    "loss_fernando": {
+      "margin": 1091.0,
+      "base": -2605,
+      "delta": 3696.0,
+      "scores": [
+        63823.0,
+        62732.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.62
+    },
+    "loss_liquidus": {
+      "margin": 1546.0,
+      "base": -3662,
+      "delta": 5208.0,
+      "scores": [
+        104691.0,
+        103145.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.7
+    },
+    "yarn_tk256": {
+      "margin": 16611.0,
+      "base": 16611,
+      "delta": 0.0,
+      "scores": [
+        146095.0,
+        129484.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.91
+    },
+    "yarn2_tk256": {
+      "margin": 25093.0,
+      "base": 17159,
+      "delta": 7934.0,
+      "scores": [
+        91694.0,
+        66601.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.57
+    },
+    "hanserong_11": {
+      "margin": 3879.0,
+      "base": 3879,
+      "delta": 0.0,
+      "scores": [
+        115846.0,
+        111967.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.95
+    },
+    "mtn_11": {
+      "margin": -759.0,
+      "base": -759,
+      "delta": 0.0,
+      "scores": [
+        123573.0,
+        124332.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.08
+    }
+  }
+}

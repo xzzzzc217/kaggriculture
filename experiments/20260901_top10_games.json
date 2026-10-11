@@ -1,0 +1,2247 @@
+[
+  {
+    "team": "tetsuya",
+    "id": 103832819,
+    "opp": "yukino",
+    "margin": 19159.0,
+    "win": true,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "FARMERS_MARKET"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 5,
+      "GOOSE": 3
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      12,
+      14
+    ],
+    "land": [
+      169,
+      241
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      1
+    ],
+    "cow": [
+      7,
+      4
+    ],
+    "wheat": [
+      414,
+      1550
+    ],
+    "wool": [
+      144,
+      109
+    ],
+    "milk": [
+      200,
+      214
+    ],
+    "fert": [
+      545,
+      284
+    ],
+    "melon": [
+      60,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      15,
+      24
+    ],
+    "egg": [
+      88,
+      0
+    ],
+    "straw": [
+      229,
+      268
+    ],
+    "rewards": [
+      70717.0,
+      89876.0
+    ]
+  },
+  {
+    "team": "tetsuya",
+    "id": 103835064,
+    "opp": "Kenjo1209",
+    "margin": 20075.0,
+    "win": true,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "buy": {
+      "COW": 4,
+      "SHEEP": 11
+    },
+    "buy_opp": {
+      "COW": 5,
+      "SHEEP": 11
+    },
+    "pasture": [
+      15,
+      17
+    ],
+    "land": [
+      169,
+      241
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      11,
+      7
+    ],
+    "cow": [
+      4,
+      4
+    ],
+    "wheat": [
+      509,
+      479
+    ],
+    "wool": [
+      280,
+      269
+    ],
+    "milk": [
+      131,
+      176
+    ],
+    "fert": [
+      528,
+      347
+    ],
+    "melon": [
+      102,
+      102
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      4,
+      0
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      198,
+      199
+    ],
+    "rewards": [
+      86124.0,
+      66049.0
+    ]
+  },
+  {
+    "team": "tetsuya",
+    "id": 103839536,
+    "opp": "yukino",
+    "margin": 43639.0,
+    "win": true,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "buy": {
+      "COW": 4,
+      "SHEEP": 12
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      16,
+      17
+    ],
+    "land": [
+      169,
+      241
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      12,
+      4
+    ],
+    "cow": [
+      4,
+      5
+    ],
+    "wheat": [
+      402,
+      1058
+    ],
+    "wool": [
+      273,
+      276
+    ],
+    "milk": [
+      119,
+      183
+    ],
+    "fert": [
+      624,
+      358
+    ],
+    "melon": [
+      90,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      8,
+      18
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      212,
+      242
+    ],
+    "rewards": [
+      120831.0,
+      77192.0
+    ]
+  },
+  {
+    "team": "tetsuya",
+    "id": 103846258,
+    "opp": "Umataro Tenma",
+    "margin": 46697.0,
+    "win": true,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "FARMERS_MARKET"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5,
+      "GOOSE": 1
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      14,
+      14
+    ],
+    "land": [
+      169,
+      241
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      1
+    ],
+    "cow": [
+      9,
+      4
+    ],
+    "wheat": [
+      428,
+      437
+    ],
+    "wool": [
+      145,
+      109
+    ],
+    "milk": [
+      236,
+      214
+    ],
+    "fert": [
+      554,
+      284
+    ],
+    "melon": [
+      60,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      15,
+      24
+    ],
+    "egg": [
+      28,
+      0
+    ],
+    "straw": [
+      226,
+      268
+    ],
+    "rewards": [
+      121916.0,
+      75219.0
+    ]
+  },
+  {
+    "team": "Crop Dusta",
+    "id": 104120836,
+    "opp": "Umataro Tenma",
+    "margin": 6632.0,
+    "win": true,
+    "clone": false,
+    "max_near": 5,
+    "shops72": [
+      "SMOOTHIE_SHOP"
+    ],
+    "buy": {
+      "COW": 11,
+      "SHEEP": 2
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 4
+    },
+    "pasture": [
+      13,
+      15
+    ],
+    "land": [
+      122,
+      199
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      0,
+      4
+    ],
+    "cow": [
+      11,
+      9
+    ],
+    "wheat": [
+      2112,
+      372
+    ],
+    "wool": [
+      45,
+      113
+    ],
+    "milk": [
+      308,
+      266
+    ],
+    "fert": [
+      172,
+      281
+    ],
+    "melon": [
+      66,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      91,
+      14
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      348,
+      280
+    ],
+    "rewards": [
+      128015.0,
+      134647.0
+    ]
+  },
+  {
+    "team": "Crop Dusta",
+    "id": 104127548,
+    "opp": "Hanserong",
+    "margin": -4839.0,
+    "win": false,
+    "clone": false,
+    "max_near": 5,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 2,
+      "GOOSE": 4
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      9,
+      14
+    ],
+    "land": [
+      122,
+      199
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      0,
+      6
+    ],
+    "cow": [
+      4,
+      7
+    ],
+    "wheat": [
+      577,
+      437
+    ],
+    "wool": [
+      51,
+      109
+    ],
+    "milk": [
+      161,
+      214
+    ],
+    "fert": [
+      167,
+      284
+    ],
+    "melon": [
+      65,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      120,
+      24
+    ],
+    "egg": [
+      112,
+      0
+    ],
+    "straw": [
+      250,
+      268
+    ],
+    "rewards": [
+      91252.0,
+      96091.0
+    ]
+  },
+  {
+    "team": "Crop Dusta",
+    "id": 104138755,
+    "opp": "xi luo",
+    "margin": -1639.0,
+    "win": false,
+    "clone": false,
+    "max_near": 5,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 2,
+      "GOOSE": 6
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      9,
+      14
+    ],
+    "land": [
+      122,
+      199
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      0,
+      6
+    ],
+    "cow": [
+      5,
+      7
+    ],
+    "wheat": [
+      338,
+      439
+    ],
+    "wool": [
+      48,
+      109
+    ],
+    "milk": [
+      187,
+      214
+    ],
+    "fert": [
+      156,
+      286
+    ],
+    "melon": [
+      64,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      234,
+      24
+    ],
+    "egg": [
+      105,
+      0
+    ],
+    "straw": [
+      297,
+      268
+    ],
+    "rewards": [
+      92529.0,
+      94168.0
+    ]
+  },
+  {
+    "team": "Crop Dusta",
+    "id": 104147719,
+    "opp": "Hanserong",
+    "margin": 1874.0,
+    "win": true,
+    "clone": false,
+    "max_near": 5,
+    "shops72": [
+      "SMOOTHIE_SHOP"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 12
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      21,
+      14
+    ],
+    "land": [
+      122,
+      199
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      6
+    ],
+    "cow": [
+      9,
+      7
+    ],
+    "wheat": [
+      1831,
+      437
+    ],
+    "wool": [
+      213,
+      109
+    ],
+    "milk": [
+      231,
+      214
+    ],
+    "fert": [
+      275,
+      284
+    ],
+    "melon": [
+      66,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      26,
+      24
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      258,
+      268
+    ],
+    "rewards": [
+      130687.0,
+      132561.0
+    ]
+  },
+  {
+    "team": "Kaileh57",
+    "id": 103728030,
+    "opp": "Naru041104",
+    "margin": -619.0,
+    "win": false,
+    "clone": true,
+    "max_near": 720,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      8,
+      8
+    ],
+    "wheat": [
+      376,
+      775
+    ],
+    "wool": [
+      154,
+      154
+    ],
+    "milk": [
+      289,
+      289
+    ],
+    "fert": [
+      335,
+      373
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      326,
+      326
+    ],
+    "rewards": [
+      85331.0,
+      85950.0
+    ]
+  },
+  {
+    "team": "Kaileh57",
+    "id": 103763619,
+    "opp": "Anay Garodia",
+    "margin": -8523.0,
+    "win": false,
+    "clone": true,
+    "max_near": 111,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      14,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      5
+    ],
+    "cow": [
+      5,
+      8
+    ],
+    "wheat": [
+      470,
+      479
+    ],
+    "wool": [
+      109,
+      176
+    ],
+    "milk": [
+      214,
+      374
+    ],
+    "fert": [
+      281,
+      333
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      24,
+      104
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      268,
+      352
+    ],
+    "rewards": [
+      75850.0,
+      84373.0
+    ]
+  },
+  {
+    "team": "Kaileh57",
+    "id": 103890768,
+    "opp": "islet",
+    "margin": -6011.0,
+    "win": false,
+    "clone": true,
+    "max_near": 110,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      9,
+      11
+    ],
+    "cow": [
+      8,
+      6
+    ],
+    "wheat": [
+      345,
+      340
+    ],
+    "wool": [
+      217,
+      283
+    ],
+    "milk": [
+      240,
+      206
+    ],
+    "fert": [
+      362,
+      366
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      16,
+      18
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      262,
+      251
+    ],
+    "rewards": [
+      76357.0,
+      82368.0
+    ]
+  },
+  {
+    "team": "Kaileh57",
+    "id": 104321869,
+    "opp": "Semyon Epanov",
+    "margin": 17311.0,
+    "win": true,
+    "clone": true,
+    "max_near": 110,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      9,
+      5
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "wheat": [
+      345,
+      898
+    ],
+    "wool": [
+      217,
+      654
+    ],
+    "milk": [
+      240,
+      777
+    ],
+    "fert": [
+      362,
+      846
+    ],
+    "melon": [
+      72,
+      572
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      16,
+      514
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      262,
+      805
+    ],
+    "rewards": [
+      67614.0,
+      84925.0
+    ]
+  },
+  {
+    "team": "QQ Farming",
+    "id": 104232376,
+    "opp": "Semyon Epanov",
+    "margin": 6693.0,
+    "win": true,
+    "clone": true,
+    "max_near": 507,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      10,
+      10
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "wheat": [
+      373,
+      337
+    ],
+    "wool": [
+      289,
+      276
+    ],
+    "milk": [
+      287,
+      183
+    ],
+    "fert": [
+      359,
+      358
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      18,
+      18
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      307,
+      242
+    ],
+    "rewards": [
+      124613.0,
+      131306.0
+    ]
+  },
+  {
+    "team": "QQ Farming",
+    "id": 104241308,
+    "opp": "xi luo",
+    "margin": -906.0,
+    "win": false,
+    "clone": true,
+    "max_near": 111,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      17,
+      14
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      6
+    ],
+    "cow": [
+      9,
+      7
+    ],
+    "wheat": [
+      448,
+      437
+    ],
+    "wool": [
+      176,
+      109
+    ],
+    "milk": [
+      389,
+      214
+    ],
+    "fert": [
+      362,
+      284
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      109,
+      24
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      352,
+      268
+    ],
+    "rewards": [
+      44059.0,
+      43153.0
+    ]
+  },
+  {
+    "team": "QQ Farming",
+    "id": 104248039,
+    "opp": "xi luo",
+    "margin": 3835.0,
+    "win": true,
+    "clone": true,
+    "max_near": 609,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      9,
+      9
+    ],
+    "wheat": [
+      448,
+      370
+    ],
+    "wool": [
+      176,
+      138
+    ],
+    "milk": [
+      389,
+      270
+    ],
+    "fert": [
+      362,
+      326
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      109,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      352,
+      269
+    ],
+    "rewards": [
+      83435.0,
+      79600.0
+    ]
+  },
+  {
+    "team": "QQ Farming",
+    "id": 104252527,
+    "opp": "xi luo",
+    "margin": -764.0,
+    "win": false,
+    "clone": true,
+    "max_near": 111,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      17,
+      14
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      6
+    ],
+    "cow": [
+      9,
+      7
+    ],
+    "wheat": [
+      388,
+      437
+    ],
+    "wool": [
+      176,
+      109
+    ],
+    "milk": [
+      390,
+      214
+    ],
+    "fert": [
+      359,
+      284
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      109,
+      24
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      352,
+      268
+    ],
+    "rewards": [
+      108517.0,
+      107753.0
+    ]
+  },
+  {
+    "team": "Driz Lo",
+    "id": 104169957,
+    "opp": "Umataro Tenma",
+    "margin": 1198.0,
+    "win": true,
+    "clone": true,
+    "max_near": 584,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      14,
+      14
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      6,
+      6
+    ],
+    "cow": [
+      7,
+      7
+    ],
+    "wheat": [
+      437,
+      437
+    ],
+    "wool": [
+      109,
+      109
+    ],
+    "milk": [
+      214,
+      214
+    ],
+    "fert": [
+      286,
+      284
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      66,
+      24
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      268,
+      268
+    ],
+    "rewards": [
+      76377.0,
+      77575.0
+    ]
+  },
+  {
+    "team": "Driz Lo",
+    "id": 104176691,
+    "opp": "One-For-All",
+    "margin": 3394.0,
+    "win": true,
+    "clone": true,
+    "max_near": 101,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "buy": {
+      "COW": 11,
+      "SHEEP": 6
+    },
+    "buy_opp": {
+      "COW": 11,
+      "SHEEP": 4
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      6,
+      4
+    ],
+    "cow": [
+      11,
+      10
+    ],
+    "wheat": [
+      474,
+      370
+    ],
+    "wool": [
+      215,
+      118
+    ],
+    "milk": [
+      363,
+      270
+    ],
+    "fert": [
+      474,
+      319
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      14,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      331,
+      269
+    ],
+    "rewards": [
+      135354.0,
+      131960.0
+    ]
+  },
+  {
+    "team": "Driz Lo",
+    "id": 104183421,
+    "opp": "zhyphirus",
+    "margin": -3134.0,
+    "win": false,
+    "clone": true,
+    "max_near": 586,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      10,
+      10
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "wheat": [
+      328,
+      360
+    ],
+    "wool": [
+      276,
+      259
+    ],
+    "milk": [
+      183,
+      192
+    ],
+    "fert": [
+      360,
+      342
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      46,
+      18
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      242,
+      247
+    ],
+    "rewards": [
+      79201.0,
+      82335.0
+    ]
+  },
+  {
+    "team": "Driz Lo",
+    "id": 104185706,
+    "opp": "cygn",
+    "margin": 493.0,
+    "win": true,
+    "clone": true,
+    "max_near": 101,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      14,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      6,
+      5
+    ],
+    "cow": [
+      7,
+      9
+    ],
+    "wheat": [
+      437,
+      886
+    ],
+    "wool": [
+      109,
+      654
+    ],
+    "milk": [
+      214,
+      770
+    ],
+    "fert": [
+      286,
+      834
+    ],
+    "melon": [
+      72,
+      572
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      24,
+      512
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      268,
+      795
+    ],
+    "rewards": [
+      65102.0,
+      64609.0
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 103710264,
+    "opp": "Milan Leonard",
+    "margin": -16910.0,
+    "win": false,
+    "clone": true,
+    "max_near": 155,
+    "shops72": [
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 11
+    },
+    "buy_opp": {
+      "COW": 8,
+      "SHEEP": 9
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      11,
+      9
+    ],
+    "cow": [
+      6,
+      8
+    ],
+    "wheat": [
+      328,
+      364
+    ],
+    "wool": [
+      276,
+      192
+    ],
+    "milk": [
+      183,
+      246
+    ],
+    "fert": [
+      358,
+      348
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      18,
+      15
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      242,
+      217
+    ],
+    "rewards": [
+      95740.0,
+      112650.0
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 103839649,
+    "opp": "ringbearer",
+    "margin": -1256.0,
+    "win": false,
+    "clone": true,
+    "max_near": 183,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 6
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 6
+    },
+    "pasture": [
+      14,
+      14
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      6,
+      6
+    ],
+    "cow": [
+      6,
+      7
+    ],
+    "wheat": [
+      452,
+      437
+    ],
+    "wool": [
+      120,
+      109
+    ],
+    "milk": [
+      191,
+      214
+    ],
+    "fert": [
+      294,
+      284
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      29,
+      24
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      220,
+      268
+    ],
+    "rewards": [
+      48314.0,
+      47058.0
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 103906449,
+    "opp": "islet",
+    "margin": -3023.0,
+    "win": false,
+    "clone": true,
+    "max_near": 111,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 9
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      9,
+      5
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "wheat": [
+      354,
+      381
+    ],
+    "wool": [
+      217,
+      138
+    ],
+    "milk": [
+      239,
+      270
+    ],
+    "fert": [
+      357,
+      326
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      16,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      262,
+      269
+    ],
+    "rewards": [
+      125049.0,
+      122026.0
+    ]
+  },
+  {
+    "team": "Yusuke Hayashi",
+    "id": 103915423,
+    "opp": "islet",
+    "margin": -764.0,
+    "win": false,
+    "clone": true,
+    "max_near": 111,
+    "shops72": [
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      14,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "wheat": [
+      423,
+      381
+    ],
+    "wool": [
+      143,
+      138
+    ],
+    "milk": [
+      226,
+      270
+    ],
+    "fert": [
+      322,
+      326
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      18,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      222,
+      269
+    ],
+    "rewards": [
+      64597.0,
+      63833.0
+    ]
+  },
+  {
+    "team": "MtN",
+    "id": 103705711,
+    "opp": "cygn",
+    "margin": -1335.0,
+    "win": false,
+    "clone": true,
+    "max_near": 696,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "wheat": [
+      452,
+      886
+    ],
+    "wool": [
+      146,
+      654
+    ],
+    "milk": [
+      289,
+      770
+    ],
+    "fert": [
+      346,
+      834
+    ],
+    "melon": [
+      72,
+      572
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      512
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      311,
+      795
+    ],
+    "rewards": [
+      63633.0,
+      64968.0
+    ]
+  },
+  {
+    "team": "MtN",
+    "id": 103803977,
+    "opp": "tiki tiki tiki",
+    "margin": -2780.0,
+    "win": false,
+    "clone": true,
+    "max_near": 696,
+    "shops72": [
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      5
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "wheat": [
+      418,
+      369
+    ],
+    "wool": [
+      146,
+      138
+    ],
+    "milk": [
+      292,
+      270
+    ],
+    "fert": [
+      344,
+      326
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      311,
+      269
+    ],
+    "rewards": [
+      74700.0,
+      71920.0
+    ]
+  },
+  {
+    "team": "MtN",
+    "id": 103866342,
+    "opp": "boatlee",
+    "margin": -4467.0,
+    "win": false,
+    "clone": true,
+    "max_near": 392,
+    "shops72": [
+      "FARMERS_MARKET"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 6
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      5,
+      6
+    ],
+    "cow": [
+      8,
+      8
+    ],
+    "wheat": [
+      412,
+      364
+    ],
+    "wool": [
+      146,
+      158
+    ],
+    "milk": [
+      296,
+      246
+    ],
+    "fert": [
+      344,
+      319
+    ],
+    "melon": [
+      72,
+      72
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      12
+    ],
+    "egg": [
+      0,
+      0
+    ],
+    "straw": [
+      311,
+      269
+    ],
+    "rewards": [
+      120322.0,
+      115855.0
+    ]
+  },
+  {
+    "team": "MtN",
+    "id": 103877592,
+    "opp": "tetsuya",
+    "margin": -28472.0,
+    "win": false,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "PET_CAFE"
+    ],
+    "buy": {
+      "COW": 9,
+      "SHEEP": 5
+    },
+    "buy_opp": {
+      "COW": 4,
+      "SHEEP": 10,
+      "GOOSE": 1
+    },
+    "pasture": [
+      17,
+      14
+    ],
+    "land": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      10
+    ],
+    "cow": [
+      7,
+      4
+    ],
+    "wheat": [
+      498,
+      365
+    ],
+    "wool": [
+      146,
+      269
+    ],
+    "milk": [
+      289,
+      132
+    ],
+    "fert": [
+      349,
+      624
+    ],
+    "melon": [
+      72,
+      60
+    ],
+    "tomato": [
+      0,
+      0
+    ],
+    "carrot": [
+      12,
+      75
+    ],
+    "egg": [
+      0,
+      21
+    ],
+    "straw": [
+      306,
+      284
+    ],
+    "rewards": [
+      83689.0,
+      112161.0
+    ]
+  }
+]

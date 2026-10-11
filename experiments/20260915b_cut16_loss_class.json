@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915b",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    109274859,
+    109251218,
+    109247247,
+    109241224,
+    109227483,
+    109208871,
+    109205772,
+    109205359,
+    109184094,
+    109178619,
+    109169017,
+    109168637
+  ],
+  "ids_0915": [
+    109142116,
+    109135062,
+    109111080,
+    109091091,
+    109078755,
+    109057555,
+    109054323,
+    109044160,
+    109042689,
+    109030720,
+    109029822,
+    109024708
+  ],
+  "disjoint_from_0915": true,
+  "all_720_done_done": true,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -3874.9,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    29.0
+  ],
+  "wool_360": {
+    "109274859": 183,
+    "109251218": 1,
+    "109247247": 234,
+    "109241224": 43,
+    "109227483": 1,
+    "109208871": 234,
+    "109205772": 18,
+    "109205359": 43,
+    "109184094": 243,
+    "109178619": 1,
+    "109169017": 236,
+    "109168637": 43
+  },
+  "wool_432": {
+    "109274859": 189,
+    "109251218": 5,
+    "109247247": 237,
+    "109241224": 1,
+    "109227483": 1,
+    "109208871": 200,
+    "109205772": 1,
+    "109205359": 1,
+    "109184094": 244,
+    "109178619": 5,
+    "109169017": 212,
+    "109168637": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-14/09-15: extra-animal 8c6s3g plus extra-goose plus extra-sheep plus identical-clone extra-goose. WTL 4-0-8 mean -3874.9 vs 09-15 5-0-7 mean -7862.6. New window game Baha Enes Oren 109274859 +114. clone=11/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (ManasviSharma 109251218 7c6s vs 8c6s3g FARMERS_MARKET extra cow 218 vs opp extra sheep 218/227 extra geese 242/266 -18715; Huy Le Ngoc Gia 109178619 7c6s vs 8c6s3g BRUNCH extra cow 218 vs opp extra sheep 218/227 extra geese 242/266 -13645; Ashraf 1232 109227483 9c5s vs 8c6s3g ICE_CREAM extra sheep 314 vs opp extra sheep 218/227 extra geese 242/266 -13342; Sergei Fironov 109247247 10c8s vs 8c12s3g SMOOTHIE extra cow 218 extra sheep 227/242/266 already bought vs opp extra sheep 218/227 extra geese 242/266 extra sheep 290 -13194) + extra-goose (AimeeChen1 109205359 9c5s3g vs 9c5s4g PET_CAFE extra geese 227/242 already bought vs opp extra geese 218/227/242 extra sheep 266 -2466) + identical-clone extra-goose (3G 109168637 9c5s3g vs 9c5s3g ICE_CREAM extra geese 227/242 already bought -10063) + extra-sheep (Grim Reaper 109169017 6c11s vs 3c13s2g YARN extra sheep 218/242/266 already bought vs extra sheep 218/227/242/265 -10132; Rifa Tamanna 109208871 9c8s vs 7c11s BAKERY extra sheep 227/242/266 already bought vs extra sheep 218/227/242/266 -3251). Wins: tetsuya 109241224 9c5s3g vs 6c5s BAKERY +18920 extra geese 227/242 already bought clone=0; Stephen Schott 109184094 4c15s vs 8c6s3g ICE_CREAM +13159 extra sheep 218/242/266 already bought; Jorrawar Grewal 109205772 9c5s3g vs 6c11s PIZZA +6116 extra geese 227/242 already bought vs extra sheep 227/242/266; Baha Enes Oren 109274859 9c5s3g vs 9c5s3g ICE_CREAM +114 extra geese 227/242 already bought identical-clone. clone=11/12, Q=3/3 (two 3/4 losses), BUY_LAND 151/266 succeeded, cash_24 3-29. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: Sergei already bought extra sheep 227/242/266 and lost vs 8c12s3g; Grim Reaper already bought extra sheep 218/242/266 and lost 11s vs 13s2g; Ashraf extra sheep 314 lost vs 8c6s3g; Rifa already bought extra sheep 227/242/266 and lost 8s vs 11s; 3G already bought extra geese 227/242 identical-clone and lost; Aimee already bought extra geese 227/242 and lost vs 4g; Manasvi/Huy extra cow 218 lost vs 8c6s3g; Baha/Jorrawar already bought extra geese 227/242 and won; Stephen already bought extra sheep 218/242/266 and won vs 8c6s3g; tetsuya already bought extra geese 227/242 clone=0 and won.",
+  "worst_losses": [
+    {
+      "id": 109251218,
+      "opp": "ManasviSharma",
+      "margin": -18715.0,
+      "herd_us": "7c6s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "FARMERS_MARKET"
+      ]
+    }
+  ]
+}

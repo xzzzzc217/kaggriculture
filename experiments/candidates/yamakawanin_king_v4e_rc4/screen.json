@@ -1,0 +1,97 @@
+{
+  "agent": "yamakawanin_king_v4e_rc4",
+  "windows_agent_so": false,
+  "agent_path": "D:/kaggle/kaggriculture/experiments/candidates/yamakawanin_king_v4e_rc4/main.py",
+  "main_sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+  "n": 5,
+  "wins": 5,
+  "done_done": 5,
+  "missing": [],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 12627.0,
+      "base": 5964,
+      "delta": 6663.0,
+      "scores": [
+        94343.0,
+        81716.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.83,
+      "episode_id": 100348898
+    },
+    "fufu_clone": {
+      "margin": 12014.0,
+      "base": 6937,
+      "delta": 5077.0,
+      "scores": [
+        86596.0,
+        74582.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 11.18,
+      "episode_id": 100504057
+    },
+    "masa_clone": {
+      "margin": 40050.0,
+      "base": 7511,
+      "delta": 32539.0,
+      "scores": [
+        101926.0,
+        61876.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 11.18,
+      "episode_id": 100444645
+    },
+    "subin_97399969": {
+      "margin": 27159.0,
+      "base": 17659,
+      "delta": 9500.0,
+      "scores": [
+        76141.0,
+        48982.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.62,
+      "episode_id": 97399969
+    },
+    "james_95677563": {
+      "margin": 77153.0,
+      "base": 51097,
+      "delta": 26056.0,
+      "scores": [
+        128465.0,
+        51312.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.34,
+      "episode_id": 95677563
+    }
+  }
+}

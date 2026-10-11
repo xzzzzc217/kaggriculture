@@ -1,0 +1,144 @@
+{
+  "title": "Kaggriculture study packet 2026-09-04",
+  "no_upload": "Do not submit Yusuke six-day until the user says 提交 and Linux clone/G5 exists.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260904/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-04T04:01:32.csv",
+    "episode_index": "artifacts/kaggle_runs/episodes_index_20260904/manifest.csv",
+    "newest_daily_zip": "artifacts/kaggle_runs/episodes_20260903/kaggriculture-episodes-2026-09-03.zip",
+    "daily_zip_status": "downloaded 538048136 bytes, 669 json members; zip-head counts Giulio 98 / Knight 123 / sbol 97 / Crop Dusta 184 / Yusuke 16 / heralces 0. 09-04 newest publics are not in that day, so Fieldbook/top-board rows use official kaggleusercontent episode JSON listed by EpisodeService",
+    "fieldbook_replays": "artifacts/kaggle_runs/fieldbook_20260904",
+    "top_replays": "artifacts/kaggle_runs/top_20260904",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260904"
+  },
+  "live": {
+    "fieldbook": 55962758,
+    "score": 1946.5,
+    "rank": 808,
+    "n_teams": 7546,
+    "shopbag_reupload": 55962761,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "public": {"n": 315, "wtl": [116, 51, 148], "mean_margin": 1051.0},
+    "gold21": 2827.0,
+    "rank10": {"team": "sbol ball", "score": 2873.5}
+  },
+  "rolling12": {
+    "pre_upload_shopbag_v4": "experiments/20260901_rolling12_autopsy.json",
+    "live_fieldbook_0903": "experiments/20260903_fieldbook_rolling12.json",
+    "live_fieldbook": "experiments/20260904_fieldbook_rolling12.json",
+    "wtl": [2, 2, 8],
+    "mean_margin": -2160.9,
+    "loss_class": "Still freeze-after-day-9 vs later ShopForge 9c9s and heavier wheat tails; the 09-04 window also has Knight-class 1000+ hinge dumps and one non-clone 7c5s+2g goose, not a new Fieldbook tape."
+  },
+  "top_board": {
+    "source": "experiments/20260904_top10_games.json",
+    "not_copied_from": "experiments/20260901_top10_games.json",
+    "Giulio Ravasio": {
+      "land": [151, 266],
+      "herd": ["9c5s", "7c5s+2g"],
+      "wheat": [406, 414],
+      "shops": ["FARMERS_MARKET", "SMOOTHIE_SHOP", "PIZZA_SHOP"],
+      "clone": true,
+      "melon": 72,
+      "fert": 333,
+      "note": "Fieldbook-band land, not tetsuya 169/241. Optional geese. Wheat ~410 not a mountain."
+    },
+    "Knight of Favonius": {
+      "land": [151, 266],
+      "herd": ["9c5s", "7c5s+2g"],
+      "wheat": [1391, 1888],
+      "shops": ["FARMERS_MARKET", "ICE_CREAM_SHOP", "BRUNCH_SPOT", "PIZZA_SHOP"],
+      "clone": "mixed",
+      "melon": [1071, 1075],
+      "fert": [1468, 1554],
+      "hinge": "carrot/egg/tomato ~1000 each",
+      "note": "Same 151/266 land as Fieldbook, but terminal 1000+ dump of wheat/wool/fert/melon/hinge. Not Crop Dusta 122/200."
+    },
+    "sbol ball": {
+      "land": [151, 266],
+      "herd": ["6c11s", "7c6s", "4c14s", "9c5s"],
+      "wheat": [360, 448],
+      "shops": ["YARN_STORE", "BRUNCH_SPOT", "FARMERS_MARKET", "PET_CAFE"],
+      "clone": true,
+      "melon": 72,
+      "note": "Shop-routed Kenjo/Fieldbook including 14 sheep. Melon 72, not Knight dump."
+    },
+    "Crop Dusta": {
+      "land": [[122, 200], [122, 201]],
+      "herd": ["7c3s+7g", "3c17s", "7c2s+6g", "10c9s+3g"],
+      "wheat": [1556, 2561],
+      "shops": ["BRUNCH_SPOT", "YARN_STORE", "BAKERY", "SMOOTHIE_SHOP"],
+      "clone": false,
+      "note": "Newer publics than 09-01 122/199 sample. Still wheat mountain, still not clone. Second land now 200-201."
+    },
+    "Yusuke Hayashi": {
+      "land": [151, 266],
+      "herd": ["9c9s"],
+      "wheat": [364, 371],
+      "shops": ["SMOOTHIE_SHOP", "BAKERY"],
+      "clone": true,
+      "melon": 72,
+      "note": "Live sub 55975994 plays 9c9s even when first shop is BAKERY/SMOOTHIE. Three-day Fieldbook cannot reselect that late."
+    }
+  },
+  "cut10_screen": {
+    "agent": "experiments/candidates/yusuke_fieldbook/main.py",
+    "sha256_prefix": "de668f7f",
+    "screen": "experiments/candidates/yusuke_fieldbook/screen.json",
+    "g5": "experiments/candidates/yusuke_fieldbook/g5.json",
+    "clone": "3-0",
+    "mtn_yusuke_hanserong": "3/3 positive",
+    "v5": "superseded",
+    "windows_agent_so": false
+  },
+  "cut11": {
+    "name": "Yusuke six-day public-state Fieldbook",
+    "hold": true,
+    "why": "Reselect at 144/288/432/576; C++ agent.so; no Windows clone/G5. Yusuke live is already 9c9s after day 9.",
+    "notes": "experiments/candidates/yusuke_sixday/README.md"
+  },
+  "next_chassis": "Yusuke six-day public-state Fieldbook (cut 11). Live cut 10 stays. No new Python cut. Do not compile-and-hope agent.so on Windows.",
+  "hunt": [
+    {
+      "kernel": "yhay81/six-day-public-state-fieldbook",
+      "dataset": "yhay81/six-day-public-state-agent-source",
+      "verdict": "gated_next_not_uploaded",
+      "note": "Still the only public later-block reselect / 8c9s-class chassis. Linux g++ -shared. Not executed here."
+    },
+    {
+      "kernel": "yhay81/three-day-shop-router",
+      "verdict": "reject_for_now",
+      "note": "C++ patch on six-day at step 360. Same agent.so bar."
+    },
+    {
+      "kernel": "anasriaz/kaggriculture",
+      "verdict": "reject_copy",
+      "note": "Republish of three-day shop router (policy.cpp + tape.inc + agent.so)."
+    },
+    {
+      "kernel": "degnonguidi/kaggriculture-agent-builder",
+      "verdict": "reject_copy",
+      "note": "Notebook titled Three-Day Shop Router; same 360 patch."
+    },
+    {
+      "kernel": "reyhanksatria/adaptive-route-agent-v2",
+      "verdict": "reject_opaque",
+      "note": "Single-cell zlib PAYLOAD archive. Not later-block 8c9s. Cells not executed."
+    },
+    {
+      "kernel": "pilkwang/kaggriculture-structured-economic-policy",
+      "verdict": "reject_lineage",
+      "note": "Public fork of Kaito v58 minimax; branches 72/96/144/360. Not Fieldbook 9c9s."
+    },
+    {
+      "kernel": "salemali7/kaggriculture-2900",
+      "verdict": "reject_lineage",
+      "note": "Boatlee V16-RC5 8c4s premium-lead tape. Dying diet."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "reject_lineage",
+      "note": "Flex/V21 class. Already closed 09-03."
+    }
+  ]
+}

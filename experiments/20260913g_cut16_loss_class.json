@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913g",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108371627,
+    108369265,
+    108366745,
+    108328160,
+    108311577,
+    108273755,
+    108270318,
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982
+  ],
+  "ids_0913f": [
+    108351144,
+    108349751,
+    108345614,
+    108343489,
+    108326448,
+    108296309,
+    108290336,
+    108259280,
+    108227462,
+    108224822,
+    108222615,
+    108161412
+  ],
+  "disjoint_from_0913f": true,
+  "all_720_done_done": true,
+  "wtl": [
+    6,
+    0,
+    6
+  ],
+  "mean_margin": -3016.2,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108371627": 43,
+    "108369265": 1,
+    "108366745": 43,
+    "108328160": 230,
+    "108311577": 185,
+    "108273755": 236,
+    "108270318": 183,
+    "108243488": 235,
+    "108208866": 49,
+    "108204278": 11,
+    "108191120": 237,
+    "108175982": 1
+  },
+  "wool_432": {
+    "108371627": 1,
+    "108369265": 1,
+    "108366745": 1,
+    "108328160": 158,
+    "108311577": 179,
+    "108273755": 212,
+    "108270318": 189,
+    "108243488": 233,
+    "108208866": 1,
+    "108204278": 1,
+    "108191120": 228,
+    "108175982": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal 8c6s3g family as 09-13c/09-13d/09-13e/09-13f plus extra-sheep 16s (Artem). WTL 6-0-6 mean -3016.2 vs 09-13f 5-0-7 mean -1302.9. Wool $1 by 360 on Ju and Ke Ma Ke. clone=11/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (Ju 108369265 9c5s vs 8c6s3g clone=1 SMOOTHIE extra sheep only 314 -17212; Ke Ma Ke 108175982 9c5s vs 8c6s3g extra sheep only 314 -3323) + extra-sheep 16s (Artem The Farmer 108328160 9c8s vs 4c16s1g extra sheep 227/242/266 already bought -8536) + extra-goose (Kaipeng Zheng 108204278 9c5s3g vs 6c6s6g extra geese 227/242 sheep 266 -1427) + extra-goose/identical-clone (Rafael Molina Castano 108371627 9c5s3g vs 9c5s4g +395; ocean240812 108311577 +1058; junfan shen 108270318 identical 9c5s3g +56) + YARN clone timing (automatylicza 108273755 6c12s vs 6c11s extra sheep 218/242/266 already bought -7750) + non-clone PET_CAFE (rick11224 108208866 9c5s vs 7c4s extra sheep only 314 clone=0 -6392). Newest-window Ju extra-animal 8c6s3g. Bonkoturyu 108243488 identical 9c8s +53 extra sheep 227/242/266 already bought. Suzuki Yuto 108191120 6c12s YARN +5639 extra sheep 218/242/266. Kometa 108366745 9c5s3g vs 9c9s +1244 extra geese 227/242. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: 8c6s3g losses bought sheep at 314; Artem already bought 227/242/266 (9c8s) and lost -8536 vs 16 sheep; automatylicza already bought 218/242/266 and lost YARN 6c12s; Bonkoturyu already bought 227/242/266 and won identical 9c8s +53.",
+  "worst_losses": [
+    {
+      "id": 108369265,
+      "opp": "Ju",
+      "margin": -17212.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "SMOOTHIE_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108328160,
+      "opp": "Artem The Farmer",
+      "margin": -8536.0,
+      "herd_us": "9c8s",
+      "herd_opp": "4c16s1g",
+      "shops": [
+        "BRUNCH_SPOT"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        227,
+        242,
+        266
+      ]
+    },
+    {
+      "id": 108273755,
+      "opp": "automatylicza",
+      "margin": -7750.0,
+      "herd_us": "6c12s",
+      "herd_opp": "6c11s",
+      "shops": [
+        "YARN_STORE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196,
+        218,
+        242,
+        266
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

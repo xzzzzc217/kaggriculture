@@ -1,0 +1,347 @@
+{
+  "n": 7,
+  "wtl": [
+    2,
+    1,
+    4
+  ],
+  "mean_margin": -3585.285714285714,
+  "games": [
+    {
+      "episode": 100935151,
+      "seed": 1616610765,
+      "opp": "Shadow Recon",
+      "teams": [
+        "heralces",
+        "Shadow Recon"
+      ],
+      "seat": 0,
+      "margin": -4601.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        89454.0,
+        94055.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 284,
+      "median_distance": 2
+    },
+    {
+      "episode": 100901012,
+      "seed": 486650589,
+      "opp": "JianYuan Deng",
+      "teams": [
+        "heralces",
+        "JianYuan Deng"
+      ],
+      "seat": 0,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "rewards": [
+        83833.0,
+        83833.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100830033,
+      "seed": 420926813,
+      "opp": "MrTrueTeller",
+      "teams": [
+        "heralces",
+        "MrTrueTeller"
+      ],
+      "seat": 0,
+      "margin": -13865.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        130730.0,
+        144595.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        9,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        411
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 168,
+      "median_distance": 7
+    },
+    {
+      "episode": 100823380,
+      "seed": 141120514,
+      "opp": "Victor @ Tufa Labs",
+      "teams": [
+        "Victor @ Tufa Labs",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 765.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        83562.0,
+        84327.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        10
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        284,
+        281
+      ],
+      "wheat": [
+        183,
+        176
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100768409,
+      "seed": 1872097247,
+      "opp": "Cengizhan T\u00fcmer",
+      "teams": [
+        "heralces",
+        "Cengizhan T\u00fcmer"
+      ],
+      "seat": 0,
+      "margin": -15461.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        103836.0,
+        119297.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        1667
+      ],
+      "clone": true,
+      "max_near": 260,
+      "median_distance": 6
+    },
+    {
+      "episode": 100750159,
+      "seed": 1393396906,
+      "opp": "Janus",
+      "teams": [
+        "Janus",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": 9706.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        102265.0,
+        111971.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        8
+      ],
+      "cow": [
+        6,
+        5
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        299,
+        308
+      ],
+      "wheat": [
+        216,
+        316
+      ],
+      "clone": true,
+      "max_near": 224,
+      "median_distance": 6
+    },
+    {
+      "episode": 100743534,
+      "seed": 471818066,
+      "opp": "Prajwal M",
+      "teams": [
+        "Prajwal M",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -1641.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        44110.0,
+        42469.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    }
+  ]
+}

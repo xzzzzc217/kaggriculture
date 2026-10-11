@@ -1,0 +1,588 @@
+{
+  "n": 12,
+  "wtl": [
+    10,
+    0,
+    2
+  ],
+  "mean_margin": 7976.583333333333,
+  "hits_in_day": 36,
+  "games": [
+    {
+      "episode": 101012942,
+      "seed": 1452983597,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Crop Dusta",
+        "Ryo Hasegawa"
+      ],
+      "seat": 0,
+      "margin": 13590.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        72311.0,
+        58721.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        2,
+        2
+      ],
+      "cow": [
+        3,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        198,
+        160
+      ],
+      "wheat": [
+        2695,
+        405
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 29
+    },
+    {
+      "episode": 101012944,
+      "seed": 1173629735,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -6020.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        160542.0,
+        154522.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        1,
+        2
+      ],
+      "cow": [
+        13,
+        14
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        202,
+        235
+      ],
+      "wheat": [
+        1819,
+        247
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 20
+    },
+    {
+      "episode": 101074451,
+      "seed": 376183266,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 5775.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        68658.0,
+        74433.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        1,
+        2
+      ],
+      "cow": [
+        1,
+        10
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        139,
+        184
+      ],
+      "wheat": [
+        2149,
+        451
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 22
+    },
+    {
+      "episode": 101074453,
+      "seed": 951014243,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Crop Dusta",
+        "Ryo Hasegawa"
+      ],
+      "seat": 0,
+      "margin": 24900.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        113684.0,
+        88784.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        7,
+        10
+      ],
+      "cow": [
+        3,
+        12
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        237,
+        353
+      ],
+      "wheat": [
+        1741,
+        341
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 17
+    },
+    {
+      "episode": 101126945,
+      "seed": 913832730,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -4679.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        105860.0,
+        101181.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        6,
+        6
+      ],
+      "cow": [
+        4,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        188,
+        188
+      ],
+      "wheat": [
+        1713,
+        328
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 34
+    },
+    {
+      "episode": 101126947,
+      "seed": 863603217,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 13901.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        102572.0,
+        116473.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        5,
+        10
+      ],
+      "cow": [
+        3,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        269,
+        291
+      ],
+      "wheat": [
+        2229,
+        363
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 35
+    },
+    {
+      "episode": 101172434,
+      "seed": 1677476115,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 1415.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        67178.0,
+        68593.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        2,
+        2
+      ],
+      "cow": [
+        2,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        162,
+        164
+      ],
+      "wheat": [
+        2103,
+        274
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 34
+    },
+    {
+      "episode": 101172437,
+      "seed": 232815828,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Crop Dusta",
+        "Ryo Hasegawa"
+      ],
+      "seat": 0,
+      "margin": 7696.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        126648.0,
+        118952.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        6,
+        7
+      ],
+      "cow": [
+        2,
+        12
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        232,
+        312
+      ],
+      "wheat": [
+        1770,
+        276
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 32
+    },
+    {
+      "episode": 101208958,
+      "seed": 1450511425,
+      "opp": "Subramanya N",
+      "teams": [
+        "Subramanya N",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 6461.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        120809.0,
+        127270.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        8,
+        12
+      ],
+      "cow": [
+        7,
+        14
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        219,
+        352
+      ],
+      "wheat": [
+        1534,
+        163
+      ],
+      "clone": false,
+      "max_near": 3,
+      "median_distance": 32
+    },
+    {
+      "episode": 101208960,
+      "seed": 8329589,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 8549.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        98749.0,
+        107298.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        0,
+        2
+      ],
+      "cow": [
+        3,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        119,
+        147
+      ],
+      "wheat": [
+        711,
+        279
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 26
+    },
+    {
+      "episode": 101240780,
+      "seed": 1824942411,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Ryo Hasegawa",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 6662.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        82238.0,
+        88900.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        2,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        214,
+        184
+      ],
+      "wheat": [
+        1556,
+        334
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 31
+    },
+    {
+      "episode": 101240787,
+      "seed": 5423967,
+      "opp": "Ryo Hasegawa",
+      "teams": [
+        "Crop Dusta",
+        "Ryo Hasegawa"
+      ],
+      "seat": 0,
+      "margin": 17469.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        104498.0,
+        87029.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        6,
+        8
+      ],
+      "cow": [
+        0,
+        7
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        249,
+        243
+      ],
+      "wheat": [
+        1914,
+        341
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 24
+    }
+  ]
+}

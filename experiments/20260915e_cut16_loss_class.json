@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915e",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    109329693,
+    109297997,
+    109184094,
+    109178619,
+    109169017,
+    109168637,
+    109159847,
+    109152510,
+    109149160,
+    109142116,
+    109135062,
+    109111080
+  ],
+  "ids_0915d": [
+    109323301,
+    109321947,
+    109316981,
+    109309340,
+    109274859,
+    109251218,
+    109247247,
+    109241224,
+    109227483,
+    109208871,
+    109205772,
+    109205359
+  ],
+  "disjoint_from_0915d": true,
+  "all_720_done_done": true,
+  "wtl": [
+    5,
+    0,
+    7
+  ],
+  "mean_margin": -1129.4,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    1.0,
+    29.0
+  ],
+  "wool_360": {
+    "109329693": 11,
+    "109297997": 1,
+    "109184094": 243,
+    "109178619": 1,
+    "109169017": 236,
+    "109168637": 43,
+    "109159847": 1,
+    "109152510": 236,
+    "109149160": 231,
+    "109142116": 224,
+    "109135062": 43,
+    "109111080": 226
+  },
+  "wool_432": {
+    "109329693": 1,
+    "109297997": 1,
+    "109184094": 244,
+    "109178619": 5,
+    "109169017": 212,
+    "109168637": 1,
+    "109159847": 5,
+    "109152510": 238,
+    "109149160": 158,
+    "109142116": 189,
+    "109135062": 1,
+    "109111080": 197
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-14/09-15d: extra-animal 8c6s3g plus extra-goose plus extra-sheep. WTL 5-0-7 mean -1129.4 vs 09-15d 4-0-8 mean -4182.2. New window game Corgi 109329693 -325. clone=11/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (Huy L\u00ea Ng\u1ecdc Gia 109178619 7c6s vs 8c6s3g BRUNCH extra cow 218 vs opp extra sheep 218/227 extra geese 242/266 -13645; Filip Strza\u0142ka 109159847 7c6s vs 8c6s3g BRUNCH extra cow 218 vs opp extra sheep 218/227 extra geese 242/266 -6855) + extra-goose vs extra-cow (Gaddam Shiva Teja 109297997 9c5s3g vs 11c5s ICE_CREAM extra geese 227/242 already bought vs extra cow -26009) + identical-clone extra-goose (3G 109168637 9c5s3g vs 9c5s3g ICE_CREAM extra geese 227/242 already bought -10063) + extra-sheep (Dhruv #2 109149160 4c15s vs 6c10s BRUNCH extra sheep 218/242/266 already bought vs extra sheep 218-265 -12590; Grim Reaper 109169017 6c11s vs 3c13s2g YARN extra sheep 218/242/266 already bought vs extra sheep 218-265 -10132) + extra-goose (Corgi-Samoyed 109329693 9c5s3g vs 6c6s6g BAKERY extra geese 227/242 already bought vs 6g -325). Wins: Suliman Tadros 109152510 4c15s vs 9c3s PET_CAFE +43169 extra sheep 218/242/266 clone=0; Stephen Schott 109184094 4c15s vs 8c6s3g ICE_CREAM +13159 extra sheep 218/242/266 already bought; Yichi 109111080 9c8s vs 9c5s3g BRUNCH +6951 extra sheep 227/242/266 already bought; Duc-Anh Nguyen 109135062 9c5s3g vs 9c5s4g PIZZA +2713 extra geese 227/242 already bought vs 4g; ocean240812 109142116 9c8s vs 6c6s6g BAKERY +74 extra sheep 227/242/266 already bought. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 1-29. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: Gaddam already bought extra geese 227/242 and lost vs 11c; Corgi already bought extra geese 227/242 and lost vs 6g; 3G identical extra-goose lost; Duc-Anh extra geese 227/242 won vs 4g; Huy/Filip extra cow 218 lost vs 8c6s3g; Dhruv/Grim extra sheep 218-266 already bought and lost.",
+  "worst_losses": [
+    {
+      "id": 109297997,
+      "opp": "Gaddam Shiva Teja",
+      "margin": -26009.0
+    },
+    {
+      "id": 109178619,
+      "opp": "Huy L\u00ea Ng\u1ecdc Gia",
+      "margin": -13645.0
+    },
+    {
+      "id": 109149160,
+      "opp": "Dhruv #2",
+      "margin": -12590.0
+    },
+    {
+      "id": 109169017,
+      "opp": "Grim Reaper",
+      "margin": -10132.0
+    }
+  ],
+  "not_227_242_266_license": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

@@ -1,0 +1,217 @@
+{
+  "date": "2026-09-11",
+  "no_upload": true,
+  "upload_bail": true,
+  "hold": true,
+  "root_main_py_untouched": true,
+  "root_main_py_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56151152,
+  "live_newest_score": 1799.2,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "yamakawanin_king_v4e_rc4 cut 16",
+  "live_newest_note": "COMPLETE 1799.2. Newest public 107753711 updatedScore 1799.225. Newest-2 = 56151152 + shopbag reupload 56151155 (lineage 55962761). Upload-bail: shopbag partner 1402.4 < 1500; a new cut would drop 56151152 without a >=1500 COMPLETE newest-2 partner. Re-upload is 600-provisional not a partner. Study anyway. Hold.",
+  "cut15_id": 56146106,
+  "cut15_score": 1864.4,
+  "cut15_status": "COMPLETE",
+  "cut15_note": "DROPPED from newest-2.",
+  "shopbag_id": 56151155,
+  "shopbag_score": 1402.4,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "newest_2": [
+    56151152,
+    56151155
+  ],
+  "public_56151152": {
+    "n_public": 109,
+    "n_validation": 1,
+    "n_completed_public": 109,
+    "wtl": [
+      57,
+      2,
+      50
+    ],
+    "mean_margin": 2330.7,
+    "status": "COMPLETE",
+    "publicScore": 1799.2
+  },
+  "public_56151155": {
+    "n_public": 68,
+    "n_validation": 1,
+    "n_completed_public": 68,
+    "wtl": [
+      37,
+      2,
+      29
+    ],
+    "mean_margin": 537.0,
+    "status": "COMPLETE",
+    "publicScore": 1402.4
+  },
+  "rolling_ids": [
+    107753711,
+    107751105,
+    107751016,
+    107746999,
+    107741134,
+    107736692,
+    107736151,
+    107729381,
+    107729123,
+    107722325,
+    107716301,
+    107712285
+  ],
+  "rolling_forbidden_0910b": [
+    107579117,
+    107578892,
+    107574623,
+    107572566,
+    107571704,
+    107571691,
+    107571612,
+    107572010,
+    107570298,
+    107570515,
+    107569607,
+    107568611
+  ],
+  "ids_not_identical_to_0910b": true,
+  "ids_disjoint_from_0910b": true,
+  "rolling_n": 12,
+  "rolling_n_steps": 720,
+  "wtl": [
+    6,
+    0,
+    6
+  ],
+  "mean_margin": 1149.7,
+  "rolling_note": "Assigned cut16 newest-12 public ids from the cycle brief, all 720 DONE/DONE. EpisodeService dump is endTime-desc, so 107711814 (end 05:05Z) is listed 12th and 107712285 (end 05:02Z) 13th; window uses the assigned 107712285. No 0910b id reuse.",
+  "loss_class": "mixed: (1) extra-animal clones — Suba S 107751105 6c10s vs 4c15s -11471 extra sheep after 216 (218/2, 242/3, 266/1), wool still 231 at 360; Sida Zuo 107741134 8c6s3g vs 10c8s -7364 extra sheep 227/1 242/2 266/1, wool 234 at 360; clone=1, Q=3/3, BUY_LAND 151/266 succeeded (prev_Q 1 then 2, not no-ops), cash_24 3 not 0. (2) clone later-block wool-crash — Syed Asad Ali 107729381 15c2s vs 9c5s wool=$37 at 360 $1 by 432, opp Q=4 via BUY_LAND 434/435 -39903; sieru-copan 107722325 6c11s vs 9c5s3g wool=$1 by 360 -791; Bark at the Barnyard 107712285 6c6s6g vs 9c5s3g wool=$11 at 360 $1 by 432 -2011. Plus coin-flip identical clone soraemon 107746999 9c5s3g vs 9c5s3g max_near=720 wool 183 at 360 -721. Not opening-broke no-land (all six losses BUY_LAND 151/266 succeeded, cash_24 1-22 not 0). Not freeze-after-day-9 9c9s. Not wheat-mountain (end SELL 1e6 on Bark are requested leftover dumps, not a hold). Opening-broke is not a later-block license.",
+  "notable_losses": [
+    {
+      "id": 107729381,
+      "opp": "Syed Asad Ali",
+      "margin": -39903.0,
+      "Q": [3, 4],
+      "cash_24": 12.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "9c5s", "opp": "15c2s"},
+      "buy_us": {"COW": 9, "SHEEP": 5},
+      "buy_opp": {"COW": 15, "SHEEP": 2},
+      "wool_360": 37,
+      "class": "clone later-block wool-crash + Q4 15-cow outscale"
+    },
+    {
+      "id": 107751105,
+      "opp": "Suba S",
+      "margin": -11471.0,
+      "Q": [3, 3],
+      "cash_24": 3.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "4c15s", "opp": "6c10s"},
+      "buy_us": {"COW": 4, "SHEEP": 15},
+      "buy_opp": {"COW": 6, "SHEEP": 10},
+      "wool_360": 231,
+      "sheep_after_216": [
+        {"step": 218, "qty": 2},
+        {"step": 242, "qty": 3},
+        {"step": 266, "qty": 1}
+      ],
+      "class": "extra-animal clone"
+    },
+    {
+      "id": 107741134,
+      "opp": "Sida Zuo",
+      "margin": -7364.0,
+      "Q": [3, 3],
+      "cash_24": 3.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "10c8s", "opp": "8c6s3g"},
+      "buy_us": {"COW": 10, "SHEEP": 8},
+      "buy_opp": {"COW": 8, "SHEEP": 6, "GOOSE": 3},
+      "wool_360": 234,
+      "sheep_after_216": [
+        {"step": 227, "qty": 1},
+        {"step": 242, "qty": 2},
+        {"step": 266, "qty": 1}
+      ],
+      "class": "extra-animal clone"
+    },
+    {
+      "id": 107712285,
+      "opp": "Bark at the Barnyard",
+      "margin": -2011.0,
+      "Q": [3, 3],
+      "cash_24": 22.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "9c5s3g", "opp": "6c6s6g"},
+      "buy_us": {"COW": 9, "SHEEP": 5, "GOOSE": 3},
+      "buy_opp": {"COW": 6, "SHEEP": 6, "GOOSE": 6},
+      "wool_360": 11,
+      "class": "clone later-block wool-crash extra-goose coin-flip"
+    },
+    {
+      "id": 107722325,
+      "opp": "sieru-copan",
+      "margin": -791.0,
+      "Q": [3, 3],
+      "cash_24": 1.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "9c5s3g", "opp": "6c11s"},
+      "buy_us": {"COW": 9, "SHEEP": 5, "GOOSE": 3},
+      "buy_opp": {"COW": 6, "SHEEP": 11},
+      "wool_360": 1,
+      "class": "clone later-block wool-crash"
+    },
+    {
+      "id": 107746999,
+      "opp": "soraemon",
+      "margin": -721.0,
+      "Q": [3, 3],
+      "cash_24": 10.0,
+      "clone": true,
+      "land": [151, 266],
+      "herd": {"us": "9c5s3g", "opp": "9c5s3g"},
+      "buy_us": {"COW": 9, "SHEEP": 5, "GOOSE": 3},
+      "buy_opp": {"COW": 9, "SHEEP": 5, "GOOSE": 3},
+      "wool_360": 183,
+      "max_near": 720,
+      "class": "coin-flip identical clone"
+    }
+  ],
+  "inspect_findings": {
+    "script": "experiments/candidates/inspect_cut16_losses_20260911.py",
+    "buy_land_prev_q": "all six losses BUY_LAND (151, prev_Q=1) then (266, prev_Q=2)",
+    "wool_360": {
+      "107751105": 231,
+      "107746999": 183,
+      "107741134": 234,
+      "107729381": 37,
+      "107722325": 1,
+      "107712285": 11
+    },
+    "extra_sheep_after_216": {
+      "107751105": [[218, 2], [242, 3], [266, 1]],
+      "107741134": [[227, 1], [242, 2], [266, 1]],
+      "107729381": [[314, 1]]
+    },
+    "not_opening_broke": true,
+    "not_freeze_after_day9_9c9s": true
+  },
+  "paths": {
+    "episodes_cut16": "experiments/episodes_56151152.json",
+    "episodes_shopbag": "experiments/episodes_56151155.json",
+    "cut16_replays": "artifacts/kaggle_runs/cut16_20260911",
+    "cut16_rolling": "experiments/20260911_cut16_rolling.json",
+    "episode_report": "experiments/20260911_episode_report.json",
+    "autopsy_script": "experiments/candidates/autopsy_cut16_20260911.py",
+    "inspect_script": "experiments/candidates/inspect_cut16_losses_20260911.py"
+  }
+}

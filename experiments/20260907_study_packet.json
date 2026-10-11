@@ -1,0 +1,122 @@
+{
+  "title": "Kaggriculture study packet 2026-09-07",
+  "not_the_0906_packet": true,
+  "no_upload": "Hold. No cut 12. Do not reupload boatlee 55710781. Newest-2 stays 56028043 + 55962761.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260908/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-05T09:10:17.csv",
+    "episodes": "experiments/episodes_56028043.json",
+    "sixday_replays": "artifacts/kaggle_runs/sixday_20260907",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260908"
+  },
+  "live": {
+    "sixday": 56028043,
+    "score": 1748.2,
+    "status": "COMPLETE",
+    "team_score": 1748.2,
+    "rank": 1152,
+    "n_teams": 7699,
+    "shopbag_reupload": 55962761,
+    "shopbag_score": 1619.7,
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2773.2,
+    "rank10": {"team": "Syed Asad Ali", "score": 2827.3},
+    "public": {"n": 14, "wtl": [13, 0, 1], "mean_margin": 26135.1}
+  },
+  "rolling": {
+    "previous": "experiments/20260906_fieldbook_rolling12.json",
+    "live_sixday": "experiments/20260907_sixday_rolling.json",
+    "ids": [105746953, 105745905, 105744981, 105744091, 105743208, 105742295, 105741399, 105740414, 105739533, 105738661, 105737786, 105736891, 105736029, 105735087],
+    "ids_differ_from_0906_fieldbook": true,
+    "n": 14,
+    "wtl": [13, 0, 1],
+    "mean_margin": 26135.1,
+    "loss_class": "no-yarn wool-crash vs 11-cow milk (Deskbo 11c4s clone=0, wool=$1 by 432, milk 264–292). Same 11c4s Stanislav Ilin is a WIN (+15963) because yarn unlocked and wool stayed priced (198 at 432). Not freeze-after-day-9 9c9s. Segment-3 milk-heavy route 1 recorded-seat vs Deskbo still L (-15706). No cow buys exist after 288."
+  },
+  "deskbo": {
+    "id": 105744091,
+    "margin": -15628,
+    "clone": false,
+    "buy_us": {"COW": 7, "SHEEP": 10},
+    "buy_opp": {"COW": 11, "SHEEP": 4},
+    "milk": [243, 335],
+    "wheat": [397, 326],
+    "cash_gap_432": 5641,
+    "cash_gap_576": -7709,
+    "wool_price_432": 1,
+    "milk_price_432": 264,
+    "shops72": ["SMOOTHIE_SHOP"],
+    "selected": [0, 1, 0, 0, 0]
+  },
+  "stanislav": {
+    "id": 105743208,
+    "margin": 15963,
+    "clone": false,
+    "buy_us": {"COW": 7, "SHEEP": 10},
+    "buy_opp": {"COW": 11, "SHEEP": 4},
+    "wool_price_432": 198,
+    "milk_price_432": 120,
+    "shops144": ["PET_CAFE", "SMOOTHIE_SHOP"],
+    "yarn_at_216": true
+  },
+  "cut11": {
+    "hold": false,
+    "uploaded": 56028043,
+    "score": 1748.2,
+    "windows_agent_so": false
+  },
+  "cut12": {
+    "name": "six-day s3 milk-heavy when wool crashed",
+    "hold": true,
+    "why": "Deskbo collapse is no-yarn wool=$1 with 11 cows already bought by step 249, not a missing later-block sell tape. Stanislav same 11c4s is a win when yarn/wool stay priced. Forcing segment-3 route 1 (134 milk vs 48) on recorded-seat 105744091 still lost -15706. No later-block cow buys exist after 288 (s1 r1 has one cow at 217 only). Three-day 72-turn splice at 360 is C++ agent.so and would not fire: Deskbo first shop is SMOOTHIE, not BAKERY/PET_CAFE. Not a 227/242/266 BALANCED wrap."
+  },
+  "hunt": [
+    {
+      "kernel": "prvsiyan/where-the-wheat-remembers-tomorrow-kaggriculture",
+      "verdict": "reject_tape_swap",
+      "note": "Public LagrangianLocomotive wheat/sheep trajectory, not six-day later-block reselect. Cells not executed."
+    },
+    {
+      "kernel": "destbreso/v7-38-finance7-a-full-agent-layer-by-layer",
+      "verdict": "reject_for_now",
+      "note": "Three-day C++ chassis + finance layer. agent.so. Same Windows bar."
+    },
+    {
+      "kernel": "reyhanksatria/strong-adaptive-agent-v1",
+      "verdict": "reject_opaque",
+      "note": "gzip/base64 payload. Cells not executed."
+    },
+    {
+      "kernel": "avioon/kaggriculture-apex-v7-god-emperor",
+      "verdict": "reject_for_now",
+      "note": "Rebrand of Yusuke three-day shop router. C++ 72-turn splice at 360 if first shop BAKERY/PET_CAFE. agent.so. Would not fire on Deskbo smoothie-first. Cells not executed."
+    },
+    {
+      "kernel": "mohui666/kaggriculture-v66-public-agent",
+      "verdict": "reject_for_now",
+      "note": "GitHub Kaito-lineage public-observation rule agent, not a six-day later-block Python cut. Cells not executed."
+    },
+    {
+      "kernel": "leoprovorov/my-best-agent-for-achieving-medals-for-now",
+      "verdict": "reject_opaque",
+      "note": "gzip/base64 Crop Dusta reconstruction payload. Cells not executed."
+    },
+    {
+      "kernel": "dianatofficial/kaggriculture-reactive-agent-strategy-eda",
+      "verdict": "reject_beginner",
+      "note": "EDA plus a short apex_agent. Not later-block reselect. Cells not executed."
+    },
+    {
+      "kernel": "aviral342/kaggriculture",
+      "verdict": "reject_empty",
+      "note": "Default Kaggle starter notebook. No agent."
+    },
+    {
+      "kernel": "rivakajangu/your-rating-is-noisier-than-your-improvement",
+      "verdict": "reject_no_agent",
+      "note": "Measurement note, no agent. Cells not executed."
+    }
+  ]
+}

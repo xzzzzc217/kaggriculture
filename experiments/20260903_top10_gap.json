@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-03",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-03T12:56:48.csv",
+  "rank": 650,
+  "score": 2071.0,
+  "n_teams": 7476,
+  "gold21": 2846.7,
+  "gold_buffer": -775.7,
+  "rank10": {"team": "lilishyxf", "score": 2904.5, "gap": 833.5},
+  "top5": [
+    ["Giulio Ravasio", 2969.1],
+    ["Crop Dusta", 2961.0],
+    ["Knight of Favonius", 2953.6],
+    ["sbol ball", 2947.2],
+    ["3정훈", 2932.8]
+  ],
+  "newest_2": {
+    "fieldbook": {
+      "id": 55962758,
+      "score": 2071.0,
+      "public": {"n": 210, "wtl": [90, 31, 89], "mean_margin": 2765.6},
+      "rolling12": {"wtl": [2, 3, 7], "mean_margin": -8851.8}
+    },
+    "shopbag_reupload": {
+      "id": 55962761,
+      "score": 1688.5,
+      "public": {"n": 137, "wtl": [62, 2, 73], "mean_margin": 1265.3},
+      "rolling12": {"wtl": [2, 0, 10], "mean_margin": -9724.8}
+    }
+  },
+  "drop_reason": "Fieldbook rolling-12 is all clone=true 151/266 17-pasture melon-72. Ties are exact BALANCED 9c5s 380/138/326. Blowouts are later-segment ShopForge: PET_CAFE-first we stay 9c5s while they play 8c9s (Kaggle chan -42826, Peter Parker -23363), or same 9c5s with a heavier wheat tail (gogogo 419 vs 387, -37175). Three-day Fieldbook freezes after day 9; Yusuke six-day reselects at 432 and 576.",
+  "rolling12_classes": [
+    "exact BALANCED self-clone ties: kwa/Kifine/shenjj02 9c5s wheat 380 wool 138 fert 326 melon 72",
+    "YARN_ENGINE self-clone coin-flip: LKQ669 -11 identical 6c11s 358/285",
+    "later-sheep 8c9s vs our frozen BALANCED: PET_CAFE first, they 8c9s wool ~217-221",
+    "same 9c5s heavier wheat tail: 没落者 432 vs 387; gogogo 419 vs 387"
+  ],
+  "hunt": [
+    {
+      "kernel": "yhay81/six-day-public-state-fieldbook",
+      "dataset": "yhay81/six-day-public-state-agent-source",
+      "agent": "hybrid_sixday_combined_publicstate_r4 C++ .so",
+      "verdict": "gated_next_not_uploaded",
+      "note": "Reselect at 144/288/432/576. 1x2x1x3x5=30 paths, 8 stored tapes from Bantam/Zenith Ye. Trees use carrot/tomato/milk/strawberry/wool/fertilizer prices, cash_gap, weed geometry. Frozen pool 0.9485 / 24064 games. Linux g++ -shared; no Windows screen. Do not upload without clone/G5."
+    },
+    {
+      "kernel": "yhay81/three-day-shop-router",
+      "agent": "hybrid_shopforge_3day_frontier_state_router_r5",
+      "verdict": "reject_for_now",
+      "note": "Patch on six-day: at step 360 replace 360-431 if BAKERY and fert inventory <=10232 or PET_CAFE and rival plants <=64. Also C++ .so."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "reject_lineage",
+      "note": "Premium-tranche hysteresis around a 3Q production tape. Flex/V21 class, not the Kenjo/Fieldbook band and not tetsuya 169/241."
+    }
+  ],
+  "next_chassis": "Yusuke six-day public-state Fieldbook (cut 11). Live cut 10 stays. v5 remains superseded. Do not compile-and-hope the .so. Do not BC Crop Dusta. Do not re-upload boatlee.",
+  "hold": true
+}

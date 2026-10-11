@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913j",
+  "kernels_not_in_0913i_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913j",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260913j.py",
+    "experiments/candidates/inspect_hunt_20260913j.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "static_writefile_sha_only",
+  "compare_0913i": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260913i",
+    "hunt_report": "experiments/20260913i_hunt_report.json",
+    "gate": "experiments/20260913i_gate.json",
+    "note": "One new public slug vs _hunt_20260913i: crystalbaby/kaggriculture-v38-public-submission (lastRunTime 2026-09-13 04:15:33). Static writefile SHA a2047ebd = Ahmed V38 already rejected 0913b (Shop0909 144/648 + 288/712 overlay). Not a later-block. Did not re-pull other rejected kernels (Ahmed V39/V38 original, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20)."
+  },
+  "public_search_newest": "crystalbaby/kaggriculture-v38-public-submission",
+  "public_search_newest_lastRunTime": "2026-09-13 04:15:33.700000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [226, 360, 433]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [144, 288, 432, 576]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": ["P3+", 288, 360, 432, 576],
+      "extra_sheep": [226, 241, 265]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "crystalbaby/kaggriculture-v38-public-submission"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest is still arc-agi-2-atlas-program-corpus (not kaggriculture). Newest kaggriculture kernel remains shop-router-0911-simple 2026-09-11 08:38 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "crystalbaby/kaggriculture-v38-public-submission",
+      "verdict": "reject_v38_reprint",
+      "writefile": "main.py",
+      "sha256": "a2047ebd8ca5720221e1421529655d9c67a7b2fedb74e874c7d3c55a8970ac7e",
+      "expected_main_sha256": "a2047ebd8ca5720221e1421529655d9c67a7b2fedb74e874c7d3c55a8970ac7e",
+      "note": "New slug vs 13i. %%writefile main.py SHA a2047ebd matches Ahmed V38 (already rejected 0913b). EXPECTED_MAIN_SHA256 same. Shop0909 144/648 + 288/712 overlay; 216-227 is milk-shop livestock sub, not farm/route reselect after 216. Distinct from cuts 14/15/16. Cells not executed. Did not extract."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "wins": 4,
+  "n": 6,
+  "flips": [
+    "bandito_104552870",
+    "souju00_104548685",
+    "zhongyi_104546457",
+    "v4_jianyuan_104549818"
+  ],
+  "rows": {
+    "mostafa_104553501": {
+      "margin": -443.0,
+      "shopbag": -2676,
+      "delta": 2233.0,
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        43555.0,
+        43998.0
+      ],
+      "seat": 1
+    },
+    "bandito_104552870": {
+      "margin": 919.0,
+      "shopbag": -17060,
+      "delta": 17979.0,
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        91522.0,
+        90603.0
+      ],
+      "seat": 1
+    },
+    "souju00_104548685": {
+      "margin": 461.0,
+      "shopbag": -1170,
+      "delta": 1631.0,
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        61859.0,
+        61398.0
+      ],
+      "seat": 1
+    },
+    "zhongyi_104546457": {
+      "margin": 11924.0,
+      "shopbag": -12940,
+      "delta": 24864.0,
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        99446.0,
+        87522.0
+      ],
+      "seat": 0
+    },
+    "liaf_104542554": {
+      "margin": -574.0,
+      "shopbag": -9935,
+      "delta": 9361.0,
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        109322.0,
+        109896.0
+      ],
+      "seat": 0
+    },
+    "v4_jianyuan_104549818": {
+      "margin": 1162.0,
+      "shopbag": -9962,
+      "delta": 11124.0,
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "scores": [
+        121244.0,
+        120082.0
+      ],
+      "seat": 0
+    }
+  }
+}

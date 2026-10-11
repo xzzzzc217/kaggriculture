@@ -1,0 +1,179 @@
+{
+  "title": "Kaggriculture study packet 2026-09-10",
+  "not_the_0909_packet": true,
+  "no_upload": "Uploaded 56146106 cut 15. Newest-2: 56146106 + shopbag 56112309 (lineage 55962761). Cut 14 56111821 drops. Do not reupload boatlee 55710781.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260910/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-10T14:10:04.csv",
+    "leaderboard_api": "experiments/20260910_public_leaderboard_api.json",
+    "episodes_cut14": "experiments/episodes_56111821.json",
+    "episodes_shopbag": "experiments/episodes_56112309.json",
+    "episodes_sixday": "experiments/episodes_56028043.json",
+    "cut14_replays": "artifacts/kaggle_runs/cut14_20260910",
+    "top_replays": "artifacts/kaggle_runs/top_20260910",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260910",
+    "daily_zip_status": "No 09-09/09-10 official daily zip used. Newest cut-14/Otter publics via kaggleusercontent episode JSON + EpisodeService.",
+    "cut15_screen": "experiments/candidates/thomastschinkel_psr_938/screen.json",
+    "cut15_divergence": "experiments/20260910_cut15_divergence.json",
+    "gate": "experiments/20260910_gate.json",
+    "episode_report": "experiments/20260910_episode_report.json",
+    "hunt_report": "experiments/20260910_hunt_report.json"
+  },
+  "live": {
+    "sixday": 56028043,
+    "sixday_score": 1590.8,
+    "sixday_status": "COMPLETE",
+    "team_score": 1795.1,
+    "rank": 1605,
+    "n_teams": 8523,
+    "shopbag_previous": 55962761,
+    "shopbag_reupload": 56112309,
+    "shopbag_status": "COMPLETE",
+    "shopbag_score": 1429.4,
+    "newest_2": [56146106, 56112309],
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "cut14": 56111821,
+    "cut14_status": "COMPLETE",
+    "cut14_score": 1795.1,
+    "cut15": 56146106,
+    "cut15_status": "PENDING",
+    "cut15_score": null,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2909.3,
+    "rank10": {"team": "mtmr_s1", "score": 2951.5},
+    "rank1": {"team": "SpaTaro", "score": 3089.8, "submissionId": 56114097},
+    "public_cut14": {"n": 215, "wtl": [80, 34, 101], "mean_margin": 932.6}
+  },
+  "rolling": {
+    "previous": "experiments/20260909_sixday_rolling.json",
+    "live_cut14": "experiments/20260910_cut14_rolling.json",
+    "ids": [107493021, 107489775, 107489674, 107484397, 107480801, 107474367, 107469973, 107469814, 107464310, 107459218, 107455945, 107453419],
+    "ids_not_identical_to_0909": true,
+    "n": 12,
+    "wtl": [3, 2, 7],
+    "mean_margin": -7122.3,
+    "loss_class": "mixed: (1) extra-animal clones — Win Suthar 107469973 6c11s -28286; Black Mamba Farm 107474367 4c13s -25504; Akira Hirohashi 107493021 6c11s -22326; abozten 107469814 6c11s -17549; clone=1, Q=3, BUY_LAND 151/266 succeeded, cash_24 6-24 not 0. (2) clone later-block wool-crash — Raster0x2a 107489775 8c6s3g wool=$1 by 360 -5498. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not the failed s3/s4 milk-heavy cuts 12/13."
+  },
+  "win_suthar": {
+    "id": 107469973,
+    "margin": -28286.0,
+    "clone": true,
+    "Q": [3, 3],
+    "cash_24": 6.0,
+    "buy_us": {"COW": 9, "SHEEP": 8},
+    "buy_opp": {"COW": 6, "SHEEP": 11},
+    "land": [151, 266]
+  },
+  "raster": {
+    "id": 107489775,
+    "margin": -5498.0,
+    "clone": true,
+    "buy_us": {"COW": 9, "SHEEP": 5, "GOOSE": 3},
+    "buy_opp": {"COW": 8, "SHEEP": 6, "GOOSE": 3},
+    "land": [151, 266]
+  },
+  "top_board": {
+    "source": "experiments/20260910_top10_games.json",
+    "not_copied_from": [
+      "experiments/20260904_top10_games.json",
+      "experiments/20260905_top10_games.json",
+      "experiments/20260906_top10_games.json",
+      "experiments/20260909_top10_games.json"
+    ],
+    "Otter Vibe": {
+      "land": [[121, 247], [121, 247], [121, 247], [121, 242]],
+      "herd": ["7c5s8g", "7c3s9g", "5c3s10g", "5c10s5g"],
+      "wheat": [445, 494, 361, 391],
+      "shops": ["SMOOTHIE_SHOP", "ICE_CREAM_SHOP", "FARMERS_MARKET", "YARN_STORE"],
+      "clone": false,
+      "episodes": [107493475, 107487687, 107482596, 107481864],
+      "note": "Current #2. Absent from 09-04/05/06/09 top-board files. Not SpaTaro/Giulio/Knight/sbol/Jesse/keiz. Mid-land 121 then 242/247, goose-heavy, clone=0. Opening land is not a later-block license."
+    }
+  },
+  "cut12": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo. This cycle did not re-upload it."
+  },
+  "cut13": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo/Stefano/fufu. This cycle did not re-upload it. Not a 227/242/266 BALANCED wrap."
+  },
+  "cut14": {
+    "name": "y3uanm later-block reselect 226 yarn / 360 carrot / 433 milk",
+    "hold": false,
+    "uploaded": 56111821,
+    "status": "COMPLETE",
+    "score": 1795.1,
+    "dropped_from_newest_2": true,
+    "windows_agent_so": false,
+    "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+    "agent_sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e"
+  },
+  "cut15": {
+    "name": "thomastschinkel later-block reselect 144/288/432/576",
+    "hold": false,
+    "uploaded": 56146106,
+    "status": "PENDING",
+    "score": null,
+    "windows_agent_so": false,
+    "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "agent_sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+    "reselect_steps": [144, 288, 432, 576],
+    "reselect_after_216": [288, 432, 576],
+    "sheep_200_267": [265],
+    "not_227_242_266_wrap": true,
+    "clone_g5": {
+      "prvsiyan_clone": 5757.0,
+      "fufu_clone": 28052.0,
+      "masa_clone": 16873.0,
+      "subin_97399969": 31605.0,
+      "james_95677563": 68313.0
+    },
+    "why": "Windows-runnable Python later-block. Public-state tree reselect after 216 at 288/432/576. Distinct from live six-day, Fieldbook BALANCED, and cut 14 226/360/433. Extra sheep 265 not 227/242/266. Not cut 12/13. Recorded-seat clone 3-0 and G5 both-win 1.32.7 720 DONE/DONE. Header-only hunt called it day-6; extract is the license."
+  },
+  "hunt": [
+    {
+      "kernel": "yhay81/shop-router-0909",
+      "verdict": "reject_day6_only",
+      "note": "Python writefile. Shop-pair plan at 144; liquidate 648. No public-state farm reselect after 216. Not ctypes. Cells not executed."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v2",
+      "verdict": "reject_day6_only",
+      "note": "Near-copy of shop-router-0909. ROUTE_STEP 144, FINAL_PLAN_STEP 648. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-7-turn-rescue-historical-lb-2800",
+      "verdict": "reject_no_later_block",
+      "note": "Shop0909 parent plus 712-718 harvest overlay. Cells not executed."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-most-powerfull-route",
+      "verdict": "reject_copy",
+      "note": "Byte-same overlay as dmitrii 7-turn rescue. Cells not executed."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-market-impact-router-v4",
+      "verdict": "reject_already_uploaded",
+      "note": "Older 226/360/433 of live cut 14 v5. Cells not executed."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_uploaded",
+      "note": "Python prefix-free six-day trees. Reselect at 144/288/432/576. Static writefile extract. Cells not executed. Clone 3-0 and G5 both-win. Uploaded 56146106."
+    },
+    {
+      "kernel": "souvikdbiswas/kaggriculture-v5-hybrid-agent",
+      "verdict": "reject_day6_only",
+      "note": "Five-tape portfolio 0/144/288/432/576 mentioned as y3uanm audit; no %%writefile agent. Cells not executed."
+    },
+    {
+      "kernel": "reyhanksatria/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_no_agent",
+      "note": "Base85 blob. Payload not decoded. Cells not executed."
+    }
+  ]
+}

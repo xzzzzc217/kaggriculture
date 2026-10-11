@@ -1,0 +1,98 @@
+"""Headers and flags from 2026-09-11b hunt notebooks. No cell exec."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+DIR = Path(__file__).resolve().parents[2] / "artifacts/public_sources/_hunt_20260911b"
+FLAGS = [
+    "%%writefile",
+    "agent.so",
+    "ctypes",
+    "CDLL",
+    "reselect",
+    "226",
+    "360",
+    "433",
+    "144",
+    "288",
+    "432",
+    "576",
+    "227",
+    "242",
+    "266",
+    "PufferLib",
+    "agent.dylib",
+    ".so",
+    "native",
+    "later-block",
+    "later_block",
+    "ROUTE_STEP",
+    "DECISIONS",
+    "FINAL_PLAN_STEP",
+    "writefile",
+    "EXPECTED_SOURCE_SHA256",
+    "gzip",
+    "PROGRAM",
+]
+
+
+def cell_source(cell: dict) -> str:
+    source = cell.get("source") or ""
+    return "".join(source) if isinstance(source, list) else str(source)
+
+
+def main() -> None:
+    for path in sorted(DIR.rglob("*")):
+        if path.suffix.lower() not in {".ipynb", ".py", ".json", ".md"}:
+            continue
+        if path.name == "kernel-metadata.json":
+            meta = json.loads(path.read_text(encoding="utf-8"))
+            print("=" * 70)
+            print(
+                "META",
+                path.parent.name,
+                {
+                    k: meta.get(k)
+                    for k in ("id", "title", "code_file", "language", "kernel_type", "is_private")
+                },
+            )
+            continue
+        raw = path.read_bytes()
+        text = raw.decode("utf-8", errors="ignore")
+        print("=" * 70)
+        print(path.relative_to(DIR), "bytes", len(raw), "suffix", path.suffix)
+        hits = [f for f in FLAGS if f.lower() in text.lower() or f in text]
+        print("flags", hits)
+        if path.suffix == ".ipynb":
+            notebook = json.loads(raw.decode("utf-8"))
+            cells = notebook.get("cells") or []
+            print("cells", len(cells))
+            for index, cell in enumerate(cells[:8]):
+                source = cell_source(cell)
+                first = source.strip().splitlines()[:10]
+                if not first:
+                    continue
+                print(f"-- cell {index} {cell.get('cell_type')} {len(source)} --")
+                for line in first:
+                    print(line[:220])
+            for index, cell in enumerate(cells):
+                source = cell_source(cell)
+                low = source.lower()
+                if any(
+                    k in source or k in low
+                    for k in ("%%writefile", "ctypes", "CDLL", "agent.so", "EXPECTED_SOURCE_SHA256", "def agent")
+                ):
+                    print(f"HIT cell {index} {cell.get('cell_type')} {len(source)}")
+                    for line in source.splitlines()[:20]:
+                        if line.strip():
+                            print(" ", line[:200])
+        elif path.suffix == ".py":
+            for i, line in enumerate(text.splitlines()[:30], 1):
+                if line.strip():
+                    print(f"PY {i}: {line[:220]}")
+
+
+if __name__ == "__main__":
+    main()

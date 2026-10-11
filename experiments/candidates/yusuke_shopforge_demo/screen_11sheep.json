@@ -1,0 +1,87 @@
+{
+  "agent": "yusuke_shopforge_demo",
+  "wins": 0,
+  "n": 5,
+  "rows": {
+    "mtn_102571934": {
+      "margin": -9019.0,
+      "shopbag_margin": -17420,
+      "e776_margin": -14407,
+      "delta_vs_shopbag": 8401.0,
+      "scores": [
+        102169.0,
+        111188.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.33708230004413
+    },
+    "yusuke_102538447": {
+      "margin": 0.0,
+      "shopbag_margin": -13434,
+      "e776_margin": -10750,
+      "delta_vs_shopbag": 13434.0,
+      "scores": [
+        95719.0,
+        95719.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.658103499969002
+    },
+    "hanserong_102007365": {
+      "margin": -4677.0,
+      "shopbag_margin": -14707,
+      "e776_margin": -13138,
+      "delta_vs_shopbag": 10030.0,
+      "scores": [
+        99491.0,
+        104168.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.722523600037675
+    },
+    "pavlo_102911051": {
+      "margin": -6172.0,
+      "shopbag_margin": -8317,
+      "e776_margin": 86,
+      "delta_vs_shopbag": 2145.0,
+      "scores": [
+        120156.0,
+        126328.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.68701749999309
+    },
+    "prvsiyan_clone_100348898": {
+      "margin": -8108.0,
+      "shopbag_margin": 5964,
+      "e776_margin": 9253,
+      "delta_vs_shopbag": -14072.0,
+      "scores": [
+        81303.0,
+        89411.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.178711700020358
+    }
+  }
+}

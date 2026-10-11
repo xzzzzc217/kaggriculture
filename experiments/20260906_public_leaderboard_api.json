@@ -1,0 +1,125 @@
+{
+  "n": 7586,
+  "top20": [
+    {
+      "teamId": 16714457,
+      "submissionId": 55929317,
+      "rank": 1,
+      "displayScore": "3016.8"
+    },
+    {
+      "teamId": 16767215,
+      "submissionId": 55982835,
+      "rank": 2,
+      "displayScore": "2983.8"
+    },
+    {
+      "teamId": 16621243,
+      "submissionId": 55982495,
+      "rank": 3,
+      "displayScore": "2967.8"
+    },
+    {
+      "teamId": 16674508,
+      "submissionId": 55977032,
+      "rank": 4,
+      "displayScore": "2923.4"
+    },
+    {
+      "teamId": 16743484,
+      "submissionId": 55982173,
+      "rank": 5,
+      "displayScore": "2902.9"
+    },
+    {
+      "teamId": 16728071,
+      "submissionId": 55990218,
+      "rank": 6,
+      "displayScore": "2895.3"
+    },
+    {
+      "teamId": 16749520,
+      "submissionId": 55994691,
+      "rank": 7,
+      "displayScore": "2895.0"
+    },
+    {
+      "teamId": 16655383,
+      "submissionId": 55982036,
+      "rank": 8,
+      "displayScore": "2883.0"
+    },
+    {
+      "teamId": 16698308,
+      "submissionId": 55982178,
+      "rank": 9,
+      "displayScore": "2863.5"
+    },
+    {
+      "teamId": 16665134,
+      "submissionId": 55996499,
+      "rank": 10,
+      "displayScore": "2850.3"
+    },
+    {
+      "teamId": 16749061,
+      "submissionId": 55977407,
+      "rank": 11,
+      "displayScore": "2847.3"
+    },
+    {
+      "teamId": 16778340,
+      "submissionId": 55977778,
+      "rank": 12,
+      "displayScore": "2846.8"
+    },
+    {
+      "teamId": 16669926,
+      "submissionId": 55994139,
+      "rank": 13,
+      "displayScore": "2846.7"
+    },
+    {
+      "teamId": 16685634,
+      "submissionId": 55995673,
+      "rank": 14,
+      "displayScore": "2843.8"
+    },
+    {
+      "teamId": 16657785,
+      "submissionId": 55983353,
+      "rank": 15,
+      "displayScore": "2843.1"
+    },
+    {
+      "teamId": 16757809,
+      "submissionId": 55991755,
+      "rank": 16,
+      "displayScore": "2839.9"
+    },
+    {
+      "teamId": 16730735,
+      "submissionId": 55993931,
+      "rank": 17,
+      "displayScore": "2834.8"
+    },
+    {
+      "teamId": 16622898,
+      "submissionId": 55964860,
+      "rank": 18,
+      "displayScore": "2824.9"
+    },
+    {
+      "teamId": 16684202,
+      "submissionId": 55997561,
+      "rank": 19,
+      "displayScore": "2818.3"
+    },
+    {
+      "teamId": 16664788,
+      "submissionId": 55993637,
+      "rank": 20,
+      "displayScore": "2812.6"
+    }
+  ]
+}

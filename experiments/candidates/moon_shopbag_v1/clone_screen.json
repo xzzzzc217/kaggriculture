@@ -1,0 +1,49 @@
+{
+  "agent": "moon_shopbag_v1",
+  "clone_wins": 3,
+  "n": 3,
+  "rows": {
+    "prvsiyan_100348898": {
+      "margin": 5964.0,
+      "v189c_margin": 5964,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        98699.0,
+        92735.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    "fufufukakaka_100504057": {
+      "margin": 6937.0,
+      "v189c_margin": 6937,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        88578.0,
+        81641.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    "masayoshi_100444645": {
+      "margin": 7511.0,
+      "v189c_margin": 7511,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        90690.0,
+        83179.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  }
+}

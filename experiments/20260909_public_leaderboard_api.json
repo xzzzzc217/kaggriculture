@@ -1,0 +1,131 @@
+{
+  "n": 8262,
+  "top20": [
+    {
+      "teamId": 16640510,
+      "submissionId": 56089825,
+      "rank": 1,
+      "displayScore": "2961.4"
+    },
+    {
+      "teamId": 16760569,
+      "submissionId": 56097405,
+      "rank": 2,
+      "displayScore": "2946.2"
+    },
+    {
+      "teamId": 16663403,
+      "submissionId": 56096542,
+      "rank": 3,
+      "displayScore": "2914.8"
+    },
+    {
+      "teamId": 16758882,
+      "submissionId": 56100257,
+      "rank": 4,
+      "displayScore": "2889.8"
+    },
+    {
+      "teamId": 16685556,
+      "submissionId": 56092906,
+      "rank": 5,
+      "displayScore": "2882.0"
+    },
+    {
+      "teamId": 16622349,
+      "submissionId": 56047440,
+      "rank": 6,
+      "displayScore": "2881.0"
+    },
+    {
+      "teamId": 16665237,
+      "submissionId": 56058327,
+      "rank": 7,
+      "displayScore": "2864.8"
+    },
+    {
+      "teamId": 16660726,
+      "submissionId": 56095504,
+      "rank": 8,
+      "displayScore": "2858.1"
+    },
+    {
+      "teamId": 16797543,
+      "submissionId": 56091994,
+      "rank": 9,
+      "displayScore": "2850.5"
+    },
+    {
+      "teamId": 16773064,
+      "submissionId": 56108216,
+      "rank": 10,
+      "displayScore": "2844.8"
+    },
+    {
+      "teamId": 16840447,
+      "submissionId": 56082927,
+      "rank": 11,
+      "displayScore": "2838.5"
+    },
+    {
+      "teamId": 16645426,
+      "submissionId": 56097354,
+      "rank": 12,
+      "displayScore": "2836.3"
+    },
+    {
+      "teamId": 16731275,
+      "submissionId": 56092842,
+      "rank": 13,
+      "displayScore": "2831.5"
+    },
+    {
+      "teamId": 16741542,
+      "submissionId": 56102661,
+      "rank": 14,
+      "displayScore": "2829.3"
+    },
+    {
+      "teamId": 16789950,
+      "submissionId": 56100827,
+      "rank": 15,
+      "displayScore": "2822.2"
+    },
+    {
+      "teamId": 16623559,
+      "submissionId": 56105477,
+      "rank": 16,
+      "displayScore": "2818.1"
+    },
+    {
+      "teamId": 16728071,
+      "submissionId": 56097078,
+      "rank": 17,
+      "displayScore": "2817.7"
+    },
+    {
+      "teamId": 16632566,
+      "submissionId": 56104301,
+      "rank": 18,
+      "displayScore": "2815.7"
+    },
+    {
+      "teamId": 16764459,
+      "submissionId": 56103576,
+      "rank": 19,
+      "displayScore": "2815.3"
+    },
+    {
+      "teamId": 16806195,
+      "submissionId": 56102381,
+      "rank": 20,
+      "displayScore": "2812.7"
+    }
+  ],
+  "heralces": {
+    "teamId": 16749576,
+    "submissionId": 56028043,
+    "rank": 1737,
+    "displayScore": "1590.8"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-20",
+  "packet": "20260920",
+  "hold": false,
+  "upload_bail": false,
+  "objective": "夺金",
+  "candidate": "thomastschinkel_metav4_v13",
+  "partner": "thomastschinkel_2945_farm",
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "engine": "kaggle-environments==1.32.7",
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "windows_agent_so": false,
+  "live_before": {
+    "cut16": {"submissionId": 56151152, "score": 1358.1, "status": "COMPLETE"},
+    "shopbag": {"submissionId": 56151155, "score": 1203.1, "status": "COMPLETE"},
+    "rank": 2946,
+    "N": 9643,
+    "gold_cut": 29,
+    "gold_cut_score": 2918.0,
+    "rank1": {"team": "Majkel1337", "score": 3223.6}
+  },
+  "newest_2_after_upload": [
+    {"id": 56395547, "agent": "thomastschinkel_metav4_v13", "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9"},
+    {"id": 56395540, "agent": "thomastschinkel_2945_farm", "sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7"}
+  ],
+  "h2h_vs_cut16": {
+    "seeds": [20260920, 20260921],
+    "games": 4,
+    "wtl": [4, 0, 0],
+    "mean_margin": 22216.0,
+    "worst_margin": 21709.0
+  },
+  "bundle": {
+    "metav4": {
+      "members": ["main.py"],
+      "agent_bytes": 1004288,
+      "bundle_bytes": 621560,
+      "agent_sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+      "bundle_sha256": "79400f754d53e98adf0a20509bded8b25778218ea823feb8de1ae12d00b0bb9d",
+      "compile_passed": true
+    },
+    "farm2945": {
+      "members": ["main.py"],
+      "agent_bytes": 856428,
+      "bundle_bytes": 520554,
+      "agent_sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7",
+      "bundle_sha256": "97e0ac0726110243426628cc4dd59d5d03b954b94f7ecb5fd1e45241d02cc7ab",
+      "compile_passed": true
+    }
+  },
+  "source_kernels": {
+    "metav4": "thomastschinkel/the-metav4-farm-submission-v13",
+    "farm2945": "thomastschinkel/the-2945-farm-96-vs-the-top-10-public-bots",
+    "extract": "static writefile / b85+zlib; no cell exec"
+  },
+  "do_not_reupload_boatlee": 55710781,
+  "post_validation": {
+    "metav4": {
+      "id": 56395547,
+      "status": "COMPLETE",
+      "publicScore": 600.0,
+      "validation_episode": 111237210,
+      "validation_rewards": [71310, 71978]
+    },
+    "farm2945": {
+      "id": 56395540,
+      "status": "COMPLETE",
+      "publicScore": 600.0,
+      "validation_episode": 111237208,
+      "validation_rewards": [72101, 72762]
+    },
+    "public_games": 0,
+    "leaderboard_rank_at_600": 5900,
+    "N": 9645,
+    "gold_cut": 29
+  },
+  "live_ceiling_20260921": {
+    "metav4_id": 56395547,
+    "metav4_score": 2664.2,
+    "metav4_public_wtl": [76, 20, 30],
+    "metav4_n_public": 126,
+    "rank": 408,
+    "N": 9693,
+    "gold_cut": 29,
+    "gold_band_score": 2905.4,
+    "pass_gold": false,
+    "note": "Losing the 2625-2732 band. No stronger public replacement found."
+  }
+}

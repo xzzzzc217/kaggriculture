@@ -1,14 +1,10 @@
 # Kaggriculture medal sprint
 
-Status as of 2026-08-26: local `main.py` is still h2 (SHA-256
-`65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe`). The
-public leaderboard follows shops v43 `55744278` at **rank 399 / 2077.6** of
-6372 (was 433 / 2079.9 of 6235). Bronze 595 / 1946.7; silver 297 / 2177.6
-(gap +100). Boatlee V21-R1 `55710781` is still selected at **2108.4** on
-the submissions API; the team row is shops. Newest-2 remain shops +
-boatlee. Do not re-upload boatlee. Latest shops public-12 is 4-2-6, mean
-+545, all DONE, still mostly 400-fert clones plus one V21-dump win
-(ra5anchor +11857). Hold.
+Status as of 2026-09-20: newest-two are gold-class Thomas pair metav4 v13
+`56395547` (SHA `9d634946`) plus 2945 farm `56395540` (SHA `bfee70e9`).
+Cut 16 `56151152` and shopbag `56151155` dropped. Before upload, heralces
+was rank 2946 / 9643 at 1358.1 vs gold_cut 29 / 2918.0. Playbook:
+[`docs/shop_bag_strategy.md`](docs/shop_bag_strategy.md).
 
 ## Competition and medal objective
 
@@ -18,7 +14,7 @@ boatlee. Do not re-upload boatlee. Latest shops public-12 is 4-2-6, mean
 - The leaderboard is driven by repeated wins/losses/ties and a final Bradley-Terry tournament.
   Raw coin margin is diagnostic, but it is not the ranking target.
 - Entry/team-merger deadline: 2026-09-23 23:59 UTC.
-- Final submission deadline: 2026-09-30 23:59 UTC.
+- Final submission deadline: 2026-10-14 23:59 UTC (extension verified via Kaggle API on 2026-10-11).
 - Daily limit: 5 Agents; only the newest 2 submissions stay active.
 - Runtime contract: 1.6 vCPU, 6.5 GiB RAM, 8 GiB disk, maximum 100 MiB, with `main.py` at the
   archive root.
@@ -203,3 +199,7 @@ submitted Agent sold `829` wheat versus the opponent's `428`, while fertilizer v
 identical (`216` versus `215`). This is a second near-clone market-timing/economic-divergence case,
 not another fertilizer-heavy opponent. No Agent log was retrieved in this cycle, so no stderr claim
 is made. The result strengthens the adversarial test requirement but does not authorize an upload.
+
+## Repository visibility
+
+Private while the competition is ongoing (deadline verified on 2026-10-11).

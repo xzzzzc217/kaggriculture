@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913r",
+  "kernels_not_in_0913q_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913r",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260913r.py",
+    "experiments/candidates/scan_hunt_20260913r.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "xuantianfengwu_writefile_dumped_for_sha_only",
+  "compare_0913q": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260913q",
+    "hunt_report": "experiments/20260913q_hunt_report.json",
+    "gate": "experiments/20260913q_gate.json",
+    "note": "New slugs alperen5252525/kaggriculture-metacounter-r1 and xuantianfengwu/kaggriculture-land-labor-capital-allocator vs ahmedberatozer/kaggriculture-v40-plans-that-fit-the-shops in _hunt_20260913q. Did not re-pull rejected kernels (Ahmed V40, guru V39, yhay81 0913, wei v46d review, Ahmed V39 v39-ready-before-the-rush, aurax7 v4, crystalbaby V38, Ahmed V39 notebookda72f457f5, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20, yhay81 0911-simple)."
+  },
+  "public_search_newest": "alperen5252525/kaggriculture-metacounter-r1",
+  "public_search_newest_lastRunTime": "2026-09-13 13:33:33.847000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [226, 360, 433]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [144, 288, 432, 576]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": ["P3+", 288, 360, 432, 576],
+      "extra_sheep": [226, 241, 265]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "alperen5252525/kaggriculture-metacounter-r1",
+    "xuantianfengwu/kaggriculture-land-labor-capital-allocator"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "alperen5252525/kaggriculture-metacounter-r1",
+      "path": "artifacts/public_sources/_hunt_20260913r/alperen5252525__kaggriculture-metacounter-r1/kaggriculture-metacounter-r1.ipynb",
+      "verdict": "reject_analysis_no_writefile",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260913q (lastRunTime 2026-09-13 13:33:33.847000; public-search newest by dateCreated). 11-cell analysis notebook, no %%writefile, no ctypes/agent.so. Author labels it a side-research notebook that does not submit an agent. V40-derived MetaCounter sale-reorder layer is rejected in-notebook (78/80 vs V40 80/80). Mentions future route posterior at 144/216/288 but ships no farm/route reselect. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-land-labor-capital-allocator",
+      "path": "artifacts/public_sources/_hunt_20260913r/xuantianfengwu__kaggriculture-land-labor-capital-allocator/kaggriculture-land-labor-capital-allocator.ipynb",
+      "verdict": "reject_heuristic_six_cow_allocator",
+      "sha256": "b49709bd32e04a51ede5dc174fbd4e4eab569f7e07ecf855ea376b2292ee7375",
+      "note": "New slug vs _hunt_20260913q (lastRunTime 2026-09-13 13:12:55.287000). Python %%writefile submission.py SHA b49709bd... Distinct from already-rejected timed-six-cow SHA 5dc0c68c, cut14 acf7c664, cut15 b87a27ed, cut16 26ffba52. Heuristic v3/v4/v5 staggered land-labor allocator: animals=6 COW, animal_start_day=0, expansion_batch=15, land_min_plants=12. No PROGRAM/ROUTE_STEP/FINAL_PLAN/sale_horizon/ADVANCE_START. step==0 / hour==0 / _V5_LAST_STEP guards are opening prefixes, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

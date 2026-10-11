@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913c",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108311577,
+    108273755,
+    108270318,
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982,
+    108172639,
+    108166009,
+    108162165,
+    108161412
+  ],
+  "ids_0913b": [
+    108296309,
+    108290336,
+    108259280,
+    108227462,
+    108224822,
+    108222615,
+    108139022,
+    108138037,
+    108124312,
+    108123019,
+    108108832,
+    108105086
+  ],
+  "disjoint_from_0913b": true,
+  "all_720_done_done": true,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -2785.9,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2); opp 151/266 except Joyal also 434 (4Q)",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108311577": 185,
+    "108273755": 236,
+    "108270318": 183,
+    "108243488": 235,
+    "108208866": 49,
+    "108204278": 11,
+    "108191120": 237,
+    "108175982": 1,
+    "108172639": 1,
+    "108166009": 1,
+    "108162165": 37,
+    "108161412": 237
+  },
+  "wool_432": {
+    "108311577": 179,
+    "108273755": 212,
+    "108270318": 189,
+    "108243488": 233,
+    "108208866": 1,
+    "108204278": 1,
+    "108191120": 228,
+    "108175982": 1,
+    "108172639": 5,
+    "108166009": 1,
+    "108162165": 1,
+    "108161412": 226
+  },
+  "same_class_as_0913b": true,
+  "same_class_note": "Same extra-animal 8c6s3g family as 09-13b/09-13. WTL 4-0-8 mean -2785.9 vs 09-13b 5-0-7 mean -2813.0. Wool $1 by 360 on Iskander/XIAO MA/Ke Ma Ke. clone=11/12 (rick11224 clone=0).",
+  "loss_class": "mixed extra-animal 8c6s3g (IskanderAkhmetov 108166009 9c5s vs 8c6s3g clone=1 SMOOTHIE extra sheep only 314 -12967 wool $1 at 360; Ke Ma Ke 108175982 9c5s vs 8c6s3g SMOOTHIE extra sheep 314 -3323 wool $1; XIAO MA 108172639 7c6s vs 8c6s3g BRUNCH sheep 2/151/196 -6573 wool $1) + extra-goose/identical-clone + YARN clone timing. (1) extra-animal vs 8c6s3g \u2014 Iskander -12967 sheep 314; XIAO MA -6573 no 314 sheep; Ke Ma Ke -3323 sheep 314. (2) YARN clone timing \u2014 automatylicza 108273755 6c12s vs 6c11s -7750 extra sheep 218/242/266 already bought; Joyal 108161412 6c12s vs 6c10s -1227 extra sheep 218/242/266; Suzuki Yuto 108191120 6c12s vs 9c8s +5639 extra sheep 218/242/266. (3) extra-goose/identical-clone ocean240812 9c5s3g vs 9c5s4g +1058; junfan shen 9c5s3g +56; Kaipeng Zheng 9c5s3g vs 6c6s6g -1427; StephaneB7899 9c5s3g -578. Bonkoturyu 108243488 identical 9c8s already bought extra sheep 227/242/266 and won +53. rick11224 108208866 clone=0 9c5s vs 7c4s PET_CAFE extra sheep 314 -6392. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: 8c6s3g losses bought sheep at 314 or skipped 227; YARN losses already bought 218/242/266 and lost; Bonkoturyu already bought 227/242/266 (9c8s identical clone) coin-flip +53.",
+  "worst_losses": [
+    {
+      "id": 108166009,
+      "opp": "IskanderAkhmetov",
+      "margin": -12967.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "SMOOTHIE_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108273755,
+      "opp": "automatylicza",
+      "margin": -7750.0,
+      "herd_us": "6c12s",
+      "herd_opp": "6c11s",
+      "shops": [
+        "YARN_STORE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196,
+        218,
+        242,
+        266
+      ]
+    },
+    {
+      "id": 108172639,
+      "opp": "XIAO MA",
+      "margin": -6573.0,
+      "herd_us": "7c6s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "BRUNCH_SPOT"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

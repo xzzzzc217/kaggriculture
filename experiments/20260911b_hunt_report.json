@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-11b",
+  "kernels_not_in_0911_packet": true,
+  "no_upload": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "root_main_py": "unchanged",
+  "leaderboard": {
+    "zip": "artifacts/kaggle_runs/lb_20260911b/kaggriculture.zip",
+    "csv": "kaggriculture-publicleaderboard-2026-09-11T14-06-14.csv",
+    "csv_member": "kaggriculture-publicleaderboard-2026-09-11T14:06:14.csv",
+    "n_teams": 8635,
+    "rank1": {"team": "Majkel1337", "score": 3126.4, "teamId": 16718819}
+  },
+  "live_getleaderboard_top20": [
+    {"rank": 1, "teamId": 16718819, "teamName": "Majkel1337", "score": "3130.0", "submissionDate": "2026-09-11 02:18:56.836000"},
+    {"rank": 2, "teamId": 16640510, "teamName": "SpaTaro", "score": "3066.8", "submissionDate": "2026-09-11 09:15:53.763000"},
+    {"rank": 3, "teamId": 16805699, "teamName": "feel the agi", "score": "3021.4", "submissionDate": "2026-09-10 00:01:38.766000"},
+    {"rank": 4, "teamId": 16732403, "teamName": "ymg_aq", "score": "3016.7", "submissionDate": "2026-09-11 07:59:49.836000"},
+    {"rank": 5, "teamId": 16717536, "teamName": "c0nrad", "score": "3010.3", "submissionDate": "2026-09-11 12:22:34.346000"},
+    {"rank": 6, "teamId": 16760569, "teamName": "Otter Vibe", "score": "2991.6", "submissionDate": "2026-09-08 11:36:43.510000"},
+    {"rank": 7, "teamId": 16730612, "teamName": "Unknown Mother-Goose", "score": "2983.9", "submissionDate": "2026-09-11 07:45:16.966000"},
+    {"rank": 8, "teamId": 16685556, "teamName": "binghua", "score": "2971.5", "submissionDate": "2026-09-08 13:50:16.860000"},
+    {"rank": 9, "teamId": 16732521, "teamName": "redblackbst", "score": "2970.7", "submissionDate": "2026-09-11 11:22:54.720000"},
+    {"rank": 10, "teamId": 16865070, "teamName": "carlos-tagosaku", "score": "2969.8", "submissionDate": "2026-09-11 01:52:30.106000"},
+    {"rank": 11, "teamId": 16622349, "teamName": "Mengfei Li", "score": "2960.3", "submissionDate": "2026-09-06 05:20:24.270000"},
+    {"rank": 12, "teamId": 16667242, "teamName": "Gleb Tumanov", "score": "2960.2", "submissionDate": "2026-09-10 18:44:35.130000"},
+    {"rank": 13, "teamId": 16704466, "teamName": "QQ Farming", "score": "2942.6", "submissionDate": "2026-09-10 18:07:39.960000"},
+    {"rank": 14, "teamId": 16723620, "teamName": "3정훈", "score": "2941.9", "submissionDate": "2026-09-11 10:44:14.546000"},
+    {"rank": 15, "teamId": 16847222, "teamName": "charmq", "score": "2940.2", "submissionDate": "2026-09-11 09:00:19.296000"},
+    {"rank": 16, "teamId": 16758882, "teamName": "mtmr_s1", "score": "2938.1", "submissionDate": "2026-09-11 13:48:17.503000"},
+    {"rank": 17, "teamId": 16685634, "teamName": "Syed Asad Ali", "score": "2935.4", "submissionDate": "2026-09-11 12:09:09.976000"},
+    {"rank": 18, "teamId": 16767215, "teamName": "keiz", "score": "2920.5", "submissionDate": "2026-09-11 05:12:00.960000"},
+    {"rank": 19, "teamId": 16706222, "teamName": "Xiangyu Liu", "score": "2917.9", "submissionDate": "2026-09-09 13:36:50.526000"},
+    {"rank": 20, "teamId": 16730524, "teamName": "THIRD FARM CLUB", "score": "2913.1", "submissionDate": "2026-09-11 09:05:45.076000"}
+  ],
+  "csv_vs_live": "CSV Majkel1337 3126.4 vs live 3130.0. SpaTaro CSV 3070.4 vs live 3066.8. ymg_aq CSV 3017.1 vs live 3016.7. Episode 107840804 on scoring sub 56148003 has updatedScore 3126.4844 (CSV 3126.4); next public game 107846772 raises it to 3130.097 (live 3130.0).",
+  "top_board_team": "Majkel1337",
+  "rank": 1,
+  "live_rank_at_fetch": 1,
+  "teamId": 16718819,
+  "submissionId": 56148003,
+  "score": 3126.4,
+  "current_sub_public_score": 3113.1,
+  "current_sub_id": 56156662,
+  "scoring_sub_id": 56148003,
+  "scoring_sub_score": 3130.0,
+  "lastSubmissionDate": "2026-09-11T02:18:56.836Z",
+  "episodes_file": "experiments/episodes_sub_56148003_majkel1337.json",
+  "replays": "artifacts/kaggle_runs/top_20260911b",
+  "games_file": "experiments/20260911b_top10_games.json",
+  "episode_ids": [107846772, 107840808, 107840804, 107835003],
+  "episode_ids_disjoint_from_0911": true,
+  "skipped_ids": [105352975, 105352101, 105352096, 105348549, 105352143, 105352100, 105352099, 105348550, 105351728, 105349460, 105345918, 105345853, 105352097, 105348551, 105345024, 105341443, 105353065, 105351792, 105350403, 105349475, 105398564, 105398563, 105395068, 105391580, 105395079, 105391598, 105388041, 105384084, 105440807, 105437334, 105433863, 105433860, 106976067, 106976069, 106976065, 106958424, 107493475, 107487687, 107482596, 107481864, 107582281, 107581290, 107580344, 107579345, 107756968, 107751894, 107746036, 107740777],
+  "why_not_spataro_or_feel_the_agi": "Highest-ranked team missing from 20260904/05/06/09/10 team fields is Majkel1337 (CSV #1 / live #1 / 3126.4), above SpaTaro (already in 20260909_top10_games.json) and feel the agi (CSV #3 / also missing but lower). Last cycle measured max-id 56156662 (then 3037.6) while displayed 3086.5 was 56148003. This cycle ListTeamPublicSubmissions: 56156662 public 3113.1 (max id, lastSubmissionDate 2026-09-11 02:18:56) vs 56148003 public 3130.0 (live displayed). CSV 3126.4 is identifiable as 56148003 (episode 107840804 updatedScore 3126.4844).",
+  "games": [
+    {
+      "id": 107846772,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 6415.0,
+      "land": [150, 224],
+      "herd": "8c5s2g",
+      "wheat": 305,
+      "clone": false,
+      "shops72": ["SMOOTHIE_SHOP"],
+      "shops144": ["SMOOTHIE_SHOP", "FARMERS_MARKET"]
+    },
+    {
+      "id": 107840808,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 5590.0,
+      "land": [150, 218, 220, 222],
+      "herd": "10c10s0g",
+      "wheat": 434,
+      "clone": false,
+      "shops72": ["PIZZA_SHOP"],
+      "shops144": ["PIZZA_SHOP", "SMOOTHIE_SHOP"]
+    },
+    {
+      "id": 107840804,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 4459.0,
+      "land": [150, 224],
+      "herd": "10c3s2g",
+      "wheat": 337,
+      "clone": false,
+      "shops72": ["BRUNCH_SPOT"],
+      "shops144": ["BRUNCH_SPOT", "SMOOTHIE_SHOP"]
+    },
+    {
+      "id": 107835003,
+      "opp": "c0nrad",
+      "win": true,
+      "margin": 2848.0,
+      "land": [150, 218],
+      "herd": "13c4s0g",
+      "wheat": 382,
+      "clone": false,
+      "shops72": ["PIZZA_SHOP"],
+      "shops144": ["PIZZA_SHOP", "PIZZA_SHOP"]
+    }
+  ],
+  "opening_land_vs_later_block": {
+    "class": "mid_land_not_opening_not_later_block",
+    "land_pattern": "First BUY_LAND at 150 in all four games; extra land 218/220/222/224.",
+    "not_opening_land": "First land is step 150, not SpaTaro opening 2/3/74.",
+    "not_ymg_aq_121_170": true,
+    "clone": false,
+    "herd": "Buy-derived 8c5s2g / 10c10s0g / 10c3s2g / 13c4s0g. Cow-led. Not freeze 9c9s.",
+    "wheat": "305–434 own SELL:WHEAT. Not wheat-heavy (ymg_aq was 1301–1478). Not a later-block license.",
+    "shops": "First shop by 72 varies (SMOOTHIE_SHOP / PIZZA_SHOP / BRUNCH_SPOT / PIZZA_SHOP).",
+    "note": "Opening land is not a later-block license. Majkel1337 mid-land 150 then 218–224 + modest wheat is not a public-state farm reselect after 216. Extra land at 218–224 is a land buy, not a later-block wrap. 227/242/266 wrap not claimed."
+  },
+  "hunt_dir": "artifacts/public_sources/_hunt_20260911b",
+  "hunt": [
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "path": "artifacts/public_sources/_hunt_20260911b/yhay81__shop-router-0911-simple/shop-router-0911-simple.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Priority Yusuke 0911. Python %%writefile main.py sha256 642293d3f43182bdb72a0001fc041d1fe352b58ff8ed950bdd7149c46933c0cf. zlib/b85 tapes; runtime selects shop-pair plan at step 144 and ending tape at 648. Markdown: not the exact Sept 11 submission; Shop Router 0910 Python remained private; no later conditional continuations. CDLL/.so substring is payload digits, not ctypes.CDLL/agent.so. No reselect after 216. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v35-reactive-sales-sheep-expansi",
+      "path": "artifacts/public_sources/_hunt_20260911b/ahmedberatozer__kaggriculture-v35-reactive-sales-sheep-expansi/kaggriculture-v35-reactive-sales-sheep-expansi.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Slug resolved via kaggle kernels list --search (truncated). Python %%writefile main.py sha256 294e7e4d9d4b97413646960d318043e0f9116ce58f42fe02afd4716614a4e96d; EXPECTED_MAIN_SHA256 same. Distinct from 0911 packet v34 58f3cbf9…. Shop-router / V34 foundation plus opening-market sequence inspired by yhay81/shop-router-0911-simple. 216<=step<=227 is milk-shop livestock sub (one hit), not a farm reselect. day6 at 144, day27 at 648, terminal planner 712. No ctypes/agent.so/reselect/later-block. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ziyiming/kaggriculture-medal-r2-shoprouter",
+      "path": "artifacts/public_sources/_hunt_20260911b/ziyiming__kaggriculture-medal-r2-shoprouter/kaggriculture-medal-r2-shoprouter.py",
+      "verdict": "reject_day6_only",
+      "note": "403 on kaggle kernels pull (GetKernel Forbidden); kernels list --user ziyiming has no kaggriculture kernel. Leftover local .py inspected statically only: ROUTE_STEP=144 FINAL_PLAN_STEP=648, Shop Router 0909 inline lzma/b85 tapes. Not a later-block. Did not treat leftover as a live agent. Did not run anything."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-sale-window",
+      "path": "artifacts/public_sources/_hunt_20260911b/sunil123kumar__kaggriculture-sale-window/kaggriculture-sale-window.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python writefile router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380 identical to 0911 packet dmitriigluzdov/kaggriculture-herd-safe-sale-window. SETTINGS sale_horizon=3. ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288. First 12 days parent; 3-action sale window from step 288. V226 is wheat topup. CDLL substring false positive (gzip assets). No ctypes.CDLL / agent.so. Cells not executed."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-preempt-selector",
+      "path": "artifacts/public_sources/_hunt_20260911b/xuantianfengwu__kaggriculture-preempt-selector/kaggriculture-preempt-selector.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile submission.py sha256 31ce23bada11e8f82f97a325aa413b7eb2f1192f0ffdf29948e9b751be79985f. Markdown: opening animal mix + preemptive financed-crop sales. BUY_LAND opportunistic. No 216/226/144/288/reselect/later-block/ctypes. Distinct from 0911 packet kaggriculture-fixed-hybrid-core 06d7584c…. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "leoprovorov/two-coins-at-high-noon-small-improvement",
+      "path": "artifacts/public_sources/_hunt_20260911b/leoprovorov__two-coins-at-high-noon-small-improvement/two-coins-at-high-noon-small-improvement.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python writefile router.py sha256 11d052301c1816181a21f7e2e6453923302cf89367c29c5dd522c3a4d8d07a4d (distinct from 0911 packet 3a444a70…). SETTINGS sale_horizon=2; mirror counter may raise to 3 after public route-similarity. Parent ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288. gzip actions.json sha 17d503f2…. CDLL substring false positive. No ctypes.CDLL / agent.so. Not a later-block. Cells not executed."
+    },
+    {
+      "kernel": "lucifer19/harvest-nocturne-v2-a-lighter-start",
+      "path": "artifacts/public_sources/_hunt_20260911b/lucifer19__harvest-nocturne-v2-a-lighter-start/harvest-nocturne-v2-a-lighter-start.ipynb",
+      "verdict": "reject_eda",
+      "note": "Story/refactor notebook (27 cells, charts). Unpacks attached dataset lucifer19/harvest-nocturne-source-library-v2 (LIBRARY_SHA256 49e2b2df…). Markdown: shop-pair continuation at step 144. AGENT_SOURCE loads router.py from that library (Two Coins / Moon / Shop Router; adaptive_horizon/quote_order). No %%writefile later-block. No ctypes/agent.so/reselect. Cells not executed. Did not extract the source library."
+    }
+  ]
+}

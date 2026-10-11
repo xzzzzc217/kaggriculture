@@ -1,0 +1,387 @@
+[
+  {
+    "team": "Otter Vibe",
+    "id": 107493475,
+    "opp": "kay.liechtenstein",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": -3114.0,
+    "win": false,
+    "tie": false,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "SMOOTHIE_SHOP"
+    ],
+    "shops144": [
+      "SMOOTHIE_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "buy": {
+      "SHEEP": 5,
+      "GOOSE": 8,
+      "COW": 7
+    },
+    "buy_opp": {
+      "COW": 8,
+      "SHEEP": 6,
+      "GOOSE": 3
+    },
+    "pasture": [
+      12,
+      14
+    ],
+    "land": [
+      121,
+      247
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      1,
+      6
+    ],
+    "cow": [
+      0,
+      8
+    ],
+    "goose": [
+      8,
+      3
+    ],
+    "wheat": [
+      445,
+      18424
+    ],
+    "wool": [
+      99,
+      7176
+    ],
+    "milk": [
+      99,
+      6235
+    ],
+    "fert": [
+      217,
+      8354
+    ],
+    "melon": [
+      96,
+      6072
+    ],
+    "tomato": [
+      123,
+      6000
+    ],
+    "carrot": [
+      125,
+      16045
+    ],
+    "egg": [
+      297,
+      8074
+    ],
+    "rewards": [
+      102844.0,
+      105958.0
+    ]
+  },
+  {
+    "team": "Otter Vibe",
+    "id": 107487687,
+    "opp": "Unknown Mother-Goose",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": -754.0,
+    "win": false,
+    "tie": false,
+    "clone": false,
+    "max_near": 4,
+    "shops72": [
+      "ICE_CREAM_SHOP"
+    ],
+    "shops144": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "buy": {
+      "SHEEP": 3,
+      "GOOSE": 9,
+      "COW": 7
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 3,
+      "GOOSE": 7
+    },
+    "pasture": [
+      10,
+      10
+    ],
+    "land": [
+      121,
+      247
+    ],
+    "land_opp": [
+      89,
+      198
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      3,
+      0
+    ],
+    "cow": [
+      7,
+      7
+    ],
+    "goose": [
+      9,
+      6
+    ],
+    "wheat": [
+      494,
+      664
+    ],
+    "wool": [
+      60,
+      74
+    ],
+    "milk": [
+      201,
+      215
+    ],
+    "fert": [
+      236,
+      400
+    ],
+    "melon": [
+      84,
+      114
+    ],
+    "tomato": [
+      57,
+      14
+    ],
+    "carrot": [
+      9,
+      32
+    ],
+    "egg": [
+      342,
+      240
+    ],
+    "rewards": [
+      122537.0,
+      123291.0
+    ]
+  },
+  {
+    "team": "Otter Vibe",
+    "id": 107482596,
+    "opp": "SpaTaro",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 2186.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "FARMERS_MARKET"
+    ],
+    "shops144": [
+      "FARMERS_MARKET",
+      "BAKERY"
+    ],
+    "buy": {
+      "SHEEP": 3,
+      "GOOSE": 10,
+      "COW": 5
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 4
+    },
+    "pasture": [
+      8,
+      9
+    ],
+    "land": [
+      121,
+      247
+    ],
+    "land_opp": [
+      2,
+      122,
+      151,
+      198
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      3,
+      2
+    ],
+    "cow": [
+      5,
+      5
+    ],
+    "goose": [
+      10,
+      0
+    ],
+    "wheat": [
+      361,
+      1004
+    ],
+    "wool": [
+      58,
+      61
+    ],
+    "milk": [
+      141,
+      157
+    ],
+    "fert": [
+      267,
+      153
+    ],
+    "melon": [
+      108,
+      70
+    ],
+    "tomato": [
+      211,
+      5
+    ],
+    "carrot": [
+      156,
+      449
+    ],
+    "egg": [
+      374,
+      0
+    ],
+    "rewards": [
+      90759.0,
+      88573.0
+    ]
+  },
+  {
+    "team": "Otter Vibe",
+    "id": 107481864,
+    "opp": "SpaTaro",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 186.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 3,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "shops144": [
+      "YARN_STORE",
+      "FARMERS_MARKET"
+    ],
+    "buy": {
+      "SHEEP": 10,
+      "GOOSE": 5,
+      "COW": 5
+    },
+    "buy_opp": {
+      "COW": 6,
+      "SHEEP": 26
+    },
+    "pasture": [
+      15,
+      23
+    ],
+    "land": [
+      121,
+      242
+    ],
+    "land_opp": [
+      3,
+      151,
+      224
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      10,
+      5
+    ],
+    "cow": [
+      5,
+      6
+    ],
+    "goose": [
+      5,
+      0
+    ],
+    "wheat": [
+      391,
+      904
+    ],
+    "wool": [
+      199,
+      268
+    ],
+    "milk": [
+      117,
+      129
+    ],
+    "fert": [
+      270,
+      195
+    ],
+    "melon": [
+      90,
+      88
+    ],
+    "tomato": [
+      170,
+      0
+    ],
+    "carrot": [
+      72,
+      0
+    ],
+    "egg": [
+      208,
+      0
+    ],
+    "rewards": [
+      109341.0,
+      109155.0
+    ]
+  }
+]

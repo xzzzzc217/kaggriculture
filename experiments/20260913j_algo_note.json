@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913j",
+  "role": "strategy/algorithm analyst",
+  "no_upload": true,
+  "root_main_py": "unchanged",
+  "windows_agent_so": false,
+  "cells_executed": false,
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e",
+      "score_complete": 1799.3,
+      "dropped_from_newest_2": true
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+      "score_complete": 1864.4,
+      "dropped_from_newest_2": true
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "submissionId": 56151152,
+      "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+      "score_complete_0912": 1730.1,
+      "csv_0913_team_score": 1683.4,
+      "csv_0913b_team_score": 1691.4,
+      "csv_0913c_team_score": 1696.4,
+      "csv_0913d_team_score": 1698.7,
+      "csv_0913e_team_score": 1695.5,
+      "csv_0913f_team_score": 1697.5,
+      "csv_0913g_team_score": 1702.8,
+      "csv_0913h_team_score": 1691.5,
+      "csv_0913i_team_score": 1696.4,
+      "csv_0913j_team_score": 1692.8,
+      "status": "COMPLETE"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "lineage": 55962761,
+      "score_complete": 1323.0,
+      "newer_than_cut16": true
+    },
+    "newest_2": [56151155, 56151152],
+    "rank_csv_0913j": 1949
+  },
+  "cut16_live_failure_class": {
+    "0913i": {
+      "file": "experiments/20260913i_cut16_rolling.json",
+      "ids": [
+        108399266,
+        108371627,
+        108369265,
+        108366745,
+        108328160,
+        108311577,
+        108273755,
+        108270318,
+        108243488,
+        108224822,
+        108222615,
+        108208866
+      ],
+      "wtl": [6, 0, 6],
+      "mean_margin": -4999.4,
+      "class": "extra-animal 8c6s3g plus extra-sheep 16s plus extra-goose/identical-clone plus YARN extra-sheep timing"
+    },
+    "0913j": {
+      "file": "experiments/20260913j_cut16_rolling.json",
+      "ids": [
+        108412731,
+        108383915,
+        108377691,
+        108374873,
+        108351144,
+        108349751,
+        108345614,
+        108343489,
+        108326448,
+        108296309,
+        108290336,
+        108259280
+      ],
+      "wtl": [5, 0, 7],
+      "mean_margin": -2308.2,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-goose 9c5s3g plus extra-animal YARN 6c11s plus extra-sheep 11s plus identical-clone",
+      "heavy": [
+        {
+          "id": 108412731,
+          "opp": "haonan zhengh",
+          "margin": -18535,
+          "shops72": ["ICE_CREAM_SHOP"],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [218, 227, 242, 266],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108383915,
+          "opp": "Peter Cnudde",
+          "margin": -13315,
+          "shops72": ["YARN_STORE"],
+          "buy": "6c11s vs 7c11s",
+          "opp216": [218, 227, 242, 266],
+          "wool_px_360": 237
+        }
+      ]
+    }
+  },
+  "q1_reselect_after_216": {
+    "licensed_this_fire": false,
+    "note": "No new Windows Python farm/route reselect after 216 distinct from cuts 14/15/16. Public search newest crystalbaby/kaggriculture-v38-public-submission writefile SHA a2047ebd is Ahmed V38 Shop0909 144/648 + 288/712 overlay (already rejected 0913b). Author lists unchanged."
+  }
+}

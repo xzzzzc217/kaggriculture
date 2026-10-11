@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913m",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108472548,
+    108461768,
+    108432563,
+    108429814,
+    108426937,
+    108422886,
+    108399266,
+    108371627,
+    108369265,
+    108366745,
+    108328160,
+    108311577
+  ],
+  "ids_0913l": [
+    108445221,
+    108441448,
+    108441305,
+    108412731,
+    108383915,
+    108377691,
+    108374873,
+    108351144,
+    108349751,
+    108345614,
+    108343489,
+    108326448
+  ],
+  "disjoint_from_0913l": true,
+  "all_720_done_done": true,
+  "wtl": [
+    6,
+    0,
+    6
+  ],
+  "mean_margin": -1708.7,
+  "clone_n": 12,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    24.0
+  ],
+  "wool_360": {
+    "108472548": 1,
+    "108461768": 224,
+    "108432563": 237,
+    "108429814": 1,
+    "108426937": 1,
+    "108422886": 240,
+    "108399266": 43,
+    "108371627": 43,
+    "108369265": 1,
+    "108366745": 43,
+    "108328160": 230,
+    "108311577": 185
+  },
+  "wool_432": {
+    "108472548": 55,
+    "108461768": 189,
+    "108432563": 227,
+    "108429814": 5,
+    "108426937": 5,
+    "108422886": 241,
+    "108399266": 1,
+    "108371627": 1,
+    "108369265": 1,
+    "108366745": 1,
+    "108328160": 158,
+    "108311577": 179
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-13l: extra-animal 8c6s3g plus extra-animal YARN 6c11s plus extra-sheep 16s plus extra-goose/identical-clone. WTL 6-0-6 mean -1708.7 vs 09-13l 5-0-7 mean -3830.6. New window games are Brian Chua 108472548 extra-animal 8c6s3g and Andrey Shpigar extra-sheep win vs 6c6s6g. clone=12/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (Ju 108369265 9c5s vs 8c6s3g clone=1 SMOOTHIE extra sheep 218/227 extra geese 242/266 wheat 425 vs 17369 -17212; linyifangzhenshuai 108426937 7c6s vs 8c6s3g BRUNCH extra sheep 218/227 extra geese 242/266 wheat 486 vs 17346 -9514; carlos-tagosaku 108429814 7c6s vs 8c6s3g FARMERS extra sheep 218/227 extra geese 242/266 wheat 481 vs 17346 -8454; Brian Chua 108472548 9c5s vs 8c6s3g SMOOTHIE extra sheep 218/227 extra geese 242/266 wheat 411 vs 458 -659) + extra-animal YARN 6c11s (wuwuwu 108432563 6c11s vs 7c11s clone=1 YARN extra sheep 218/242/266 already bought -10575) + extra-sheep 16s (Artem The Farmer 108328160 9c8s vs 4c16s1g extra sheep 227/242/266 already bought -8536). Wins: Joyal 108422886 6c11s vs 9c5s3g +27397 extra sheep 218/242/266 already bought; Sidharth Hulyalkar 108399266 9c5s3g vs 9c5s4g +2525 extra geese 227/242 already bought; Andrey Shpigar 108461768 9c8s vs 6c6s6g +1827 extra sheep 227/242/266 already bought; Kometa 108366745 9c5s3g vs 9c9s +1244 extra geese 227/242 already bought; ocean240812 108311577 9c5s3g vs 9c5s4g +1058 extra geese 227/242 already bought; Rafael Molina Castano 108371627 9c5s3g vs 9c5s4g +395 extra geese 227/242 already bought. clone=12/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-24 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: Ju/linyi/carlos/Brian lost 8c6s3g after opp extra sheep 218/227 extra geese 242/266; wuwuwu already bought 218/242/266 and lost YARN 6c11s; Artem already bought 227/242/266 and lost extra-sheep 16s; extra-goose wins bought geese at 227/242 and sheep at 266; Andrey already bought 227/242/266 and won vs 6c6s6g.",
+  "worst_losses": [
+    {
+      "id": 108369265,
+      "opp": "Ju",
+      "margin": -17212.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "SMOOTHIE_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108432563,
+      "opp": "wuwuwu",
+      "margin": -10575.0,
+      "herd_us": "6c11s",
+      "herd_opp": "7c11s",
+      "shops": [
+        "YARN_STORE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196,
+        218,
+        242,
+        266
+      ]
+    },
+    {
+      "id": 108426937,
+      "opp": "linyifangzhenshuai",
+      "margin": -9514.0,
+      "herd_us": "7c6s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "BRUNCH_SPOT"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

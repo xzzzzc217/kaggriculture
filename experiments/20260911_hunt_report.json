@@ -1,0 +1,156 @@
+{
+  "date": "2026-09-11",
+  "kernels_not_in_0910b_packet": true,
+  "no_upload": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "root_main_py": "unchanged",
+  "leaderboard": {
+    "zip": "artifacts/kaggle_runs/lb_20260911/kaggriculture.zip",
+    "csv": "kaggriculture-publicleaderboard-2026-09-11T08-08-15.csv",
+    "csv_member": "kaggriculture-publicleaderboard-2026-09-11T08:08:15.csv",
+    "n_teams": 8609,
+    "rank1": {"team": "SpaTaro", "score": 3101.2, "teamId": 16640510}
+  },
+  "live_getleaderboard_top20": [
+    {"rank": 1, "teamId": 16640510, "teamName": "SpaTaro", "score": "3104.7", "submissionDate": "2026-09-09 05:04:06.336000"},
+    {"rank": 2, "teamId": 16718819, "teamName": "Majkel1337", "score": "3086.5", "submissionDate": "2026-09-11 02:18:56.836000"},
+    {"rank": 3, "teamId": 16805699, "teamName": "feel the agi", "score": "3044.7", "submissionDate": "2026-09-10 00:01:38.766000"},
+    {"rank": 4, "teamId": 16760569, "teamName": "Otter Vibe", "score": "3033.9", "submissionDate": "2026-09-08 11:36:43.510000"},
+    {"rank": 5, "teamId": 16717536, "teamName": "c0nrad", "score": "3012.4", "submissionDate": "2026-09-10 17:59:15.150000"},
+    {"rank": 6, "teamId": 16685556, "teamName": "binghua", "score": "2980.3", "submissionDate": "2026-09-08 13:50:16.860000"},
+    {"rank": 7, "teamId": 16758882, "teamName": "mtmr_s1", "score": "2966.8", "submissionDate": "2026-09-10 15:19:00.620000"},
+    {"rank": 8, "teamId": 16723620, "teamName": "3정훈", "score": "2958.4", "submissionDate": "2026-09-10 17:02:05.303000"},
+    {"rank": 9, "teamId": 16865070, "teamName": "carlos-tagosaku", "score": "2950.9", "submissionDate": "2026-09-11 01:52:30.106000"},
+    {"rank": 10, "teamId": 16622349, "teamName": "Mengfei Li", "score": "2949.6", "submissionDate": "2026-09-06 05:20:24.270000"},
+    {"rank": 11, "teamId": 16667242, "teamName": "Gleb Tumanov", "score": "2942.1", "submissionDate": "2026-09-10 18:44:35.130000"},
+    {"rank": 12, "teamId": 16730524, "teamName": "THIRD FARM CLUB", "score": "2928.9", "submissionDate": "2026-09-10 09:39:41.760000"},
+    {"rank": 13, "teamId": 16657785, "teamName": "Himanshu Kumar", "score": "2923.8", "submissionDate": "2026-09-09 18:32:55.960000"},
+    {"rank": 14, "teamId": 16704466, "teamName": "QQ Farming", "score": "2917.9", "submissionDate": "2026-09-10 18:07:39.960000"},
+    {"rank": 15, "teamId": 16732521, "teamName": "redblackbst", "score": "2917.0", "submissionDate": "2026-09-11 05:21:46.526000"},
+    {"rank": 16, "teamId": 16797543, "teamName": "Tarang222", "score": "2913.7", "submissionDate": "2026-09-09 07:37:56.250000"},
+    {"rank": 17, "teamId": 16706222, "teamName": "Xiangyu Liu", "score": "2908.3", "submissionDate": "2026-09-09 13:36:50.526000"},
+    {"rank": 18, "teamId": 16783173, "teamName": "Michael Shihong Zhang", "score": "2907.9", "submissionDate": "2026-09-10 22:18:26.543000"},
+    {"rank": 19, "teamId": 16705390, "teamName": "Subramanya N", "score": "2903.3", "submissionDate": "2026-09-10 18:44:57.480000"},
+    {"rank": 20, "teamId": 16861637, "teamName": "薄荷喵呜", "score": "2901.6", "submissionDate": "2026-09-11 04:15:19.066000"}
+  ],
+  "csv_vs_live": "CSV SpaTaro 3101.2 vs live 3104.7. Majkel1337 3086.5 both. binghua CSV 2977.2 vs live 2980.3. 3정훈 CSV 2961.9 vs live 2958.4. ymg_aq not in live top20; CSV rank 3928 / 886.5.",
+  "top_board_team": "Majkel1337",
+  "rank": 2,
+  "live_rank_at_fetch": 2,
+  "teamId": 16718819,
+  "submissionId": 56156662,
+  "score": 3086.5,
+  "current_sub_public_score": 3037.6,
+  "scoring_sub_id": 56148003,
+  "scoring_sub_score": 3086.5,
+  "lastSubmissionDate": "2026-09-11T02:18:56.836Z",
+  "episodes_file": "experiments/episodes_sub_56156662_majkel1337.json",
+  "replays": "artifacts/kaggle_runs/top_20260911",
+  "games_file": "experiments/20260911_top10_games.json",
+  "episode_ids": [107756968, 107751894, 107746036, 107740777],
+  "episode_ids_disjoint_from_10b": true,
+  "skipped_ids": [105352975, 105352101, 105352096, 105348549, 105352143, 105352100, 105352099, 105348550, 105351728, 105349460, 105345918, 105345853, 105352097, 105348551, 105345024, 105341443, 105353065, 105351792, 105350403, 105349475, 105398564, 105398563, 105395068, 105391580, 105395079, 105391598, 105388041, 105384084, 105440807, 105437334, 105433863, 105433860, 106976067, 106976069, 106976065, 106958424, 107493475, 107487687, 107482596, 107481864, 107582281, 107581290, 107580344, 107579345],
+  "why_not_ymg_aq_or_spataro": "Highest-ranked team missing from 20260904/05/06/09/10 team fields is Majkel1337 (CSV #2 / live #2 / 3086.5), above last-cycle ymg_aq. ymg_aq is no longer top-board (CSV #3928 / 886.5 after a 2026-09-11 07:59 resub). SpaTaro is still CSV/live #1 but already in 20260909_top10_games.json. Measured newest public sub 56156662 (ListTeamPublicSubmissions max id; public 3037.6 still climbing). Displayed 3086.5 is older public sub 56148003.",
+  "games": [
+    {
+      "id": 107756968,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 4893.0,
+      "land": [150, 218, 220, 222],
+      "herd": "6c3s4g",
+      "wheat": 511,
+      "clone": false,
+      "shops72": ["BAKERY"],
+      "shops144": ["BAKERY", "PET_CAFE"]
+    },
+    {
+      "id": 107751894,
+      "opp": "SpaTaro",
+      "win": true,
+      "margin": 18402.0,
+      "land": [150, 220, 222],
+      "herd": "9c3s2g",
+      "wheat": 500,
+      "clone": false,
+      "shops72": ["ICE_CREAM_SHOP"],
+      "shops144": ["ICE_CREAM_SHOP", "BRUNCH_SPOT"]
+    },
+    {
+      "id": 107746036,
+      "opp": "binghua",
+      "win": true,
+      "margin": 11342.0,
+      "land": [150, 220, 222],
+      "herd": "6c13s0g",
+      "wheat": 480,
+      "clone": false,
+      "shops72": ["YARN_STORE"],
+      "shops144": ["YARN_STORE", "FARMERS_MARKET"]
+    },
+    {
+      "id": 107740777,
+      "opp": "Otter Vibe",
+      "win": true,
+      "margin": 9013.0,
+      "land": [150, 220],
+      "herd": "12c3s2g",
+      "wheat": 472,
+      "clone": false,
+      "shops72": ["SMOOTHIE_SHOP"],
+      "shops144": ["SMOOTHIE_SHOP", "BAKERY"]
+    }
+  ],
+  "opening_land_vs_later_block": {
+    "class": "mid_land_not_opening_not_later_block",
+    "land_pattern": "First BUY_LAND at 150 in all four games; extra land 218/220/222 (one game also 218).",
+    "not_opening_land": "First land is step 150, not SpaTaro opening 2/3/74.",
+    "not_ymg_aq_121_170": true,
+    "clone": false,
+    "herd": "Buy-derived 6c3s4g / 9c3s2g / 6c13s0g / 12c3s2g. Cow-led except the YARN_STORE game (13 sheep). Not freeze 9c9s.",
+    "wheat": "472–511 own SELL:WHEAT. Not wheat-heavy (ymg_aq was 1301–1478). Not a later-block license.",
+    "shops": "First shop by 72 varies (BAKERY / ICE_CREAM_SHOP / YARN_STORE / SMOOTHIE_SHOP).",
+    "note": "Opening land is not a later-block license. Majkel1337 mid-land 150 then 218–222 + modest wheat is not a public-state farm reselect after 216. Extra land at 218–222 is a land buy, not a later-block wrap."
+  },
+  "hunt_dir": "artifacts/public_sources/_hunt_20260911",
+  "hunt": [
+    {
+      "kernel": "xuantianfengwu/kaggriculture-fixed-hybrid-core",
+      "path": "artifacts/public_sources/_hunt_20260911/xuantianfengwu__kaggriculture-fixed-hybrid-core/kaggriculture-fixed-hybrid-core.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile submission.py sha256 06d7584c3d8a0abfa75849ae89906894b1bb6ea96eb13dc91e1b1962d061a822. Markdown: 7 cow, 2 sheep, 2 melon; milk keep 25, wool keep 10. BUY_LAND on days 5–12 if extra==0. No 216/226/144/288/reselect/later-block. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "destbreso/who-is-beating-you-and-is-it-you",
+      "path": "artifacts/public_sources/_hunt_20260911/destbreso__who-is-beating-you-and-is-it-you/who-is-beating-you-and-is-it-you.ipynb",
+      "verdict": "reject_eda",
+      "note": "Analysis notebook: family-gate + shop-calendar divergence on public EpisodeService replays. No %%writefile agent, ctypes, or later-block. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/notebooka4fc70fd19",
+      "path": "artifacts/public_sources/_hunt_20260911/ahmedberatozer__notebooka4fc70fd19/notebooka4fc70fd19.ipynb",
+      "verdict": "reject_no_later_block",
+      "note": "Python %%writefile main.py sha256 58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869 (v34; distinct from 0910b v33 ee7ce9f3…). Shop Router 0909 tapes + 216–227 milk-shop livestock sub + sale-block ordering / three-turn reservations from Harvest Nocturne. 226/360/433 only inside zlib payload digits, not y3uanm DECISIONS. No reselect after 216. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-herd-safe-sale-window",
+      "path": "artifacts/public_sources/_hunt_20260911/dmitriigluzdov__kaggriculture-herd-safe-sale-window/kaggriculture-herd-safe-sale-window.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Python writefile router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380. SETTINGS sale_horizon=3. Parent ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288. First 12 days parent; 3-action sale window from step 288. V226 is wheat topup. gzip actions.json sha 17d503f2…; CDLL substring false positive. No ctypes.CDLL / agent.so. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep",
+      "path": "artifacts/public_sources/_hunt_20260911/dmitriigluzdov__kaggriculture-two-coins-one-sheep/kaggriculture-two-coins-one-sheep.ipynb",
+      "verdict": "reject_day6_only",
+      "note": "Different slug from 0910b lb-2700, but notebook sha256 fa8ea18646dfb82668dce461db51b9f37cca50d4c267b29eb8ba7f5c10874fcb is byte-identical to that packet. sale_horizon=2. Same router.py 3a444a70… / ROUTE_STEP=144. Not a later-block. Cells not executed."
+    },
+    {
+      "kernel": "navazshfathi/shop-router-0908",
+      "path": "artifacts/public_sources/_hunt_20260911/navazshfathi__shop-router-0908/shop-router-0908.ipynb",
+      "verdict": "reject_ctypes_native",
+      "note": "Already on disk in _hunt_20260909b; re-pulled. base64 submission.tar.gz sha256 cec3d03192814962b4f52c888bdfbf32c5ea2cf4dafede32ecdf58481ed05de2 identical to yhay81/shop-router-0908. Members main.py / observation.py / model.json / actions.json. observation.py ctypes.CDLL native policy (.so/.dylib), hybrid_shopforge_3day stages at 144 and 648. Static tar list only; did not write a live agent; did not run agent.so. Windows cannot honestly clone/G5 it."
+    }
+  ]
+}

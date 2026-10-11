@@ -1,0 +1,2100 @@
+{
+  "yusuke_live": [
+    {
+      "team": "Yusuke Hayashi",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        }
+      ],
+      "id": 105353065,
+      "opp": "Yuxuan Ba",
+      "shops72": [
+        "SMOOTHIE_SHOP"
+      ],
+      "shops144": [
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "shops216": [
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops288": [
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops360": [
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "shops432": [
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "PIZZA_SHOP",
+            "SMOOTHIE_SHOP"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Yusuke Hayashi",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        }
+      ],
+      "id": 105351792,
+      "opp": "edteoh",
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "YARN_STORE"
+      ],
+      "shops216": [
+        "BAKERY",
+        "YARN_STORE",
+        "PET_CAFE"
+      ],
+      "shops288": [
+        "BAKERY",
+        "YARN_STORE",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "shops360": [
+        "BAKERY",
+        "YARN_STORE",
+        "PET_CAFE",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "shops432": [
+        "BAKERY",
+        "YARN_STORE",
+        "PET_CAFE",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "YARN_STORE",
+            "PET_CAFE"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Yusuke Hayashi",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        }
+      ],
+      "id": 105350403,
+      "opp": "Beyond",
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops216": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "shops288": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ],
+      "shops360": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ],
+      "shops432": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "PET_CAFE"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Yusuke Hayashi",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ],
+      "id": 105349475,
+      "opp": "NayuNayu",
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "BAKERY"
+      ],
+      "shops216": [
+        "BAKERY",
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "shops288": [
+        "BAKERY",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "shops360": [
+        "BAKERY",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ],
+      "shops432": [
+        "BAKERY",
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ]
+    }
+  ],
+  "fieldbook_9c9s": [
+    {
+      "team": "datnt114",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        }
+      ],
+      "id": 105353499,
+      "role": "opp",
+      "shops72": [
+        "SMOOTHIE_SHOP"
+      ],
+      "shops144": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "shops216": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PET_CAFE"
+      ],
+      "shops288": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "SMOOTHIE_SHOP",
+            "BRUNCH_SPOT",
+            "PET_CAFE"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        }
+      ],
+      "id": 105352871,
+      "role": "us",
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops216": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops288": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "mimi\uff01",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        }
+      ],
+      "id": 105352871,
+      "role": "opp",
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops216": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops288": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "ICE_CREAM_SHOP",
+            "FARMERS_MARKET"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        }
+      ],
+      "id": 105352544,
+      "role": "us",
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "FARMERS_MARKET"
+      ],
+      "shops216": [
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "BAKERY"
+      ],
+      "shops288": [
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "FARMERS_MARKET",
+            "BAKERY"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ],
+      "id": 105350400,
+      "role": "us",
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "YARN_STORE"
+      ],
+      "shops216": [
+        "YARN_STORE",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "shops288": [
+        "YARN_STORE",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "rhythm master",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ],
+      "id": 105350400,
+      "role": "opp",
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "YARN_STORE"
+      ],
+      "shops216": [
+        "YARN_STORE",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "shops288": [
+        "YARN_STORE",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "YARN_STORE",
+            "YARN_STORE",
+            "BRUNCH_SPOT"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        }
+      ],
+      "id": 105346857,
+      "role": "us",
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "BAKERY"
+      ],
+      "shops216": [
+        "ICE_CREAM_SHOP",
+        "BAKERY",
+        "YARN_STORE"
+      ],
+      "shops288": [
+        "ICE_CREAM_SHOP",
+        "BAKERY",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "ICE_CREAM_SHOP",
+            "BAKERY",
+            "YARN_STORE"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "Kaggriculture Agent",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        }
+      ],
+      "id": 105343432,
+      "role": "opp",
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops144": [
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ],
+      "shops216": [
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops288": [
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "PET_CAFE",
+            "BRUNCH_SPOT",
+            "SMOOTHIE_SHOP"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "yasu",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 5,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        }
+      ],
+      "id": 105340175,
+      "role": "opp",
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "shops216": [
+        "PIZZA_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops288": [
+        "PIZZA_SHOP",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 227,
+          "day": 10,
+          "qty": 1,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "PIZZA_SHOP",
+            "BAKERY",
+            "ICE_CREAM_SHOP"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 151,
+          "day": 7,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 4,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        }
+      ],
+      "id": 105339719,
+      "role": "us",
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "shops216": [
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET"
+      ],
+      "shops288": [
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 10,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 11,
+          "cow_cum": 6,
+          "shops": [
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "FARMERS_MARKET"
+          ]
+        }
+      ]
+    },
+    {
+      "team": "heralces",
+      "buy": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "sheep_buys": [
+        {
+          "step": 2,
+          "day": 1,
+          "qty": 2,
+          "sheep_cum": 2,
+          "cow_cum": 2,
+          "shops": []
+        },
+        {
+          "step": 196,
+          "day": 9,
+          "qty": 2,
+          "sheep_cum": 4,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT"
+          ]
+        },
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        }
+      ],
+      "id": 105333105,
+      "role": "us",
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "shops216": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ],
+      "shops288": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP"
+      ],
+      "extra_sheep_steps": [
+        {
+          "step": 218,
+          "day": 10,
+          "qty": 2,
+          "sheep_cum": 6,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 242,
+          "day": 11,
+          "qty": 2,
+          "sheep_cum": 8,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        },
+        {
+          "step": 266,
+          "day": 12,
+          "qty": 1,
+          "sheep_cum": 9,
+          "cow_cum": 9,
+          "shops": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "YARN_STORE"
+          ]
+        }
+      ]
+    }
+  ]
+}

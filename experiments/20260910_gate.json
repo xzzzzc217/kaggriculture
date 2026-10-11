@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-10",
+  "freeze": true,
+  "hold": false,
+  "candidate": {
+    "name": "thomastschinkel_psr_938",
+    "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "path": "experiments/candidates/thomastschinkel_psr_938/main.py",
+    "sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+    "bundle": "experiments/candidates/thomastschinkel_psr_938/submission.tar.gz",
+    "bundle_sha256": "f2a87601f7243c3072745073507d6e164ae063a6066790c5fa0fcb603bf63e3b",
+    "screen": "experiments/candidates/thomastschinkel_psr_938/screen.json",
+    "divergence": "experiments/20260910_cut15_divergence.json",
+    "reselect_steps": [144, 288, 432, 576],
+    "reselect_after_216": [288, 432, 576],
+    "sheep_200_267": [265],
+    "clone_g5": {
+      "prvsiyan_clone": 5757.0,
+      "fufu_clone": 28052.0,
+      "masa_clone": 16873.0,
+      "subin_97399969": 31605.0,
+      "james_95677563": 68313.0
+    },
+    "windows_agent_so": false,
+    "uploaded": 56146106,
+    "why": "Legal Python later-block. Static %%writefile extract; cells not executed; no ctypes/agent.so. Public-state reselect after 216 at 288 (tape 2->0) and 576 (tape 0->3), plus 144/432. After-216 differs from live six-day (24/50) and Fieldbook BALANCED (49/50) and from cut 14 (29/50, SHA acf7c664, 226/360/433). Extra sheep [265] not 227/242/266. Not cut 12/13. Clone 3-0 + G5 both-win on official 1.32.7, 720 steps, DONE/DONE. Uploaded 56146106. Opening-broke is not this cut's license."
+  },
+  "rejected": [
+    {
+      "kernel": "yhay81/shop-router-0909",
+      "verdict": "reject_day6_plus_shared_648",
+      "note": "Python writefile SHA d6d74997. Shop-pair plan at 144; all routes share the ending from 648. No public-state farm reselect after 216. Not ctypes (unlike 0908)."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v2",
+      "verdict": "reject_no_later_block",
+      "note": "Python writefile SHA f2b220fc. ROUTE_STEP 144, FINAL_PLAN_STEP 648. No reselect after 216."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-market-impact-router-v4",
+      "verdict": "reject_cut14_family",
+      "note": "Python writefile SHA 639ca6fd. Same DECISIONS 226 yarn / 360 carrot / 433 milk as live cut 14 (acf7c664). Not a new later-block."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-public-state-router-74-5-win-rate",
+      "verdict": "reject_cut14_family",
+      "note": "Python writefile SHA 197b1cee. Same 226/360/433 y3uanm decisions as cut 14."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-7-turn-rescue-historical-lb-2800",
+      "verdict": "reject_terminal_overlay",
+      "note": "Shop Router 0909 parent plus 712-718 harvest overlay. Not a later-block farm reselect after 216."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-most-powerfull-route",
+      "verdict": "reject_terminal_overlay",
+      "note": "Same E182 Shop0909 + turns 712-718 physical cleanup."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook5d4a0f4e5c",
+      "verdict": "reject_shop0909_plus_712",
+      "note": "v31 crop_public_order on Shop0909 tapes. Reselect 144/648 plus 712-718 terminal rescue. Not a later-block farm reselect."
+    },
+    {
+      "kernel": "ahmedberatozer/notebookfea7d71a35",
+      "verdict": "reject_shop0909",
+      "note": "Shop0909 144/648 chassis. No after-216 public-state farm reselect."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "not_selected_have_freeze",
+      "note": "Legal Python gzip payload SHA 26ffba52. Overlays at 241 sheep / 385 fertilizer and YARN_SECOND from 240. Not clone/G5-gated this pass because Thomas 93.8% already passed."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-melon-baseline-v4",
+      "verdict": "reject_baseline",
+      "note": "Heuristic melon baseline writefile. No later-block tape reselect."
+    },
+    {
+      "kernel": "serariagomes/kaggriculture-rule-based-agent",
+      "verdict": "reject_baseline",
+      "note": "Foreman heuristic writefile. No later-block reselect."
+    },
+    {
+      "kernel": "crystalbaby/market-smart-farming-kaggriculture",
+      "verdict": "reject_eda",
+      "note": "No %%writefile agent. tetsutani-style EDA."
+    },
+    {
+      "kernel": "tetsutani/market-smart-farming-kaggriculture",
+      "verdict": "reject_eda",
+      "note": "Prior packet: four-tape 144/648 EDA. No writefile agent."
+    },
+    {
+      "kernel": "guruprasaathas111/kaggriculture-structured-economic-policy-v2",
+      "verdict": "reject_eda_144_648_712",
+      "note": "No writefile agent. Documents 144/648/712 Shop0909 wrap."
+    },
+    {
+      "kernel": "leoprovorov/kaggricult-man-reverse-engineering-top-agents",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "leoprovorov/kaggriculture-v65",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "reyhanksatria/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "souvikdbiswas/kaggriculture-v5-hybrid-agent",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "tokenjunkielabs/titan-arlene-v14-source",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "tokenjunkielabs/tokenjunkielabs-farm-manager",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-smart-farm-strategy-lab",
+      "verdict": "reject_no_agent",
+      "note": "No %%writefile agent."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v3",
+      "verdict": "reject_forbidden",
+      "note": "kernels pull 403 Forbidden."
+    },
+    {
+      "kernel": "yhay81/shop-router-0908",
+      "verdict": "reject_ctypes_native",
+      "note": "Prior packet. ShopForge ctypes.CDLL native policy. Windows cannot honestly clone/G5 it."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-reactive-router",
+      "verdict": "reject_no_later_block",
+      "note": "Prior packet. FRONT_RUN reactive. No reselect after 216."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+      "verdict": "reject_day6_only",
+      "note": "Prior packet. Public-state splice at turn 144 only. Not after 216."
+    },
+    {
+      "kernel": "nusrati/2715-6",
+      "verdict": "reject_copy",
+      "note": "Prior packet. Same shop-router-0908 tar.gz payload as yhay81."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "verdict": "cut14_already_live",
+      "note": "Already uploaded as 56111821 SHA acf7c664. Do not re-upload."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "no_upload": false,
+  "no_kaggle_submit": false,
+  "uploaded": 56146106,
+  "windows_agent_so": false,
+  "expected_live_loss_class_if_hold": "opening-broke (cash 0 by step 24, BUY_LAND no-ops) + clone later-block wool-crash; not used as freeze license"
+}

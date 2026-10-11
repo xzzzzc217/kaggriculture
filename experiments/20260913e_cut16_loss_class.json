@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913e",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108328160,
+    108311577,
+    108273755,
+    108270318,
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982,
+    108172639,
+    108166009,
+    108162165
+  ],
+  "ids_0913d": [
+    108326448,
+    108296309,
+    108290336,
+    108259280,
+    108227462,
+    108224822,
+    108222615,
+    108153141,
+    108139022,
+    108138037,
+    108124312,
+    108123019
+  ],
+  "disjoint_from_0913d": true,
+  "all_720_done_done": true,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -3395.0,
+  "clone_n": 11,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108328160": 230,
+    "108311577": 185,
+    "108273755": 236,
+    "108270318": 183,
+    "108243488": 235,
+    "108208866": 49,
+    "108204278": 11,
+    "108191120": 237,
+    "108175982": 1,
+    "108172639": 1,
+    "108166009": 1,
+    "108162165": 37
+  },
+  "wool_432": {
+    "108328160": 158,
+    "108311577": 179,
+    "108273755": 212,
+    "108270318": 189,
+    "108243488": 233,
+    "108208866": 1,
+    "108204278": 1,
+    "108191120": 228,
+    "108175982": 1,
+    "108172639": 5,
+    "108166009": 1,
+    "108162165": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal 8c6s3g family as 09-13c/09-13d plus newest extra-sheep 16s (Artem). WTL 4-0-8 mean -3395.0 vs 09-13d 6-0-6 mean -2130.1. Wool $1 by 360 on Iskander/XIAO MA/Ke Ma Ke. clone=11/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (IskanderAkhmetov 108166009 9c5s vs 8c6s3g clone=1 SMOOTHIE extra sheep only 314 -12967 wool $1 at 360; Ke Ma Ke 108175982 9c5s vs 8c6s3g extra sheep 314 -3323 wool $1; XIAO MA 108172639 7c6s vs 8c6s3g sheep 2/151/196 -6573 wool $1) + extra-sheep 4c16s1g (Artem The Farmer 108328160 9c8s vs 4c16s1g BRUNCH extra sheep 227/242/266 already bought -8536) + extra-goose/identical-clone + YARN clone timing. Newest-window Artem 108328160 extra-sheep 16s BRUNCH -8536 extra sheep 227/242/266 already bought. Bonkoturyu 108243488 identical 9c8s SMOOTHIE +53 extra sheep 227/242/266 already bought. automatylicza 108273755 6c12s vs 6c11s YARN -7750 extra sheep 218/242/266 already bought. rick11224 108208866 clone=0 9c5s vs 7c4s PET_CAFE extra sheep 314 -6392. clone=11/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: 8c6s3g losses bought sheep at 314 or skipped 227; YARN losses already bought 218/242/266 and lost; Artem already bought 227/242/266 (9c8s) and lost -8536 vs 16 sheep; Bonkoturyu already bought 227/242/266 (9c8s identical clone) coin-flip +53. Same extra-animal family as 09-13c plus one extra-sheep 16s game.",
+  "worst_losses": [
+    {
+      "id": 108166009,
+      "opp": "IskanderAkhmetov",
+      "margin": -12967.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "SMOOTHIE_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108328160,
+      "opp": "Artem The Farmer",
+      "margin": -8536.0,
+      "herd_us": "9c8s",
+      "herd_opp": "4c16s1g",
+      "shops": [
+        "BRUNCH_SPOT"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        227,
+        242,
+        266
+      ]
+    },
+    {
+      "id": 108273755,
+      "opp": "automatylicza",
+      "margin": -7750.0,
+      "herd_us": "6c12s",
+      "herd_opp": "6c11s",
+      "shops": [
+        "YARN_STORE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196,
+        218,
+        242,
+        266
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

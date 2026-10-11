@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913c",
+  "utc": "2026-09-12T21:37:38Z",
+  "no_upload": true,
+  "upload_bail": true,
+  "hold": true,
+  "root_main_py_untouched": true,
+  "root_main_py_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56151152,
+  "live_newest_score": 1696.4,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "yamakawanin_king_v4e_rc4 cut 16",
+  "live_newest_note": "COMPLETE 1696.4 (was 1691.4). Newest public 108311577 updatedScore 1696.4031. Newest-2 = shopbag reupload 56151155 (newer id, 1321.1) + cut 16 56151152. Upload-bail TRUE (c): shopbag partner 1321.1 < 1500 and is newer than cut 16, so a new cut alone would drop the >=1500 COMPLETE. Study anyway. Hold.",
+  "cut15_id": 56146106,
+  "cut15_score": 1864.4,
+  "cut15_status": "COMPLETE",
+  "cut15_note": "DROPPED from newest-2.",
+  "shopbag_id": 56151155,
+  "shopbag_score": 1321.1,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "newest_2": [
+    56151155,
+    56151152
+  ],
+  "heralces_rank_csv": 1943,
+  "heralces_score": 1696.4,
+  "n_teams_csv": 8801,
+  "public_56151152": {
+    "n_public": 197,
+    "n_validation": 1,
+    "n_completed_public": 197,
+    "wtl": [
+      88,
+      2,
+      107
+    ],
+    "mean_margin": -800.9,
+    "status": "COMPLETE",
+    "publicScore": 1696.4
+  },
+  "rolling_ids": [
+    108311577,
+    108273755,
+    108270318,
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982,
+    108172639,
+    108166009,
+    108162165,
+    108161412
+  ],
+  "rolling_forbidden_0913b": [
+    108296309,
+    108290336,
+    108259280,
+    108227462,
+    108224822,
+    108222615,
+    108139022,
+    108138037,
+    108124312,
+    108123019,
+    108108832,
+    108105086
+  ],
+  "ids_not_identical_to_0913b": true,
+  "ids_disjoint_from_0913b": true,
+  "rolling_n": 12,
+  "rolling_n_steps": 720,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -2785.9,
+  "rolling_note": "Assigned cut16 newest-12 public ids from refreshed EpisodeService, all 720 DONE/DONE. Disjoint from 20260913b packet; no 0913b id reuse. 4W 8L. Worst IskanderAkhmetov 108166009 L -12967 9c5s vs 8c6s3g clone=1 SMOOTHIE extra sheep only 314 wool $1 at 360. automatylicza 108273755 L -7750 6c12s vs 6c11s YARN extra sheep 218/242/266 already bought. XIAO MA 108172639 L -6573 7c6s vs 8c6s3g BRUNCH sheep 2/151/196 wool $1 at 360. rick11224 108208866 L -6392 clone=0 9c5s vs 7c4s PET_CAFE extra sheep 314. New window ocean240812 108311577 extra-goose 9c5s3g vs 9c5s4g FARMERS_MARKET +1058 extra sheep 266. Bonkoturyu 108243488 identical 9c8s SMOOTHIE +53 extra sheep 227/242/266 already bought. Suzuki Yuto 108191120 YARN 6c12s vs 9c8s +5639 extra sheep 218/242/266. Not opening-broke. Not freeze 9c9s."
+}

@@ -1,0 +1,96 @@
+{
+  "agent": "y3uanm_router_v5",
+  "windows_agent_so": false,
+  "agent_path": "D:/kaggle/kaggriculture/experiments/candidates/y3uanm_router_v5/main.py",
+  "main_sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e",
+  "n": 5,
+  "wins": 5,
+  "missing": [],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 22889.0,
+      "base": 5964,
+      "delta": 16925.0,
+      "scores": [
+        77232.0,
+        54343.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.64,
+      "episode_id": 100348898
+    },
+    "fufu_clone": {
+      "margin": 27316.0,
+      "base": 6937,
+      "delta": 20379.0,
+      "scores": [
+        71457.0,
+        44141.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.84,
+      "episode_id": 100504057
+    },
+    "masa_clone": {
+      "margin": 17295.0,
+      "base": 7511,
+      "delta": 9784.0,
+      "scores": [
+        70109.0,
+        52814.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.72,
+      "episode_id": 100444645
+    },
+    "subin_97399969": {
+      "margin": 27188.0,
+      "base": 17659,
+      "delta": 9529.0,
+      "scores": [
+        76147.0,
+        48959.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.69,
+      "episode_id": 97399969
+    },
+    "james_95677563": {
+      "margin": 69612.0,
+      "base": 51097,
+      "delta": 18515.0,
+      "scores": [
+        124887.0,
+        55275.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.15,
+      "episode_id": 95677563
+    }
+  }
+}

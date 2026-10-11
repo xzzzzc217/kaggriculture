@@ -1,0 +1,182 @@
+{
+  "date": "2026-09-10",
+  "freeze": true,
+  "hold": false,
+  "candidate": {
+    "name": "yamakawanin_king_v4e_rc4",
+    "kernel": "yamakawanin/king-v4e-rc4",
+    "path": "experiments/candidates/yamakawanin_king_v4e_rc4/main.py",
+    "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+    "bundle": "experiments/candidates/yamakawanin_king_v4e_rc4/submission.tar.gz",
+    "bundle_sha256": "8a6e08f0b063f4edf0d72bf6787014eade57f868709b23249ddc9a005696d659",
+    "screen": "experiments/candidates/yamakawanin_king_v4e_rc4/screen.json",
+    "divergence": "experiments/20260910b_cut16_divergence.json",
+    "reselect_steps": [216, 240, 241, 288, 360, 385, 432, 576],
+    "reselect_after_216": [240, 241, 288, 360, 385, 432, 576],
+    "sheep_200_267": [226, 241, 265],
+    "clone_g5": {
+      "prvsiyan_clone": 12627.0,
+      "fufu_clone": 12014.0,
+      "masa_clone": 40050.0,
+      "subin_97399969": 27159.0,
+      "james_95677563": 77153.0
+    },
+    "windows_agent_so": false,
+    "uploaded": 56151152,
+    "why": "Legal Python later-block. Static gzip payload extract (EXPECTED_SOURCE_SHA256); cells not executed; no ctypes/agent.so. Public-state shop-family PROGRAM reselect after 216 at 288/360/432/576 (P4/P5/P6/P8) plus YARN_SECOND>=240, RC3 extra sheep@241 and fertilizer@385. After-216 differs from live six-day (48/50), Fieldbook BALANCED (49/50), cut 14 226/360/433 (49/50, SHA acf7c664), and cut 15 144/288/432/576 trees (49/50, SHA b87a27ed). Extra sheep [226,241,265] not 227/242/266 BALANCED wrap. Not cut 12/13. Clone 3-0 + G5 both-win on official 1.32.7, 720 steps, DONE/DONE. Packed, not uploaded."
+  },
+  "rejected": [
+    {
+      "kernel": "ahmedberatozer/notebook20e618e50b",
+      "verdict": "reject_shop0909_sale_overlay",
+      "note": "v33 writefile SHA ee7ce9f3. Shop0909 144/648 chassis plus 712-718 terminal planner, two-turn sale reservations from 288, and milk-market cattle substitution that reuses existing purchase slots. Not a later-block farm reselect after 216."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep-lb-2700",
+      "verdict": "reject_sale_overlay",
+      "note": "Moon/Shop0909 parent. 2-action sale window from day 12 step 288; first twelve days identical to parent. Not a later-block farm reselect. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-last-mile-harvest-planner-lb-2409",
+      "verdict": "reject_terminal_overlay",
+      "note": "Thomas public-state-router parent plus last-mile planner from step 710. Not after-216 farm reselect."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-goose-portfolio-historical-lb-2615",
+      "verdict": "reject_before_216",
+      "note": "Goose vs cow portfolio decision at step 150. Before 216."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-cow-placement-historical-lb-2531",
+      "verdict": "reject_repair_only",
+      "note": "Historical S59 PLACE-COW/BUILD_PASTURE repair on a frozen route. No later-block reselect."
+    },
+    {
+      "kernel": "lucifer19/harvest-nocturne-the-market-has-a-rhythm",
+      "verdict": "reject_sale_rhythm_144",
+      "note": "Shop-pair plans at step 144 plus observation-based selling rhythm. No %%writefile; lzma library. Not later-block farm reselect."
+    },
+    {
+      "kernel": "shashwat12a/kaggriculture-rl-model",
+      "verdict": "reject_rl_baseline",
+      "note": "Online Q-table crop RL vs random. No later-block tape reselect. Cells not executed."
+    },
+    {
+      "kernel": "mzcao7/kaggriculture-forkable-baseline-paired-tests",
+      "verdict": "reject_baseline",
+      "note": "COK-ZhangZiliang V7 five-route shop controller, rating 1357. Shop[:2] yarn branch. Not later-block."
+    },
+    {
+      "kernel": "nathanjacob/colosseum-876-2600-agent-testing-framework",
+      "verdict": "reject_no_agent",
+      "note": "Tournament harness. No %%writefile agent."
+    },
+    {
+      "kernel": "tokenjunkielabs/titan-kaggriculture-frontier-source",
+      "verdict": "reject_no_later_block",
+      "note": "Gzip of Kaito-style v43 two shop-branch opening. Not after-216 farm reselect."
+    },
+    {
+      "kernel": "mohui666/kaggriculture-v66-public-agent",
+      "verdict": "reject_no_agent",
+      "note": "GitHub pointer only. Notebook has no %%writefile agent."
+    },
+    {
+      "kernel": "aviral342/kaggriculture-ai-agents",
+      "verdict": "reject_no_agent",
+      "note": "Empty Kaggle starter cell."
+    },
+    {
+      "kernel": "kirderf/seed-recover-live-test-thom95-v2",
+      "verdict": "reject_ctypes_native",
+      "note": "ctypes.CDLL('/tmp/seedbf.so'). Windows cannot honestly clone/G5 it."
+    },
+    {
+      "kernel": "yamakawanin/kaggriculture-2312-9-q30-v2a",
+      "verdict": "reject_older_parent",
+      "note": "Parent of king-v4e-rc4 without RC3 241/385 overlays. Did not extract; did not overwrite king."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook07b5f4563e",
+      "verdict": "reject_shop0908_144_648",
+      "note": "Hunt-worker pull. v25 Shop0908 production, sale lead, terminal cargo. Reselect 144/648 only."
+    },
+    {
+      "kernel": "yhay81/shop-router-0909",
+      "verdict": "reject_day6_only",
+      "note": "Prior cycle. Shop-pair plan at 144; shared ending from 648. No after-216 farm reselect."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v2",
+      "verdict": "reject_day6_only",
+      "note": "Prior cycle. ROUTE_STEP 144, FINAL_PLAN_STEP 648."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-7-turn-rescue-historical-lb-2800",
+      "verdict": "reject_terminal_overlay",
+      "note": "Prior cycle. Shop0909 plus 712-718 harvest overlay."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-most-powerfull-route",
+      "verdict": "reject_copy",
+      "note": "Prior cycle. Byte-same 712 overlay as dmitrii 7-turn rescue."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-market-impact-router-v4",
+      "verdict": "reject_cut14_family",
+      "note": "Prior cycle. Same 226/360/433 as live cut 14."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "verdict": "cut14_already_live",
+      "note": "Already uploaded as 56111821 SHA acf7c664. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed reselect 144/288/432/576. Do not re-upload."
+    },
+    {
+      "kernel": "souvikdbiswas/kaggriculture-v5-hybrid-agent",
+      "verdict": "reject_no_agent",
+      "note": "Prior cycle. No %%writefile agent."
+    },
+    {
+      "kernel": "reyhanksatria/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_no_agent",
+      "note": "Prior cycle. Base85 blob not decoded; cells not executed."
+    },
+    {
+      "kernel": "crystalbaby/market-smart-farming-kaggriculture",
+      "verdict": "reject_eda",
+      "note": "Prior cycle. No %%writefile agent."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-melon-baseline-v4",
+      "verdict": "reject_baseline",
+      "note": "Prior cycle. Heuristic melon baseline."
+    },
+    {
+      "kernel": "serariagomes/kaggriculture-rule-based-agent",
+      "verdict": "reject_baseline",
+      "note": "Prior cycle. Foreman heuristic."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "reject_known_older",
+      "note": "Hunt-worker overlap. Older v29. Not a new later-block."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260910b_gate",
+  "hunt_worker_overlap": "artifacts/public_sources/_hunt_20260910b",
+  "expected_live_loss_class_if_hold": "extra-animal clones + wool-crash on cut 14; cut 15 is now live. Unused: freeze succeeded."
+}

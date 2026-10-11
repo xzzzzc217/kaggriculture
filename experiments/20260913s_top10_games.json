@@ -1,0 +1,345 @@
+[
+  {
+    "team": "Majkel1337",
+    "id": 108570750,
+    "opp": "Gleb Tumanov",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 19073.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 4,
+    "shops72": [
+      "BAKERY"
+    ],
+    "shops144": [
+      "BAKERY",
+      "YARN_STORE"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 16
+    },
+    "buy_opp": {
+      "COW": 4,
+      "SHEEP": 10,
+      "GOOSE": 3
+    },
+    "pasture": [
+      21,
+      14
+    ],
+    "land": [
+      150,
+      220,
+      222
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      11,
+      9
+    ],
+    "cow": [
+      3,
+      4
+    ],
+    "goose": [
+      0,
+      3
+    ],
+    "wheat": [
+      497,
+      452
+    ],
+    "wool": [
+      365,
+      235
+    ],
+    "milk": [
+      107,
+      133
+    ],
+    "fert": [
+      275,
+      325
+    ],
+    "melon": [
+      66,
+      72
+    ],
+    "herd": "6c16s0g",
+    "rewards": [
+      106969.0,
+      87896.0
+    ]
+  },
+  {
+    "team": "Majkel1337",
+    "id": 108563756,
+    "opp": "Artem The Farmer \ud83c\udf45",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 5714.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 4,
+    "shops72": [
+      "BRUNCH_SPOT"
+    ],
+    "shops144": [
+      "BRUNCH_SPOT",
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 6,
+      "SHEEP": 7,
+      "GOOSE": 4
+    },
+    "buy_opp": {
+      "COW": 7,
+      "SHEEP": 8,
+      "GOOSE": 2
+    },
+    "pasture": [
+      13,
+      19
+    ],
+    "land": [
+      150,
+      218,
+      220,
+      222
+    ],
+    "land_opp": [
+      151,
+      198
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      4,
+      4
+    ],
+    "cow": [
+      6,
+      6
+    ],
+    "goose": [
+      4,
+      2
+    ],
+    "wheat": [
+      510,
+      458
+    ],
+    "wool": [
+      169,
+      187
+    ],
+    "milk": [
+      170,
+      193
+    ],
+    "fert": [
+      220,
+      230
+    ],
+    "melon": [
+      69,
+      78
+    ],
+    "herd": "6c7s4g",
+    "rewards": [
+      110092.0,
+      104378.0
+    ]
+  },
+  {
+    "team": "Majkel1337",
+    "id": 108557488,
+    "opp": "Mengfei Li",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 12705.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 4,
+    "shops72": [
+      "SMOOTHIE_SHOP"
+    ],
+    "shops144": [
+      "SMOOTHIE_SHOP",
+      "BAKERY"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 9,
+      "GOOSE": 2
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 8,
+      "GOOSE": 1
+    },
+    "pasture": [
+      17,
+      17
+    ],
+    "land": [
+      150,
+      220,
+      222
+    ],
+    "land_opp": [
+      151,
+      266
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      3,
+      3
+    ],
+    "cow": [
+      8,
+      7
+    ],
+    "goose": [
+      2,
+      1
+    ],
+    "wheat": [
+      497,
+      478
+    ],
+    "wool": [
+      169,
+      190
+    ],
+    "milk": [
+      186,
+      211
+    ],
+    "fert": [
+      228,
+      248
+    ],
+    "melon": [
+      72,
+      102
+    ],
+    "herd": "8c9s2g",
+    "rewards": [
+      86446.0,
+      99151.0
+    ]
+  },
+  {
+    "team": "Majkel1337",
+    "id": 108081303,
+    "opp": "ymg_aq",
+    "n_steps": 720,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "margin": 3652.0,
+    "win": true,
+    "tie": false,
+    "clone": false,
+    "max_near": 1,
+    "shops72": [
+      "YARN_STORE"
+    ],
+    "shops144": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "buy": {
+      "COW": 8,
+      "SHEEP": 11
+    },
+    "buy_opp": {
+      "COW": 9,
+      "SHEEP": 13,
+      "GOOSE": 2
+    },
+    "pasture": [
+      20,
+      22
+    ],
+    "land": [
+      150,
+      220,
+      222
+    ],
+    "land_opp": [
+      121,
+      170
+    ],
+    "Q": [
+      3,
+      3
+    ],
+    "sheep": [
+      6,
+      7
+    ],
+    "cow": [
+      8,
+      9
+    ],
+    "goose": [
+      0,
+      2
+    ],
+    "wheat": [
+      466,
+      1342
+    ],
+    "wool": [
+      278,
+      272
+    ],
+    "milk": [
+      198,
+      243
+    ],
+    "fert": [
+      252,
+      328
+    ],
+    "melon": [
+      66,
+      96
+    ],
+    "herd": "8c11s0g",
+    "rewards": [
+      106841.0,
+      110493.0
+    ]
+  }
+]

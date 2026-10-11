@@ -1,0 +1,170 @@
+{
+  "agent": "moon_shopbag_v1",
+  "g5_wins": 2,
+  "g5_n": 2,
+  "lowfert_wins": 3,
+  "lowfert_n": 3,
+  "any_gate_differs": true,
+  "rows": {
+    "subin_97399969": {
+      "group": "g5",
+      "margin": 17659.0,
+      "v189c_margin": 3514,
+      "delta_vs_v189c": 14145.0,
+      "scores": [
+        72385.0,
+        54726.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "yarn": {
+        "first_shop_step": 72,
+        "first_yarn_step": 144,
+        "first_shop_is_yarn": false,
+        "yarn_count": 1,
+        "shops_final": [
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "BAKERY",
+          "PIZZA_SHOP",
+          "BAKERY",
+          "PET_CAFE",
+          "BAKERY",
+          "PIZZA_SHOP"
+        ],
+        "gate_differs_from_v189c": true
+      }
+    },
+    "james_95677563": {
+      "group": "g5",
+      "margin": 51097.0,
+      "v189c_margin": 51097,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        142345.0,
+        91248.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "yarn": {
+        "first_shop_step": 72,
+        "first_yarn_step": 72,
+        "first_shop_is_yarn": true,
+        "yarn_count": 2,
+        "shops_final": [
+          "YARN_STORE",
+          "SMOOTHIE_SHOP",
+          "YARN_STORE",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        "gate_differs_from_v189c": false
+      }
+    },
+    "oceanmix_98031955": {
+      "group": "lowfert",
+      "margin": 9651.0,
+      "v189c_margin": 9651,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        94666.0,
+        85015.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "yarn": {
+        "first_shop_step": 72,
+        "first_yarn_step": 504,
+        "first_shop_is_yarn": false,
+        "yarn_count": 1,
+        "shops_final": [
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "BRUNCH_SPOT",
+          "SMOOTHIE_SHOP",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        "gate_differs_from_v189c": true
+      }
+    },
+    "kaileh57_98118767": {
+      "group": "lowfert",
+      "margin": 3567.0,
+      "v189c_margin": 3567,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        92605.0,
+        89038.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "yarn": {
+        "first_shop_step": 72,
+        "first_yarn_step": 288,
+        "first_shop_is_yarn": false,
+        "yarn_count": 1,
+        "shops_final": [
+          "BRUNCH_SPOT",
+          "FARMERS_MARKET",
+          "SMOOTHIE_SHOP",
+          "YARN_STORE",
+          "PIZZA_SHOP",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "PET_CAFE"
+        ],
+        "gate_differs_from_v189c": true
+      }
+    },
+    "alessandrozonta_98383311": {
+      "group": "lowfert",
+      "margin": 15650.0,
+      "v189c_margin": 15650,
+      "delta_vs_v189c": 0.0,
+      "scores": [
+        70812.0,
+        55162.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "yarn": {
+        "first_shop_step": 72,
+        "first_yarn_step": 288,
+        "first_shop_is_yarn": false,
+        "yarn_count": 1,
+        "shops_final": [
+          "PIZZA_SHOP",
+          "PET_CAFE",
+          "PET_CAFE",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BRUNCH_SPOT",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP"
+        ],
+        "gate_differs_from_v189c": true
+      }
+    }
+  }
+}

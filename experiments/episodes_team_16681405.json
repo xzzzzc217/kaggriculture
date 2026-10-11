@@ -1,0 +1,152 @@
+{
+  "episodes": [
+    {
+      "id": 16681405,
+      "createTime": "2021-02-11T04:46:51.308842800Z",
+      "endTime": "2021-02-11T04:48:44.339052Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 37121789,
+          "submissionId": 19277249,
+          "reward": 401,
+          "initialScore": 504.94118039643126,
+          "updatedScore": 501.08028257483335,
+          "teamId": 6208300
+        },
+        {
+          "id": 37121790,
+          "submissionId": 19333443,
+          "reward": 402,
+          "index": 1,
+          "initialScore": 544.306916539508,
+          "updatedScore": 542.609329529841,
+          "teamId": 6211281
+        },
+        {
+          "id": 37121791,
+          "submissionId": 19388503,
+          "reward": 902,
+          "index": 2,
+          "initialScore": 585.8667976456887,
+          "updatedScore": 589.6215513645324,
+          "teamId": 6210612
+        },
+        {
+          "id": 37121792,
+          "submissionId": 19426276,
+          "reward": 802,
+          "index": 3,
+          "initialScore": 504.8978602045623,
+          "updatedScore": 507.8346923612754,
+          "teamId": 6241715
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": 19277249,
+      "dateSubmitted": "2021-01-26T15:06:20.330Z",
+      "teamId": 6208300,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19333443,
+      "dateSubmitted": "2021-01-30T01:47:14.810Z",
+      "teamId": 6211281,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19388503,
+      "dateSubmitted": "2021-02-02T11:15:55.810Z",
+      "teamId": 6210612,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19426276,
+      "dateSubmitted": "2021-02-05T00:59:01.437Z",
+      "teamId": 6241715,
+      "status": "COMPLETE"
+    }
+  ],
+  "teams": [
+    {
+      "id": 6208300,
+      "teamName": "Ilia Larchenko",
+      "competitionId": 25401,
+      "teamLeaderId": 951222,
+      "submissionCount": 42,
+      "lastSubmissionDate": "2021-02-08T13:06:13.746666700Z",
+      "publicLeaderboardSubmissionId": 19335070,
+      "teamMembers": [
+        {
+          "displayName": "Ilia Larchenko",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/951222-kg.jpg",
+          "url": "/ilialar",
+          "userName": "ilialar",
+          "tier": "MASTER",
+          "id": 951222
+        }
+      ]
+    },
+    {
+      "id": 6210612,
+      "teamName": "Jonas Nordquist",
+      "competitionId": 25401,
+      "teamLeaderId": 2391439,
+      "submissionCount": 48,
+      "lastSubmissionDate": "2021-05-15T14:02:33.960Z",
+      "publicLeaderboardSubmissionId": 19549271,
+      "teamMembers": [
+        {
+          "displayName": "Jonas Nordquist",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png",
+          "url": "/jonasnordquist",
+          "userName": "jonasnordquist",
+          "tier": "CONTRIBUTOR",
+          "id": 2391439
+        }
+      ]
+    },
+    {
+      "id": 6211281,
+      "teamName": "Badr Hirchoua",
+      "competitionId": 25401,
+      "teamLeaderId": 266723,
+      "submissionCount": 3,
+      "lastSubmissionDate": "2021-01-30T01:47:14.810Z",
+      "publicLeaderboardSubmissionId": 19333443,
+      "teamMembers": [
+        {
+          "displayName": "Badr Hirchoua",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/266723-kg.jpg",
+          "url": "/xproce",
+          "userName": "xproce",
+          "tier": "CONTRIBUTOR",
+          "id": 266723
+        }
+      ]
+    },
+    {
+      "id": 6241715,
+      "teamName": "Nikolai Neustroev",
+      "competitionId": 25401,
+      "teamLeaderId": 1228975,
+      "submissionCount": 13,
+      "lastSubmissionDate": "2021-07-21T16:23:50.266666700Z",
+      "publicLeaderboardSubmissionId": 21977999,
+      "teamMembers": [
+        {
+          "displayName": "Nikolai Neustroev",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1228975-kg.png",
+          "url": "/neustroev",
+          "userName": "neustroev",
+          "tier": "EXPERT",
+          "id": 1228975
+        }
+      ]
+    }
+  ]
+}

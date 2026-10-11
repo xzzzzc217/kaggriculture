@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913p",
+  "kernels_not_in_0913o_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913p",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260913p.py",
+    "experiments/candidates/scan_hunt_20260913p.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "none_writefile_dumped_for_sha_only",
+  "compare_0913o": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260913o",
+    "hunt_report": "experiments/20260913o_hunt_report.json",
+    "gate": "experiments/20260913o_gate.json",
+    "note": "New slug guruprasaathas111/kaggriculture-master-engine-v53e01d74d8f vs yhay81/shop-router-0913 and wei111111/v46d-skill-rebuild-review-guide in _hunt_20260913o. Did not re-pull rejected kernels (yhay81 0913, wei v46d review, Ahmed V39 v39-ready-before-the-rush, aurax7 v4, crystalbaby V38, Ahmed V39 notebookda72f457f5, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20, yhay81 0911-simple)."
+  },
+  "public_search_newest": "guruprasaathas111/kaggriculture-master-engine-v53e01d74d8f",
+  "public_search_newest_lastRunTime": "2026-09-13 11:25:11.587000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "guruprasaathas111/kaggriculture-master-engine-v53e01d74d8f"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "guruprasaathas111/kaggriculture-master-engine-v53e01d74d8f",
+      "path": "artifacts/public_sources/_hunt_20260913p/guruprasaathas111__kaggriculture-master-engine-v53e01d74d8f/kaggriculture-master-engine-v53e01d74d8f.ipynb",
+      "verdict": "reject_v39_reprint_shop0909_overlay",
+      "sha256": "708c7485fa964853b193f175dcd83020602c005e159ce82e38dc350b22e970c8",
+      "note": "New slug vs _hunt_20260913o (lastRunTime 2026-09-13 11:25:11; public-search newest by dateCreated). Python %%writefile main.py SHA 708c7485... same as already-rejected ahmedberatozer V39-ready-before-the-rush / notebookda72f457f5. Archive cell names submission_competitive_v39.tar.gz. day6 at 144, day27 at 648, E182 Shop0909 last-seven-turn 712 planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect. 288 sales-first / R37 horizon overlay. Distinct from cut14 acf7c664, cut15 b87a27ed, cut16 26ffba52. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

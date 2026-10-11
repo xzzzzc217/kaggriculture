@@ -1,0 +1,117 @@
+{
+  "episodes": [
+    {
+      "id": 16714457,
+      "createTime": "2021-02-11T08:22:26.102699700Z",
+      "endTime": "2021-02-11T08:23:47.895308100Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 37189003,
+          "submissionId": 18160238,
+          "reward": -185,
+          "initialScore": 440.57760204982344,
+          "updatedScore": 428.9927369413713,
+          "teamId": 5770480
+        },
+        {
+          "id": 37189004,
+          "submissionId": 17971291,
+          "reward": 185,
+          "index": 1,
+          "initialScore": 417.75745257941395,
+          "updatedScore": 431.5042962710013,
+          "teamId": 5785715
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": 17971291,
+      "dateSubmitted": "2020-11-11T01:55:18.050Z",
+      "teamId": 5785715,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 18160238,
+      "dateSubmitted": "2020-11-21T05:44:01.020Z",
+      "teamId": 5770480,
+      "status": "COMPLETE"
+    }
+  ],
+  "teams": [
+    {
+      "id": 5770480,
+      "teamName": "xxxx",
+      "competitionId": 22838,
+      "teamLeaderId": 373959,
+      "medal": 3,
+      "submissionCount": 284,
+      "lastSubmissionDate": "2021-02-01T12:43:59.403333300Z",
+      "publicLeaderboardSubmissionId": 19222152,
+      "teamMembers": [
+        {
+          "displayName": "Tensor Girl",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/373959-kg.jpg",
+          "url": "/usharengaraju",
+          "userName": "usharengaraju",
+          "tier": "GRANDMASTER",
+          "id": 373959
+        },
+        {
+          "displayName": "Siti Khotijah",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/2560033-kg.jpeg",
+          "url": "/khotijahs1",
+          "userName": "khotijahs1",
+          "tier": "MASTER",
+          "id": 2560033
+        },
+        {
+          "displayName": "Convophile",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/3198184-kg.jpg?t=2024-07-31-08-53-24",
+          "url": "/vineeth1999",
+          "userName": "vineeth1999",
+          "tier": "EXPERT",
+          "id": 3198184
+        },
+        {
+          "displayName": "Neha Prabhavalkar",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/3885917-kg.jpg?t=2024-01-24-13-00-24",
+          "url": "/nehaprabhavalkar",
+          "userName": "nehaprabhavalkar",
+          "tier": "MASTER",
+          "id": 3885917
+        },
+        {
+          "displayName": "Aatif Fraz",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/4206802-kg.jpeg",
+          "url": "/aatiffraz",
+          "userName": "aatiffraz",
+          "tier": "MASTER",
+          "id": 4206802
+        }
+      ]
+    },
+    {
+      "id": 5785715,
+      "teamName": "The Rock, PaperSpace, Chopsticks",
+      "competitionId": 22838,
+      "teamLeaderId": 1738095,
+      "submissionCount": 15,
+      "lastSubmissionDate": "2021-01-30T03:11:17.920Z",
+      "publicLeaderboardSubmissionId": 17946875,
+      "teamMembers": [
+        {
+          "displayName": "Wei Hao Khoong",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/1738095-kg.png",
+          "url": "/khoongweihao",
+          "userName": "khoongweihao",
+          "tier": "GRANDMASTER",
+          "id": 1738095
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913b",
+  "kernels_not_in_0913_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913b",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260913b.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_static_only",
+  "compare_0913": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260913",
+    "hunt_report": "experiments/20260913_hunt_report.json",
+    "gate": "experiments/20260913_gate.json",
+    "note": "0913 hunt dir empty. This fire pulled two new public slugs. Ahmed V38 new slug SHA a2047ebd already rejected 0912c. timed-six-cow is a 6-cow heuristic, not later-block. Did not re-pull rejected kernels (lokesh V37, crystalbaby, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20)."
+  },
+  "public_search_newest": "xuantianfengwu/kaggriculture-timed-six-cow",
+  "public_search_newest_lastRunTime": "2026-09-12 20:13:27.037000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "xuantianfengwu/kaggriculture-timed-six-cow",
+    "ahmedberatozer/kaggriculture-v38-smarter-feed-stronger-margins"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest is still arc-agi-2-atlas-program-corpus (not kaggriculture). Newest kaggriculture kernel remains shop-router-0911-simple 2026-09-11 08:38 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "xuantianfengwu/kaggriculture-timed-six-cow",
+      "verdict": "reject_heuristic_six_cow",
+      "note": "New vs _hunt_20260913. lastRunTime 2026-09-12 20:13:27. Static %%writefile submission.py SHA 5dc0c68c (40594 bytes). Fixed animals=6 COW from day 0, liquidation_day=6 land, rival milk-attack window. No farm/route reselect after 216. No ROUTE_STEP/PROGRAM/sale_horizon/ADVANCE_START/ctypes/agent.so. Not cut14/15/16. Not day-6 144/648 tape. Did not extract to candidates/. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v38-smarter-feed-stronger-margins",
+      "verdict": "reject_v38_reprint",
+      "note": "New slug vs 0912c ahmedberatozer/smarter-feed-stronger-margins. lastRunTime 2026-09-12 20:04:38. Static %%writefile main.py SHA a2047ebd equals already-rejected Ahmed V38 sale overlay. Did not re-extract. Cells not executed."
+    }
+  ]
+}

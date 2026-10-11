@@ -1,0 +1,339 @@
+{
+  "date": "2026-09-10",
+  "no_upload": true,
+  "root_main_py_untouched": true,
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56146106,
+  "live_newest_score": 1868.7,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "thomastschinkel_psr_938 later-block cut 15",
+  "live_newest_note": "kaggle competitions submissions publicScore 1868.7 COMPLETE. Newest public 107579117 updatedScore 1868.773. Newest-2 = 56146106 + shopbag 56112309 (lineage 55962761).",
+  "sixday_id": 56028043,
+  "sixday_score": 1590.8,
+  "sixday_status": "COMPLETE",
+  "sixday_note": "DROPPED from newest-2. No new publics since 106973284 2026-09-09T02:01Z. Newest 12 publics are still the 09-09 forbidden set.",
+  "shopbag_id": 56112309,
+  "shopbag_score": 1422.9,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "cut14_id": 56111821,
+  "cut14_score": 1799.3,
+  "cut14_status": "COMPLETE",
+  "cut14_note": "DROPPED from newest-2. Status only; not autopsied this pass.",
+  "newest_2": [
+    56146106,
+    56112309
+  ],
+  "heralces_rank": 1530,
+  "heralces_rank_api": 1526,
+  "heralces_score": 1868.7,
+  "n_teams": 8566,
+  "gold21_score": 2909.7,
+  "gold21_team": "lc今天刷了吗",
+  "gold21": {
+    "rank": 21,
+    "teamId": 16783721,
+    "teamName": "lc今天刷了吗",
+    "displayScore": "2909.7",
+    "source": "csv"
+  },
+  "gold21_api": {
+    "teamId": 16663946,
+    "submissionId": 56138395,
+    "rank": 21,
+    "displayScore": "2909.5",
+    "teamName": "Hello San Francisco"
+  },
+  "rank1": {
+    "rank": 1,
+    "teamId": 16640510,
+    "teamName": "SpaTaro",
+    "score": 3109.9,
+    "submissionId": 56114097
+  },
+  "rank10": {
+    "rank": 10,
+    "teamId": 16732496,
+    "teamName": "kanno",
+    "score": 2945.0,
+    "submissionId": 56133568
+  },
+  "public_56146106": {
+    "n_public": 92,
+    "n_validation": 1,
+    "n_completed_public": 92,
+    "wtl": [
+      50,
+      7,
+      35
+    ],
+    "mean_margin": 7541.8,
+    "status": "COMPLETE",
+    "publicScore": 1868.7
+  },
+  "public_56112309": {
+    "n_public": 100,
+    "n_validation": 1,
+    "n_completed_public": 100,
+    "wtl": [
+      50,
+      1,
+      49
+    ],
+    "mean_margin": 2487.6,
+    "status": "COMPLETE",
+    "publicScore": 1422.9
+  },
+  "public_56028043": {
+    "n_public": 346,
+    "n_validation": 1,
+    "n_completed_public": 346,
+    "wtl": [
+      138,
+      0,
+      208
+    ],
+    "mean_margin": -26303.7,
+    "status": "COMPLETE",
+    "publicScore": 1590.8
+  },
+  "rolling_ids": [
+    107579117,
+    107578892,
+    107574623,
+    107572566,
+    107571704,
+    107571691,
+    107571612,
+    107572010,
+    107570298,
+    107570515,
+    107569607,
+    107568611
+  ],
+  "rolling_forbidden_0910": [
+    107493021,
+    107489775,
+    107489674,
+    107484397,
+    107480801,
+    107474367,
+    107469973,
+    107469814,
+    107464310,
+    107459218,
+    107455945,
+    107453419
+  ],
+  "rolling_forbidden_0909": [
+    106973284,
+    106953063,
+    106950143,
+    106949244,
+    106937090,
+    106917612,
+    106911627,
+    106891732,
+    106889156,
+    106869362,
+    106868762,
+    106850799
+  ],
+  "ids_disjoint_from_0910": true,
+  "ids_disjoint_from_0909": true,
+  "rolling_n_steps": 720,
+  "wtl": [
+    4,
+    1,
+    7
+  ],
+  "mean_margin": 2066.8,
+  "loss_class": "mixed: (1) extra-animal clones — Cyrus 107571691 6c11s vs 7c11s -11938; Aizat Kashapov 107579117 6c10s vs 7c11s -6938; clone=1, Q=3/3, BUY_LAND 151/266 succeeded (prev_Q 1 then 2, not no-ops), cash_24 23-24 not 0, wool still ~233-241 at 360. (2) clone later-block wool-crash — Junichiro Morita 107578892 8c6s3g vs 6c6s6g wool=$1 by 360 -11971; antadam127 107571704 8c6s3g vs 9c5s4g wool=$1 by 360 -9958. Plus coin-flip extra-goose clones vs 8c6s3g also wool=$1 by 360: Ayaan Ghosh 107570298 -2541; Castian Hans 107568611 -1250; Cyrus 107571612 -902. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not wheat-mountain (end SELL 1e6 are requested leftover dumps, not a hold). Not a 227/242/266 Fieldbook BALANCED wrap. Opening-broke is not a later-block license.",
+  "notable_losses": [
+    {
+      "id": 107578892,
+      "opp": "Junichiro Morita",
+      "margin": -11971.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107571691,
+      "opp": "Cyrus",
+      "margin": -11938.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 7,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107571704,
+      "opp": "antadam127",
+      "margin": -9958.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 4
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107579117,
+      "opp": "Aizat Kashapov",
+      "margin": -6938.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 7,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 10
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107570298,
+      "opp": "Ayaan Ghosh",
+      "margin": -2541.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107568611,
+      "opp": "Castian Hans",
+      "margin": -1250.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 23.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "land": [
+        151,
+        266
+      ]
+    },
+    {
+      "id": 107571612,
+      "opp": "Cyrus",
+      "margin": -902.0,
+      "Q": [
+        3,
+        3
+      ],
+      "cash_24": 24.0,
+      "clone": true,
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 6
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "land": [
+        151,
+        266
+      ]
+    }
+  ],
+  "sixday_secondary_rolling": false,
+  "sixday_secondary_reason": "cut 15 has 92 completed publics, all disjoint from the 09-10 cut14 set and the 09-09 six-day set; no secondary six-day window.",
+  "paths": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260910b/kaggriculture.zip",
+    "leaderboard_csv": "artifacts/kaggle_runs/lb_20260910b/leaderboard.csv",
+    "leaderboard_api": "experiments/20260910b_public_leaderboard_api.json",
+    "episodes_cut15": "experiments/episodes_56146106.json",
+    "episodes_shopbag": "experiments/episodes_56112309.json",
+    "episodes_sixday": "experiments/episodes_56028043.json",
+    "cut15_replays": "artifacts/kaggle_runs/cut15_20260910b",
+    "cut15_rolling": "experiments/20260910b_cut15_rolling.json",
+    "episode_report": "experiments/20260910b_episode_report.json",
+    "autopsy_script": "experiments/candidates/autopsy_cut15_20260910b.py"
+  }
+}

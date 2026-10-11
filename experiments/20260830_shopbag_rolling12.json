@@ -1,0 +1,652 @@
+{
+  "games": [
+    {
+      "id": 103118692,
+      "opp": "Hanserong",
+      "margin": -11247.0,
+      "win": false,
+      "clone": true,
+      "max_near": 99,
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        14
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 437,
+        "WOOL": 109,
+        "MILK": 214,
+        "MELON": 72,
+        "STRAWBERRY": 268,
+        "FERTILIZER": 284,
+        "CARROT": 24,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103118565,
+      "opp": "Munal Singh",
+      "margin": 7295.0,
+      "win": true,
+      "clone": true,
+      "max_near": 99,
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        6
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        14
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 397,
+        "WOOL": 172,
+        "MILK": 157,
+        "MELON": 72,
+        "STRAWBERRY": 224,
+        "FERTILIZER": 303,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103107429,
+      "opp": "Remielle",
+      "margin": -8957.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        7,
+        8
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 9,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 369,
+        "WOOL": 156,
+        "MILK": 243,
+        "MELON": 72,
+        "STRAWBERRY": 261,
+        "FERTILIZER": 323,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103100831,
+      "opp": "nir afek",
+      "margin": 1744.0,
+      "win": true,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        10
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 11,
+        "SHEEP": 4
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 373,
+        "WOOL": 120,
+        "MILK": 270,
+        "MELON": 72,
+        "STRAWBERRY": 269,
+        "FERTILIZER": 319,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103098542,
+      "opp": "Hanserong",
+      "margin": -7058.0,
+      "win": false,
+      "clone": true,
+      "max_near": 99,
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        14
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 437,
+        "WOOL": 109,
+        "MILK": 214,
+        "MELON": 72,
+        "STRAWBERRY": 268,
+        "FERTILIZER": 284,
+        "CARROT": 24,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103087386,
+      "opp": "nir afek",
+      "margin": -8889.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        6,
+        8
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 7,
+        "SHEEP": 5
+      },
+      "bought_opp": {
+        "COW": 9,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 369,
+        "WOOL": 156,
+        "MILK": 243,
+        "MELON": 71,
+        "STRAWBERRY": 261,
+        "FERTILIZER": 322,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103085035,
+      "opp": "Remielle",
+      "margin": -6851.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        10
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 11,
+        "SHEEP": 4
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 371,
+        "WOOL": 118,
+        "MILK": 270,
+        "MELON": 72,
+        "STRAWBERRY": 261,
+        "FERTILIZER": 323,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103071706,
+      "opp": "Tom3",
+      "margin": -11058.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        7,
+        10
+      ],
+      "cow": [
+        3,
+        4
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 4,
+        "SHEEP": 8
+      },
+      "bought_opp": {
+        "COW": 4,
+        "SHEEP": 10
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 314,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 386,
+        "WOOL": 267,
+        "MILK": 270,
+        "MELON": 72,
+        "STRAWBERRY": 298,
+        "FERTILIZER": 334,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103053960,
+      "opp": "chupaletas",
+      "margin": -9446.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        9
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 10,
+        "SHEEP": 4
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 449,
+        "WOOL": 151,
+        "MILK": 309,
+        "MELON": 72,
+        "STRAWBERRY": 336,
+        "FERTILIZER": 364,
+        "CARROT": 17,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103051746,
+      "opp": "Ryo Takaki",
+      "margin": -9717.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        7,
+        9
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 386,
+        "WOOL": 154,
+        "MILK": 270,
+        "MELON": 72,
+        "STRAWBERRY": 295,
+        "FERTILIZER": 336,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103051723,
+      "opp": "Lynxx",
+      "margin": 9240.0,
+      "win": true,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        8,
+        6
+      ],
+      "cow": [
+        3,
+        8
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 4,
+        "SHEEP": 8
+      },
+      "bought_opp": {
+        "COW": 9,
+        "SHEEP": 6
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 334,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 373,
+        "WOOL": 156,
+        "MILK": 243,
+        "MELON": 72,
+        "STRAWBERRY": 269,
+        "FERTILIZER": 321,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    },
+    {
+      "id": 103038310,
+      "opp": "Hiroyasu Okuno",
+      "margin": -4006.0,
+      "win": false,
+      "clone": true,
+      "max_near": 130,
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        7,
+        9
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "bought_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "bought_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pastures": [
+        14,
+        17
+      ],
+      "sells_us": {
+        "WHEAT": 696,
+        "WOOL": 239,
+        "MILK": 478,
+        "MELON": 85,
+        "STRAWBERRY": 362,
+        "FERTILIZER": 561,
+        "CARROT": 20,
+        "TOMATO": 0,
+        "EGG": 0
+      },
+      "sells_opp": {
+        "WHEAT": 386,
+        "WOOL": 154,
+        "MILK": 270,
+        "MELON": 72,
+        "STRAWBERRY": 295,
+        "FERTILIZER": 334,
+        "CARROT": 12,
+        "TOMATO": 0,
+        "EGG": 0
+      }
+    }
+  ]
+}

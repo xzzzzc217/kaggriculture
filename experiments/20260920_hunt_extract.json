@@ -1,0 +1,266 @@
+[
+  {
+    "notebook": "ahmedberatozer__kaggriculture-v51-lean-flock/kaggriculture-v51-lean-flock.ipynb",
+    "bytes": 495486,
+    "cells": 4,
+    "flags": [
+      "SOURCE_BYTES",
+      "EXPECTED_MAIN_SHA256",
+      "def agent"
+    ],
+    "payloads": [
+      {
+        "label": "ahmedberatozer__kaggriculture-v51-lean-flock/kaggriculture-v51-lean-flock.ipynb:cell2:SOURCE_BYTES",
+        "bytes": 461739,
+        "sha256": "c1e3590d02e42d16091c5377e87a3db16496e5a462d558dc2925887f835f9891",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/ahmedberatozer__kaggriculture-v51-lean-flock/SOURCE_BYTES_main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "guruprasaathas111__kaggriculture-master-engine-v3/kaggriculture-master-engine-v3.ipynb",
+    "bytes": 850012,
+    "cells": 8,
+    "flags": [
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "guruprasaathas111__kaggriculture-master-engine-v4/kaggriculture-master-engine-v4.ipynb",
+    "bytes": 852730,
+    "cells": 8,
+    "flags": [
+      "%%writefile",
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "haideptry__demystifying-2900-meta-reflex-engine-and-bot/demystifying-2900-meta-reflex-engine-and-bot.ipynb",
+    "bytes": 880770,
+    "cells": 11,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "haideptry__demystifying-2900-meta-reflex-engine-and-bot/demystifying-2900-meta-reflex-engine-and-bot.ipynb:cell3:main.py",
+        "bytes": 856428,
+        "sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/haideptry__demystifying-2900-meta-reflex-engine-and-bot/main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "haideptry__the-2950-peak-farm/the-2950-peak-farm.ipynb",
+    "bytes": 884810,
+    "cells": 11,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "haideptry__the-2950-peak-farm/the-2950-peak-farm.ipynb:cell3:main.py",
+        "bytes": 862940,
+        "sha256": "d5460fc2e5488e0a340f0e4e795f2709c48b58cff7c204ced3821a4c7dae4555",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/haideptry__the-2950-peak-farm/main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "jaxa623__2802-two-identical-agents-90-points-apart/2802-two-identical-agents-90-points-apart.ipynb",
+    "bytes": 214242,
+    "cells": 10,
+    "flags": [
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "laveshjadon__kagriculture-winning-notebook/kagriculture-winning-notebook.ipynb",
+    "bytes": 930414,
+    "cells": 32,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "laveshjadon__kagriculture-winning-notebook/kagriculture-winning-notebook.ipynb:cell5:main.py",
+        "bytes": 856428,
+        "sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/laveshjadon__kagriculture-winning-notebook/main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "nathanjacob__kaggriculture-pipe16-idle-workers/kaggriculture-pipe16-idle-workers.ipynb",
+    "bytes": 922194,
+    "cells": 11,
+    "flags": [
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "seyitkaangunes__kaggriculture-2820-score/kaggriculture-2820-score.ipynb",
+    "bytes": 261109,
+    "cells": 16,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "seyitkaangunes__kaggriculture-2820-score/kaggriculture-2820-score.ipynb:cell5:layer1_preguard.py",
+        "bytes": 2079,
+        "sha256": "b758f62256d33d8cfa4af0b4029157aee69e80682977dd362b7f9400bcf2fad7",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/seyitkaangunes__kaggriculture-2820-score/layer1_preguard.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      },
+      {
+        "label": "seyitkaangunes__kaggriculture-2820-score/kaggriculture-2820-score.ipynb:cell7:layer2_lockstep.py",
+        "bytes": 5142,
+        "sha256": "0ad21bfb98f15de47457b4f16cc4a1161b7f09a6aec0675daccae19346775182",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/seyitkaangunes__kaggriculture-2820-score/layer2_lockstep.py",
+        "has_agent": false,
+        "ctypes": false,
+        "writefile_ok": true
+      },
+      {
+        "label": "seyitkaangunes__kaggriculture-2820-score/kaggriculture-2820-score.ipynb:cell9:layer3_cadence.py",
+        "bytes": 10356,
+        "sha256": "40ac08022319173d35279d1f10c44f580364fc6075f0ac493107d19112930b7e",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/seyitkaangunes__kaggriculture-2820-score/layer3_cadence.py",
+        "has_agent": false,
+        "ctypes": false,
+        "writefile_ok": true
+      },
+      {
+        "label": "seyitkaangunes__kaggriculture-2820-score/kaggriculture-2820-score.ipynb:cell11:layer4_yarnherd.py",
+        "bytes": 7436,
+        "sha256": "fb45cb4a0727d0e3c6d21f1ffde0a9c805eecf844e4587d3e16bce8d46e9c65b",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/seyitkaangunes__kaggriculture-2820-score/layer4_yarnherd.py",
+        "has_agent": false,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "sunil123kumar__kaggriculture-v8/kaggriculture-v8.ipynb",
+    "bytes": 387576,
+    "cells": 4,
+    "flags": [
+      "SOURCE_BYTES",
+      "EXPECTED_MAIN_SHA256",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "sunil123kumar__kaggriculture-v8/kaggriculture-v8.ipynb:cell2:SOURCE_BYTES",
+        "bytes": 357742,
+        "sha256": "4b5402888feeb4170dce38f34bebe56788b62ca287139fce7db72df8eb89bb96",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/sunil123kumar__kaggriculture-v8/SOURCE_BYTES_main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "tetsutani__demand-preserving-turn-sale-timing/demand-preserving-turn-sale-timing.ipynb",
+    "bytes": 277453,
+    "cells": 27,
+    "flags": [
+      "EXPECTED_MAIN_SHA256",
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "thomastschinkel__the-2945-farm-96-vs-the-top-10-public-bots/the-2945-farm-96-vs-the-top-10-public-bots.ipynb",
+    "bytes": 921240,
+    "cells": 32,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "thomastschinkel__the-2945-farm-96-vs-the-top-10-public-bots/the-2945-farm-96-vs-the-top-10-public-bots.ipynb:cell5:main.py",
+        "bytes": 856428,
+        "sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/thomastschinkel__the-2945-farm-96-vs-the-top-10-public-bots/main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  },
+  {
+    "notebook": "thomastschinkel__the-metav4-farm-submission-v13/the-metav4-farm-submission-v13.ipynb",
+    "bytes": 874849,
+    "cells": 30,
+    "flags": [
+      "%%writefile",
+      "submission.tar.gz"
+    ],
+    "payloads": []
+  },
+  {
+    "notebook": "xuanzhang001__kaggriculture-auto-top1/kaggriculture-auto-top1.ipynb",
+    "bytes": 921240,
+    "cells": 32,
+    "flags": [
+      "%%writefile",
+      "def agent",
+      "submission.tar.gz"
+    ],
+    "payloads": [
+      {
+        "label": "xuanzhang001__kaggriculture-auto-top1/kaggriculture-auto-top1.ipynb:cell5:main.py",
+        "bytes": 856428,
+        "sha256": "bfee70e9daaebeae0737a880f1df8f1c60d0783c59af620136cc0d28ef482bc7",
+        "known": "NEW",
+        "out": "experiments/candidates/_hunt_20260920_extract/xuanzhang001__kaggriculture-auto-top1/main.py",
+        "has_agent": true,
+        "ctypes": false,
+        "writefile_ok": true
+      }
+    ]
+  }
+]

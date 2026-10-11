@@ -1,0 +1,688 @@
+{
+  "games": [
+    {
+      "id": 103758970,
+      "opp": "3\uc815\ud6c8",
+      "margin": -5290.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 130,
+      "kenjo_route": false,
+      "shops72": [
+        "SMOOTHIE_SHOP"
+      ],
+      "shops144": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        7,
+        9
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        14,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        369
+      ],
+      "wool": [
+        239,
+        138
+      ],
+      "milk": [
+        478,
+        270
+      ]
+    },
+    {
+      "id": 103683078,
+      "opp": "satoooh",
+      "margin": -3181.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 99,
+      "kenjo_route": false,
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        7,
+        8
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 5
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        423
+      ],
+      "wool": [
+        239,
+        143
+      ],
+      "milk": [
+        478,
+        226
+      ]
+    },
+    {
+      "id": 103678738,
+      "opp": "Plant City Planter",
+      "margin": -4198.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 292,
+      "kenjo_route": false,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        5,
+        8
+      ],
+      "cow": [
+        6,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 7,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 8
+      },
+      "pasture": [
+        14,
+        18
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        696
+      ],
+      "wool": [
+        259,
+        263
+      ],
+      "milk": [
+        478,
+        478
+      ]
+    },
+    {
+      "id": 103676756,
+      "opp": "Addison Howard (ineligible)",
+      "margin": -16.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 720,
+      "kenjo_route": false,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        696
+      ],
+      "wool": [
+        239,
+        239
+      ],
+      "milk": [
+        478,
+        478
+      ]
+    },
+    {
+      "id": 103649636,
+      "opp": "Fernando GH H",
+      "margin": -2605.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 130,
+      "kenjo_route": false,
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops144": [
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        7,
+        8
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        14,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        391
+      ],
+      "wool": [
+        239,
+        138
+      ],
+      "milk": [
+        478,
+        277
+      ]
+    },
+    {
+      "id": 103591788,
+      "opp": "Liquidus",
+      "margin": -3662.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 99,
+      "kenjo_route": false,
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        437
+      ],
+      "wool": [
+        239,
+        109
+      ],
+      "milk": [
+        478,
+        214
+      ]
+    },
+    {
+      "id": 103694403,
+      "opp": "markastra",
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "clone": true,
+      "max_near": 720,
+      "kenjo_route": false,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        696
+      ],
+      "wool": [
+        239,
+        239
+      ],
+      "milk": [
+        478,
+        478
+      ]
+    },
+    {
+      "id": 103616248,
+      "opp": "Pablo C\u00e9sar Ru\u00edz",
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "clone": true,
+      "max_near": 720,
+      "kenjo_route": false,
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        696
+      ],
+      "wool": [
+        239,
+        239
+      ],
+      "milk": [
+        478,
+        478
+      ]
+    },
+    {
+      "id": 103772429,
+      "opp": "TK256",
+      "margin": 16611.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 121,
+      "kenjo_route": true,
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        11,
+        8
+      ],
+      "cow": [
+        5,
+        3
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 5,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 3,
+        "SHEEP": 9
+      },
+      "pasture": [
+        17,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        347,
+        698
+      ],
+      "wool": [
+        296,
+        335
+      ],
+      "milk": [
+        182,
+        478
+      ]
+    },
+    {
+      "id": 103767960,
+      "opp": "TK256",
+      "margin": 17159.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 156,
+      "kenjo_route": false,
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops144": [
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        7,
+        4
+      ],
+      "cow": [
+        3,
+        7
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 4,
+        "SHEEP": 8
+      },
+      "buy_opp": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "pasture": [
+        14,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        696
+      ],
+      "wool": [
+        314,
+        239
+      ],
+      "milk": [
+        478,
+        479
+      ]
+    },
+    {
+      "id": 103752578,
+      "opp": "qw yi123",
+      "margin": 9981.0,
+      "win": true,
+      "tie": false,
+      "clone": false,
+      "max_near": 2,
+      "kenjo_route": false,
+      "shops72": [
+        "SMOOTHIE_SHOP"
+      ],
+      "shops144": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        7,
+        11
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 8,
+        "SHEEP": 4
+      },
+      "buy_opp": {
+        "SHEEP": 4,
+        "COW": 11
+      },
+      "pasture": [
+        14,
+        15
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        313
+      ],
+      "wool": [
+        239,
+        179
+      ],
+      "milk": [
+        478,
+        335
+      ]
+    },
+    {
+      "id": 103638762,
+      "opp": "hengck23",
+      "margin": 16440.0,
+      "win": true,
+      "tie": false,
+      "clone": false,
+      "max_near": 2,
+      "kenjo_route": false,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        8,
+        8
+      ],
+      "cow": [
+        3,
+        5
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 4,
+        "SHEEP": 8
+      },
+      "buy_opp": {
+        "SHEEP": 10,
+        "COW": 6
+      },
+      "pasture": [
+        14,
+        16
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "wheat": [
+        696,
+        179
+      ],
+      "wool": [
+        334,
+        262
+      ],
+      "milk": [
+        478,
+        153
+      ]
+    }
+  ]
+}

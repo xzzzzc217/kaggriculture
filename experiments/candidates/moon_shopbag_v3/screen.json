@@ -1,0 +1,127 @@
+{
+  "agent": "moon_shopbag_v3",
+  "wins": 4,
+  "n": 8,
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 5964.0,
+      "shopbag": 5964,
+      "delta": 0.0,
+      "scores": [
+        98699.0,
+        92735.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.2
+    },
+    "fufu_clone": {
+      "margin": 6937.0,
+      "shopbag": 6937,
+      "delta": 0.0,
+      "scores": [
+        88578.0,
+        81641.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.95
+    },
+    "masa_clone": {
+      "margin": 7511.0,
+      "shopbag": 7511,
+      "delta": 0.0,
+      "scores": [
+        90690.0,
+        83179.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.77
+    },
+    "mtn_11sheep": {
+      "margin": -17420.0,
+      "shopbag": -17420,
+      "delta": 0.0,
+      "scores": [
+        87134.0,
+        104554.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.94
+    },
+    "yusuke_11sheep": {
+      "margin": -10296.0,
+      "shopbag": -13434,
+      "delta": 3138.0,
+      "scores": [
+        100345.0,
+        110641.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.77
+    },
+    "hanserong_11sheep": {
+      "margin": -14707.0,
+      "shopbag": -14707,
+      "delta": 0.0,
+      "scores": [
+        102151.0,
+        116858.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.85
+    },
+    "hanserong_clone_L": {
+      "margin": -11247.0,
+      "shopbag": -11247,
+      "delta": 0.0,
+      "scores": [
+        80181.0,
+        91428.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.59
+    },
+    "lynxx_win": {
+      "margin": 9240.0,
+      "shopbag": 9240,
+      "delta": 0.0,
+      "scores": [
+        98610.0,
+        89370.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.74
+    }
+  }
+}

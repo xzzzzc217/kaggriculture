@@ -1,0 +1,14 @@
+{
+  "source": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\yamakawanin_king_v4e_rc4\\main.py",
+  "output": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\yamakawanin_king_v4e_rc4\\submission.tar.gz",
+  "members": [
+    "main.py"
+  ],
+  "agent_bytes": 516196,
+  "agent_sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+  "bundle_bytes": 362692,
+  "bundle_sha256": "8a6e08f0b063f4edf0d72bf6787014eade57f868709b23249ddc9a005696d659",
+  "max_bundle_bytes": 104857600,
+  "compile_passed": true,
+  "byte_identity_passed": true
+}

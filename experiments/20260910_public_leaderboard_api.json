@@ -1,0 +1,173 @@
+{
+  "n": 8523,
+  "top20": [
+    {
+      "teamId": 16640510,
+      "submissionId": 56114097,
+      "rank": 1,
+      "displayScore": "3089.8",
+      "teamName": "SpaTaro"
+    },
+    {
+      "teamId": 16760569,
+      "submissionId": 56097405,
+      "rank": 2,
+      "displayScore": "3025.3",
+      "teamName": "Otter Vibe"
+    },
+    {
+      "teamId": 16657785,
+      "submissionId": 56122709,
+      "rank": 3,
+      "displayScore": "3000.4",
+      "teamName": "Himanshu Kumar"
+    },
+    {
+      "teamId": 16805699,
+      "submissionId": 56119872,
+      "rank": 4,
+      "displayScore": "2998.0",
+      "teamName": "feel the agi"
+    },
+    {
+      "teamId": 16685556,
+      "submissionId": 56092906,
+      "rank": 5,
+      "displayScore": "2980.3",
+      "teamName": "binghua"
+    },
+    {
+      "teamId": 16622349,
+      "submissionId": 56047440,
+      "rank": 6,
+      "displayScore": "2971.6",
+      "teamName": "Mengfei Li"
+    },
+    {
+      "teamId": 16730612,
+      "submissionId": 56133717,
+      "rank": 7,
+      "displayScore": "2971.0",
+      "teamName": "Unknown Mother-Goose"
+    },
+    {
+      "teamId": 16732496,
+      "submissionId": 56133568,
+      "rank": 8,
+      "displayScore": "2966.2",
+      "teamName": "kanno"
+    },
+    {
+      "teamId": 16681405,
+      "submissionId": 56136071,
+      "rank": 9,
+      "displayScore": "2958.2",
+      "teamName": "Yusuke Hayashi"
+    },
+    {
+      "teamId": 16758882,
+      "submissionId": 56125629,
+      "rank": 10,
+      "displayScore": "2951.5",
+      "teamName": "mtmr_s1"
+    },
+    {
+      "teamId": 16797543,
+      "submissionId": 56100833,
+      "rank": 11,
+      "displayScore": "2943.4",
+      "teamName": "Tarang222"
+    },
+    {
+      "teamId": 16741542,
+      "submissionId": 56128543,
+      "rank": 12,
+      "displayScore": "2940.0",
+      "teamName": "let cats farm"
+    },
+    {
+      "teamId": 16850683,
+      "submissionId": 56136098,
+      "rank": 13,
+      "displayScore": "2937.9",
+      "teamName": "cooked"
+    },
+    {
+      "teamId": 16839530,
+      "submissionId": 56113029,
+      "rank": 14,
+      "displayScore": "2936.8",
+      "teamName": "que la cuenten como quieran"
+    },
+    {
+      "teamId": 16801351,
+      "submissionId": 56134828,
+      "rank": 15,
+      "displayScore": "2935.9",
+      "teamName": "\u30c7\u30ef\u30f3\u30b7\u30e5"
+    },
+    {
+      "teamId": 16845258,
+      "submissionId": 56128710,
+      "rank": 16,
+      "displayScore": "2931.5",
+      "teamName": "Squirrel"
+    },
+    {
+      "teamId": 16748173,
+      "submissionId": 56123692,
+      "rank": 17,
+      "displayScore": "2930.7",
+      "teamName": "pensukesan"
+    },
+    {
+      "teamId": 16695664,
+      "submissionId": 56139761,
+      "rank": 18,
+      "displayScore": "2920.5",
+      "teamName": "Bantam"
+    },
+    {
+      "teamId": 16663946,
+      "submissionId": 56138395,
+      "rank": 19,
+      "displayScore": "2916.4",
+      "teamName": "Hello San Francisco"
+    },
+    {
+      "teamId": 16807373,
+      "submissionId": 56141728,
+      "rank": 20,
+      "displayScore": "2912.2",
+      "teamName": "junxing peng"
+    }
+  ],
+  "heralces": {
+    "teamId": 16749576,
+    "submissionId": 56111821,
+    "rank": 1604,
+    "displayScore": "1795.1",
+    "teamName": "heralces"
+  },
+  "gold21": {
+    "teamId": 16639642,
+    "submissionId": 56139816,
+    "rank": 21,
+    "displayScore": "2909.3",
+    "teamName": "c-number"
+  },
+  "rank1": {
+    "teamId": 16640510,
+    "submissionId": 56114097,
+    "rank": 1,
+    "displayScore": "3089.8",
+    "teamName": "SpaTaro"
+  },
+  "rank10": {
+    "teamId": 16758882,
+    "submissionId": 56125629,
+    "rank": 10,
+    "displayScore": "2951.5",
+    "teamName": "mtmr_s1"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914l",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108871316,
+    108846707,
+    108842428,
+    108814509,
+    108810346,
+    108807526,
+    108784373,
+    108781918,
+    108753975,
+    108751924,
+    108744906,
+    108741805
+  ],
+  "ids_0914k": [
+    108889446,
+    108889378,
+    108851261,
+    108822458,
+    108817790,
+    108787437,
+    108762693,
+    108723413,
+    108704919,
+    108686716,
+    108669139,
+    108658948
+  ],
+  "disjoint_from_0914k": true,
+  "all_720_done_done": true,
+  "wtl": [
+    5,
+    0,
+    7
+  ],
+  "mean_margin": -3097.2,
+  "clone_n": 12,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    27.0
+  ],
+  "wool_360": {
+    "108871316": 43,
+    "108846707": 224,
+    "108842428": 37,
+    "108814509": 236,
+    "108810346": 245,
+    "108807526": 1,
+    "108784373": 1,
+    "108781918": 232,
+    "108753975": 231,
+    "108751924": 234,
+    "108744906": 43,
+    "108741805": 37
+  },
+  "wool_432": {
+    "108871316": 1,
+    "108846707": 189,
+    "108842428": 1,
+    "108814509": 223,
+    "108810346": 244,
+    "108807526": 5,
+    "108784373": 88,
+    "108781918": 209,
+    "108753975": 200,
+    "108751924": 200,
+    "108744906": 1,
+    "108741805": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-14/09-14b/09-14c/09-14d/09-14e/09-14f/09-14g/09-14h/09-14i/09-14j/09-14k: extra-animal 8c6s3g plus extra-goose plus identical-clone extra-goose plus identical-clone extra-sheep plus extra-sheep. WTL 5-0-7 mean -3097.2 vs 09-14k 2-0-10 mean -6609.2. New window game refine123 108871316 -6523. clone=12/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (Quillbolt 108753975 4c15s vs 8c6s3g FARMERS_MARKET extra sheep 218/242/266 already bought vs opp extra sheep 218/227 extra geese 242/266 -9650) + extra-goose (bplyc15 108784373 9c5s vs 9c5s3g PIZZA extra cow 218 extra sheep 227 extra geese 242/266 -7879; Scorn100 108846707 9c8s vs 6c6s6g PET_CAFE extra sheep 227/242/266 already bought vs opp extra geese 218/227/242 extra sheep 266 -5681; refine123 108871316 9c5s3g vs 9c5s4g ICE_CREAM extra geese 227/242 already bought vs opp extra goose 218 extra geese 227/242 extra sheep 266 -6523) + identical-clone extra-goose (\u6211\u662f\u5218\u5927\u806a 108744906 9c5s3g vs 9c5s3g extra geese 227/242 already bought -9197) + identical-clone extra-sheep (trung 108814509 6c11s vs 6c11s YARN extra sheep 218/242/266 already bought -5487) + extra-sheep (higuuu 108751924 9c8s vs 7c11s BRUNCH extra sheep 227/242/266 already bought -3065). Wins: DASH\u6751 108781918 4c14s vs 6c6s5g +6327 extra sheep 218/242/266 already bought; Finca Nagano 108810346 6c12s vs 6c11s YARN +2249 extra sheep 218/242/266 already bought; Andrew Reed 108807526 7c6s vs 8c6s3g +1635 extra cow 218 vs opp extra sheep 218/227 extra geese 242/266; Cathy 108842428 9c5s3g vs 9c5s3g +51 identical-clone extra geese 227/242 already bought; y3uanm 108741805 9c5s3g vs 9c5s3g +54 extra geese 227/242 already bought. clone=12/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-27 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: Quillbolt already bought extra sheep 218/242/266 and lost vs 8c6s3g; Scorn100 already bought extra sheep 227/242/266 and lost vs 6g; higuuu already bought extra sheep 227/242/266 and lost 11s; trung already bought extra sheep 218/242/266 and lost identical-clone 11s; bplyc15 lost extra-goose after opp extra cow 218 extra sheep 227 extra geese 242/266; refine123 already bought extra geese 227/242 and lost vs 4g; \u6211\u662f\u5218\u5927\u806a already bought extra geese 227/242 and lost identical-clone; Cathy/y3uanm already bought extra geese 227/242 and won identical-clone; DASH already bought extra sheep 218/242/266 and won vs 5g; Finca already bought extra sheep 218/242/266 and won 12s vs 11s; Andrew Reed extra cow 218 vs 8c6s3g and won.",
+  "worst_losses": [
+    {
+      "id": 108753975,
+      "opp": "Quillbolt",
+      "margin": -9650.0,
+      "herd_us": "4c15s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "FARMERS_MARKET"
+      ]
+    }
+  ]
+}

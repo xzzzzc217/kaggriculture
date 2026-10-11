@@ -1,0 +1,22 @@
+{
+  "subin_97399969": {
+    "margin": 21203.0,
+    "base": 17659,
+    "delta": 3544.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ]
+  },
+  "james_95677563": {
+    "margin": 25514.0,
+    "base": 51097,
+    "delta": -25583.0,
+    "win": true,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ]
+  }
+}

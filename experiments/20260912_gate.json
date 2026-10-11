@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-12",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v34-observed-market-timing",
+      "verdict": "reject_sale_overlay",
+      "note": "Python %%writefile main.py sha256 58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869. Byte-identical to 0911 notebooka4fc70fd19. Shop0909 144/648 plus 288 three-turn reservations, 712 planner, 216-227 milk livestock sub. Not after-216 farm reselect. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v36-guarded-four-turn-sales",
+      "verdict": "reject_sale_overlay",
+      "note": "Python %%writefile main.py sha256 7eb5ab6c48581c82906ab6fa6b2cc5c9607513249ef59b2c45fcd6176e8653dd. Distinct from 0911b v35 294e7e4d. V35 chassis plus four-turn sales 288-695. Still Shop0909 overlay, not later-block. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/more-yield-smarter-labor",
+      "verdict": "reject_sale_overlay",
+      "note": "V37 writefile sha256 94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c. Fert/labor/warehouse overlay on V36 parent. Same 144/648 + 288 four-turn + 712 chassis. Notebook itself reports the 2900+ win gate failed. Not later-block. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "hgh1024/kaggriculture-herd-safe-v2-sale-horizon-2",
+      "verdict": "reject_sale_overlay",
+      "note": "router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380 identical to 0911b sunil / 0911 dmitrii herd-safe. SETTINGS sale_horizon=2, ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288. Not a later-block farm reselect. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Author list 2026-09-12: still newest Yusuke kernel (2026-09-11 08:38). Day-6 144/648. No newer later-block. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. 95.5 replay-routing remains reject_day6_only (splice at 144). Do not re-upload."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "verdict": "cut14_already_live",
+      "note": "Already uploaded as 56111821 SHA acf7c664. No v6. Do not re-upload."
+    },
+    {
+      "kernel": "destbreso/who-is-beating-you-and-is-it-you",
+      "verdict": "reject_eda",
+      "note": "09-11 packet. Defeat-lineage EDA, no writefile agent. x-ray-your-agent lastRun 09-11 23:31 is the same EDA notebook. Did not re-pull as an agent."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "reject_known_older",
+      "note": "Older v29. Boatlee 55710781 never re-upload."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {"name": "y3uanm_router_v5", "submissionId": 56111821, "sha256": "acf7c664"},
+    "cut15": {"name": "thomastschinkel_psr_938", "submissionId": 56146106, "sha256": "b87a27ed"},
+    "cut16": {"name": "yamakawanin_king_v4e_rc4", "submissionId": 56151152, "score_complete": 1730.1, "sha256": "26ffba52"},
+    "shopbag": {"submissionId": 56151155, "score_complete": 1369.9, "newer_than_cut16": true}
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912",
+  "hunt_report": "experiments/20260912_hunt_report.json",
+  "named_kernels_scanned": [
+    "ahmedberatozer/kaggriculture-v34-observed-market-timing",
+    "ahmedberatozer/kaggriculture-v36-guarded-four-turn-sales",
+    "ahmedberatozer/more-yield-smarter-labor",
+    "hgh1024/kaggriculture-herd-safe-v2-sale-horizon-2"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1730.1 partnered with newer shopbag 56151155 COMPLETE 1369.9 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No legal after-216 public-state Python appeared this fire (Ahmed v34/v36/v37 and hgh1024 are Shop0909 sale overlays; Yusuke/king/Thomas/y3uanm author lists have no new later-block). Did not extract, did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: rolling game 108010033 already bought extra sheep at 227/242/266 (10c8s) and still lost to 8c6s3g."
+}

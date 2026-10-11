@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915",
+  "kernels_not_in_0914o_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260915",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260915.py",
+    "experiments/candidates/inspect_hunt_20260915.py",
+    "experiments/candidates/_inspect_hunt_payloads_20260915.py",
+    "experiments/candidates/_extract_v43_and_rest_20260915.py",
+    "experiments/candidates/_summarize_and_pipe2_20260915.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_static_hash_only",
+  "compare_0914o": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260914o",
+    "hunt_report": "experiments/20260914o_hunt_report.json",
+    "gate": "experiments/20260914o_gate.json",
+    "note": "12 new slugs vs _hunt_20260914o. Public search newest is now xuantianfengwu/kaggriculture-terminal-logistics (lastRunTime 2026-09-15 02:30:28.237000). Did not re-pull rejected kernels (xuantianfengwu hour-4 SHA dc07c7a9, guruprasaathas111 fully-dynamic SHA f4e3935c, ahmedberatozer v42 SHA 728fdfb4, rohitt94 route-replay SHA 62a80706, sorcererbi analysis trio, arsgorynich v40-challenger SHA 546c4224, xuantianfengwu r10 SHA 3b8a1d4d, aurax7 v5 SHA ea4c28e6, lime0001 t23 SHA 31ee22dc, nathanjacob V40 autopsy dataset wrapper, Ahmed V41 SHA 8951ff93, prvsiyan reserve-garden, alperen scored-agent SHA 85c8b532, xuantianfengwu adaptive-land-allocator SHA d12f2987, renjistarfall V39 reprint, alperen metacounter-r1 analysis, xuantianfengwu land-labor-capital, Ahmed V40 SHA 546c4224, guru V39, yhay81 0913, wei v46d review, Ahmed V39, aurax7 v4, crystalbaby V38, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20, yhay81 0911-simple)."
+  },
+  "public_search_newest": "xuantianfengwu/kaggriculture-terminal-logistics",
+  "public_search_newest_lastRunTime": "2026-09-15 02:30:28.237000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "xuantianfengwu/kaggriculture-terminal-logistics",
+    "taylorclark637/sovereign-swarm-kinematics-the",
+    "ahmedberatozer/kaggriculture-v43-recovering-lost-harvests",
+    "prvsiyan/kaggriculture-field-clock-action-budget",
+    "alperen5252525/adaptive-route-portfolio-kaggriculture",
+    "destbreso/agent-telemetry-catch-what-you-lose",
+    "alperen5252525/harvestforge-x-high-throughput-farming",
+    "nathanjacob/how-many-twins-strategy-clustering-kaggriculture",
+    "hosen42/kaggriculture-v11-hc1-vs-h5-validation",
+    "nathanjacob/kaggriculture-pipe-2-agent",
+    "leoprovorov/god-s-mode-hacked-stores",
+    "sunil123kumar/kaggriculture-v6"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "xuantianfengwu/kaggriculture-terminal-logistics",
+      "path": "artifacts/public_sources/_hunt_20260915/xuantianfengwu__kaggriculture-terminal-logistics/kaggriculture-terminal-logistics.ipynb",
+      "verdict": "reject_heuristic_hour4_financing_allocator",
+      "sha256": "364ca885fee9c92aeee1069e83f44756d6082b489f54a6aea76565e74591442b",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-15 02:30:28.237000; public-search newest by dateCreated). Python %%writefile submission.py SHA 364ca885... Distinct from hour-4 SHA dc07c7a9, r10 SHA 3b8a1d4d, adaptive-land-allocator SHA d12f2987, land-labor-capital SHA b49709bd, timed-six-cow SHA 5dc0c68c, and live cuts 14/15/16. Fixed 3-land (`desired_land_target=3`). Hour 4 financing still `return [\"COW\"] * (4 if step < _financing_threshold(obs) else 6)`. R10 melon leftover. No farm/route reselect after 216. No ROUTE_STEP/PROGRAM/sale_horizon/ADVANCE_START/648/712. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "taylorclark637/sovereign-swarm-kinematics-the",
+      "path": "artifacts/public_sources/_hunt_20260915/taylorclark637__sovereign-swarm-kinematics-the/sovereign-swarm-kinematics-the.ipynb",
+      "verdict": "reject_heuristic_fib_hire",
+      "sha256": "ffc0e6e2c2a408915220f51e3af8eb9dbc34315e70f548d32c15d9567380a40b",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-15 01:08:57.847000). Python %%writefile submission.py SHA ffc0e6e2 (earlier cell SHA e0b36b51 overwritten). Fib-hire heuristic (`if step < 680` HIRE). No farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v43-recovering-lost-harvests",
+      "path": "artifacts/public_sources/_hunt_20260915/ahmedberatozer__kaggriculture-v43-recovering-lost-harvests/kaggriculture-v43-recovering-lost-harvests.ipynb",
+      "verdict": "reject_shop0909_144_648_and_712_overlay",
+      "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 21:41:24.923000). SOURCE_BYTES static reconstruct SHA 919fc1d6... Distinct from Ahmed V42 SHA 728fdfb4, V41 8951ff93, V40 546c4224, V39 708c7485, V38 a2047ebd. Notebook embeds cut15 SHA b87a27ed and yhay81 shop-router-0913 SHA 77cf6772 as comments/payloads; payload itself is 919fc1d6. Shop0909 day-6 144/648 plus 288 four-turn sale overlay (_R37_HORIZONS=4 from 288) plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. SOURCE_BYTES dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "prvsiyan/kaggriculture-field-clock-action-budget",
+      "path": "artifacts/public_sources/_hunt_20260915/prvsiyan__kaggriculture-field-clock-action-budget/kaggriculture-field-clock-action-budget.ipynb",
+      "verdict": "reject_educational_framework",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 21:24:39.473000). Educational energy/food/risk task ranker, not %%writefile main.py. Distinct from already-rejected prvsiyan reserve-garden and market-ledger SHA 1c98c297. No farm/route reselect after 216. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "alperen5252525/adaptive-route-portfolio-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915/alperen5252525__adaptive-route-portfolio-kaggriculture/adaptive-route-portfolio-kaggriculture.ipynb",
+      "verdict": "reject_yhay81_0913_reprint_day6",
+      "sha256": "77cf67723a753be957cf70fdb8abbce7ef5c020299e8acd16ed8d2dc8b929dfa",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 20:57:26.583000). Python %%writefile main.py SHA 77cf6772... Exact reprint of already-rejected yhay81/shop-router-0913. CDLL present. Day-6 144/648 only, not farm/route reselect after 216. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "destbreso/agent-telemetry-catch-what-you-lose",
+      "path": "artifacts/public_sources/_hunt_20260915/destbreso__agent-telemetry-catch-what-you-lose/agent-telemetry-catch-what-you-lose.ipynb",
+      "verdict": "reject_analysis_notebook_no_writefile",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-15 01:10:28.813000). 67-cell telemetry/analysis notebook, no %%writefile, no main.py/submission.py payload. No farm/route reselect after 216. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "alperen5252525/harvestforge-x-high-throughput-farming",
+      "path": "artifacts/public_sources/_hunt_20260915/alperen5252525__harvestforge-x-high-throughput-farming/harvestforge-x-high-throughput-farming.ipynb",
+      "verdict": "reject_heuristic_step_mod4",
+      "sha256": "01f0cd470f669f86d4b53eb5b014614d3b383970d0755f119de14153fd77c1eb",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 19:16:59.873000). Python %%writefile main.py SHA 01f0cd47... Distinct from alperen scored-agent SHA 85c8b532 and yhay81 0913 SHA 77cf6772. Heuristic `if step % 4 != 0`. No farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "nathanjacob/how-many-twins-strategy-clustering-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915/nathanjacob__how-many-twins-strategy-clustering-kaggriculture/how-many-twins-strategy-clustering-kaggriculture.ipynb",
+      "verdict": "reject_analysis_notebook_no_writefile",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 19:18:54.140000). 30-cell clustering analysis, no %%writefile. Distinct from already-rejected nathanjacob V40 autopsy dataset wrapper. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "hosen42/kaggriculture-v11-hc1-vs-h5-validation",
+      "path": "artifacts/public_sources/_hunt_20260915/hosen42__kaggriculture-v11-hc1-vs-h5-validation/kaggriculture-v11-hc1-vs-h5-validation.ipynb",
+      "verdict": "reject_analysis_notebook_no_writefile",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 17:15:18.683000). Validation/analysis notebook (embeds cut15 SHA b87a27ed as comment/payload). No %%writefile agent. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "nathanjacob/kaggriculture-pipe-2-agent",
+      "path": "artifacts/public_sources/_hunt_20260915/nathanjacob__kaggriculture-pipe-2-agent/kaggriculture-pipe-2-agent.ipynb",
+      "verdict": "reject_v42_reprint_shop0909_overlay",
+      "sha256": "728fdfb4405ba313f8b14ffb3e0f8eceaddcaa0de49e4835928d89aaf71467e9",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 18:47:53.680000). AGENT_B64 gzip static reconstruct SHA 728fdfb4... Exact reprint of already-rejected ahmedberatozer V42. Shop0909 day-6 144/648 plus 288/712 overlay. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "leoprovorov/god-s-mode-hacked-stores",
+      "path": "artifacts/public_sources/_hunt_20260915/leoprovorov__god-s-mode-hacked-stores/god-s-mode-hacked-stores.ipynb",
+      "verdict": "reject_analysis_notebook_no_writefile",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 17:13:51.407000). Shop-seed analysis notebook, no %%writefile agent. Distinct from already-listed leoprovorov v65. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-v6",
+      "path": "artifacts/public_sources/_hunt_20260915/sunil123kumar__kaggriculture-v6/kaggriculture-v6.ipynb",
+      "verdict": "reject_v41_reprint_shop0909_overlay",
+      "sha256": "8951ff93742015cba535b125223cf2e541bb7b602080fc4584f30c2613d210f3",
+      "note": "New slug vs _hunt_20260914o (lastRunTime 2026-09-14 09:18:59.717000). Python %%writefile main.py SHA 8951ff93... Exact reprint of already-rejected ahmedberatozer V41. Distinct from sunil v4. Shop0909 day-6 144/648 plus 288/712 overlay. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

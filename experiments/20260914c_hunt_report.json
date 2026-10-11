@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914c",
+  "kernels_not_in_0914b_packet": false,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260914c",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260914c.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "none_no_new_notebook",
+  "compare_0914b": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260914b",
+    "hunt_report": "experiments/20260914b_hunt_report.json",
+    "gate": "experiments/20260914b_gate.json",
+    "note": "No new slug vs _hunt_20260914b. Public search newest is still nathanjacob/no-cow-left-behind-v40-autopsy-fix (lastRunTime 2026-09-14 01:37:45.493000). Did not re-pull rejected kernels (Ahmed V41 SHA 8951ff93, nathanjacob V40 autopsy dataset wrapper, prvsiyan reserve-garden, alperen scored-agent SHA 85c8b532, xuantianfengwu adaptive-land-allocator SHA d12f2987, renjistarfall V39 reprint, alperen metacounter-r1 analysis, xuantianfengwu land-labor-capital, Ahmed V40, guru V39, yhay81 0913, wei v46d review, Ahmed V39, aurax7 v4, crystalbaby V38, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20, yhay81 0911-simple)."
+  },
+  "public_search_newest": "nathanjacob/no-cow-left-behind-v40-autopsy-fix",
+  "public_search_newest_lastRunTime": "2026-09-14 01:37:45.493000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": []
+}

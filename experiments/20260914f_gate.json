@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914f",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "arsgorynich/kaggriculture-v40-challenger",
+      "verdict": "reject_v40_reprint_shop0909_overlay",
+      "note": "New slug vs _hunt_20260914d (lastRunTime 2026-09-14 02:50:39.207000). Python %%writefile main.py SHA 546c4224... Exact reprint of already-rejected ahmedberatozer V40 SHA 546c4224. Distinct slug from Ahmed V41 SHA 8951ff93, V39 708c7485, V38 a2047ebd, aurax7 v5 ea4c28e6, lime0001 t23 31ee22dc. Shop0909 day-6 144/648 plus 288/696 sales overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-adaptive-land-allocator-r10",
+      "verdict": "reject_heuristic_six_cow_allocator_r10",
+      "note": "New slug vs _hunt_20260914c (lastRunTime 2026-09-14 04:37:17.347000; public-search newest by dateCreated). Python %%writefile submission.py SHA 3b8a1d4d... Distinct from adaptive-land-allocator SHA d12f2987, land-labor-capital SHA b49709bd, and timed-six-cow SHA 5dc0c68c. Still heuristic 6-cow (`[\"COW\"] * 6`). No farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v5",
+      "verdict": "reject_shop0909_144_648_and_712_overlay",
+      "note": "New slug vs _hunt_20260914c (lastRunTime 2026-09-14 04:31:10.073000). Python %%writefile main.py SHA ea4c28e6... Distinct from reactive-v4 SHA 3dd123c5 and live cuts 14/15/16 (notebook embeds cut15 SHA b87a27ed as a comment/payload, writefile itself is not cut15). Shop0909 day-6 144/648 plus 288 quote overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "lime0001/t23-kaggriculture-smart-adaptive-harvest",
+      "verdict": "reject_shop0909_144_648_and_712_overlay",
+      "note": "New slug vs _hunt_20260914c files (lastRunTime 2026-09-14 00:27:07.057000; script kernel, no %%writefile). SHA 31ee22dc... Distinct from Ahmed V41 SHA 8951ff93, V39 708c7485, V38 a2047ebd, aurax7 v5 ea4c28e6. Shop0909 day-6 144/648 plus 288 overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "nathanjacob/no-cow-left-behind-v40-autopsy-fix",
+      "verdict": "reject_analysis_dataset_wrapper",
+      "note": "Still the public-search newest (lastRunTime 2026-09-14 01:37:45.493000). 0914/0914b already rejected analysis/dataset wrapper. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v41-review-candidate",
+      "verdict": "reject_v41_shop0909_overlay",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 22:21:39.587000). Python %%writefile main.py SHA 8951ff93... Distinct from V40 SHA 546c4224 and V39 708c7485 and live cuts 14/15/16. Shop0909 day-6 144/648 plus 288/696 sales overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "prvsiyan/kaggriculture-reserve-garden-counterfactuals",
+      "verdict": "reject_educational_framework",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 21:15:06.187000). Educational Path.write_text reserve_garden_policy.py, not %%writefile main.py. Distinct from already-rejected prvsiyan market-ledger SHA 1c98c297. No farm/route reselect after 216. Cells not executed. Not copied to candidates/."
+    },
+    {
+      "kernel": "alperen5252525/kaggriculture-metacounter-r1-scored-agent",
+      "verdict": "reject_day6_144_648_and_712_overlay",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 22:03:43.617000). Script kernel SHA 85c8b532... day-6 144/648 plus Shop0909 288 quote overlay. Distinct from already-rejected analysis metacounter-r1 (no writefile). Not a farm/route reselect after 216. No ctypes/agent.so. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-adaptive-land-allocator",
+      "verdict": "reject_heuristic_six_cow_allocator",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 18:25:50.667000). Python %%writefile submission.py SHA d12f2987... heuristic 6-cow (`[\"COW\"] * 6`). Distinct from land-labor-capital SHA b49709bd and timed-six-cow SHA 5dc0c68c. No later-block after 216. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/."
+    },
+    {
+      "kernel": "renjistarfall/kaggriculture-best-agent",
+      "verdict": "reject_v39_reprint_shop0909_overlay",
+      "note": "Still a public search hit (lastRunTime 2026-09-13 14:11:05.950000). 0913s/0913t/0913u/0913v already rejected SHA 708c7485 V39 reprint Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "yhay81/shop-router-0913",
+      "verdict": "reject_day6_144_648",
+      "note": "Author list: still newest Yusuke kaggriculture kernel. 0913o already rejected SHA 77cf6772 day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Author list: still newest y3uanm kaggriculture kernel. Writefile SHA acf7c664 = live cut 14. Did not re-pull."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g / extra-goose / extra-sheep is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1643.7,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1304.9,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260914f",
+  "hunt_report": "experiments/20260914f_hunt_report.json",
+  "named_kernels_scanned": [],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1643.7 partnered with newer shopbag 56151155 COMPLETE 1304.9 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No new public slug vs _hunt_20260914e. Public search newest still xuantianfengwu/kaggriculture-adaptive-land-allocator-r10 SHA 3b8a1d4d heuristic 6-cow. king/Thomas/y3uanm/yhay81 author lists have no new later-block. Did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: Quillbolt extra sheep 218/227 extra geese 242/266 -9650 already bought extra sheep 218/242/266; \u6211\u662f\u5218\u5927\u806a extra geese 227/242 already bought -9197; trung extra sheep 218/242/266 already bought -5487; DASH\u6751 already bought extra sheep 218/242/266 and won +6327; y3uanm already bought extra geese 227/242 and won +54."
+}

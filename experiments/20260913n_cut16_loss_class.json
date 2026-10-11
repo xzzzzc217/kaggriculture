@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913n",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108489181,
+    108484081,
+    108445221,
+    108441448,
+    108441305,
+    108412731,
+    108383915,
+    108377691,
+    108374873,
+    108351144,
+    108349751,
+    108345614
+  ],
+  "ids_0913m": [
+    108472548,
+    108461768,
+    108432563,
+    108429814,
+    108426937,
+    108422886,
+    108399266,
+    108371627,
+    108369265,
+    108366745,
+    108328160,
+    108311577
+  ],
+  "disjoint_from_0913m": true,
+  "all_720_done_done": true,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -4515.3,
+  "clone_n": 12,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    22.0
+  ],
+  "wool_360": {
+    "108489181": 43,
+    "108484081": 37,
+    "108445221": 1,
+    "108441448": 11,
+    "108441305": 37,
+    "108412731": 1,
+    "108383915": 237,
+    "108377691": 43,
+    "108374873": 11,
+    "108351144": 231,
+    "108349751": 43,
+    "108345614": 234
+  },
+  "wool_432": {
+    "108489181": 1,
+    "108484081": 125,
+    "108445221": 1,
+    "108441448": 1,
+    "108441305": 1,
+    "108412731": 1,
+    "108383915": 227,
+    "108377691": 1,
+    "108374873": 1,
+    "108351144": 158,
+    "108349751": 1,
+    "108345614": 231
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-13m: extra-goose 9c5s3g plus extra-animal YARN 6c11s plus extra-animal 8c6s3g plus extra-sheep 11s plus identical-clone. WTL 4-0-8 mean -4515.3 vs 09-13m 6-0-6 mean -1708.7. New window games are Agentmaster 108489181 extra-goose win vs 9c5s4g and mmwstudy 108484081 identical-clone -65. clone=12/12.",
+  "loss_class": "mixed extra-goose 9c5s3g (haonan zhengh 108412731 9c5s vs 9c5s3g clone=1 ICE_CREAM extra cow 218 extra sheep 227 extra geese 242/266 wheat 425 vs 17356 -18535) + extra-animal YARN 6c11s (Peter Cnudde 108383915 6c11s vs 7c11s clone=1 YARN extra sheep 218/242/266 already bought -13315) + extra-animal 8c6s3g (Wei Han 108445221 9c5s vs 8c6s3g clone=1 ICE_CREAM extra sheep 218/227 extra geese 242/266 wheat 426 vs 17329 -12688) + extra-sheep 11s (Oleg Smirnov 108345614 9c8s vs 7c11s extra sheep 227/242/266 already bought -11762) + extra-goose (Rafael Molina Castano 108377691 9c5s3g vs 9c5s4g extra geese 218/227/242 we already bought 227/242 -5101; CodeHacker 108349751 identical 9c5s3g extra geese 227/242 already bought -3571; Sophie555 108374873 9c5s3g vs 6c6s6g extra geese 227/242 already bought -3339) + identical-clone (mmwstudy 108484081 9c5s3g vs 9c5s3g extra geese 227/242 already bought -65). Wins: XiaoYan12 108441448 9c5s3g vs 6c6s6g +6450 extra geese 227/242 already bought; Agentmaster 108489181 9c5s3g vs 9c5s4g +2699 extra geese 227/242 already bought; wzyxp_123 108441305 identical 9c5s3g +2649 extra geese 227/242 already bought; Sean Peppers 108351144 4c15s vs 6c10s +2394 extra sheep 218/242/266 already bought. clone=12/12, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 3-22 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: haonan lost extra-goose after opp extra cow 218 extra sheep 227 extra geese 242/266; Wei Han lost 8c6s3g after opp extra sheep 218/227 extra geese 242/266; Peter already bought 218/242/266 and lost YARN 6c11s; Oleg already bought 227/242/266 and lost extra-sheep 11s; extra-goose losses/wins bought geese at 227/242 and sheep at 266; mmwstudy already bought 227/242/266 (geese/sheep) and lost identical-clone -65; Agentmaster already bought geese 227/242 sheep 266 and won vs extra-goose 4g.",
+  "worst_losses": [
+    {
+      "id": 108412731,
+      "opp": "haonan zhengh",
+      "margin": -18535.0,
+      "herd_us": "9c5s",
+      "herd_opp": "9c5s3g",
+      "shops": [
+        "ICE_CREAM_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    },
+    {
+      "id": 108383915,
+      "opp": "Peter Cnudde",
+      "margin": -13315.0,
+      "herd_us": "6c11s",
+      "herd_opp": "7c11s",
+      "shops": [
+        "YARN_STORE"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        151,
+        196,
+        218,
+        242,
+        266
+      ]
+    },
+    {
+      "id": 108445221,
+      "opp": "Wei Han",
+      "margin": -12688.0,
+      "herd_us": "9c5s",
+      "herd_opp": "8c6s3g",
+      "shops": [
+        "ICE_CREAM_SHOP"
+      ],
+      "clone": true,
+      "sheep_us": [
+        2,
+        196,
+        314
+      ]
+    }
+  ],
+  "not_227_242_266_wrap": true,
+  "not_opening_broke": true,
+  "not_freeze_after_day9_9c9s": true
+}

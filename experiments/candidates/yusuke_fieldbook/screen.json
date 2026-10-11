@@ -1,0 +1,211 @@
+{
+  "agent": "yusuke_fieldbook",
+  "sha256": "de668f7f72a552640fe0e615fff937990596a47cbe95ba6f6f3992d3fcba3ae8",
+  "wins": 12,
+  "n": 13,
+  "flips": [
+    "loss_3junghun",
+    "loss_plantcity",
+    "loss_fernando",
+    "loss_liquidus",
+    "mtn_11",
+    "yusuke_11"
+  ],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 4093.0,
+      "base": 5964,
+      "delta": -1871.0,
+      "scores": [
+        97331.0,
+        93238.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.75
+    },
+    "fufu_clone": {
+      "margin": 7516.0,
+      "base": 6937,
+      "delta": 579.0,
+      "scores": [
+        50651.0,
+        43135.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 9.99
+    },
+    "masa_clone": {
+      "margin": 11567.0,
+      "base": 7511,
+      "delta": 4056.0,
+      "scores": [
+        77190.0,
+        65623.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.33
+    },
+    "loss_3junghun": {
+      "margin": 4611.0,
+      "base": -5290,
+      "delta": 9901.0,
+      "scores": [
+        98850.0,
+        94239.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 13.68
+    },
+    "loss_satoooh": {
+      "margin": -411.0,
+      "base": -3181,
+      "delta": 2770.0,
+      "scores": [
+        55666.0,
+        56077.0
+      ],
+      "win": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 13.39
+    },
+    "loss_plantcity": {
+      "margin": 7650.0,
+      "base": -4198,
+      "delta": 11848.0,
+      "scores": [
+        108419.0,
+        100769.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 16.56
+    },
+    "loss_fernando": {
+      "margin": 5223.0,
+      "base": -2605,
+      "delta": 7828.0,
+      "scores": [
+        63502.0,
+        58279.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 14.93
+    },
+    "loss_liquidus": {
+      "margin": 8379.0,
+      "base": -3662,
+      "delta": 12041.0,
+      "scores": [
+        109286.0,
+        100907.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 11.3
+    },
+    "yarn_tk256": {
+      "margin": 33234.0,
+      "base": 16611,
+      "delta": 16623.0,
+      "scores": [
+        150028.0,
+        116794.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 11.13
+    },
+    "yarn2_tk256": {
+      "margin": 34695.0,
+      "base": 17159,
+      "delta": 17536.0,
+      "scores": [
+        90198.0,
+        55503.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 11.82
+    },
+    "hanserong_11": {
+      "margin": 11446.0,
+      "base": 3879,
+      "delta": 7567.0,
+      "scores": [
+        131648.0,
+        120202.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.37
+    },
+    "mtn_11": {
+      "margin": 2044.0,
+      "base": -759,
+      "delta": 2803.0,
+      "scores": [
+        92191.0,
+        90147.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.73
+    },
+    "yusuke_11": {
+      "margin": 18016.0,
+      "base": -13434,
+      "delta": 31450.0,
+      "scores": [
+        98107.0,
+        80091.0
+      ],
+      "win": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 10.06
+    }
+  }
+}

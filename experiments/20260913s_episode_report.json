@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913s",
+  "utc": "2026-09-13T14:36:51Z",
+  "no_upload": true,
+  "upload_bail": true,
+  "hold": true,
+  "root_main_py_untouched": true,
+  "root_main_py_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56151152,
+  "live_newest_score": 1670.2,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "yamakawanin_king_v4e_rc4 cut 16",
+  "live_newest_note": "COMPLETE 1670.2 (was 1680.9). Newest public 108568560 updatedScore 1670.287. Newest-2 = shopbag reupload 56151155 (newer id, submissions 1319.5 / ListEpisodes last_updated 1319.596) + cut 16 56151152. Upload-bail TRUE (c): shopbag partner 1319.5 < 1500 and is newer than cut 16, so a new cut alone would drop the >=1500 COMPLETE. Study anyway. Hold.",
+  "cut15_id": 56146106,
+  "cut15_score": 1864.4,
+  "cut15_status": "COMPLETE",
+  "cut15_note": "DROPPED from newest-2.",
+  "shopbag_id": 56151155,
+  "shopbag_score": 1319.5,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "newest_2": [
+    56151155,
+    56151152
+  ],
+  "heralces_rank_csv": 2026,
+  "heralces_score": 1670.2,
+  "n_teams_csv": 8896,
+  "public_56151152": {
+    "n_public": 230,
+    "n_validation": 1,
+    "n_completed_public": 230,
+    "wtl": [
+      100,
+      2,
+      128
+    ],
+    "mean_margin": -1226.1,
+    "status": "COMPLETE",
+    "publicScore": 1670.2
+  },
+  "rolling_ids": [
+    108568560,
+    108559476,
+    108534412,
+    108504670,
+    108472548,
+    108461768,
+    108432563,
+    108429814,
+    108426937,
+    108422886,
+    108399266,
+    108374873
+  ],
+  "rolling_forbidden_0913r": [
+    108550653,
+    108545775,
+    108520439,
+    108509931,
+    108489181,
+    108484081,
+    108445221,
+    108441448,
+    108441305,
+    108412731,
+    108383915,
+    108377691
+  ],
+  "ids_not_identical_to_0913r": true,
+  "ids_disjoint_from_0913r": true,
+  "rolling_n": 12,
+  "rolling_n_steps": 720,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -1150.5,
+  "rolling_note": "Assigned cut16 newest-12 public ids from refreshed EpisodeService, all 720 DONE/DONE. Disjoint from 20260913r packet. 4W 8L. Worst alcanta 108568560 L -19224 9c5s vs 9c5s3g clone=1 extra cow 218 extra sheep 227 extra geese 242/266. New-window Farmer Shuang 108559476 L -418 6c11s vs 7c11s extra sheep 218/242/266 already bought. Not opening-broke. Not freeze 9c9s."
+}

@@ -1,0 +1,8311 @@
+{
+  "destbreso": {
+    "n_hits": 4,
+    "hits": [
+      {
+        "cell": 24,
+        "type": "markdown",
+        "text": "**The cards.** Specialisation from the streams; adaptations only where the\nmeasurement supports them.\n\n* **#1 Ryo Hasegawa** (live, unchanged since before Aug 19). The\n  diversified one: wheat backbone, strawberry, milk, wool, melon, and a\n  steady tomato trickle. Opening fixed (plan d0-3 at 1.00), then the plan\n  goes mobile from day 3 on. Adaptation: mid and endgame replanning, the\n  navy half of his X-ray.\n* **#2 Subramanya N** (live, unchanged). The egg specialist: 990 egg units\n  across the crawl and about two geese a game (engine fact: a goose lays\n  daily from day 4, the fastest yield in the game). Adaptation: the only\n  agent whose OPENING varies per episode (0.57 at days 0-3): layouts\n  conditioned on the board from turn 0.\n* **#3 Crop Dusta** (live, current sub one day old). The supply shocker:\n  about 1,900 wheat units a game with the peak in days 10-19, the only\n  mid-game flood on the board, and the biggest hinge harvester (1,316\n  tomato, 2,316 carrot, 853 egg units across its games). Adaptation:\n  scarcity harvesting; the flood is a strategy, who it hurts is a question\n  for another notebook.\n* **#4 MiMi** (live). The expansionist: the only agent buying a third land,\n  wheat-heavy selling, and the highest median bank of the crawl (101.6k).\n* **#5 Arman Tuganbaev** (live, unchanged). The premium-goods lean: most\n  melon planted (25 a game), wool and melon sales above the board's norm,\n  smallest herd of the five.\n* **#6, #7, #10, #11, #12** (the clade). One economy five times: strawberry\n  plus fertilizer plus milk plus wool, no tomato at all, a carrot trickle.\n  Adaptation: episode-level route switching (two or three games per seat\n  run an alternative plan from about day 7, the navy rows in their X-rays)\n  plus timed market touches on the repeating games. Kaito Fukami's copy\n  varies the most (0.68 against 0.80 band agreement), fitting its position\n  as the family's origin.\n* **#8 Izzoudine Mohamed KANTA and #9 Kobe BRYANT** (public family,\n  re-laid-out). The fertilizer industrialists: around 2,700 fertilizer and\n  1,100 wheat units a game, sold in a days 10-29 mountain, herds kept for\n  the fertilizer as much as the produce. Adaptation: a fixed first ten\n  days, then plan AND market vary through the late game, the busiest\n  late-season texture on the board after the top five.\n\nThe public chassis documents its own adaptations in code, and it is worth\nreading them there: weed repair, feed guards, mirror detection with\npreemptive selling, and per-family counters, all visible in the\n[V21 notebooks](https://www.kaggle.com/code/boatlee/v21-r1-public-state-route-portfolio).\nWhat this section measures from streams and what those notebooks say in code\nagree: the layer is where the field is investing."
+      },
+      {
+        "cell": 30,
+        "type": "markdown",
+        "text": "Reading the board work:\n\n* **Half of everyone's labor is walking.** Work is 40 to 46 percent of\n  unit-turns across the entire top; movement is 46 to 55. The spread is\n  small and nobody escapes it: the clade is the most efficient walker (46\n  percent work), Crop Dusta walks the most (55 percent) and MiMi idles the\n  most (13 percent PASS). At the top of this game, logistics is the tax\n  everyone pays.\n* **Watering is a hands job.** Nine hundred to twelve hundred WATER actions\n  a game, 88 to 100 percent of them by hired hands. Ryo waters the most\n  (1,242 a game); the clade the least (about 950). The farmer's own turns\n  are spent elsewhere.\n* **The board opens in one order: NW, NE around day 6, SW around day 10.**\n  Everyone. The fourth quadrant is the real choice: only MiMi and the\n  fertilizer pair ever buy SE (median day 12), and MiMi is the agent with\n  the highest median bank in the crawl. Three quadrants is the consensus;\n  the fourth is a conviction.\n* **Crop placement is layered, not quadrant-specialised.** Wheat dominates\n  every quadrant's tile-days; strawberry and melon concentrate in the NW\n  home quadrant (planted day 0, before anything unlocks), and the later\n  quadrants fill with wheat plus carrot. The preference is temporal more\n  than spatial: what a quadrant grows is mostly a function of WHEN it\n  opened.\n* **The working day has one pulse.** Hands dissolve every night, so the\n  whole top rehires all season, ramping to eleven or twelve hands a day\n  from day 10; harvest\n  rises through the season as land compounds; and sells stay low until the\n  final third, population after population. The fertilizer pair's spiky\n  sell line and the mid-season mountain are the silhouettes that break the\n  pattern."
+      },
+      {
+        "cell": 36,
+        "type": "markdown",
+        "text": "**The four days replayed in twenty seconds.** The same eighty games as an\nanimated tournament: each vertex is a contender (colored by population), and\nevery game draws itself in the order it was played, an arc from the winner\ncurving into the loser. Vertices grow as they collect wins. Watching it, the\nstructure assembles live: Crop Dusta inflating early, the clade arcs arriving\nin the last two days, and the summit trading blows at the top of the circle.\n(If the player does not load, the finished graph is below it.)"
+      },
+      {
+        "cell": 40,
+        "type": "markdown",
+        "text": "The duel structure, with the small-n caveat attached:\n\n* **No cycles of ANY length once evidence is required, and that claim is\n  tested properly.** In a complete tournament, no triangles would imply no\n  cycles at all; this digraph is incomplete (30 of 66 pairs observed), and\n  an incomplete digraph can hide long cycles without a single triangle. So\n  the test is the general one: strongly connected components plus a full\n  simple-cycle census. Under the exact-binomial gate this series used for\n  the openings tournament in\n  [Everyone is playing the same opening](https://www.kaggle.com/code/destbreso/everyone-is-playing-the-same-opening),\n  only the two crushings orient (7-0, 6-0) and the graph is trivially\n  acyclic; requiring merely that a pair met TWICE, eleven edges orient and\n  the graph is still acyclic, at every length.\n* **Taken at face value, the board is one big tangle, and that is what\n  noise looks like.** Count single-game pairs as edges and ten of the\n  twelve fuse into ONE strongly connected component carrying fifteen\n  simple cycles, of lengths three through nine. Every one of those cycles\n  crosses at least one single-game edge (it must: the met-twice graph is\n  acyclic), and the permutation null in the cell above says coin-flipping\n  those single games manufactures about as many. The tangle is the\n  signature of unresolved pairs, not of rock-paper-scissors; the\n  acyclicity is what survives evidence. Week five can promote or demote\n  the claim: the same census on more games is one cell.\n* **Within the live five, the summit is earned.** Ryo edges Subramanya 5-3\n  and Crop Dusta 4-2; Crop Dusta crushes the rest of his schedule (7-0\n  against Arman, 6-0 against Izzoudine, 3-0 against Subramanya). At these\n  counts a 5-3 is a lean, not a law; a 7-0 is a law.\n* **The inversion has its own chart above**: the clade wins both of its\n  population matchups while ranking below the live five, and the two\n  candidate explanations (noise against a wave still converging) are\n  spelled out there with what would falsify each.\n* **No oscillation within the window, one wobble worth watching.** The\n  time-ordered strips show mostly stable verdicts (Arman never takes a\n  game off Crop Dusta in seven tries; Izzoudine never in six). The two\n  summit pairs do move: Ryo took the first three from Subramanya and then\n  they alternated, and Crop Dusta lost three straight to Ryo, won the next\n  two, and dropped the last. That is not an equilibrium cycle, but it is\n  the only place in eighty games where a matchup's answer changed inside\n  the window. Margins run 1k to 36k, so most duels are decided by real\n  distance, not coin flips."
+      }
+    ]
+  },
+  "summary": {
+    "n": 12,
+    "wtl": [
+      10,
+      0,
+      2
+    ],
+    "mean_margin": 7976.583333333333,
+    "unique_full_sha": 12,
+    "unique_h24": 1,
+    "unique_h100": 2,
+    "live": true,
+    "Q_set": [
+      3
+    ],
+    "land_n_set": [
+      2
+    ],
+    "sheep_set": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "cow_set": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      13
+    ],
+    "melon_board_set": [
+      0
+    ],
+    "sell_ranges": {
+      "WHEAT": {
+        "min": 711,
+        "max": 2695,
+        "mean": 1827.8
+      },
+      "CARROT": {
+        "min": 0,
+        "max": 150,
+        "mean": 46.2
+      },
+      "TOMATO": {
+        "min": 0,
+        "max": 117,
+        "mean": 24.0
+      },
+      "STRAWBERRY": {
+        "min": 127,
+        "max": 312,
+        "mean": 206.4
+      },
+      "MELON": {
+        "min": 90,
+        "max": 109,
+        "mean": 99.1
+      },
+      "EGG": {
+        "min": 0,
+        "max": 132,
+        "mean": 26.2
+      },
+      "MILK": {
+        "min": 104,
+        "max": 309,
+        "mean": 173.7
+      },
+      "WOOL": {
+        "min": 78,
+        "max": 355,
+        "mean": 178.0
+      },
+      "FERTILIZER": {
+        "min": 119,
+        "max": 269,
+        "mean": 202.3
+      }
+    },
+    "opp_sell_ranges": {
+      "WHEAT": {
+        "min": 163,
+        "max": 451,
+        "mean": 316.8
+      },
+      "CARROT": {
+        "min": 0,
+        "max": 214,
+        "mean": 47.2
+      },
+      "TOMATO": {
+        "min": 0,
+        "max": 95,
+        "mean": 19.7
+      },
+      "STRAWBERRY": {
+        "min": 176,
+        "max": 332,
+        "mean": 250.4
+      },
+      "MELON": {
+        "min": 57,
+        "max": 66,
+        "mean": 65.2
+      },
+      "EGG": {
+        "min": 0,
+        "max": 0,
+        "mean": 0.0
+      },
+      "MILK": {
+        "min": 169,
+        "max": 317,
+        "mean": 237.8
+      },
+      "WOOL": {
+        "min": 64,
+        "max": 259,
+        "mean": 129.5
+      },
+      "FERTILIZER": {
+        "min": 147,
+        "max": 353,
+        "mean": 234.4
+      }
+    },
+    "mean_wheat_by_day": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      32.0,
+      15.0,
+      1.8,
+      2.1,
+      5.7,
+      56.7,
+      159.0,
+      174.4,
+      168.8,
+      176.1,
+      142.1,
+      98.1,
+      138.2,
+      118.4,
+      58.3,
+      72.0,
+      48.5,
+      60.5,
+      48.7,
+      59.7,
+      17.4,
+      28.5,
+      29.1,
+      27.2,
+      89.7
+    ],
+    "mean_tomato_by_day": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      10.8,
+      13.2
+    ],
+    "mean_carrot_by_day": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.3,
+      0.0,
+      42.9
+    ],
+    "mean_egg_by_day": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2,
+      0.2,
+      0.3,
+      0.3,
+      1.1,
+      1.2,
+      0.8,
+      1.8,
+      1.8,
+      1.6,
+      1.7,
+      0.7,
+      1.8,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      1.9,
+      3.7
+    ],
+    "mean_melon_by_day": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      29.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      55.8,
+      2.0,
+      3.2,
+      1.3,
+      2.1,
+      0.7,
+      1.0,
+      0.8,
+      1.3,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shop_item_corr": [
+      {
+        "shop": "PIZZA_SHOP",
+        "sell": "TOMATO",
+        "r": 0.578,
+        "mean_sell_by_shop_count": {
+          "0": 0.0,
+          "1": 39.0,
+          "2": 57.0
+        },
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            117
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            90
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            81
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "shop": "FARMERS_MARKET",
+        "sell": "TOMATO",
+        "r": 0.536,
+        "mean_sell_by_shop_count": {
+          "0": 0.0,
+          "1": 58.5,
+          "2": 30.0,
+          "4": 81.0
+        },
+        "pairs": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            117
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            90
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            81
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "shop": "PET_CAFE",
+        "sell": "CARROT",
+        "r": 0.694,
+        "mean_sell_by_shop_count": {
+          "0": 6.3,
+          "1": 39.5,
+          "2": 99.7
+        },
+        "pairs": [
+          [
+            2,
+            89
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            117
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            60
+          ],
+          [
+            2,
+            150
+          ],
+          [
+            1,
+            27
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            19
+          ],
+          [
+            1,
+            45
+          ],
+          [
+            1,
+            44
+          ]
+        ]
+      },
+      {
+        "shop": "FARMERS_MARKET",
+        "sell": "CARROT",
+        "r": 0.074,
+        "mean_sell_by_shop_count": {
+          "0": 37.7,
+          "1": 44.5,
+          "2": 73.7,
+          "4": 19.0
+        },
+        "pairs": [
+          [
+            1,
+            89
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            117
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            60
+          ],
+          [
+            2,
+            150
+          ],
+          [
+            2,
+            27
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            0,
+            45
+          ],
+          [
+            2,
+            44
+          ]
+        ]
+      },
+      {
+        "shop": "BAKERY",
+        "sell": "EGG",
+        "r": 0.582,
+        "mean_sell_by_shop_count": {
+          "0": 8.0,
+          "1": 7.6,
+          "2": 81.3
+        },
+        "pairs": [
+          [
+            2,
+            112
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            38
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            2,
+            132
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "shop": "BRUNCH_SPOT",
+        "sell": "EGG",
+        "r": 0.342,
+        "mean_sell_by_shop_count": {
+          "0": 0.0,
+          "1": 28.0,
+          "2": 67.3,
+          "3": 0.0
+        },
+        "pairs": [
+          [
+            1,
+            112
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            38
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            32
+          ],
+          [
+            2,
+            132
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "shop": "YARN_STORE",
+        "sell": "WOOL",
+        "r": 0.893,
+        "mean_sell_by_shop_count": {
+          "0": 83.7,
+          "1": 137.0,
+          "2": 245.5,
+          "3": 355.0
+        },
+        "pairs": [
+          [
+            1,
+            107
+          ],
+          [
+            1,
+            78
+          ],
+          [
+            0,
+            78
+          ],
+          [
+            2,
+            236
+          ],
+          [
+            1,
+            208
+          ],
+          [
+            3,
+            355
+          ],
+          [
+            0,
+            92
+          ],
+          [
+            2,
+            181
+          ],
+          [
+            2,
+            303
+          ],
+          [
+            0,
+            81
+          ],
+          [
+            1,
+            155
+          ],
+          [
+            2,
+            262
+          ]
+        ]
+      },
+      {
+        "shop": "ICE_CREAM_SHOP",
+        "sell": "STRAWBERRY",
+        "r": 0.046,
+        "mean_sell_by_shop_count": {
+          "0": 218.8,
+          "1": 174.0,
+          "2": 218.0,
+          "3": 312.0,
+          "4": 158.0
+        },
+        "pairs": [
+          [
+            0,
+            168
+          ],
+          [
+            3,
+            312
+          ],
+          [
+            1,
+            178
+          ],
+          [
+            1,
+            127
+          ],
+          [
+            1,
+            243
+          ],
+          [
+            1,
+            148
+          ],
+          [
+            0,
+            175
+          ],
+          [
+            2,
+            269
+          ],
+          [
+            4,
+            158
+          ],
+          [
+            0,
+            262
+          ],
+          [
+            0,
+            270
+          ],
+          [
+            2,
+            167
+          ]
+        ]
+      },
+      {
+        "shop": "SMOOTHIE_SHOP",
+        "sell": "STRAWBERRY",
+        "r": 0.52,
+        "mean_sell_by_shop_count": {
+          "0": 188.0,
+          "1": 191.0,
+          "2": 291.0
+        },
+        "pairs": [
+          [
+            1,
+            168
+          ],
+          [
+            2,
+            312
+          ],
+          [
+            0,
+            178
+          ],
+          [
+            1,
+            127
+          ],
+          [
+            1,
+            243
+          ],
+          [
+            1,
+            148
+          ],
+          [
+            0,
+            175
+          ],
+          [
+            1,
+            269
+          ],
+          [
+            0,
+            158
+          ],
+          [
+            0,
+            262
+          ],
+          [
+            2,
+            270
+          ],
+          [
+            0,
+            167
+          ]
+        ]
+      },
+      {
+        "shop": "PIZZA_SHOP",
+        "sell": "MILK",
+        "r": -0.127,
+        "mean_sell_by_shop_count": {
+          "0": 180.5,
+          "1": 170.0,
+          "2": 163.7
+        },
+        "pairs": [
+          [
+            0,
+            176
+          ],
+          [
+            0,
+            309
+          ],
+          [
+            2,
+            198
+          ],
+          [
+            1,
+            227
+          ],
+          [
+            1,
+            125
+          ],
+          [
+            0,
+            104
+          ],
+          [
+            2,
+            183
+          ],
+          [
+            0,
+            206
+          ],
+          [
+            1,
+            158
+          ],
+          [
+            2,
+            110
+          ],
+          [
+            0,
+            116
+          ],
+          [
+            0,
+            172
+          ]
+        ]
+      },
+      {
+        "shop": "ICE_CREAM_SHOP",
+        "sell": "MILK",
+        "r": 0.439,
+        "mean_sell_by_shop_count": {
+          "0": 146.2,
+          "1": 163.5,
+          "2": 189.0,
+          "3": 309.0,
+          "4": 158.0
+        },
+        "pairs": [
+          [
+            0,
+            176
+          ],
+          [
+            3,
+            309
+          ],
+          [
+            1,
+            198
+          ],
+          [
+            1,
+            227
+          ],
+          [
+            1,
+            125
+          ],
+          [
+            1,
+            104
+          ],
+          [
+            0,
+            183
+          ],
+          [
+            2,
+            206
+          ],
+          [
+            4,
+            158
+          ],
+          [
+            0,
+            110
+          ],
+          [
+            0,
+            116
+          ],
+          [
+            2,
+            172
+          ]
+        ]
+      },
+      {
+        "shop": "YARN_STORE",
+        "sell": "WHEAT",
+        "r": 0.191,
+        "mean_sell_by_shop_count": {
+          "0": 1654.3,
+          "1": 1945.8,
+          "2": 1739.8,
+          "3": 2229.0
+        },
+        "pairs": [
+          [
+            1,
+            2695
+          ],
+          [
+            1,
+            1819
+          ],
+          [
+            0,
+            2149
+          ],
+          [
+            2,
+            1741
+          ],
+          [
+            1,
+            1713
+          ],
+          [
+            3,
+            2229
+          ],
+          [
+            0,
+            2103
+          ],
+          [
+            2,
+            1770
+          ],
+          [
+            2,
+            1534
+          ],
+          [
+            0,
+            711
+          ],
+          [
+            1,
+            1556
+          ],
+          [
+            2,
+            1914
+          ]
+        ]
+      },
+      {
+        "shop": "BAKERY",
+        "sell": "WHEAT",
+        "r": 0.377,
+        "mean_sell_by_shop_count": {
+          "0": 1561.0,
+          "1": 1939.6,
+          "2": 1997.3
+        },
+        "pairs": [
+          [
+            2,
+            2695
+          ],
+          [
+            1,
+            1819
+          ],
+          [
+            1,
+            2149
+          ],
+          [
+            2,
+            1741
+          ],
+          [
+            1,
+            1713
+          ],
+          [
+            0,
+            2229
+          ],
+          [
+            1,
+            2103
+          ],
+          [
+            0,
+            1770
+          ],
+          [
+            0,
+            1534
+          ],
+          [
+            0,
+            711
+          ],
+          [
+            2,
+            1556
+          ],
+          [
+            1,
+            1914
+          ]
+        ]
+      },
+      {
+        "shop": "FARMERS_MARKET",
+        "sell": "WHEAT",
+        "r": -0.46,
+        "mean_sell_by_shop_count": {
+          "0": 1838.0,
+          "1": 2204.0,
+          "2": 1929.0,
+          "4": 711.0
+        },
+        "pairs": [
+          [
+            1,
+            2695
+          ],
+          [
+            0,
+            1819
+          ],
+          [
+            0,
+            2149
+          ],
+          [
+            0,
+            1741
+          ],
+          [
+            1,
+            1713
+          ],
+          [
+            0,
+            2229
+          ],
+          [
+            2,
+            2103
+          ],
+          [
+            2,
+            1770
+          ],
+          [
+            0,
+            1534
+          ],
+          [
+            4,
+            711
+          ],
+          [
+            0,
+            1556
+          ],
+          [
+            2,
+            1914
+          ]
+        ]
+      }
+    ],
+    "losses": [
+      {
+        "episode": 101012944,
+        "seed": 1173629735,
+        "opp": "Ryo Hasegawa",
+        "seat": 1,
+        "margin": -6020.0,
+        "win": false,
+        "rewards": [
+          160542.0,
+          154522.0
+        ],
+        "Q": 3,
+        "hands": 12,
+        "board": {
+          "CARROT": 0,
+          "COOP": 0,
+          "COW": 13,
+          "GOOSE": 0,
+          "MELON": 0,
+          "PASTURE": 2,
+          "SHEEP": 1,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WEED": 0,
+          "WHEAT": 1
+        },
+        "opp_board": {
+          "CARROT": 0,
+          "COOP": 0,
+          "COW": 14,
+          "GOOSE": 0,
+          "MELON": 0,
+          "PASTURE": 2,
+          "SHEEP": 2,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WEED": 2,
+          "WHEAT": 1
+        },
+        "clone": {
+          "latched": false,
+          "max_near": 5,
+          "median_distance": 20
+        },
+        "sells": {
+          "WHEAT": 1819,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 312,
+          "MELON": 90,
+          "EGG": 0,
+          "MILK": 309,
+          "WOOL": 78,
+          "FERTILIZER": 202
+        },
+        "opp_sells": {
+          "WHEAT": 247,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 328,
+          "MELON": 66,
+          "EGG": 0,
+          "MILK": 317,
+          "WOOL": 65,
+          "FERTILIZER": 235
+        },
+        "buys": {
+          "WHEAT": 1782,
+          "FERTILIZER": 0
+        },
+        "buy_land_steps": [
+          122,
+          200
+        ],
+        "buy_land_n": 2,
+        "opp_buy_land_n": 2,
+        "hire_days": {
+          "1": 4,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4,
+          "7": 8,
+          "8": 6,
+          "9": 8,
+          "10": 9,
+          "11": 9,
+          "12": 12,
+          "13": 12,
+          "14": 12,
+          "15": 12,
+          "16": 12,
+          "17": 12,
+          "18": 12,
+          "19": 12,
+          "20": 12,
+          "21": 12,
+          "22": 12,
+          "23": 12,
+          "24": 12,
+          "25": 12,
+          "26": 12,
+          "27": 12,
+          "28": 12,
+          "29": 12,
+          "30": 12
+        },
+        "max_hires_one_day": 12,
+        "plants": {
+          "SEED:MELON": 19,
+          "SEED:WHEAT": 87,
+          "MELON": 15,
+          "WHEAT": 80,
+          "SEED:STRAWBERRY": 47,
+          "STRAWBERRY": 47
+        },
+        "animals_bought": {
+          "COW": 13,
+          "SHEEP": 3
+        },
+        "builds": {
+          "BUILD_PASTURE": 16,
+          "DIG": 53
+        },
+        "shops_final": [
+          "ICE_CREAM_SHOP",
+          "ICE_CREAM_SHOP",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "SMOOTHIE_SHOP",
+          "ICE_CREAM_SHOP",
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        "shop_counts": {
+          "ICE_CREAM_SHOP": 3,
+          "SMOOTHIE_SHOP": 2,
+          "BRUNCH_SPOT": 1,
+          "YARN_STORE": 1,
+          "BAKERY": 1
+        },
+        "shop_names_seen": [
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "ICE_CREAM_SHOP",
+          "SMOOTHIE_SHOP",
+          "YARN_STORE"
+        ],
+        "shop_demand_per_tick": {
+          "STRAWBERRY": 6,
+          "MILK": 5,
+          "WHEAT": 5,
+          "EGG": 2,
+          "WOOL": 2
+        },
+        "hashes": {
+          "n_logged": 720,
+          "h24": "52c5924ea5b91a10",
+          "h100": "75513aca912d3fc4",
+          "h400": "4b5f90e54439956e",
+          "full": "7f0d4ba67c1a4695"
+        },
+        "wheat_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          32,
+          15,
+          2,
+          9,
+          10,
+          72,
+          245,
+          236,
+          229,
+          220,
+          192,
+          107,
+          190,
+          18,
+          0,
+          5,
+          15,
+          14,
+          6,
+          0,
+          20,
+          23,
+          5,
+          28,
+          126
+        ],
+        "tomato_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "carrot_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "egg_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "melon_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          54,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "money_day": [
+          {
+            "day": 1,
+            "us": 64.0,
+            "opp": 138.0
+          },
+          {
+            "day": 2,
+            "us": 17.0,
+            "opp": 11.0
+          },
+          {
+            "day": 3,
+            "us": 22.0,
+            "opp": 354.0
+          },
+          {
+            "day": 4,
+            "us": 310.0,
+            "opp": 901.0
+          },
+          {
+            "day": 5,
+            "us": 84.0,
+            "opp": 566.0
+          },
+          {
+            "day": 6,
+            "us": 13.0,
+            "opp": 182.0
+          },
+          {
+            "day": 7,
+            "us": 24.0,
+            "opp": 1382.0
+          },
+          {
+            "day": 8,
+            "us": 20.0,
+            "opp": 423.0
+          },
+          {
+            "day": 9,
+            "us": 152.0,
+            "opp": 2163.0
+          },
+          {
+            "day": 10,
+            "us": 85.0,
+            "opp": 2198.0
+          },
+          {
+            "day": 11,
+            "us": 8059.0,
+            "opp": 12491.0
+          },
+          {
+            "day": 12,
+            "us": 8304.0,
+            "opp": 13723.0
+          },
+          {
+            "day": 13,
+            "us": 11289.0,
+            "opp": 16964.0
+          },
+          {
+            "day": 14,
+            "us": 11610.0,
+            "opp": 16671.0
+          },
+          {
+            "day": 15,
+            "us": 21422.0,
+            "opp": 18435.0
+          },
+          {
+            "day": 16,
+            "us": 23147.0,
+            "opp": 23049.0
+          },
+          {
+            "day": 17,
+            "us": 36222.0,
+            "opp": 29838.0
+          },
+          {
+            "day": 18,
+            "us": 43923.0,
+            "opp": 39312.0
+          },
+          {
+            "day": 19,
+            "us": 55967.0,
+            "opp": 43800.0
+          },
+          {
+            "day": 20,
+            "us": 61975.0,
+            "opp": 53469.0
+          },
+          {
+            "day": 21,
+            "us": 71061.0,
+            "opp": 61600.0
+          },
+          {
+            "day": 22,
+            "us": 81913.0,
+            "opp": 74737.0
+          },
+          {
+            "day": 23,
+            "us": 90176.0,
+            "opp": 86797.0
+          },
+          {
+            "day": 24,
+            "us": 100365.0,
+            "opp": 101738.0
+          },
+          {
+            "day": 25,
+            "us": 110144.0,
+            "opp": 111809.0
+          },
+          {
+            "day": 26,
+            "us": 120124.0,
+            "opp": 120125.0
+          },
+          {
+            "day": 27,
+            "us": 131453.0,
+            "opp": 131006.0
+          },
+          {
+            "day": 28,
+            "us": 137871.0,
+            "opp": 138606.0
+          },
+          {
+            "day": 29,
+            "us": 145841.0,
+            "opp": 151610.0
+          },
+          {
+            "day": 30,
+            "us": 154522.0,
+            "opp": 160542.0
+          }
+        ],
+        "market_order_counts": {
+          "HIRE:": 292,
+          "BUY_PRODUCT:WHEAT": 219,
+          "SELL:WHEAT": 83,
+          "SELL:MILK": 72,
+          "SELL:STRAWBERRY": 47,
+          "BUY_SEED:WHEAT": 43,
+          "SELL:FERTILIZER": 36,
+          "SELL:WOOL": 36,
+          "BUY_SEED:STRAWBERRY": 20,
+          "BUY_ANIMAL:COW": 13,
+          "SELL:MELON": 12,
+          "BUY_SEED:MELON": 4,
+          "BUY_ANIMAL:SHEEP": 3,
+          "BUY_LAND:": 2
+        },
+        "land_vs_opp": {
+          "us": [
+            122,
+            200
+          ],
+          "opp": [
+            121,
+            255
+          ]
+        }
+      },
+      {
+        "episode": 101126945,
+        "seed": 913832730,
+        "opp": "Ryo Hasegawa",
+        "seat": 1,
+        "margin": -4679.0,
+        "win": false,
+        "rewards": [
+          105860.0,
+          101181.0
+        ],
+        "Q": 3,
+        "hands": 12,
+        "board": {
+          "CARROT": 0,
+          "COOP": 0,
+          "COW": 4,
+          "GOOSE": 1,
+          "MELON": 0,
+          "PASTURE": 7,
+          "SHEEP": 6,
+          "STRAWBERRY": 0,
+          "TOMATO": 6,
+          "WEED": 6,
+          "WHEAT": 1
+        },
+        "opp_board": {
+          "CARROT": 0,
+          "COOP": 0,
+          "COW": 6,
+          "GOOSE": 0,
+          "MELON": 0,
+          "PASTURE": 0,
+          "SHEEP": 6,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WEED": 5,
+          "WHEAT": 2
+        },
+        "clone": {
+          "latched": false,
+          "max_near": 5,
+          "median_distance": 34
+        },
+        "sells": {
+          "WHEAT": 1713,
+          "CARROT": 0,
+          "TOMATO": 117,
+          "STRAWBERRY": 243,
+          "MELON": 98,
+          "EGG": 38,
+          "MILK": 125,
+          "WOOL": 208,
+          "FERTILIZER": 188
+        },
+        "opp_sells": {
+          "WHEAT": 328,
+          "CARROT": 0,
+          "TOMATO": 51,
+          "STRAWBERRY": 281,
+          "MELON": 66,
+          "EGG": 0,
+          "MILK": 171,
+          "WOOL": 149,
+          "FERTILIZER": 188
+        },
+        "buys": {
+          "WHEAT": 1705,
+          "FERTILIZER": 0
+        },
+        "buy_land_steps": [
+          122,
+          200
+        ],
+        "buy_land_n": 2,
+        "opp_buy_land_n": 2,
+        "hire_days": {
+          "1": 4,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4,
+          "7": 8,
+          "8": 7,
+          "9": 8,
+          "10": 10,
+          "11": 9,
+          "12": 12,
+          "13": 12,
+          "14": 12,
+          "15": 12,
+          "16": 12,
+          "17": 12,
+          "18": 12,
+          "19": 12,
+          "20": 12,
+          "21": 12,
+          "22": 12,
+          "23": 12,
+          "24": 12,
+          "25": 12,
+          "26": 12,
+          "27": 12,
+          "28": 12,
+          "29": 12,
+          "30": 12
+        },
+        "max_hires_one_day": 12,
+        "plants": {
+          "SEED:MELON": 18,
+          "SEED:WHEAT": 81,
+          "MELON": 18,
+          "WHEAT": 78,
+          "SEED:STRAWBERRY": 35,
+          "STRAWBERRY": 35,
+          "SEED:TOMATO": 18,
+          "TOMATO": 17
+        },
+        "animals_bought": {
+          "COW": 4,
+          "SHEEP": 13,
+          "GOOSE": 1
+        },
+        "builds": {
+          "BUILD_PASTURE": 17,
+          "DIG": 50,
+          "BUILD_COOP": 1
+        },
+        "shops_final": [
+          "FARMERS_MARKET",
+          "BRUNCH_SPOT",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "SMOOTHIE_SHOP"
+        ],
+        "shop_counts": {
+          "FARMERS_MARKET": 1,
+          "BRUNCH_SPOT": 2,
+          "YARN_STORE": 1,
+          "ICE_CREAM_SHOP": 1,
+          "PIZZA_SHOP": 1,
+          "BAKERY": 1,
+          "SMOOTHIE_SHOP": 1
+        },
+        "shop_names_seen": [
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "FARMERS_MARKET",
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "SMOOTHIE_SHOP",
+          "YARN_STORE"
+        ],
+        "shop_demand_per_tick": {
+          "WHEAT": 6,
+          "CARROT": 1,
+          "TOMATO": 2,
+          "STRAWBERRY": 5,
+          "EGG": 3,
+          "WOOL": 2,
+          "MILK": 3
+        },
+        "hashes": {
+          "n_logged": 720,
+          "h24": "52c5924ea5b91a10",
+          "h100": "75513aca912d3fc4",
+          "h400": "ddf29d21265ad90d",
+          "full": "16b83abd401eae82"
+        },
+        "wheat_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          32,
+          15,
+          3,
+          9,
+          9,
+          53,
+          221,
+          217,
+          238,
+          191,
+          171,
+          100,
+          161,
+          96,
+          28,
+          12,
+          0,
+          6,
+          0,
+          22,
+          0,
+          15,
+          16,
+          17,
+          81
+        ],
+        "tomato_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          61,
+          56
+        ],
+        "carrot_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "egg_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          2,
+          1,
+          4,
+          0,
+          2,
+          2,
+          4,
+          0,
+          4,
+          0,
+          4,
+          0,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "melon_by_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          6,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "money_day": [
+          {
+            "day": 1,
+            "us": 64.0,
+            "opp": 138.0
+          },
+          {
+            "day": 2,
+            "us": 17.0,
+            "opp": 11.0
+          },
+          {
+            "day": 3,
+            "us": 22.0,
+            "opp": 354.0
+          },
+          {
+            "day": 4,
+            "us": 310.0,
+            "opp": 901.0
+          },
+          {
+            "day": 5,
+            "us": 84.0,
+            "opp": 566.0
+          },
+          {
+            "day": 6,
+            "us": 13.0,
+            "opp": 182.0
+          },
+          {
+            "day": 7,
+            "us": 24.0,
+            "opp": 1382.0
+          },
+          {
+            "day": 8,
+            "us": 7.0,
+            "opp": 513.0
+          },
+          {
+            "day": 9,
+            "us": 134.0,
+            "opp": 1734.0
+          },
+          {
+            "day": 10,
+            "us": 20.0,
+            "opp": 2079.0
+          },
+          {
+            "day": 11,
+            "us": 4364.0,
+            "opp": 13176.0
+          },
+          {
+            "day": 12,
+            "us": 3743.0,
+            "opp": 13909.0
+          },
+          {
+            "day": 13,
+            "us": 7911.0,
+            "opp": 16125.0
+          },
+          {
+            "day": 14,
+            "us": 9965.0,
+            "opp": 15942.0
+          },
+          {
+            "day": 15,
+            "us": 12858.0,
+            "opp": 16209.0
+          },
+          {
+            "day": 16,
+            "us": 18031.0,
+            "opp": 23695.0
+          },
+          {
+            "day": 17,
+            "us": 27865.0,
+            "opp": 27331.0
+          },
+          {
+            "day": 18,
+            "us": 32395.0,
+            "opp": 33406.0
+          },
+          {
+            "day": 19,
+            "us": 41642.0,
+            "opp": 37518.0
+          },
+          {
+            "day": 20,
+            "us": 47378.0,
+            "opp": 45554.0
+          },
+          {
+            "day": 21,
+            "us": 54774.0,
+            "opp": 50706.0
+          },
+          {
+            "day": 22,
+            "us": 62550.0,
+            "opp": 60547.0
+          },
+          {
+            "day": 23,
+            "us": 69965.0,
+            "opp": 68361.0
+          },
+          {
+            "day": 24,
+            "us": 72887.0,
+            "opp": 74320.0
+          },
+          {
+            "day": 25,
+            "us": 76886.0,
+            "opp": 80327.0
+          },
+          {
+            "day": 26,
+            "us": 79803.0,
+            "opp": 83971.0
+          },
+          {
+            "day": 27,
+            "us": 82440.0,
+            "opp": 88890.0
+          },
+          {
+            "day": 28,
+            "us": 83924.0,
+            "opp": 93916.0
+          },
+          {
+            "day": 29,
+            "us": 92625.0,
+            "opp": 101403.0
+          },
+          {
+            "day": 30,
+            "us": 101181.0,
+            "opp": 105860.0
+          }
+        ],
+        "market_order_counts": {
+          "HIRE:": 294,
+          "BUY_PRODUCT:WHEAT": 200,
+          "SELL:WHEAT": 93,
+          "SELL:MILK": 73,
+          "SELL:STRAWBERRY": 59,
+          "SELL:WOOL": 48,
+          "BUY_SEED:WHEAT": 36,
+          "SELL:FERTILIZER": 34,
+          "SELL:EGG": 22,
+          "SELL:TOMATO": 22,
+          "BUY_SEED:STRAWBERRY": 14,
+          "SELL:MELON": 14,
+          "BUY_ANIMAL:SHEEP": 13,
+          "BUY_SEED:TOMATO": 8,
+          "BUY_ANIMAL:COW": 4,
+          "BUY_SEED:MELON": 4,
+          "BUY_LAND:": 2,
+          "BUY_ANIMAL:GOOSE": 1
+        },
+        "land_vs_opp": {
+          "us": [
+            122,
+            200
+          ],
+          "opp": [
+            121,
+            255
+          ]
+        }
+      }
+    ],
+    "shop_names_union": [
+      "BAKERY",
+      "BRUNCH_SPOT",
+      "FARMERS_MARKET",
+      "ICE_CREAM_SHOP",
+      "PET_CAFE",
+      "PIZZA_SHOP",
+      "SMOOTHIE_SHOP",
+      "YARN_STORE"
+    ]
+  },
+  "games": [
+    {
+      "episode": 101012942,
+      "seed": 1452983597,
+      "opp": "Ryo Hasegawa",
+      "seat": 0,
+      "margin": 13590.0,
+      "win": true,
+      "rewards": [
+        72311.0,
+        58721.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 2,
+        "COOP": 0,
+        "COW": 3,
+        "GOOSE": 5,
+        "MELON": 0,
+        "PASTURE": 6,
+        "SHEEP": 2,
+        "STRAWBERRY": 2,
+        "TOMATO": 0,
+        "WEED": 7,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 8,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 2,
+        "SHEEP": 2,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 13,
+        "WHEAT": 0
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 29
+      },
+      "sells": {
+        "WHEAT": 2695,
+        "CARROT": 89,
+        "TOMATO": 0,
+        "STRAWBERRY": 168,
+        "MELON": 105,
+        "EGG": 112,
+        "MILK": 176,
+        "WOOL": 107,
+        "FERTILIZER": 198
+      },
+      "opp_sells": {
+        "WHEAT": 405,
+        "CARROT": 65,
+        "TOMATO": 0,
+        "STRAWBERRY": 280,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 217,
+        "WOOL": 65,
+        "FERTILIZER": 160
+      },
+      "buys": {
+        "WHEAT": 2513,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 122,
+        "MELON": 19,
+        "WHEAT": 121,
+        "SEED:STRAWBERRY": 36,
+        "STRAWBERRY": 28,
+        "SEED:CARROT": 36,
+        "CARROT": 31
+      },
+      "animals_bought": {
+        "COW": 7,
+        "SHEEP": 4,
+        "GOOSE": 5
+      },
+      "builds": {
+        "BUILD_PASTURE": 11,
+        "BUILD_COOP": 5,
+        "DIG": 41
+      },
+      "shops_final": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "PET_CAFE"
+      ],
+      "shop_counts": {
+        "BAKERY": 2,
+        "SMOOTHIE_SHOP": 1,
+        "PET_CAFE": 2,
+        "BRUNCH_SPOT": 1,
+        "FARMERS_MARKET": 1,
+        "YARN_STORE": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "EGG": 3,
+        "WHEAT": 4,
+        "STRAWBERRY": 3,
+        "MILK": 1,
+        "CARROT": 5,
+        "TOMATO": 1,
+        "WOOL": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "3f2ac8c77786591f",
+        "full": "e89395425c72399c"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        1,
+        0,
+        7,
+        101,
+        117,
+        244,
+        226,
+        202,
+        197,
+        108,
+        229,
+        191,
+        197,
+        182,
+        92,
+        130,
+        174,
+        56,
+        13,
+        51,
+        63,
+        4,
+        63
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        89
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        1,
+        8,
+        6,
+        6,
+        10,
+        0,
+        8,
+        7,
+        10,
+        12,
+        5,
+        13,
+        16
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        6,
+        0,
+        0,
+        0,
+        5,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 21.0,
+          "opp": 507.0
+        },
+        {
+          "day": 9,
+          "us": 24.0,
+          "opp": 1612.0
+        },
+        {
+          "day": 10,
+          "us": 1266.0,
+          "opp": 2524.0
+        },
+        {
+          "day": 11,
+          "us": 10210.0,
+          "opp": 15857.0
+        },
+        {
+          "day": 12,
+          "us": 10280.0,
+          "opp": 16363.0
+        },
+        {
+          "day": 13,
+          "us": 11217.0,
+          "opp": 17328.0
+        },
+        {
+          "day": 14,
+          "us": 10793.0,
+          "opp": 17529.0
+        },
+        {
+          "day": 15,
+          "us": 17919.0,
+          "opp": 18881.0
+        },
+        {
+          "day": 16,
+          "us": 19867.0,
+          "opp": 21165.0
+        },
+        {
+          "day": 17,
+          "us": 30831.0,
+          "opp": 23450.0
+        },
+        {
+          "day": 18,
+          "us": 34260.0,
+          "opp": 27969.0
+        },
+        {
+          "day": 19,
+          "us": 38752.0,
+          "opp": 30195.0
+        },
+        {
+          "day": 20,
+          "us": 41377.0,
+          "opp": 34340.0
+        },
+        {
+          "day": 21,
+          "us": 44067.0,
+          "opp": 37968.0
+        },
+        {
+          "day": 22,
+          "us": 46212.0,
+          "opp": 40832.0
+        },
+        {
+          "day": 23,
+          "us": 49730.0,
+          "opp": 44629.0
+        },
+        {
+          "day": 24,
+          "us": 52186.0,
+          "opp": 45764.0
+        },
+        {
+          "day": 25,
+          "us": 52369.0,
+          "opp": 48796.0
+        },
+        {
+          "day": 26,
+          "us": 54251.0,
+          "opp": 48997.0
+        },
+        {
+          "day": 27,
+          "us": 58658.0,
+          "opp": 50052.0
+        },
+        {
+          "day": 28,
+          "us": 62156.0,
+          "opp": 53086.0
+        },
+        {
+          "day": 29,
+          "us": 62905.0,
+          "opp": 56428.0
+        },
+        {
+          "day": 30,
+          "us": 72311.0,
+          "opp": 58721.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 294,
+        "BUY_PRODUCT:WHEAT": 223,
+        "SELL:WHEAT": 119,
+        "SELL:WOOL": 44,
+        "SELL:MILK": 44,
+        "SELL:EGG": 44,
+        "BUY_SEED:WHEAT": 43,
+        "SELL:STRAWBERRY": 37,
+        "SELL:FERTILIZER": 34,
+        "SELL:CARROT": 22,
+        "BUY_SEED:CARROT": 18,
+        "SELL:MELON": 15,
+        "BUY_SEED:STRAWBERRY": 12,
+        "BUY_ANIMAL:COW": 7,
+        "BUY_ANIMAL:GOOSE": 5,
+        "BUY_ANIMAL:SHEEP": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          242
+        ]
+      }
+    },
+    {
+      "episode": 101012944,
+      "seed": 1173629735,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": -6020.0,
+      "win": false,
+      "rewards": [
+        160542.0,
+        154522.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 13,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 2,
+        "SHEEP": 1,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 1
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 14,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 2,
+        "SHEEP": 2,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 2,
+        "WHEAT": 1
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 20
+      },
+      "sells": {
+        "WHEAT": 1819,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 312,
+        "MELON": 90,
+        "EGG": 0,
+        "MILK": 309,
+        "WOOL": 78,
+        "FERTILIZER": 202
+      },
+      "opp_sells": {
+        "WHEAT": 247,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 328,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 317,
+        "WOOL": 65,
+        "FERTILIZER": 235
+      },
+      "buys": {
+        "WHEAT": 1782,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 6,
+        "9": 8,
+        "10": 9,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 87,
+        "MELON": 15,
+        "WHEAT": 80,
+        "SEED:STRAWBERRY": 47,
+        "STRAWBERRY": 47
+      },
+      "animals_bought": {
+        "COW": 13,
+        "SHEEP": 3
+      },
+      "builds": {
+        "BUILD_PASTURE": 16,
+        "DIG": 53
+      },
+      "shops_final": [
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "shop_counts": {
+        "ICE_CREAM_SHOP": 3,
+        "SMOOTHIE_SHOP": 2,
+        "BRUNCH_SPOT": 1,
+        "YARN_STORE": 1,
+        "BAKERY": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "STRAWBERRY": 6,
+        "MILK": 5,
+        "WHEAT": 5,
+        "EGG": 2,
+        "WOOL": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "4b5f90e54439956e",
+        "full": "7f0d4ba67c1a4695"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        9,
+        10,
+        72,
+        245,
+        236,
+        229,
+        220,
+        192,
+        107,
+        190,
+        18,
+        0,
+        5,
+        15,
+        14,
+        6,
+        0,
+        20,
+        23,
+        5,
+        28,
+        126
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 20.0,
+          "opp": 423.0
+        },
+        {
+          "day": 9,
+          "us": 152.0,
+          "opp": 2163.0
+        },
+        {
+          "day": 10,
+          "us": 85.0,
+          "opp": 2198.0
+        },
+        {
+          "day": 11,
+          "us": 8059.0,
+          "opp": 12491.0
+        },
+        {
+          "day": 12,
+          "us": 8304.0,
+          "opp": 13723.0
+        },
+        {
+          "day": 13,
+          "us": 11289.0,
+          "opp": 16964.0
+        },
+        {
+          "day": 14,
+          "us": 11610.0,
+          "opp": 16671.0
+        },
+        {
+          "day": 15,
+          "us": 21422.0,
+          "opp": 18435.0
+        },
+        {
+          "day": 16,
+          "us": 23147.0,
+          "opp": 23049.0
+        },
+        {
+          "day": 17,
+          "us": 36222.0,
+          "opp": 29838.0
+        },
+        {
+          "day": 18,
+          "us": 43923.0,
+          "opp": 39312.0
+        },
+        {
+          "day": 19,
+          "us": 55967.0,
+          "opp": 43800.0
+        },
+        {
+          "day": 20,
+          "us": 61975.0,
+          "opp": 53469.0
+        },
+        {
+          "day": 21,
+          "us": 71061.0,
+          "opp": 61600.0
+        },
+        {
+          "day": 22,
+          "us": 81913.0,
+          "opp": 74737.0
+        },
+        {
+          "day": 23,
+          "us": 90176.0,
+          "opp": 86797.0
+        },
+        {
+          "day": 24,
+          "us": 100365.0,
+          "opp": 101738.0
+        },
+        {
+          "day": 25,
+          "us": 110144.0,
+          "opp": 111809.0
+        },
+        {
+          "day": 26,
+          "us": 120124.0,
+          "opp": 120125.0
+        },
+        {
+          "day": 27,
+          "us": 131453.0,
+          "opp": 131006.0
+        },
+        {
+          "day": 28,
+          "us": 137871.0,
+          "opp": 138606.0
+        },
+        {
+          "day": 29,
+          "us": 145841.0,
+          "opp": 151610.0
+        },
+        {
+          "day": 30,
+          "us": 154522.0,
+          "opp": 160542.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 292,
+        "BUY_PRODUCT:WHEAT": 219,
+        "SELL:WHEAT": 83,
+        "SELL:MILK": 72,
+        "SELL:STRAWBERRY": 47,
+        "BUY_SEED:WHEAT": 43,
+        "SELL:FERTILIZER": 36,
+        "SELL:WOOL": 36,
+        "BUY_SEED:STRAWBERRY": 20,
+        "BUY_ANIMAL:COW": 13,
+        "SELL:MELON": 12,
+        "BUY_SEED:MELON": 4,
+        "BUY_ANIMAL:SHEEP": 3,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          255
+        ]
+      }
+    },
+    {
+      "episode": 101074451,
+      "seed": 376183266,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": 5775.0,
+      "win": true,
+      "rewards": [
+        68658.0,
+        74433.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 1,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 9,
+        "SHEEP": 1,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 10,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 2,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 12,
+        "WHEAT": 2
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 22
+      },
+      "sells": {
+        "WHEAT": 2149,
+        "CARROT": 117,
+        "TOMATO": 0,
+        "STRAWBERRY": 178,
+        "MELON": 100,
+        "EGG": 0,
+        "MILK": 198,
+        "WOOL": 78,
+        "FERTILIZER": 139
+      },
+      "opp_sells": {
+        "WHEAT": 451,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 287,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 245,
+        "WOOL": 65,
+        "FERTILIZER": 184
+      },
+      "buys": {
+        "WHEAT": 1793,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 138,
+        "MELON": 19,
+        "WHEAT": 138,
+        "SEED:STRAWBERRY": 30,
+        "STRAWBERRY": 30,
+        "SEED:CARROT": 37,
+        "CARROT": 36
+      },
+      "animals_bought": {
+        "COW": 7,
+        "SHEEP": 4
+      },
+      "builds": {
+        "BUILD_PASTURE": 11,
+        "DIG": 46
+      },
+      "shops_final": [
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "shop_counts": {
+        "BRUNCH_SPOT": 3,
+        "PIZZA_SHOP": 2,
+        "PET_CAFE": 1,
+        "ICE_CREAM_SHOP": 1,
+        "BAKERY": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shop_demand_per_tick": {
+        "EGG": 4,
+        "WHEAT": 7,
+        "STRAWBERRY": 4,
+        "MILK": 3,
+        "TOMATO": 2,
+        "CARROT": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "9106e1e0be38aff6",
+        "full": "b28866ba37fb87d6"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        1,
+        0,
+        0,
+        84,
+        89,
+        88,
+        16,
+        179,
+        178,
+        132,
+        69,
+        180,
+        118,
+        198,
+        72,
+        180,
+        113,
+        151,
+        35,
+        69,
+        38,
+        66,
+        46
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        117
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 19.0,
+          "opp": 512.0
+        },
+        {
+          "day": 9,
+          "us": 21.0,
+          "opp": 1607.0
+        },
+        {
+          "day": 10,
+          "us": 582.0,
+          "opp": 2507.0
+        },
+        {
+          "day": 11,
+          "us": 9013.0,
+          "opp": 15957.0
+        },
+        {
+          "day": 12,
+          "us": 9497.0,
+          "opp": 16474.0
+        },
+        {
+          "day": 13,
+          "us": 12345.0,
+          "opp": 17453.0
+        },
+        {
+          "day": 14,
+          "us": 12826.0,
+          "opp": 17651.0
+        },
+        {
+          "day": 15,
+          "us": 18948.0,
+          "opp": 19012.0
+        },
+        {
+          "day": 16,
+          "us": 22910.0,
+          "opp": 20507.0
+        },
+        {
+          "day": 17,
+          "us": 33601.0,
+          "opp": 23626.0
+        },
+        {
+          "day": 18,
+          "us": 36848.0,
+          "opp": 28655.0
+        },
+        {
+          "day": 19,
+          "us": 42423.0,
+          "opp": 31686.0
+        },
+        {
+          "day": 20,
+          "us": 45010.0,
+          "opp": 36888.0
+        },
+        {
+          "day": 21,
+          "us": 50301.0,
+          "opp": 41940.0
+        },
+        {
+          "day": 22,
+          "us": 53334.0,
+          "opp": 46364.0
+        },
+        {
+          "day": 23,
+          "us": 56355.0,
+          "opp": 50211.0
+        },
+        {
+          "day": 24,
+          "us": 58180.0,
+          "opp": 54964.0
+        },
+        {
+          "day": 25,
+          "us": 60175.0,
+          "opp": 57303.0
+        },
+        {
+          "day": 26,
+          "us": 61195.0,
+          "opp": 58142.0
+        },
+        {
+          "day": 27,
+          "us": 64096.0,
+          "opp": 60102.0
+        },
+        {
+          "day": 28,
+          "us": 65455.0,
+          "opp": 62198.0
+        },
+        {
+          "day": 29,
+          "us": 67329.0,
+          "opp": 65913.0
+        },
+        {
+          "day": 30,
+          "us": 74433.0,
+          "opp": 68658.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 294,
+        "BUY_PRODUCT:WHEAT": 211,
+        "SELL:WHEAT": 98,
+        "BUY_SEED:WHEAT": 63,
+        "SELL:MILK": 56,
+        "SELL:STRAWBERRY": 50,
+        "SELL:FERTILIZER": 28,
+        "SELL:CARROT": 23,
+        "BUY_SEED:CARROT": 22,
+        "SELL:WOOL": 21,
+        "SELL:MELON": 17,
+        "BUY_SEED:STRAWBERRY": 11,
+        "BUY_ANIMAL:COW": 7,
+        "BUY_ANIMAL:SHEEP": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          242
+        ]
+      }
+    },
+    {
+      "episode": 101074453,
+      "seed": 951014243,
+      "opp": "Ryo Hasegawa",
+      "seat": 0,
+      "margin": 24900.0,
+      "win": true,
+      "rewards": [
+        113684.0,
+        88784.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 3,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 10,
+        "SHEEP": 7,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 3,
+        "WHEAT": 1
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 12,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 10,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 5
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 17
+      },
+      "sells": {
+        "WHEAT": 1741,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 127,
+        "MELON": 101,
+        "EGG": 0,
+        "MILK": 227,
+        "WOOL": 236,
+        "FERTILIZER": 237
+      },
+      "opp_sells": {
+        "WHEAT": 341,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 185,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 298,
+        "WOOL": 180,
+        "FERTILIZER": 353
+      },
+      "buys": {
+        "WHEAT": 1414,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 6,
+        "9": 8,
+        "10": 9,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 167,
+        "MELON": 17,
+        "WHEAT": 160,
+        "SEED:STRAWBERRY": 23,
+        "STRAWBERRY": 22
+      },
+      "animals_bought": {
+        "COW": 9,
+        "SHEEP": 11
+      },
+      "builds": {
+        "BUILD_PASTURE": 20,
+        "DIG": 38
+      },
+      "shops_final": [
+        "PIZZA_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shop_counts": {
+        "PIZZA_SHOP": 1,
+        "ICE_CREAM_SHOP": 1,
+        "YARN_STORE": 2,
+        "BAKERY": 2,
+        "SMOOTHIE_SHOP": 1,
+        "PET_CAFE": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "MILK": 3,
+        "TOMATO": 1,
+        "WHEAT": 4,
+        "STRAWBERRY": 2,
+        "WOOL": 4,
+        "EGG": 2,
+        "CARROT": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "9c7ab8e990f1f540",
+        "full": "54e323dbe0ed279e"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        0,
+        9,
+        52,
+        219,
+        208,
+        213,
+        175,
+        16,
+        112,
+        164,
+        22,
+        0,
+        40,
+        23,
+        46,
+        28,
+        45,
+        17,
+        48,
+        51,
+        62,
+        142
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 20.0,
+          "opp": 423.0
+        },
+        {
+          "day": 9,
+          "us": 5.0,
+          "opp": 2164.0
+        },
+        {
+          "day": 10,
+          "us": 10.0,
+          "opp": 2509.0
+        },
+        {
+          "day": 11,
+          "us": 6747.0,
+          "opp": 13773.0
+        },
+        {
+          "day": 12,
+          "us": 6494.0,
+          "opp": 13903.0
+        },
+        {
+          "day": 13,
+          "us": 9850.0,
+          "opp": 17161.0
+        },
+        {
+          "day": 14,
+          "us": 10164.0,
+          "opp": 16826.0
+        },
+        {
+          "day": 15,
+          "us": 19498.0,
+          "opp": 17562.0
+        },
+        {
+          "day": 16,
+          "us": 24225.0,
+          "opp": 22223.0
+        },
+        {
+          "day": 17,
+          "us": 41014.0,
+          "opp": 29988.0
+        },
+        {
+          "day": 18,
+          "us": 47895.0,
+          "opp": 35329.0
+        },
+        {
+          "day": 19,
+          "us": 56523.0,
+          "opp": 41388.0
+        },
+        {
+          "day": 20,
+          "us": 60456.0,
+          "opp": 46843.0
+        },
+        {
+          "day": 21,
+          "us": 67353.0,
+          "opp": 50420.0
+        },
+        {
+          "day": 22,
+          "us": 71158.0,
+          "opp": 56514.0
+        },
+        {
+          "day": 23,
+          "us": 76754.0,
+          "opp": 56324.0
+        },
+        {
+          "day": 24,
+          "us": 80863.0,
+          "opp": 59833.0
+        },
+        {
+          "day": 25,
+          "us": 86313.0,
+          "opp": 64654.0
+        },
+        {
+          "day": 26,
+          "us": 89047.0,
+          "opp": 68099.0
+        },
+        {
+          "day": 27,
+          "us": 94501.0,
+          "opp": 70941.0
+        },
+        {
+          "day": 28,
+          "us": 99889.0,
+          "opp": 77242.0
+        },
+        {
+          "day": 29,
+          "us": 104943.0,
+          "opp": 81931.0
+        },
+        {
+          "day": 30,
+          "us": 113684.0,
+          "opp": 88784.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 292,
+        "BUY_PRODUCT:WHEAT": 191,
+        "SELL:WHEAT": 78,
+        "BUY_SEED:WHEAT": 75,
+        "SELL:MILK": 58,
+        "SELL:WOOL": 56,
+        "SELL:STRAWBERRY": 44,
+        "SELL:FERTILIZER": 34,
+        "BUY_SEED:STRAWBERRY": 13,
+        "SELL:MELON": 13,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_ANIMAL:COW": 9,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          255
+        ]
+      }
+    },
+    {
+      "episode": 101126945,
+      "seed": 913832730,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": -4679.0,
+      "win": false,
+      "rewards": [
+        105860.0,
+        101181.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 4,
+        "GOOSE": 1,
+        "MELON": 0,
+        "PASTURE": 7,
+        "SHEEP": 6,
+        "STRAWBERRY": 0,
+        "TOMATO": 6,
+        "WEED": 6,
+        "WHEAT": 1
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 6,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 6,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 5,
+        "WHEAT": 2
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 34
+      },
+      "sells": {
+        "WHEAT": 1713,
+        "CARROT": 0,
+        "TOMATO": 117,
+        "STRAWBERRY": 243,
+        "MELON": 98,
+        "EGG": 38,
+        "MILK": 125,
+        "WOOL": 208,
+        "FERTILIZER": 188
+      },
+      "opp_sells": {
+        "WHEAT": 328,
+        "CARROT": 0,
+        "TOMATO": 51,
+        "STRAWBERRY": 281,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 171,
+        "WOOL": 149,
+        "FERTILIZER": 188
+      },
+      "buys": {
+        "WHEAT": 1705,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 10,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 18,
+        "SEED:WHEAT": 81,
+        "MELON": 18,
+        "WHEAT": 78,
+        "SEED:STRAWBERRY": 35,
+        "STRAWBERRY": 35,
+        "SEED:TOMATO": 18,
+        "TOMATO": 17
+      },
+      "animals_bought": {
+        "COW": 4,
+        "SHEEP": 13,
+        "GOOSE": 1
+      },
+      "builds": {
+        "BUILD_PASTURE": 17,
+        "DIG": 50,
+        "BUILD_COOP": 1
+      },
+      "shops_final": [
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "SMOOTHIE_SHOP"
+      ],
+      "shop_counts": {
+        "FARMERS_MARKET": 1,
+        "BRUNCH_SPOT": 2,
+        "YARN_STORE": 1,
+        "ICE_CREAM_SHOP": 1,
+        "PIZZA_SHOP": 1,
+        "BAKERY": 1,
+        "SMOOTHIE_SHOP": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "WHEAT": 6,
+        "CARROT": 1,
+        "TOMATO": 2,
+        "STRAWBERRY": 5,
+        "EGG": 3,
+        "WOOL": 2,
+        "MILK": 3
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "ddf29d21265ad90d",
+        "full": "16b83abd401eae82"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        3,
+        9,
+        9,
+        53,
+        221,
+        217,
+        238,
+        191,
+        171,
+        100,
+        161,
+        96,
+        28,
+        12,
+        0,
+        6,
+        0,
+        22,
+        0,
+        15,
+        16,
+        17,
+        81
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        61,
+        56
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        1,
+        4,
+        0,
+        2,
+        2,
+        4,
+        0,
+        4,
+        0,
+        4,
+        0,
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        6,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 7.0,
+          "opp": 513.0
+        },
+        {
+          "day": 9,
+          "us": 134.0,
+          "opp": 1734.0
+        },
+        {
+          "day": 10,
+          "us": 20.0,
+          "opp": 2079.0
+        },
+        {
+          "day": 11,
+          "us": 4364.0,
+          "opp": 13176.0
+        },
+        {
+          "day": 12,
+          "us": 3743.0,
+          "opp": 13909.0
+        },
+        {
+          "day": 13,
+          "us": 7911.0,
+          "opp": 16125.0
+        },
+        {
+          "day": 14,
+          "us": 9965.0,
+          "opp": 15942.0
+        },
+        {
+          "day": 15,
+          "us": 12858.0,
+          "opp": 16209.0
+        },
+        {
+          "day": 16,
+          "us": 18031.0,
+          "opp": 23695.0
+        },
+        {
+          "day": 17,
+          "us": 27865.0,
+          "opp": 27331.0
+        },
+        {
+          "day": 18,
+          "us": 32395.0,
+          "opp": 33406.0
+        },
+        {
+          "day": 19,
+          "us": 41642.0,
+          "opp": 37518.0
+        },
+        {
+          "day": 20,
+          "us": 47378.0,
+          "opp": 45554.0
+        },
+        {
+          "day": 21,
+          "us": 54774.0,
+          "opp": 50706.0
+        },
+        {
+          "day": 22,
+          "us": 62550.0,
+          "opp": 60547.0
+        },
+        {
+          "day": 23,
+          "us": 69965.0,
+          "opp": 68361.0
+        },
+        {
+          "day": 24,
+          "us": 72887.0,
+          "opp": 74320.0
+        },
+        {
+          "day": 25,
+          "us": 76886.0,
+          "opp": 80327.0
+        },
+        {
+          "day": 26,
+          "us": 79803.0,
+          "opp": 83971.0
+        },
+        {
+          "day": 27,
+          "us": 82440.0,
+          "opp": 88890.0
+        },
+        {
+          "day": 28,
+          "us": 83924.0,
+          "opp": 93916.0
+        },
+        {
+          "day": 29,
+          "us": 92625.0,
+          "opp": 101403.0
+        },
+        {
+          "day": 30,
+          "us": 101181.0,
+          "opp": 105860.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 294,
+        "BUY_PRODUCT:WHEAT": 200,
+        "SELL:WHEAT": 93,
+        "SELL:MILK": 73,
+        "SELL:STRAWBERRY": 59,
+        "SELL:WOOL": 48,
+        "BUY_SEED:WHEAT": 36,
+        "SELL:FERTILIZER": 34,
+        "SELL:EGG": 22,
+        "SELL:TOMATO": 22,
+        "BUY_SEED:STRAWBERRY": 14,
+        "SELL:MELON": 14,
+        "BUY_ANIMAL:SHEEP": 13,
+        "BUY_SEED:TOMATO": 8,
+        "BUY_ANIMAL:COW": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2,
+        "BUY_ANIMAL:GOOSE": 1
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          255
+        ]
+      }
+    },
+    {
+      "episode": 101126947,
+      "seed": 863603217,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": 13901.0,
+      "win": true,
+      "rewards": [
+        102572.0,
+        116473.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 3,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 12,
+        "SHEEP": 5,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 6,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 10,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 2
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 35
+      },
+      "sells": {
+        "WHEAT": 2229,
+        "CARROT": 60,
+        "TOMATO": 0,
+        "STRAWBERRY": 148,
+        "MELON": 101,
+        "EGG": 0,
+        "MILK": 104,
+        "WOOL": 355,
+        "FERTILIZER": 269
+      },
+      "opp_sells": {
+        "WHEAT": 363,
+        "CARROT": 66,
+        "TOMATO": 0,
+        "STRAWBERRY": 186,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 169,
+        "WOOL": 233,
+        "FERTILIZER": 291
+      },
+      "buys": {
+        "WHEAT": 2241,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        225
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 8,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 18,
+        "SEED:WHEAT": 106,
+        "MELON": 18,
+        "WHEAT": 91,
+        "SEED:STRAWBERRY": 24,
+        "STRAWBERRY": 24,
+        "SEED:CARROT": 27,
+        "CARROT": 27
+      },
+      "animals_bought": {
+        "COW": 3,
+        "SHEEP": 17
+      },
+      "builds": {
+        "BUILD_PASTURE": 20,
+        "DIG": 46
+      },
+      "shops_final": [
+        "YARN_STORE",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ],
+      "shop_counts": {
+        "YARN_STORE": 3,
+        "SMOOTHIE_SHOP": 1,
+        "PET_CAFE": 2,
+        "ICE_CREAM_SHOP": 1,
+        "BRUNCH_SPOT": 1
+      },
+      "shop_names_seen": [
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "WOOL": 6,
+        "STRAWBERRY": 3,
+        "MILK": 2,
+        "CARROT": 4,
+        "WHEAT": 2,
+        "EGG": 1
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "7fc7e0b1923b610d",
+        "full": "0db6813fea9d0377"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        3,
+        0,
+        7,
+        28,
+        220,
+        228,
+        208,
+        182,
+        197,
+        76,
+        194,
+        127,
+        140,
+        45,
+        92,
+        44,
+        108,
+        158,
+        28,
+        3,
+        0,
+        0,
+        94
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        6,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 312.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 91.0,
+          "opp": 394.0
+        },
+        {
+          "day": 6,
+          "us": 90.0,
+          "opp": 809.0
+        },
+        {
+          "day": 7,
+          "us": 21.0,
+          "opp": 462.0
+        },
+        {
+          "day": 8,
+          "us": 14.0,
+          "opp": 688.0
+        },
+        {
+          "day": 9,
+          "us": 686.0,
+          "opp": 1610.0
+        },
+        {
+          "day": 10,
+          "us": 128.0,
+          "opp": 2703.0
+        },
+        {
+          "day": 11,
+          "us": 4702.0,
+          "opp": 12763.0
+        },
+        {
+          "day": 12,
+          "us": 4604.0,
+          "opp": 14619.0
+        },
+        {
+          "day": 13,
+          "us": 11683.0,
+          "opp": 17578.0
+        },
+        {
+          "day": 14,
+          "us": 13416.0,
+          "opp": 18169.0
+        },
+        {
+          "day": 15,
+          "us": 14898.0,
+          "opp": 20209.0
+        },
+        {
+          "day": 16,
+          "us": 23016.0,
+          "opp": 22935.0
+        },
+        {
+          "day": 17,
+          "us": 34428.0,
+          "opp": 28954.0
+        },
+        {
+          "day": 18,
+          "us": 40728.0,
+          "opp": 39453.0
+        },
+        {
+          "day": 19,
+          "us": 51871.0,
+          "opp": 46334.0
+        },
+        {
+          "day": 20,
+          "us": 54935.0,
+          "opp": 50572.0
+        },
+        {
+          "day": 21,
+          "us": 59004.0,
+          "opp": 57223.0
+        },
+        {
+          "day": 22,
+          "us": 68960.0,
+          "opp": 61684.0
+        },
+        {
+          "day": 23,
+          "us": 70753.0,
+          "opp": 65000.0
+        },
+        {
+          "day": 24,
+          "us": 75319.0,
+          "opp": 70766.0
+        },
+        {
+          "day": 25,
+          "us": 89117.0,
+          "opp": 74037.0
+        },
+        {
+          "day": 26,
+          "us": 90986.0,
+          "opp": 77838.0
+        },
+        {
+          "day": 27,
+          "us": 94211.0,
+          "opp": 83863.0
+        },
+        {
+          "day": 28,
+          "us": 105347.0,
+          "opp": 88258.0
+        },
+        {
+          "day": 29,
+          "us": 108055.0,
+          "opp": 95991.0
+        },
+        {
+          "day": 30,
+          "us": 116473.0,
+          "opp": 102572.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 292,
+        "BUY_PRODUCT:WHEAT": 214,
+        "SELL:WHEAT": 111,
+        "SELL:WOOL": 72,
+        "SELL:MILK": 45,
+        "SELL:STRAWBERRY": 42,
+        "SELL:FERTILIZER": 33,
+        "BUY_SEED:WHEAT": 25,
+        "SELL:CARROT": 22,
+        "BUY_ANIMAL:SHEEP": 17,
+        "SELL:MELON": 17,
+        "BUY_SEED:STRAWBERRY": 10,
+        "BUY_SEED:CARROT": 9,
+        "BUY_SEED:MELON": 4,
+        "BUY_ANIMAL:COW": 3,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          225
+        ],
+        "opp": [
+          154,
+          256
+        ]
+      }
+    },
+    {
+      "episode": 101172434,
+      "seed": 1677476115,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": 1415.0,
+      "win": true,
+      "rewards": [
+        67178.0,
+        68593.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 2,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 7,
+        "SHEEP": 2,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 8,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 2,
+        "STRAWBERRY": 3,
+        "TOMATO": 0,
+        "WEED": 1,
+        "WHEAT": 3
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 34
+      },
+      "sells": {
+        "WHEAT": 2103,
+        "CARROT": 150,
+        "TOMATO": 90,
+        "STRAWBERRY": 175,
+        "MELON": 109,
+        "EGG": 0,
+        "MILK": 183,
+        "WOOL": 92,
+        "FERTILIZER": 162
+      },
+      "opp_sells": {
+        "WHEAT": 274,
+        "CARROT": 214,
+        "TOMATO": 90,
+        "STRAWBERRY": 213,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 217,
+        "WOOL": 64,
+        "FERTILIZER": 164
+      },
+      "buys": {
+        "WHEAT": 2028,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 20,
+        "SEED:WHEAT": 83,
+        "MELON": 20,
+        "WHEAT": 83,
+        "SEED:STRAWBERRY": 33,
+        "STRAWBERRY": 33,
+        "SEED:TOMATO": 12,
+        "TOMATO": 12,
+        "SEED:CARROT": 56,
+        "CARROT": 46
+      },
+      "animals_bought": {
+        "COW": 7,
+        "SHEEP": 4
+      },
+      "builds": {
+        "BUILD_PASTURE": 11,
+        "DIG": 62
+      },
+      "shops_final": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "shop_counts": {
+        "PET_CAFE": 2,
+        "PIZZA_SHOP": 2,
+        "FARMERS_MARKET": 2,
+        "BRUNCH_SPOT": 1,
+        "BAKERY": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shop_demand_per_tick": {
+        "CARROT": 6,
+        "MILK": 2,
+        "TOMATO": 4,
+        "WHEAT": 6,
+        "STRAWBERRY": 3,
+        "EGG": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "e2d24ddcf8d95a53",
+        "full": "44130e20626e4a45"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        0,
+        8,
+        91,
+        94,
+        102,
+        33,
+        166,
+        167,
+        136,
+        140,
+        210,
+        47,
+        209,
+        179,
+        155,
+        80,
+        204,
+        22,
+        0,
+        0,
+        0,
+        11
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        42
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        110
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        9,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 312.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 91.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 90.0,
+          "opp": 169.0
+        },
+        {
+          "day": 7,
+          "us": 27.0,
+          "opp": 1379.0
+        },
+        {
+          "day": 8,
+          "us": 21.0,
+          "opp": 491.0
+        },
+        {
+          "day": 9,
+          "us": 24.0,
+          "opp": 1610.0
+        },
+        {
+          "day": 10,
+          "us": 712.0,
+          "opp": 2482.0
+        },
+        {
+          "day": 11,
+          "us": 9791.0,
+          "opp": 14120.0
+        },
+        {
+          "day": 12,
+          "us": 9655.0,
+          "opp": 16039.0
+        },
+        {
+          "day": 13,
+          "us": 12487.0,
+          "opp": 18426.0
+        },
+        {
+          "day": 14,
+          "us": 12994.0,
+          "opp": 17770.0
+        },
+        {
+          "day": 15,
+          "us": 18766.0,
+          "opp": 18269.0
+        },
+        {
+          "day": 16,
+          "us": 22981.0,
+          "opp": 20882.0
+        },
+        {
+          "day": 17,
+          "us": 33228.0,
+          "opp": 26365.0
+        },
+        {
+          "day": 18,
+          "us": 34243.0,
+          "opp": 27928.0
+        },
+        {
+          "day": 19,
+          "us": 38401.0,
+          "opp": 29588.0
+        },
+        {
+          "day": 20,
+          "us": 40614.0,
+          "opp": 33887.0
+        },
+        {
+          "day": 21,
+          "us": 42919.0,
+          "opp": 38681.0
+        },
+        {
+          "day": 22,
+          "us": 45860.0,
+          "opp": 42368.0
+        },
+        {
+          "day": 23,
+          "us": 46066.0,
+          "opp": 44647.0
+        },
+        {
+          "day": 24,
+          "us": 46824.0,
+          "opp": 46473.0
+        },
+        {
+          "day": 25,
+          "us": 48698.0,
+          "opp": 48045.0
+        },
+        {
+          "day": 26,
+          "us": 49091.0,
+          "opp": 50359.0
+        },
+        {
+          "day": 27,
+          "us": 48451.0,
+          "opp": 52974.0
+        },
+        {
+          "day": 28,
+          "us": 51070.0,
+          "opp": 57702.0
+        },
+        {
+          "day": 29,
+          "us": 56440.0,
+          "opp": 61802.0
+        },
+        {
+          "day": 30,
+          "us": 68593.0,
+          "opp": 67178.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 295,
+        "BUY_PRODUCT:WHEAT": 236,
+        "SELL:WHEAT": 97,
+        "SELL:MILK": 50,
+        "BUY_SEED:CARROT": 35,
+        "SELL:STRAWBERRY": 32,
+        "BUY_SEED:WHEAT": 31,
+        "SELL:FERTILIZER": 30,
+        "SELL:WOOL": 25,
+        "SELL:CARROT": 24,
+        "SELL:TOMATO": 22,
+        "SELL:MELON": 21,
+        "BUY_SEED:STRAWBERRY": 13,
+        "BUY_ANIMAL:COW": 7,
+        "BUY_ANIMAL:SHEEP": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2,
+        "BUY_SEED:TOMATO": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          242
+        ]
+      }
+    },
+    {
+      "episode": 101172437,
+      "seed": 232815828,
+      "opp": "Ryo Hasegawa",
+      "seat": 0,
+      "margin": 7696.0,
+      "win": true,
+      "rewards": [
+        126648.0,
+        118952.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 2,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 12,
+        "SHEEP": 6,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 3,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 12,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 1,
+        "SHEEP": 7,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 1
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 32
+      },
+      "sells": {
+        "WHEAT": 1770,
+        "CARROT": 27,
+        "TOMATO": 0,
+        "STRAWBERRY": 269,
+        "MELON": 96,
+        "EGG": 0,
+        "MILK": 206,
+        "WOOL": 181,
+        "FERTILIZER": 232
+      },
+      "opp_sells": {
+        "WHEAT": 276,
+        "CARROT": 77,
+        "TOMATO": 0,
+        "STRAWBERRY": 236,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 301,
+        "WOOL": 145,
+        "FERTILIZER": 312
+      },
+      "buys": {
+        "WHEAT": 1782,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 9,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 20,
+        "SEED:WHEAT": 80,
+        "MELON": 16,
+        "WHEAT": 80,
+        "SEED:STRAWBERRY": 39,
+        "STRAWBERRY": 39,
+        "SEED:CARROT": 12,
+        "CARROT": 10
+      },
+      "animals_bought": {
+        "COW": 9,
+        "SHEEP": 11
+      },
+      "builds": {
+        "BUILD_PASTURE": 20,
+        "DIG": 50
+      },
+      "shops_final": [
+        "SMOOTHIE_SHOP",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shop_counts": {
+        "SMOOTHIE_SHOP": 1,
+        "ICE_CREAM_SHOP": 2,
+        "YARN_STORE": 2,
+        "FARMERS_MARKET": 2,
+        "PET_CAFE": 1
+      },
+      "shop_names_seen": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "STRAWBERRY": 5,
+        "MILK": 3,
+        "WHEAT": 4,
+        "WOOL": 4,
+        "CARROT": 4,
+        "TOMATO": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "34703d5c56018a16",
+        "full": "75d8eaac8569f775"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        7,
+        2,
+        21,
+        225,
+        185,
+        226,
+        181,
+        172,
+        124,
+        190,
+        169,
+        0,
+        12,
+        9,
+        10,
+        5,
+        3,
+        5,
+        14,
+        40,
+        22,
+        99
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 312.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 91.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 90.0,
+          "opp": 169.0
+        },
+        {
+          "day": 7,
+          "us": 27.0,
+          "opp": 1379.0
+        },
+        {
+          "day": 8,
+          "us": 21.0,
+          "opp": 402.0
+        },
+        {
+          "day": 9,
+          "us": 23.0,
+          "opp": 2165.0
+        },
+        {
+          "day": 10,
+          "us": 19.0,
+          "opp": 2528.0
+        },
+        {
+          "day": 11,
+          "us": 4939.0,
+          "opp": 13234.0
+        },
+        {
+          "day": 12,
+          "us": 4900.0,
+          "opp": 13030.0
+        },
+        {
+          "day": 13,
+          "us": 6336.0,
+          "opp": 16248.0
+        },
+        {
+          "day": 14,
+          "us": 8542.0,
+          "opp": 16206.0
+        },
+        {
+          "day": 15,
+          "us": 14598.0,
+          "opp": 18142.0
+        },
+        {
+          "day": 16,
+          "us": 22645.0,
+          "opp": 23381.0
+        },
+        {
+          "day": 17,
+          "us": 36253.0,
+          "opp": 30329.0
+        },
+        {
+          "day": 18,
+          "us": 40422.0,
+          "opp": 39548.0
+        },
+        {
+          "day": 19,
+          "us": 50820.0,
+          "opp": 45350.0
+        },
+        {
+          "day": 20,
+          "us": 54767.0,
+          "opp": 55597.0
+        },
+        {
+          "day": 21,
+          "us": 60687.0,
+          "opp": 60349.0
+        },
+        {
+          "day": 22,
+          "us": 70061.0,
+          "opp": 70370.0
+        },
+        {
+          "day": 23,
+          "us": 78133.0,
+          "opp": 78227.0
+        },
+        {
+          "day": 24,
+          "us": 86170.0,
+          "opp": 84489.0
+        },
+        {
+          "day": 25,
+          "us": 95028.0,
+          "opp": 91778.0
+        },
+        {
+          "day": 26,
+          "us": 98471.0,
+          "opp": 97099.0
+        },
+        {
+          "day": 27,
+          "us": 105429.0,
+          "opp": 100076.0
+        },
+        {
+          "day": 28,
+          "us": 112828.0,
+          "opp": 105544.0
+        },
+        {
+          "day": 29,
+          "us": 116832.0,
+          "opp": 114626.0
+        },
+        {
+          "day": 30,
+          "us": 126648.0,
+          "opp": 118952.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 294,
+        "BUY_PRODUCT:WHEAT": 199,
+        "SELL:WHEAT": 97,
+        "SELL:MILK": 50,
+        "SELL:WOOL": 48,
+        "SELL:STRAWBERRY": 46,
+        "BUY_SEED:WHEAT": 39,
+        "SELL:FERTILIZER": 32,
+        "SELL:CARROT": 17,
+        "BUY_SEED:STRAWBERRY": 16,
+        "SELL:MELON": 14,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_ANIMAL:COW": 9,
+        "BUY_SEED:CARROT": 8,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          255
+        ]
+      }
+    },
+    {
+      "episode": 101208958,
+      "seed": 1450511425,
+      "opp": "Subramanya N",
+      "seat": 1,
+      "margin": 6461.0,
+      "win": true,
+      "rewards": [
+        120809.0,
+        127270.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 3,
+        "COOP": 0,
+        "COW": 7,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 5,
+        "SHEEP": 8,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 3,
+        "WHEAT": 5
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 14,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 1,
+        "SHEEP": 12,
+        "STRAWBERRY": 9,
+        "TOMATO": 0,
+        "WEED": 12,
+        "WHEAT": 8
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 3,
+        "median_distance": 32
+      },
+      "sells": {
+        "WHEAT": 1534,
+        "CARROT": 4,
+        "TOMATO": 0,
+        "STRAWBERRY": 158,
+        "MELON": 101,
+        "EGG": 0,
+        "MILK": 158,
+        "WOOL": 303,
+        "FERTILIZER": 219
+      },
+      "opp_sells": {
+        "WHEAT": 163,
+        "CARROT": 21,
+        "TOMATO": 0,
+        "STRAWBERRY": 176,
+        "MELON": 57,
+        "EGG": 0,
+        "MILK": 291,
+        "WOOL": 259,
+        "FERTILIZER": 352
+      },
+      "buys": {
+        "WHEAT": 1295,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 8,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 151,
+        "MELON": 19,
+        "WHEAT": 150,
+        "SEED:STRAWBERRY": 24,
+        "STRAWBERRY": 24,
+        "SEED:CARROT": 9,
+        "CARROT": 5
+      },
+      "animals_bought": {
+        "COW": 7,
+        "SHEEP": 13
+      },
+      "builds": {
+        "BUILD_PASTURE": 20,
+        "DIG": 40
+      },
+      "shops_final": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "shop_counts": {
+        "YARN_STORE": 2,
+        "ICE_CREAM_SHOP": 4,
+        "PIZZA_SHOP": 1,
+        "PET_CAFE": 1
+      },
+      "shop_names_seen": [
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "WOOL": 4,
+        "STRAWBERRY": 4,
+        "MILK": 5,
+        "WHEAT": 5,
+        "TOMATO": 1,
+        "CARROT": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "5ca998b245d9ddc9",
+        "full": "e881f4ab3b8f7796"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        1,
+        0,
+        0,
+        38,
+        228,
+        143,
+        229,
+        218,
+        94,
+        61,
+        6,
+        32,
+        5,
+        15,
+        7,
+        53,
+        35,
+        31,
+        12,
+        64,
+        65,
+        29,
+        121
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        59,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 63.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 61.0
+        },
+        {
+          "day": 3,
+          "us": 21.0,
+          "opp": 110.0
+        },
+        {
+          "day": 4,
+          "us": 308.0,
+          "opp": 64.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 308.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 392.0
+        },
+        {
+          "day": 7,
+          "us": 44.0,
+          "opp": 56.0
+        },
+        {
+          "day": 8,
+          "us": 4.0,
+          "opp": 205.0
+        },
+        {
+          "day": 9,
+          "us": 27.0,
+          "opp": 811.0
+        },
+        {
+          "day": 10,
+          "us": 22.0,
+          "opp": 1118.0
+        },
+        {
+          "day": 11,
+          "us": 5490.0,
+          "opp": 3844.0
+        },
+        {
+          "day": 12,
+          "us": 5429.0,
+          "opp": 9541.0
+        },
+        {
+          "day": 13,
+          "us": 12241.0,
+          "opp": 9756.0
+        },
+        {
+          "day": 14,
+          "us": 15091.0,
+          "opp": 14618.0
+        },
+        {
+          "day": 15,
+          "us": 19689.0,
+          "opp": 19473.0
+        },
+        {
+          "day": 16,
+          "us": 25106.0,
+          "opp": 23647.0
+        },
+        {
+          "day": 17,
+          "us": 39153.0,
+          "opp": 29542.0
+        },
+        {
+          "day": 18,
+          "us": 48514.0,
+          "opp": 36438.0
+        },
+        {
+          "day": 19,
+          "us": 56687.0,
+          "opp": 49453.0
+        },
+        {
+          "day": 20,
+          "us": 61091.0,
+          "opp": 52118.0
+        },
+        {
+          "day": 21,
+          "us": 70010.0,
+          "opp": 59211.0
+        },
+        {
+          "day": 22,
+          "us": 74186.0,
+          "opp": 63364.0
+        },
+        {
+          "day": 23,
+          "us": 78742.0,
+          "opp": 68464.0
+        },
+        {
+          "day": 24,
+          "us": 85972.0,
+          "opp": 72044.0
+        },
+        {
+          "day": 25,
+          "us": 91466.0,
+          "opp": 82321.0
+        },
+        {
+          "day": 26,
+          "us": 96077.0,
+          "opp": 86823.0
+        },
+        {
+          "day": 27,
+          "us": 104497.0,
+          "opp": 95127.0
+        },
+        {
+          "day": 28,
+          "us": 111877.0,
+          "opp": 100513.0
+        },
+        {
+          "day": 29,
+          "us": 117283.0,
+          "opp": 113912.0
+        },
+        {
+          "day": 30,
+          "us": 127270.0,
+          "opp": 120809.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 292,
+        "BUY_PRODUCT:WHEAT": 191,
+        "BUY_SEED:WHEAT": 74,
+        "SELL:WHEAT": 73,
+        "SELL:WOOL": 64,
+        "SELL:MILK": 45,
+        "SELL:FERTILIZER": 37,
+        "SELL:STRAWBERRY": 27,
+        "SELL:MELON": 24,
+        "BUY_ANIMAL:SHEEP": 13,
+        "BUY_SEED:STRAWBERRY": 11,
+        "BUY_ANIMAL:COW": 7,
+        "BUY_SEED:MELON": 5,
+        "BUY_SEED:CARROT": 4,
+        "BUY_LAND:": 2,
+        "SELL:CARROT": 1
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          151,
+          258
+        ]
+      }
+    },
+    {
+      "episode": 101208960,
+      "seed": 8329589,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": 8549.0,
+      "win": true,
+      "rewards": [
+        98749.0,
+        107298.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 3,
+        "GOOSE": 1,
+        "MELON": 0,
+        "PASTURE": 5,
+        "SHEEP": 0,
+        "STRAWBERRY": 2,
+        "TOMATO": 1,
+        "WEED": 0,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 8,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 2,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 6,
+        "WHEAT": 0
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 26
+      },
+      "sells": {
+        "WHEAT": 711,
+        "CARROT": 19,
+        "TOMATO": 81,
+        "STRAWBERRY": 262,
+        "MELON": 94,
+        "EGG": 32,
+        "MILK": 110,
+        "WOOL": 81,
+        "FERTILIZER": 119
+      },
+      "opp_sells": {
+        "WHEAT": 279,
+        "CARROT": 18,
+        "TOMATO": 95,
+        "STRAWBERRY": 273,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 217,
+        "WOOL": 66,
+        "FERTILIZER": 147
+      },
+      "buys": {
+        "WHEAT": 542,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 18,
+        "SEED:WHEAT": 100,
+        "MELON": 16,
+        "WHEAT": 100,
+        "SEED:STRAWBERRY": 42,
+        "STRAWBERRY": 42,
+        "SEED:TOMATO": 11,
+        "TOMATO": 11,
+        "SEED:CARROT": 12,
+        "CARROT": 8
+      },
+      "animals_bought": {
+        "COW": 4,
+        "SHEEP": 4,
+        "GOOSE": 1
+      },
+      "builds": {
+        "BUILD_PASTURE": 8,
+        "BUILD_COOP": 1,
+        "DIG": 65
+      },
+      "shops_final": [
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shop_counts": {
+        "BRUNCH_SPOT": 2,
+        "FARMERS_MARKET": 4,
+        "PIZZA_SHOP": 2
+      },
+      "shop_names_seen": [
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP"
+      ],
+      "shop_demand_per_tick": {
+        "EGG": 2,
+        "WHEAT": 8,
+        "STRAWBERRY": 6,
+        "CARROT": 4,
+        "TOMATO": 6,
+        "MILK": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "ff19243e1129e599",
+        "full": "516e48bc0438fd07"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        0,
+        6,
+        53,
+        6,
+        58,
+        9,
+        28,
+        33,
+        102,
+        24,
+        129,
+        24,
+        19,
+        6,
+        1,
+        0,
+        14,
+        14,
+        14,
+        13,
+        23,
+        86
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        60
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        4,
+        2,
+        0,
+        1,
+        1,
+        4,
+        0,
+        2,
+        2,
+        2,
+        4
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        54,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 18.0,
+          "opp": 512.0
+        },
+        {
+          "day": 9,
+          "us": 9.0,
+          "opp": 1732.0
+        },
+        {
+          "day": 10,
+          "us": 1393.0,
+          "opp": 2187.0
+        },
+        {
+          "day": 11,
+          "us": 8284.0,
+          "opp": 14083.0
+        },
+        {
+          "day": 12,
+          "us": 8613.0,
+          "opp": 14641.0
+        },
+        {
+          "day": 13,
+          "us": 12314.0,
+          "opp": 16650.0
+        },
+        {
+          "day": 14,
+          "us": 13098.0,
+          "opp": 16063.0
+        },
+        {
+          "day": 15,
+          "us": 17030.0,
+          "opp": 17469.0
+        },
+        {
+          "day": 16,
+          "us": 19226.0,
+          "opp": 18492.0
+        },
+        {
+          "day": 17,
+          "us": 28967.0,
+          "opp": 22385.0
+        },
+        {
+          "day": 18,
+          "us": 30780.0,
+          "opp": 25619.0
+        },
+        {
+          "day": 19,
+          "us": 37232.0,
+          "opp": 29228.0
+        },
+        {
+          "day": 20,
+          "us": 42747.0,
+          "opp": 33395.0
+        },
+        {
+          "day": 21,
+          "us": 48764.0,
+          "opp": 38939.0
+        },
+        {
+          "day": 22,
+          "us": 55665.0,
+          "opp": 49146.0
+        },
+        {
+          "day": 23,
+          "us": 61050.0,
+          "opp": 54183.0
+        },
+        {
+          "day": 24,
+          "us": 63764.0,
+          "opp": 61764.0
+        },
+        {
+          "day": 25,
+          "us": 68773.0,
+          "opp": 67498.0
+        },
+        {
+          "day": 26,
+          "us": 72771.0,
+          "opp": 72136.0
+        },
+        {
+          "day": 27,
+          "us": 75057.0,
+          "opp": 78074.0
+        },
+        {
+          "day": 28,
+          "us": 77148.0,
+          "opp": 87436.0
+        },
+        {
+          "day": 29,
+          "us": 84536.0,
+          "opp": 95193.0
+        },
+        {
+          "day": 30,
+          "us": 107298.0,
+          "opp": 98749.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 294,
+        "BUY_PRODUCT:WHEAT": 132,
+        "SELL:STRAWBERRY": 65,
+        "SELL:WHEAT": 50,
+        "BUY_SEED:WHEAT": 45,
+        "SELL:MILK": 36,
+        "SELL:FERTILIZER": 31,
+        "SELL:TOMATO": 23,
+        "SELL:WOOL": 21,
+        "SELL:EGG": 21,
+        "BUY_SEED:STRAWBERRY": 17,
+        "SELL:MELON": 16,
+        "SELL:CARROT": 11,
+        "BUY_SEED:CARROT": 8,
+        "BUY_ANIMAL:COW": 4,
+        "BUY_ANIMAL:SHEEP": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_SEED:TOMATO": 3,
+        "BUY_LAND:": 2,
+        "BUY_ANIMAL:GOOSE": 1
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          254
+        ]
+      }
+    },
+    {
+      "episode": 101240780,
+      "seed": 1824942411,
+      "opp": "Ryo Hasegawa",
+      "seat": 1,
+      "margin": 6662.0,
+      "win": true,
+      "rewards": [
+        82238.0,
+        88900.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 1,
+        "COOP": 0,
+        "COW": 2,
+        "GOOSE": 5,
+        "MELON": 0,
+        "PASTURE": 9,
+        "SHEEP": 4,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 1,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 8,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 0,
+        "SHEEP": 5,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 0,
+        "WHEAT": 5
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 31
+      },
+      "sells": {
+        "WHEAT": 1556,
+        "CARROT": 45,
+        "TOMATO": 0,
+        "STRAWBERRY": 270,
+        "MELON": 94,
+        "EGG": 132,
+        "MILK": 116,
+        "WOOL": 155,
+        "FERTILIZER": 214
+      },
+      "opp_sells": {
+        "WHEAT": 334,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 332,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 216,
+        "WOOL": 101,
+        "FERTILIZER": 184
+      },
+      "buys": {
+        "WHEAT": 1531,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 18,
+        "SEED:WHEAT": 80,
+        "MELON": 16,
+        "WHEAT": 80,
+        "SEED:STRAWBERRY": 45,
+        "STRAWBERRY": 44,
+        "SEED:CARROT": 17,
+        "CARROT": 14
+      },
+      "animals_bought": {
+        "COW": 4,
+        "SHEEP": 11,
+        "GOOSE": 5
+      },
+      "builds": {
+        "BUILD_PASTURE": 15,
+        "BUILD_COOP": 5,
+        "DIG": 53
+      },
+      "shops_final": [
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "shop_counts": {
+        "BRUNCH_SPOT": 2,
+        "SMOOTHIE_SHOP": 2,
+        "PET_CAFE": 1,
+        "YARN_STORE": 1,
+        "BAKERY": 2
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "EGG": 4,
+        "WHEAT": 4,
+        "STRAWBERRY": 4,
+        "MILK": 2,
+        "CARROT": 2,
+        "WOOL": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "75513aca912d3fc4",
+        "h400": "745a9895db43bf98",
+        "full": "46a25a7bdfcb106b"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        2,
+        0,
+        6,
+        47,
+        22,
+        191,
+        175,
+        178,
+        127,
+        32,
+        81,
+        89,
+        125,
+        101,
+        78,
+        56,
+        15,
+        8,
+        21,
+        5,
+        15,
+        28,
+        107
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        5,
+        6,
+        5,
+        10,
+        7,
+        11,
+        6,
+        7,
+        9,
+        8,
+        8,
+        6,
+        14,
+        6,
+        20
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        53,
+        0,
+        0,
+        0,
+        5,
+        3,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 18.0,
+          "opp": 512.0
+        },
+        {
+          "day": 9,
+          "us": 9.0,
+          "opp": 1732.0
+        },
+        {
+          "day": 10,
+          "us": 444.0,
+          "opp": 2187.0
+        },
+        {
+          "day": 11,
+          "us": 7504.0,
+          "opp": 14054.0
+        },
+        {
+          "day": 12,
+          "us": 6938.0,
+          "opp": 14612.0
+        },
+        {
+          "day": 13,
+          "us": 10169.0,
+          "opp": 16554.0
+        },
+        {
+          "day": 14,
+          "us": 10623.0,
+          "opp": 16197.0
+        },
+        {
+          "day": 15,
+          "us": 14092.0,
+          "opp": 17829.0
+        },
+        {
+          "day": 16,
+          "us": 14938.0,
+          "opp": 18201.0
+        },
+        {
+          "day": 17,
+          "us": 23079.0,
+          "opp": 22039.0
+        },
+        {
+          "day": 18,
+          "us": 27347.0,
+          "opp": 27238.0
+        },
+        {
+          "day": 19,
+          "us": 35800.0,
+          "opp": 30414.0
+        },
+        {
+          "day": 20,
+          "us": 40633.0,
+          "opp": 36328.0
+        },
+        {
+          "day": 21,
+          "us": 47861.0,
+          "opp": 41152.0
+        },
+        {
+          "day": 22,
+          "us": 56407.0,
+          "opp": 52293.0
+        },
+        {
+          "day": 23,
+          "us": 63120.0,
+          "opp": 60711.0
+        },
+        {
+          "day": 24,
+          "us": 67461.0,
+          "opp": 65774.0
+        },
+        {
+          "day": 25,
+          "us": 70526.0,
+          "opp": 68943.0
+        },
+        {
+          "day": 26,
+          "us": 73515.0,
+          "opp": 71076.0
+        },
+        {
+          "day": 27,
+          "us": 74957.0,
+          "opp": 71447.0
+        },
+        {
+          "day": 28,
+          "us": 78551.0,
+          "opp": 75488.0
+        },
+        {
+          "day": 29,
+          "us": 80173.0,
+          "opp": 78170.0
+        },
+        {
+          "day": 30,
+          "us": 88900.0,
+          "opp": 82238.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 293,
+        "BUY_PRODUCT:WHEAT": 183,
+        "SELL:WHEAT": 86,
+        "SELL:EGG": 57,
+        "SELL:STRAWBERRY": 54,
+        "SELL:WOOL": 51,
+        "SELL:MILK": 45,
+        "BUY_SEED:WHEAT": 42,
+        "SELL:FERTILIZER": 35,
+        "SELL:CARROT": 19,
+        "SELL:MELON": 18,
+        "BUY_SEED:STRAWBERRY": 16,
+        "BUY_ANIMAL:SHEEP": 11,
+        "BUY_SEED:CARROT": 10,
+        "BUY_ANIMAL:GOOSE": 5,
+        "BUY_ANIMAL:COW": 4,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          254
+        ]
+      }
+    },
+    {
+      "episode": 101240787,
+      "seed": 5423967,
+      "opp": "Ryo Hasegawa",
+      "seat": 0,
+      "margin": 17469.0,
+      "win": true,
+      "rewards": [
+        104498.0,
+        87029.0
+      ],
+      "Q": 3,
+      "hands": 12,
+      "board": {
+        "CARROT": 1,
+        "COOP": 0,
+        "COW": 0,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 14,
+        "SHEEP": 6,
+        "STRAWBERRY": 0,
+        "TOMATO": 0,
+        "WEED": 3,
+        "WHEAT": 0
+      },
+      "opp_board": {
+        "CARROT": 0,
+        "COOP": 0,
+        "COW": 7,
+        "GOOSE": 0,
+        "MELON": 0,
+        "PASTURE": 1,
+        "SHEEP": 8,
+        "STRAWBERRY": 1,
+        "TOMATO": 0,
+        "WEED": 4,
+        "WHEAT": 3
+      },
+      "clone": {
+        "latched": false,
+        "max_near": 5,
+        "median_distance": 24
+      },
+      "sells": {
+        "WHEAT": 1914,
+        "CARROT": 44,
+        "TOMATO": 0,
+        "STRAWBERRY": 167,
+        "MELON": 100,
+        "EGG": 0,
+        "MILK": 172,
+        "WOOL": 262,
+        "FERTILIZER": 249
+      },
+      "opp_sells": {
+        "WHEAT": 341,
+        "CARROT": 105,
+        "TOMATO": 0,
+        "STRAWBERRY": 228,
+        "MELON": 66,
+        "EGG": 0,
+        "MILK": 194,
+        "WOOL": 162,
+        "FERTILIZER": 243
+      },
+      "buys": {
+        "WHEAT": 1761,
+        "FERTILIZER": 0
+      },
+      "buy_land_steps": [
+        122,
+        200
+      ],
+      "buy_land_n": 2,
+      "opp_buy_land_n": 2,
+      "hire_days": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 9,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 12,
+        "20": 12,
+        "21": 12,
+        "22": 12,
+        "23": 12,
+        "24": 12,
+        "25": 12,
+        "26": 12,
+        "27": 12,
+        "28": 12,
+        "29": 12,
+        "30": 12
+      },
+      "max_hires_one_day": 12,
+      "plants": {
+        "SEED:MELON": 19,
+        "SEED:WHEAT": 118,
+        "MELON": 17,
+        "WHEAT": 118,
+        "SEED:STRAWBERRY": 32,
+        "STRAWBERRY": 28,
+        "SEED:CARROT": 21,
+        "CARROT": 17
+      },
+      "animals_bought": {
+        "COW": 7,
+        "SHEEP": 13
+      },
+      "builds": {
+        "BUILD_PASTURE": 20,
+        "DIG": 41
+      },
+      "shops_final": [
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP"
+      ],
+      "shop_counts": {
+        "BAKERY": 1,
+        "ICE_CREAM_SHOP": 2,
+        "YARN_STORE": 2,
+        "FARMERS_MARKET": 2,
+        "PET_CAFE": 1
+      },
+      "shop_names_seen": [
+        "BAKERY",
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "shop_demand_per_tick": {
+        "EGG": 1,
+        "WHEAT": 5,
+        "STRAWBERRY": 4,
+        "MILK": 2,
+        "WOOL": 4,
+        "CARROT": 4,
+        "TOMATO": 2
+      },
+      "hashes": {
+        "n_logged": 720,
+        "h24": "52c5924ea5b91a10",
+        "h100": "e652fbb68b3b4e2b",
+        "h400": "f016734656789486",
+        "full": "4b66d9156a3042c4"
+      },
+      "wheat_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        15,
+        1,
+        0,
+        4,
+        40,
+        222,
+        193,
+        223,
+        193,
+        161,
+        87,
+        210,
+        158,
+        16,
+        26,
+        9,
+        31,
+        20,
+        24,
+        22,
+        36,
+        43,
+        48,
+        100
+      ],
+      "tomato_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "carrot_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        44
+      ],
+      "egg_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "melon_by_day": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "money_day": [
+        {
+          "day": 1,
+          "us": 64.0,
+          "opp": 138.0
+        },
+        {
+          "day": 2,
+          "us": 17.0,
+          "opp": 11.0
+        },
+        {
+          "day": 3,
+          "us": 22.0,
+          "opp": 354.0
+        },
+        {
+          "day": 4,
+          "us": 310.0,
+          "opp": 901.0
+        },
+        {
+          "day": 5,
+          "us": 84.0,
+          "opp": 566.0
+        },
+        {
+          "day": 6,
+          "us": 13.0,
+          "opp": 182.0
+        },
+        {
+          "day": 7,
+          "us": 24.0,
+          "opp": 1382.0
+        },
+        {
+          "day": 8,
+          "us": 19.0,
+          "opp": 512.0
+        },
+        {
+          "day": 9,
+          "us": 21.0,
+          "opp": 1607.0
+        },
+        {
+          "day": 10,
+          "us": 0.0,
+          "opp": 2118.0
+        },
+        {
+          "day": 11,
+          "us": 5755.0,
+          "opp": 14475.0
+        },
+        {
+          "day": 12,
+          "us": 5608.0,
+          "opp": 15053.0
+        },
+        {
+          "day": 13,
+          "us": 8046.0,
+          "opp": 17897.0
+        },
+        {
+          "day": 14,
+          "us": 7747.0,
+          "opp": 17382.0
+        },
+        {
+          "day": 15,
+          "us": 15188.0,
+          "opp": 18901.0
+        },
+        {
+          "day": 16,
+          "us": 19607.0,
+          "opp": 24669.0
+        },
+        {
+          "day": 17,
+          "us": 31073.0,
+          "opp": 28233.0
+        },
+        {
+          "day": 18,
+          "us": 37924.0,
+          "opp": 33875.0
+        },
+        {
+          "day": 19,
+          "us": 43689.0,
+          "opp": 38050.0
+        },
+        {
+          "day": 20,
+          "us": 46941.0,
+          "opp": 42187.0
+        },
+        {
+          "day": 21,
+          "us": 54360.0,
+          "opp": 46310.0
+        },
+        {
+          "day": 22,
+          "us": 61607.0,
+          "opp": 54641.0
+        },
+        {
+          "day": 23,
+          "us": 64776.0,
+          "opp": 55809.0
+        },
+        {
+          "day": 24,
+          "us": 70451.0,
+          "opp": 57998.0
+        },
+        {
+          "day": 25,
+          "us": 77027.0,
+          "opp": 64117.0
+        },
+        {
+          "day": 26,
+          "us": 78391.0,
+          "opp": 65626.0
+        },
+        {
+          "day": 27,
+          "us": 83355.0,
+          "opp": 69525.0
+        },
+        {
+          "day": 28,
+          "us": 91319.0,
+          "opp": 76541.0
+        },
+        {
+          "day": 29,
+          "us": 93992.0,
+          "opp": 82312.0
+        },
+        {
+          "day": 30,
+          "us": 104498.0,
+          "opp": 87029.0
+        }
+      ],
+      "market_order_counts": {
+        "HIRE:": 293,
+        "BUY_PRODUCT:WHEAT": 186,
+        "SELL:WHEAT": 87,
+        "SELL:WOOL": 58,
+        "BUY_SEED:WHEAT": 51,
+        "SELL:STRAWBERRY": 50,
+        "SELL:MILK": 39,
+        "SELL:FERTILIZER": 32,
+        "SELL:CARROT": 21,
+        "BUY_SEED:STRAWBERRY": 16,
+        "SELL:MELON": 14,
+        "BUY_ANIMAL:SHEEP": 13,
+        "BUY_SEED:CARROT": 11,
+        "BUY_ANIMAL:COW": 7,
+        "BUY_SEED:MELON": 4,
+        "BUY_LAND:": 2
+      },
+      "land_vs_opp": {
+        "us": [
+          122,
+          200
+        ],
+        "opp": [
+          121,
+          254
+        ]
+      }
+    }
+  ]
+}

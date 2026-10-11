@@ -1,0 +1,14 @@
+{
+  "source": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\thomastschinkel_psr_938\\main.py",
+  "output": "D:\\kaggle\\kaggriculture\\experiments\\candidates\\thomastschinkel_psr_938\\submission.tar.gz",
+  "members": [
+    "main.py"
+  ],
+  "agent_bytes": 69295,
+  "agent_sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+  "bundle_bytes": 49544,
+  "bundle_sha256": "f2a87601f7243c3072745073507d6e164ae063a6066790c5fa0fcb603bf63e3b",
+  "max_bundle_bytes": 104857600,
+  "compile_passed": true,
+  "byte_identity_passed": true
+}

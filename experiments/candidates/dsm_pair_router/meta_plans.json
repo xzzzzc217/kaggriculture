@@ -1,0 +1,572 @@
+[
+  {
+    "id": 0,
+    "kind": "default",
+    "episode": 111550540,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 186136.0
+  },
+  {
+    "id": 1,
+    "kind": "pair",
+    "episode": 111497817,
+    "shops": [
+      "BAKERY",
+      "BAKERY"
+    ],
+    "reward": 86499.0
+  },
+  {
+    "id": 2,
+    "kind": "pair",
+    "episode": 111505677,
+    "shops": [
+      "BAKERY",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 79951.0
+  },
+  {
+    "id": 3,
+    "kind": "pair",
+    "episode": 111434197,
+    "shops": [
+      "BAKERY",
+      "FARMERS_MARKET"
+    ],
+    "reward": 95510.0
+  },
+  {
+    "id": 4,
+    "kind": "pair",
+    "episode": 111433076,
+    "shops": [
+      "BAKERY",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 119993.0
+  },
+  {
+    "id": 5,
+    "kind": "pair",
+    "episode": 111428732,
+    "shops": [
+      "BAKERY",
+      "PET_CAFE"
+    ],
+    "reward": 113071.0
+  },
+  {
+    "id": 6,
+    "kind": "pair",
+    "episode": 111460340,
+    "shops": [
+      "BAKERY",
+      "PIZZA_SHOP"
+    ],
+    "reward": 97809.0
+  },
+  {
+    "id": 7,
+    "kind": "pair",
+    "episode": 111491109,
+    "shops": [
+      "BAKERY",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 107027.0
+  },
+  {
+    "id": 8,
+    "kind": "pair",
+    "episode": 111447481,
+    "shops": [
+      "BRUNCH_SPOT",
+      "BAKERY"
+    ],
+    "reward": 87591.0
+  },
+  {
+    "id": 9,
+    "kind": "pair",
+    "episode": 111510335,
+    "shops": [
+      "BRUNCH_SPOT",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 140275.0
+  },
+  {
+    "id": 10,
+    "kind": "pair",
+    "episode": 111631683,
+    "shops": [
+      "BRUNCH_SPOT",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 129192.0
+  },
+  {
+    "id": 11,
+    "kind": "pair",
+    "episode": 111464337,
+    "shops": [
+      "BRUNCH_SPOT",
+      "PET_CAFE"
+    ],
+    "reward": 115774.0
+  },
+  {
+    "id": 12,
+    "kind": "pair",
+    "episode": 111444105,
+    "shops": [
+      "BRUNCH_SPOT",
+      "YARN_STORE"
+    ],
+    "reward": 155549.0
+  },
+  {
+    "id": 13,
+    "kind": "pair",
+    "episode": 111428721,
+    "shops": [
+      "FARMERS_MARKET",
+      "BAKERY"
+    ],
+    "reward": 90395.0
+  },
+  {
+    "id": 14,
+    "kind": "pair",
+    "episode": 111438595,
+    "shops": [
+      "FARMERS_MARKET",
+      "FARMERS_MARKET"
+    ],
+    "reward": 140083.0
+  },
+  {
+    "id": 15,
+    "kind": "pair",
+    "episode": 111583977,
+    "shops": [
+      "FARMERS_MARKET",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 124869.0
+  },
+  {
+    "id": 16,
+    "kind": "pair",
+    "episode": 111547146,
+    "shops": [
+      "FARMERS_MARKET",
+      "PET_CAFE"
+    ],
+    "reward": 119094.0
+  },
+  {
+    "id": 17,
+    "kind": "pair",
+    "episode": 111652959,
+    "shops": [
+      "FARMERS_MARKET",
+      "PIZZA_SHOP"
+    ],
+    "reward": 128239.0
+  },
+  {
+    "id": 18,
+    "kind": "pair",
+    "episode": 111487763,
+    "shops": [
+      "FARMERS_MARKET",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 128074.0
+  },
+  {
+    "id": 19,
+    "kind": "pair",
+    "episode": 111503420,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BAKERY"
+    ],
+    "reward": 112765.0
+  },
+  {
+    "id": 20,
+    "kind": "pair",
+    "episode": 111441882,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 133841.0
+  },
+  {
+    "id": 21,
+    "kind": "pair",
+    "episode": 111500309,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "reward": 130967.0
+  },
+  {
+    "id": 22,
+    "kind": "pair",
+    "episode": 111443761,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 151783.0
+  },
+  {
+    "id": 23,
+    "kind": "pair",
+    "episode": 111638537,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "PET_CAFE"
+    ],
+    "reward": 109974.0
+  },
+  {
+    "id": 24,
+    "kind": "pair",
+    "episode": 111563933,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "reward": 113099.0
+  },
+  {
+    "id": 25,
+    "kind": "pair",
+    "episode": 111429839,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 140135.0
+  },
+  {
+    "id": 26,
+    "kind": "pair",
+    "episode": 111480260,
+    "shops": [
+      "ICE_CREAM_SHOP",
+      "YARN_STORE"
+    ],
+    "reward": 145039.0
+  },
+  {
+    "id": 27,
+    "kind": "pair",
+    "episode": 111459860,
+    "shops": [
+      "PET_CAFE",
+      "BAKERY"
+    ],
+    "reward": 82391.0
+  },
+  {
+    "id": 28,
+    "kind": "pair",
+    "episode": 111427635,
+    "shops": [
+      "PET_CAFE",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 132962.0
+  },
+  {
+    "id": 29,
+    "kind": "pair",
+    "episode": 111445239,
+    "shops": [
+      "PET_CAFE",
+      "FARMERS_MARKET"
+    ],
+    "reward": 112171.0
+  },
+  {
+    "id": 30,
+    "kind": "pair",
+    "episode": 111495581,
+    "shops": [
+      "PET_CAFE",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 115430.0
+  },
+  {
+    "id": 31,
+    "kind": "pair",
+    "episode": 111432010,
+    "shops": [
+      "PET_CAFE",
+      "PET_CAFE"
+    ],
+    "reward": 99621.0
+  },
+  {
+    "id": 32,
+    "kind": "pair",
+    "episode": 111557260,
+    "shops": [
+      "PET_CAFE",
+      "PIZZA_SHOP"
+    ],
+    "reward": 99385.0
+  },
+  {
+    "id": 33,
+    "kind": "pair",
+    "episode": 111533747,
+    "shops": [
+      "PET_CAFE",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 102793.0
+  },
+  {
+    "id": 34,
+    "kind": "pair",
+    "episode": 111453066,
+    "shops": [
+      "PET_CAFE",
+      "YARN_STORE"
+    ],
+    "reward": 101253.0
+  },
+  {
+    "id": 35,
+    "kind": "pair",
+    "episode": 111624998,
+    "shops": [
+      "PIZZA_SHOP",
+      "BAKERY"
+    ],
+    "reward": 74979.0
+  },
+  {
+    "id": 36,
+    "kind": "pair",
+    "episode": 111597204,
+    "shops": [
+      "PIZZA_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 105609.0
+  },
+  {
+    "id": 37,
+    "kind": "pair",
+    "episode": 111605012,
+    "shops": [
+      "PIZZA_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "reward": 143550.0
+  },
+  {
+    "id": 38,
+    "kind": "pair",
+    "episode": 111578434,
+    "shops": [
+      "PIZZA_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 107377.0
+  },
+  {
+    "id": 39,
+    "kind": "pair",
+    "episode": 111486537,
+    "shops": [
+      "PIZZA_SHOP",
+      "PET_CAFE"
+    ],
+    "reward": 94967.0
+  },
+  {
+    "id": 40,
+    "kind": "pair",
+    "episode": 111455380,
+    "shops": [
+      "PIZZA_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "reward": 114633.0
+  },
+  {
+    "id": 41,
+    "kind": "pair",
+    "episode": 111458736,
+    "shops": [
+      "PIZZA_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 131862.0
+  },
+  {
+    "id": 42,
+    "kind": "pair",
+    "episode": 111489998,
+    "shops": [
+      "PIZZA_SHOP",
+      "YARN_STORE"
+    ],
+    "reward": 135549.0
+  },
+  {
+    "id": 43,
+    "kind": "pair",
+    "episode": 111645359,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "BAKERY"
+    ],
+    "reward": 92503.0
+  },
+  {
+    "id": 44,
+    "kind": "pair",
+    "episode": 111450907,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 129286.0
+  },
+  {
+    "id": 45,
+    "kind": "pair",
+    "episode": 111465451,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "FARMERS_MARKET"
+    ],
+    "reward": 143196.0
+  },
+  {
+    "id": 46,
+    "kind": "pair",
+    "episode": 111500046,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 176117.0
+  },
+  {
+    "id": 47,
+    "kind": "pair",
+    "episode": 111507281,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "PET_CAFE"
+    ],
+    "reward": 88916.0
+  },
+  {
+    "id": 48,
+    "kind": "pair",
+    "episode": 111527147,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "PIZZA_SHOP"
+    ],
+    "reward": 127595.0
+  },
+  {
+    "id": 49,
+    "kind": "pair",
+    "episode": 111550540,
+    "shops": [
+      "SMOOTHIE_SHOP",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 186136.0
+  },
+  {
+    "id": 50,
+    "kind": "pair",
+    "episode": 111494462,
+    "shops": [
+      "YARN_STORE",
+      "BAKERY"
+    ],
+    "reward": 111962.0
+  },
+  {
+    "id": 51,
+    "kind": "pair",
+    "episode": 111603805,
+    "shops": [
+      "YARN_STORE",
+      "BRUNCH_SPOT"
+    ],
+    "reward": 111188.0
+  },
+  {
+    "id": 52,
+    "kind": "pair",
+    "episode": 111456502,
+    "shops": [
+      "YARN_STORE",
+      "FARMERS_MARKET"
+    ],
+    "reward": 113099.0
+  },
+  {
+    "id": 53,
+    "kind": "pair",
+    "episode": 111484412,
+    "shops": [
+      "YARN_STORE",
+      "ICE_CREAM_SHOP"
+    ],
+    "reward": 127475.0
+  },
+  {
+    "id": 54,
+    "kind": "pair",
+    "episode": 111446393,
+    "shops": [
+      "YARN_STORE",
+      "PIZZA_SHOP"
+    ],
+    "reward": 147582.0
+  },
+  {
+    "id": 55,
+    "kind": "pair",
+    "episode": 111492235,
+    "shops": [
+      "YARN_STORE",
+      "SMOOTHIE_SHOP"
+    ],
+    "reward": 116140.0
+  },
+  {
+    "id": 56,
+    "kind": "pair",
+    "episode": 111660965,
+    "shops": [
+      "YARN_STORE",
+      "YARN_STORE"
+    ],
+    "reward": 143028.0
+  }
+]

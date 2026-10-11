@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913h",
+  "utc": "2026-09-13T02:37:25Z",
+  "no_upload": true,
+  "upload_bail": true,
+  "hold": true,
+  "root_main_py_untouched": true,
+  "root_main_py_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "boatlee_55710781_reupload": false,
+  "live_newest_id": 56151152,
+  "live_newest_score": 1691.5,
+  "live_newest_status": "COMPLETE",
+  "live_newest_name": "yamakawanin_king_v4e_rc4 cut 16",
+  "live_newest_note": "COMPLETE 1691.5 (was 1702.8). Newest public 108383915 updatedScore 1691.511. Newest-2 = shopbag reupload 56151155 (newer id, 1319.5) + cut 16 56151152. Upload-bail TRUE (c): shopbag partner 1319.5 < 1500 and is newer than cut 16, so a new cut alone would drop the >=1500 COMPLETE. Study anyway. Hold.",
+  "cut15_id": 56146106,
+  "cut15_score": 1864.4,
+  "cut15_status": "COMPLETE",
+  "cut15_note": "DROPPED from newest-2.",
+  "shopbag_id": 56151155,
+  "shopbag_score": 1319.5,
+  "shopbag_status": "COMPLETE",
+  "shopbag_lineage": 55962761,
+  "newest_2": [
+    56151155,
+    56151152
+  ],
+  "heralces_rank_csv": 1956,
+  "heralces_score": 1691.5,
+  "n_teams_csv": 8814,
+  "public_56151152": {
+    "n_public": 209,
+    "n_validation": 1,
+    "n_completed_public": 209,
+    "wtl": [
+      93,
+      2,
+      114
+    ],
+    "mean_margin": -984.3,
+    "status": "COMPLETE",
+    "publicScore": 1691.5
+  },
+  "rolling_ids": [
+    108383915,
+    108377691,
+    108374873,
+    108351144,
+    108349751,
+    108345614,
+    108343489,
+    108326448,
+    108296309,
+    108290336,
+    108259280,
+    108227462
+  ],
+  "rolling_forbidden_0913g": [
+    108371627,
+    108369265,
+    108366745,
+    108328160,
+    108311577,
+    108273755,
+    108270318,
+    108243488,
+    108208866,
+    108204278,
+    108191120,
+    108175982
+  ],
+  "ids_not_identical_to_0913g": true,
+  "ids_disjoint_from_0913g": true,
+  "rolling_n": 12,
+  "rolling_n_steps": 720,
+  "wtl": [
+    5,
+    0,
+    7
+  ],
+  "mean_margin": -894.1,
+  "rolling_note": "Assigned cut16 newest-12 public ids from refreshed EpisodeService, all 720 DONE/DONE. Disjoint from 20260913g packet. 5W 7L. Worst Peter Cnudde 108383915 L -13315 6c11s vs 7c11s clone=1 YARN extra sheep 218/242/266 already bought. Oleg Smirnov 108345614 L -11762 9c8s vs 7c11s extra sheep 227/242/266 already bought. Chanhyuk Han 108296309 identical 9c8s +67 extra sheep 227/242/266 already bought. Not opening-broke. Not freeze 9c9s."
+}

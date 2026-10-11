@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-30",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-08-30T01:28:31.csv",
+  "rank": 26,
+  "score": 2684.8,
+  "n_teams": 6889,
+  "gold21": 2736.8,
+  "gold_buffer": -52.0,
+  "rank10": {"team": "Ryo Hasegawa", "score": 2811.0, "gap": 126.2},
+  "top5": [
+    ["Crop Dusta", 3030.6],
+    ["Milan Leonard", 3024.7],
+    ["Yusuke Hayashi", 2923.8],
+    ["MtN", 2892.1],
+    ["Subramanya N", 2885.5]
+  ],
+  "newest": {"id": 55840543, "name": "moon_shopbag_v1", "score": 2684.8},
+  "public_all": {"n": 123, "wtl": [74, 4, 45], "mean_margin": 5405.0},
+  "rolling12": {"wtl": [1, 1, 10], "mean_margin": -3536.3},
+  "drop_reason": "10-11 sheep near-clones now occupy ranks 3-4 (Yusuke, MtN) and fill our matchmaking band; rolling 12 is 1-1-10",
+  "pavlo": {
+    "102911051": {"margin": -8317, "clone": true, "sheep": [4, 6], "wheat": [696, 373]},
+    "102884225": {"margin": -11217, "clone": true, "sheep": [7, 8], "wheat": [696, 363]}
+  ],
+  "smsxgz_win": {"id": 102815319, "margin": 8490, "note": "same name as -19727 blowout; seed/shop variance"},
+  "hunt": [
+    {
+      "kernel": "indarkarhana/shape-the-shop-work-the-pasture-top-10",
+      "agent": "E776 latent-pasture",
+      "verdict": "hold",
+      "note": "Pavlo +86 and clone +9253 vs shopbag; still loses MtN -14407 Yusuke -10750 Hanserong -13138. Better, not 2/3 flips."
+    },
+    {
+      "kernel": "skomuro/2000-baseline-silver-medal-route",
+      "sha256": "8d7d10befe1486e8ee5a5e94d357eaba001cce77b9b13feb6c52f87a7242a64b",
+      "verdict": "reject",
+      "note": "open-loop tape; Pavlo -22507"
+    },
+    {
+      "kernel": "rafifariqrabbani greedy+PPO",
+      "verdict": "skip_screen",
+      "note": "numpy multi-controller notebook, no 64-hex identity, not a one-file medal agent"
+    },
+    {"github": "deepeshumrao / R00tXyz / Amey", "verdict": "already_screened_weak"}
+  ]
+}

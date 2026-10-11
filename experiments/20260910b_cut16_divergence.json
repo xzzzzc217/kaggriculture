@@ -1,0 +1,649 @@
+{
+  "cut": 16,
+  "agent": "yamakawanin_king_v4e_rc4",
+  "kernel": "yamakawanin/king-v4e-rc4",
+  "path": "D:/kaggle/kaggriculture/experiments/candidates/yamakawanin_king_v4e_rc4/main.py",
+  "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+  "windows_agent_so": false,
+  "reselect_steps": [
+    216,
+    240,
+    241,
+    288,
+    360,
+    385,
+    432,
+    576
+  ],
+  "reselect_after_216": [
+    240,
+    241,
+    288,
+    360,
+    385,
+    432,
+    576
+  ],
+  "reselect_kind": "shop-family 72-turn PROGRAM phases P3+ plus YARN_SECOND>=240, RC3 sheep@241 fert@385",
+  "not_cut12": true,
+  "not_cut13": true,
+  "not_cut14": true,
+  "not_cut15": true,
+  "live_217_differs_from_sixday": true,
+  "live_217_differs_from_balanced": true,
+  "live_217_differs_from_cut14": true,
+  "live_217_differs_from_cut15": true,
+  "diffs_217_266_vs_sixday": 48,
+  "diffs_217_266_vs_balanced": 49,
+  "diffs_217_266_vs_cut14": 49,
+  "diffs_217_266_vs_cut15": 49,
+  "chosen_at": {
+    "0": {
+      "key": [
+        "OPENING",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [],
+      "farmer": [
+        "PASS"
+      ],
+      "market": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          30
+        ]
+      ]
+    },
+    "144": {
+      "key": [
+        "S2_MILK",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "farmer": [
+        "WEST"
+      ],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "216": {
+      "key": [
+        "P3_YARN_THIRD",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "WEST"
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "STRAWBERRY",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "217": {
+      "key": [
+        "P3_YARN_THIRD",
+        1
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "NORTH"
+      ],
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          1
+        ]
+      ]
+    },
+    "226": {
+      "key": [
+        "P3_YARN_THIRD",
+        10
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "WATER"
+      ],
+      "market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          1
+        ]
+      ]
+    },
+    "240": {
+      "key": [
+        "P3_YARN_THIRD",
+        24
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "NORTH"
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "241": {
+      "key": [
+        "P3_YARN_THIRD",
+        25
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "WEST"
+      ],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_PRODUCT",
+          "FERTILIZER",
+          3
+        ]
+      ]
+    },
+    "288": {
+      "key": [
+        "P4_YARN_THIRD",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET"
+      ],
+      "farmer": [
+        "NORTH"
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "360": {
+      "key": [
+        "P5_YARN_THIRD",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "market": [
+        [
+          "PASS"
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "385": {
+      "key": [
+        "P5_YARN_THIRD",
+        25
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          6
+        ],
+        [
+          "SELL",
+          "MILK",
+          4
+        ],
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "432": {
+      "key": [
+        "P6_YARN_THIRD",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "YARN_STORE"
+      ],
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "576": {
+      "key": [
+        "P8_YARN_THIRD",
+        0
+      ],
+      "mode": "BASE",
+      "yarn_second_flag": false,
+      "shops": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "farmer": [
+        "SOUTH"
+      ],
+      "market": [
+        [
+          "SELL",
+          "MILK",
+          27
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    }
+  },
+  "rc3_hits": {
+    "0": [],
+    "1": [
+      [
+        "FERT385",
+        385,
+        1,
+        0
+      ]
+    ]
+  },
+  "main_sheep_200_267": [
+    226,
+    241,
+    265
+  ],
+  "not_227_242_266_wrap": true,
+  "king_217_market": [
+    [
+      "SELL",
+      "FERTILIZER",
+      1
+    ],
+    [
+      "HIRE"
+    ],
+    [
+      "BUY_ANIMAL",
+      "COW",
+      1
+    ],
+    [
+      "BUY_PRODUCT",
+      "FERTILIZER",
+      1
+    ]
+  ],
+  "cut14_217_market": [
+    [
+      "HIRE"
+    ],
+    [
+      "BUY_ANIMAL",
+      "SHEEP",
+      0
+    ],
+    [
+      "BUY_PRODUCT",
+      "FERTILIZER",
+      1
+    ]
+  ],
+  "cut15_217_market": [
+    [
+      "HIRE"
+    ],
+    [
+      "BUY_ANIMAL",
+      "GOOSE",
+      1
+    ],
+    [
+      "BUY_PRODUCT",
+      "FERTILIZER",
+      1
+    ],
+    [
+      "SELL",
+      "FERTILIZER",
+      2
+    ]
+  ]
+}

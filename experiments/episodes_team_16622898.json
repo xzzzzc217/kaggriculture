@@ -1,0 +1,78 @@
+{
+  "episodes": [
+    {
+      "id": 16622898,
+      "createTime": "2021-02-10T22:34:14.211905900Z",
+      "endTime": "2021-02-10T22:35:22.538909800Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 37002801,
+          "submissionId": 19137466,
+          "reward": 1,
+          "initialScore": 1329.3676594596582,
+          "updatedScore": 1333.4426618319687,
+          "teamId": 6158852
+        },
+        {
+          "id": 37002802,
+          "submissionId": 18876218,
+          "reward": -1,
+          "index": 1,
+          "initialScore": 1291.3095797468495,
+          "updatedScore": 1287.234577374539,
+          "teamId": 4241425
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": 18876218,
+      "dateSubmitted": "2020-12-29T02:31:44.030Z",
+      "teamId": 4241425,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19137466,
+      "dateSubmitted": "2021-01-17T06:19:27.313Z",
+      "teamId": 6158852,
+      "status": "COMPLETE"
+    }
+  ],
+  "teams": [
+    {
+      "id": 4241425,
+      "teamName": "magicsany",
+      "competitionId": 17592,
+      "teamLeaderId": 750313,
+      "teamMembers": [
+        {
+          "displayName": "magicsany",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/750313-kg.png?t=2023-11-28-00-35-51",
+          "url": "/magicsany",
+          "userName": "magicsany",
+          "tier": "CONTRIBUTOR",
+          "id": 750313
+        }
+      ]
+    },
+    {
+      "id": 6158852,
+      "teamName": "Alexandru Papiu",
+      "competitionId": 17592,
+      "teamLeaderId": 400262,
+      "teamMembers": [
+        {
+          "displayName": "Alexandru Papiu",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/400262-kg.jpg",
+          "url": "/apapiu",
+          "userName": "apapiu",
+          "tier": "MASTER",
+          "id": 400262
+        }
+      ]
+    }
+  ]
+}

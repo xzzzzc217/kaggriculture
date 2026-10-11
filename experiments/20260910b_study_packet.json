@@ -1,0 +1,173 @@
+{
+  "title": "Kaggriculture study packet 2026-09-10b",
+  "not_the_0910_packet": true,
+  "no_upload": "Uploaded 56151152 cut 16 and shopbag reupload 56151155 (lineage 55962761). Newest-2: 56151152 + 56151155. Cut 15 56146106 drops. Do not reupload boatlee 55710781.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260910b/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-10T20:08:14.csv",
+    "leaderboard_api": "experiments/20260910b_public_leaderboard_api.json",
+    "episodes_cut15": "experiments/episodes_56146106.json",
+    "episodes_shopbag": "experiments/episodes_56112309.json",
+    "cut15_replays": "artifacts/kaggle_runs/cut15_20260910b",
+    "top_replays": "artifacts/kaggle_runs/top_20260910b",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260910b",
+    "cut16_screen": "experiments/candidates/yamakawanin_king_v4e_rc4/screen.json",
+    "cut16_divergence": "experiments/20260910b_cut16_divergence.json",
+    "gate": "experiments/20260910b_gate.json",
+    "episode_report": "experiments/20260910b_episode_report.json",
+    "hunt_report": "experiments/20260910b_hunt_report.json"
+  },
+  "live": {
+    "sixday": 56028043,
+    "sixday_score": 1590.8,
+    "sixday_status": "COMPLETE",
+    "team_score": 1868.7,
+    "rank": 1530,
+    "n_teams": 8566,
+    "shopbag_previous": 56112309,
+    "shopbag_reupload": 56151155,
+    "shopbag_status": "PENDING",
+    "shopbag_score": null,
+    "newest_2": [56151155, 56151152],
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "cut14": 56111821,
+    "cut14_status": "COMPLETE",
+    "cut14_score": 1799.3,
+    "cut15": 56146106,
+    "cut15_status": "COMPLETE",
+    "cut15_score": 1864.4,
+    "cut16": 56151152,
+    "cut16_status": "PENDING",
+    "cut16_score": null,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2909.7,
+    "rank10": {"team": "kanno", "score": 2945.0},
+    "rank1": {"team": "SpaTaro", "score": 3109.9, "submissionId": 56114097},
+    "public_cut15": {"n": 92, "wtl": [50, 7, 35], "mean_margin": 7541.8}
+  },
+  "rolling": {
+    "previous": "experiments/20260910_cut14_rolling.json",
+    "live_cut15": "experiments/20260910b_cut15_rolling.json",
+    "ids": [107579117, 107578892, 107574623, 107572566, 107571704, 107571691, 107571612, 107572010, 107570298, 107570515, 107569607, 107568611],
+    "ids_not_identical_to_0910": true,
+    "n": 12,
+    "wtl": [4, 1, 7],
+    "mean_margin": 2066.8,
+    "loss_class": "mixed: extra-animal clones + clone later-block wool-crash — Junichiro Morita 107578892 8c6s3g vs 6c6s6g wool=$1 by 360 -11971; Cyrus 107571691 6c11s -11938. clone=1, Q=3/3, BUY_LAND 151/266 succeeded, cash_24 23-67 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not the failed s3/s4 milk-heavy cuts 12/13."
+  },
+  "junichiro": {
+    "id": 107578892,
+    "margin": -11971.0,
+    "clone": true,
+    "Q": [3, 3],
+    "land": [151, 266]
+  },
+  "top_board": {
+    "source": "experiments/20260910b_top10_games.json",
+    "not_copied_from": [
+      "experiments/20260904_top10_games.json",
+      "experiments/20260905_top10_games.json",
+      "experiments/20260906_top10_games.json",
+      "experiments/20260909_top10_games.json",
+      "experiments/20260910_top10_games.json"
+    ],
+    "ymg_aq": {
+      "land": [[121, 170], [121, 170], [121, 170], [121, 170]],
+      "herd": ["9c3s6g", "8c10s4g", "7c4s6g", "9c3s4g"],
+      "wheat": [1478, 1445, 1301, 1451],
+      "shops": ["BAKERY", "PET_CAFE", "FARMERS_MARKET", "BRUNCH_SPOT"],
+      "clone": false,
+      "episodes": [107582281, 107581290, 107580344, 107579345],
+      "note": "CSV #2. Absent from 09-04/05/06/09/10 top-board files. Mid-land 121/170, wheat-heavy, clone=0. Opening land is not a later-block license."
+    }
+  },
+  "cut12": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo. This cycle did not re-upload it."
+  },
+  "cut13": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo/Stefano/fufu. This cycle did not re-upload it. Not a 227/242/266 BALANCED wrap."
+  },
+  "cut15": {
+    "name": "thomastschinkel later-block reselect 144/288/432/576",
+    "hold": false,
+    "uploaded": 56146106,
+    "status": "COMPLETE",
+    "score": 1864.4,
+    "dropped_from_newest_2": true,
+    "windows_agent_so": false
+  },
+  "cut16": {
+    "name": "yamakawanin king-v4e-rc4 shop-family later-block P3+ 288/360/432/576",
+    "hold": false,
+    "uploaded": 56151152,
+    "status": "PENDING",
+    "score": null,
+    "windows_agent_so": false,
+    "kernel": "yamakawanin/king-v4e-rc4",
+    "agent_sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+    "reselect_steps": [216, 240, 241, 288, 360, 385, 432, 576],
+    "reselect_after_216": [240, 241, 288, 360, 385, 432, 576],
+    "sheep_200_267": [226, 241, 265],
+    "not_227_242_266_wrap": true,
+    "clone_g5": {
+      "prvsiyan_clone": 12627.0,
+      "fufu_clone": 12014.0,
+      "masa_clone": 40050.0,
+      "subin_97399969": 27159.0,
+      "james_95677563": 77153.0
+    },
+    "why": "Windows-runnable Python later-block. Shop-family PROGRAM reselect after 216 at 288/360/432/576 plus YARN_SECOND from 240. Distinct from live six-day, Fieldbook BALANCED, cut 14, and cut 15. Extra sheep 226/241/265 not 227/242/266. Not cut 12/13. Recorded-seat clone 3-0 and G5 both-win 1.32.7 720 DONE/DONE."
+  },
+  "hunt": [
+    {
+      "kernel": "lucifer19/harvest-nocturne-the-market-has-a-rhythm",
+      "verdict": "reject_no_later_block",
+      "note": "Sale-rhythm overlay on frozen tapes. Shop choice at 144. Cells not executed."
+    },
+    {
+      "kernel": "shashwat12a/kaggriculture-rl-model",
+      "verdict": "reject_eda",
+      "note": "Q-learning RL prototype. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook20e618e50b",
+      "verdict": "reject_no_later_block",
+      "note": "Shop0909 plus sale reservations from 288. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep-lb-2700",
+      "verdict": "reject_day6_only",
+      "note": "Moon/Shop0909 parent ROUTE_STEP 144. Cells not executed."
+    },
+    {
+      "kernel": "mzcao7/kaggriculture-forkable-baseline-paired-tests",
+      "verdict": "reject_no_later_block",
+      "note": "COK V7 shop-route baseline. Cells not executed."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook07b5f4563e",
+      "verdict": "reject_day6_only",
+      "note": "Shop Router 0908 v25. Cells not executed."
+    },
+    {
+      "kernel": "yamakawanin/kaggriculture-2312-9-q30-v2a",
+      "verdict": "reject_older_stack",
+      "note": "Older q30 v2a programme network. Distinct from cut 16 king-v4e-rc4. Cells not executed."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "other",
+      "note": "Gzip payload not decoded. Cells not executed. Do not reupload boatlee 55710781."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_uploaded",
+      "note": "Python shop-family PROGRAM later-block after 216. Static gzip extract. Cells not executed. Clone 3-0 and G5 both-win. Uploaded 56151152."
+    }
+  ]
+}

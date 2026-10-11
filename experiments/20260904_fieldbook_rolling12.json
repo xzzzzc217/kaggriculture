@@ -1,0 +1,1061 @@
+{
+  "games": [
+    {
+      "id": 105353499,
+      "opp": "datnt114",
+      "margin": -2707.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 218,
+      "shops72": [
+        "SMOOTHIE_SHOP"
+      ],
+      "shops144": [
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "sheep": [
+        5,
+        8
+      ],
+      "cow": [
+        9,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        380,
+        372
+      ],
+      "wool": [
+        138,
+        262
+      ],
+      "milk": [
+        270,
+        330
+      ],
+      "fert": [
+        330,
+        357
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        12,
+        14
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        79254.0,
+        76547.0
+      ]
+    },
+    {
+      "id": 105352892,
+      "opp": "chocolat",
+      "margin": -4273.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 362,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "sheep": [
+        5,
+        5
+      ],
+      "cow": [
+        9,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        380,
+        2386
+      ],
+      "wool": [
+        138,
+        1137
+      ],
+      "milk": [
+        270,
+        2262
+      ],
+      "fert": [
+        330,
+        1554
+      ],
+      "melon": [
+        72,
+        2074
+      ],
+      "tomato": [
+        0,
+        2000
+      ],
+      "carrot": [
+        12,
+        2008
+      ],
+      "egg": [
+        0,
+        2000
+      ],
+      "rewards": [
+        94957.0,
+        90684.0
+      ]
+    },
+    {
+      "id": 105352871,
+      "opp": "mimi\uff01",
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "clone": true,
+      "max_near": 720,
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "ICE_CREAM_SHOP"
+      ],
+      "sheep": [
+        11,
+        11
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        357,
+        357
+      ],
+      "wool": [
+        285,
+        285
+      ],
+      "milk": [
+        236,
+        236
+      ],
+      "fert": [
+        362,
+        362
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        18
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        133483.0,
+        133483.0
+      ]
+    },
+    {
+      "id": 105352544,
+      "opp": "Liquidus",
+      "margin": -10013.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 145,
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "FARMERS_MARKET"
+      ],
+      "sheep": [
+        5,
+        5
+      ],
+      "cow": [
+        5,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        391,
+        434
+      ],
+      "wool": [
+        285,
+        173
+      ],
+      "milk": [
+        236,
+        396
+      ],
+      "fert": [
+        358,
+        334
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        12
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        89822.0,
+        79809.0
+      ]
+    },
+    {
+      "id": 105350400,
+      "opp": "rhythm master",
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "clone": true,
+      "max_near": 720,
+      "shops72": [
+        "YARN_STORE"
+      ],
+      "shops144": [
+        "YARN_STORE",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        10,
+        10
+      ],
+      "cow": [
+        6,
+        6
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        358,
+        358
+      ],
+      "wool": [
+        285,
+        285
+      ],
+      "milk": [
+        236,
+        236
+      ],
+      "fert": [
+        358,
+        358
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        18
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        103989.0,
+        103989.0
+      ]
+    },
+    {
+      "id": 105346857,
+      "opp": "Egor Trushin",
+      "margin": 6516.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 218,
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops144": [
+        "ICE_CREAM_SHOP",
+        "BAKERY"
+      ],
+      "sheep": [
+        8,
+        5
+      ],
+      "cow": [
+        9,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        343,
+        380
+      ],
+      "wool": [
+        285,
+        138
+      ],
+      "milk": [
+        262,
+        270
+      ],
+      "fert": [
+        360,
+        326
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        12
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        86525.0,
+        80009.0
+      ]
+    },
+    {
+      "id": 105346150,
+      "opp": "Chiranjieev",
+      "margin": -20786.0,
+      "win": false,
+      "tie": false,
+      "clone": false,
+      "max_near": 20,
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "FARMERS_MARKET"
+      ],
+      "sheep": [
+        4,
+        5
+      ],
+      "cow": [
+        5,
+        7
+      ],
+      "goose": [
+        0,
+        2
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 7,
+        "SHEEP": 5,
+        "GOOSE": 2
+      },
+      "pasture": [
+        17,
+        15
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        387,
+        318
+      ],
+      "wool": [
+        138,
+        138
+      ],
+      "milk": [
+        270,
+        216
+      ],
+      "fert": [
+        326,
+        330
+      ],
+      "melon": [
+        72,
+        66
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        12,
+        99
+      ],
+      "egg": [
+        0,
+        64
+      ],
+      "rewards": [
+        93093.0,
+        113879.0
+      ]
+    },
+    {
+      "id": 105343432,
+      "opp": "Kaggriculture Agent",
+      "margin": -4239.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 107,
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops144": [
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ],
+      "sheep": [
+        5,
+        7
+      ],
+      "cow": [
+        9,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        380,
+        2359
+      ],
+      "wool": [
+        138,
+        2286
+      ],
+      "milk": [
+        270,
+        2411
+      ],
+      "fert": [
+        330,
+        2706
+      ],
+      "melon": [
+        72,
+        2070
+      ],
+      "tomato": [
+        0,
+        1998
+      ],
+      "carrot": [
+        12,
+        2011
+      ],
+      "egg": [
+        0,
+        1998
+      ],
+      "rewards": [
+        78228.0,
+        73989.0
+      ]
+    },
+    {
+      "id": 105340175,
+      "opp": "yasu",
+      "margin": -1310.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 218,
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "BAKERY"
+      ],
+      "sheep": [
+        5,
+        8
+      ],
+      "cow": [
+        9,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        380,
+        371
+      ],
+      "wool": [
+        138,
+        262
+      ],
+      "milk": [
+        270,
+        345
+      ],
+      "fert": [
+        330,
+        357
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        12,
+        14
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        100548.0,
+        99238.0
+      ]
+    },
+    {
+      "id": 105339719,
+      "opp": "\u6211\u7684AI\u662f\u8c46\u5305",
+      "margin": 20885.0,
+      "win": true,
+      "tie": false,
+      "clone": true,
+      "max_near": 155,
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops144": [
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "sheep": [
+        11,
+        5
+      ],
+      "cow": [
+        6,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 6,
+        "SHEEP": 11
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        357,
+        380
+      ],
+      "wool": [
+        285,
+        138
+      ],
+      "milk": [
+        236,
+        270
+      ],
+      "fert": [
+        362,
+        327
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        12
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        95384.0,
+        116269.0
+      ]
+    },
+    {
+      "id": 105336232,
+      "opp": "G!vIOne",
+      "margin": -2267.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 131,
+      "shops72": [
+        "BRUNCH_SPOT"
+      ],
+      "shops144": [
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ],
+      "sheep": [
+        5,
+        6
+      ],
+      "cow": [
+        9,
+        7
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "buy_opp": {
+        "COW": 7,
+        "SHEEP": 6
+      },
+      "pasture": [
+        17,
+        14
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        380,
+        448
+      ],
+      "wool": [
+        138,
+        109
+      ],
+      "milk": [
+        270,
+        214
+      ],
+      "fert": [
+        326,
+        284
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        12,
+        24
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        84412.0,
+        82145.0
+      ]
+    },
+    {
+      "id": 105333105,
+      "opp": "Ryutaro Tsujii",
+      "margin": -7737.0,
+      "win": false,
+      "tie": false,
+      "clone": true,
+      "max_near": 157,
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops144": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ],
+      "sheep": [
+        5,
+        5
+      ],
+      "cow": [
+        5,
+        9
+      ],
+      "goose": [
+        0,
+        0
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "buy_us": {
+        "COW": 9,
+        "SHEEP": 9
+      },
+      "buy_opp": {
+        "COW": 9,
+        "SHEEP": 5
+      },
+      "pasture": [
+        17,
+        17
+      ],
+      "land": [
+        151,
+        266
+      ],
+      "land_opp": [
+        151,
+        266
+      ],
+      "wheat": [
+        377,
+        434
+      ],
+      "wool": [
+        285,
+        173
+      ],
+      "milk": [
+        253,
+        394
+      ],
+      "fert": [
+        360,
+        334
+      ],
+      "melon": [
+        72,
+        72
+      ],
+      "tomato": [
+        0,
+        0
+      ],
+      "carrot": [
+        18,
+        12
+      ],
+      "egg": [
+        0,
+        0
+      ],
+      "rewards": [
+        74506.0,
+        66769.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912d",
+  "kernels_not_in_0912c_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912d",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260912d.py",
+    "experiments/candidates/inspect_hunt_20260912d_focus.py",
+    "experiments/candidates/scan_hunt_20260912d.py",
+    "experiments/candidates/scan_hunt_20260912d_detail.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "sunil_v4_files_b85_zlib_sha_only",
+  "compare_0912c": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260912c",
+    "hunt_report": "experiments/20260912c_hunt_report.json",
+    "gate": "experiments/20260912c_gate.json",
+    "note": "0912c already rejected Ahmed V38 smarter-feed (Shop0909 144/648 + 288/712 overlay SHA a2047ebd), zhincez plateau tape-mosaic (day 3/6 switch SHA 07f6c806), three zhincez analysis notes. This packet is four new slugs: nusrati/2650-score (Ahmed V35 reprint SHA 294e7e4d), sunil123kumar/kaggriculture-v4 (Shop0909 T4 overlay / 712 planner), two zhincez analysis notes (PPO traps; market-half swap). None is a new after-216 farm reselect."
+  },
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "nusrati/2650-score",
+    "sunil123kumar/kaggriculture-v4",
+    "zhincez/ten-ppo-runs-one-fake-win-zero-real-ones",
+    "zhincez/the-market-half-is-worth-zero-on-its-own"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "hunt": [
+    {
+      "kernel": "nusrati/2650-score",
+      "path": "artifacts/public_sources/_hunt_20260912d/nusrati__2650-score/2650-score.ipynb",
+      "notebook_sha256": "fca25beed49bdfd7be78929b61dc3e7856ed82f8ab40e90c18505479e249cb31",
+      "notebook_bytes": 303151,
+      "n_cells": 13,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 4,
+        "name": "main.py",
+        "bytes": 267230,
+        "sha256": "294e7e4d9d4b97413646960d318043e0f9116ce58f42fe02afd4716614a4e96d"
+      },
+      "expected_main_sha256": "294e7e4d9d4b97413646960d318043e0f9116ce58f42fe02afd4716614a4e96d",
+      "flags": {
+        "ROUTE_STEP": false,
+        "FINAL_PLAN_STEP": false,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "DECISIONS": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "day6": "step>=144",
+        "day27": "step>=648",
+        "terminal_planner": [
+          712,
+          718
+        ],
+        "milk_livestock_sub": "216<=step<=227",
+        "sale_reservations_from": 288
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "Reprint of Ahmed V35. Python %%writefile main.py cell 4 sha256 294e7e4d equals 0911b ahmedberatozer v35 (Shop0909 144/648 + 288 four-turn + 712 planner + 216-227 milk livestock). Distinct slug from 0912c Ahmed V38 a2047ebd. Not after-216 farm reselect. No ctypes.CDLL/agent.so. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-v4",
+      "path": "artifacts/public_sources/_hunt_20260912d/sunil123kumar__kaggriculture-v4/kaggriculture-v4.ipynb",
+      "notebook_sha256": "4f0dc59bd85998e43e850ef1e55cf715d8b4706a45f7417158f49f78f6b7757d",
+      "notebook_bytes": 268570,
+      "n_cells": 6,
+      "execution_count": null,
+      "outputs": 0,
+      "files": {
+        "main.py": "0cba779f8e63918d732150b8de8e8d728c177874f93b3c064f3fb5cc906e48f4",
+        "combined_runtime.py": "597a5fae10193afdead8869fee1164349d25e90dce6e31c44ab893220d03f809",
+        "router_parent.py": "d6d74997dc5b483db63d8e39cafa1afeec0f366824e75107e109123f111e866b",
+        "policy.py": "e239501d1224ba3d198aef11bc6b1b40637fbac335db7ca07205175d992f9b12"
+      },
+      "flags": {
+        "ROUTE_STEP": 144,
+        "FINAL_PLAN_STEP": 648,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "DECISIONS": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "terminal_planner": [
+          712,
+          718
+        ],
+        "front_run": "336"
+      },
+      "verdict": "reject_shop0909_t4_overlay",
+      "licensed_for_extract": false,
+      "note": "No %%writefile. Static b85+zlib of FILES: adapter main.py 0cba779f; combined_runtime 597a5fae is T4 overlay / widened front-run on frozen Seven-Turn Rescue; router_parent d6d74997 is Shop0909 ROUTE_STEP=144 FINAL_PLAN_STEP=648; policy.py 712-718 planner. Distinct from live cuts 14/15/16. Not after-216 farm reselect. No ctypes/agent.so. Cells not executed. Did not write extracted main.py under candidates/."
+    },
+    {
+      "kernel": "zhincez/ten-ppo-runs-one-fake-win-zero-real-ones",
+      "path": "artifacts/public_sources/_hunt_20260912d/zhincez__ten-ppo-runs-one-fake-win-zero-real-ones/ten-ppo-runs-one-fake-win-zero-real-ones.ipynb",
+      "notebook_sha256": "13513c84503e8c75dabc26562386244339bd74c9e7e84fbb07551b04c287de4a",
+      "notebook_bytes": 6022,
+      "n_cells": 7,
+      "execution_count": null,
+      "outputs": 0,
+      "verdict": "reject_analysis",
+      "licensed_for_extract": false,
+      "note": "Analysis notebook: four PPO traps. No agent writefile/payload. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "zhincez/the-market-half-is-worth-zero-on-its-own",
+      "path": "artifacts/public_sources/_hunt_20260912d/zhincez__the-market-half-is-worth-zero-on-its-own/the-market-half-is-worth-zero-on-its-own.ipynb",
+      "notebook_sha256": "a7c5b241988ce01ab83b0248c416ecf9d5a8b52b1995991f922ad8e29ba52f46",
+      "notebook_bytes": 6980,
+      "n_cells": 6,
+      "execution_count": null,
+      "outputs": 0,
+      "verdict": "reject_analysis",
+      "licensed_for_extract": false,
+      "note": "Analysis notebook: farm/market channel swap. No agent. Cells not executed. Did not extract."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-01",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-01T13:35:44.csv",
+  "rank": 214,
+  "score": 2382.3,
+  "n_teams": 7173,
+  "gold21": 2712.3,
+  "gold_buffer": -330.0,
+  "rank10": {"team": "Mc10nys0n", "score": 2775.2, "gap": 392.9},
+  "top10": [
+    ["tetsuya", 2940.0],
+    ["OceanMix", 2885.7],
+    ["Crop Dusta", 2878.6],
+    ["Driz Lo", 2840.8],
+    ["QQ Farming", 2839.4],
+    ["Iulian Curte", 2813.0],
+    ["Kaileh57", 2802.1],
+    ["zhyphirus", 2790.5],
+    ["MtN", 2777.6],
+    ["Mc10nys0n", 2775.2]
+  ],
+  "newest_2": {
+    "v4": {"id": 55887331, "score": 1927.0, "public": {"n": 117, "wtl": [70, 2, 45], "mean_margin": 7604.0}, "rolling12": {"wtl": [5, 0, 7], "mean_margin": -1896.3}},
+    "shopbag": {"id": 55840543, "score": 2382.3, "public": {"n": 250, "wtl": [103, 4, 143], "mean_margin": 260.7}, "rolling12": {"wtl": [3, 0, 9], "mean_margin": -4280.7}}
+  },
+  "drop_reason": "shopbag/v4 rolling-12 is 8c4s/14-pasture Ramesh clones losing to 9c5s and 6c11s with 17 pastures. Opponent sell mix matches Yusuke Fieldbook BALANCED (380 wheat / 138 wool / 326 fert / 72 melon) and YARN_ENGINE (358 wheat / 285 wool).",
+  "rolling12_classes": [
+    "no-yarn Fieldbook-BALANCED clones: 9c5s 17 pastures wheat ~380 wool 138 fert 326 (Mostafa/souju00/Ace Team/Peter Parker)",
+    "yarn-in-bag 6c11s YARN_ENGINE clones: Bandito 6c11s wheat 358 wool 285 vs our yarn-wrap 4c8s",
+    "extra-cow 11c4s: l1aF wool 396, tully_boss, Aristotle.Chen"
+  ],
+  "summit_from_0831_zip": {
+    "tetsuya": {
+      "class": "not Kenjo/Fieldbook",
+      "land": [169, 241],
+      "clone": false,
+      "sample": "7c5s+3goose / 4c11s / 4c12s / 9c5s+1goose; wheat 402-509; fert 528-624; melon 60-102; optional egg 28-88",
+      "note": "Beat Kenjo1209 +20075 and MtN 9c5s by 28472. Later land, geese, live or a different tape family. No public kernel."
+    },
+    "Crop Dusta": {
+      "class": "live wheat mountain, still 3Q at 122/199",
+      "sample": "wheat 2112/577/338/1831 shop-conditioned; carrot 26-234; egg 0-112; geese in losses",
+      "note": "Wins with the flood; loses to Hanserong/xi luo when wheat is throttled. North star unchanged. No source."
+    },
+    "OceanMix": {
+      "class": "unknown",
+      "note": "Last sub 2026-09-01 00:01. Not in 08-31 daily zip. Old low-fert 98031955 is a different agent."
+    },
+    "Kaileh_QQ_Driz_Yusuke_MtN": {
+      "class": "Kenjo/Fieldbook 151/266 17-pasture 9c5s or 6c11s or 8c9s",
+      "melon": 72,
+      "clone": true,
+      "note": "This is the matchmaking band killing shopbag. Yusuke 8c9s is Fieldbook YARN_LATE."
+    }
+  },
+  "hunt": [
+    {
+      "kernel": "yhay81/fieldbook-commit-for-three-days",
+      "dataset": "yhay81/shopforge-fieldbook-tapes",
+      "agent": "six-route Fieldbook SHA de668f7f...",
+      "verdict": "gated_next_upload",
+      "note": "Published study, not submitted LossGuard (0.95549 vs 0.95883 on 27520 frozen games). Shared opening 0-143, branch day 6 and 9. BALANCED 9c5s, YARN_ENGINE 6c11s, YARN_LATE 9c9s, LAND/WHEAT recovery 6c11s. Sell-lead skips wheat/fert; terminal liquidation last 2 turns."
+    },
+    {
+      "kernel": "yhay81/public-match-history-router-rating-2929-aug-30",
+      "verdict": "already_rejected",
+      "note": "10-history two-shop demo clone -8108. Fieldbook is the cleaned six-route version of the same method."
+    },
+    {
+      "kernel": "lynnsakurai/farming-score-v5-timing-optimized",
+      "verdict": "reject",
+      "note": "Kenjo 102192548 + Niklita 101408728 E776 lineage. Shop-window cow/sheep swap at 150/169/176. Already screened as not 2/3 MtN/Yusuke/Hanserong."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-adaptive-farm-intelligence",
+      "verdict": "reject",
+      "note": "Repackaged public archive. Flex lineage, not live-five."
+    },
+    {
+      "kernel": "trnhquangminh140/kaggriculture-strategic-decision-making",
+      "verdict": "reject",
+      "note": "Beginner Manhattan pathfinding + auto BUY_LAND. Not medal-tier."
+    },
+    {
+      "kernel": "destbreso x-ray / field guide / macro x-ray / motemen census",
+      "verdict": "infra",
+      "note": "Tape-plus-rim taxonomy; layer worth less than recording; carrot/tomato/egg still the climbing hinge; fertilizer drain is zero; field half-life 2.1 days. Not an agent."
+    }
+  ],
+  "fieldbook_screen": {
+    "sha256": "de668f7f72a552640fe0e615fff937990596a47cbe95ba6f6f3992d3fcba3ae8",
+    "bytes": 331060,
+    "clone3": "3-0 prvsiyan +4093 / fufu +7516 / masa +11567",
+    "g5": "Subin +31494 James +25530 both win",
+    "mtn_yusuke_hanserong": "3/3 flips: MtN +2044, Yusuke +18016, Hanserong +11446",
+    "v4_live_losses": "4/5 flips; satoooh still -411",
+    "panel": "12/13",
+    "rolling12_sample": "4/6 flips (Bandito +919, souju00 +461, Zhongyi +11924, JianYuan +1162); Mostafa -443 and l1aF -574 are Fieldbook-vs-Fieldbook coin-flips"
+  },
+  "v5_vs_fieldbook": "v5 still loses MtN and 3정훈 and does not play YARN_LATE. Fieldbook strictly dominates the gated panel except smaller prvsiyan/fufu clone margins (still wins).",
+  "upload_cost": "A new upload drops shopbag 55840543 (2382.3) from newest-2 unless we re-upload shopbag as the second slot. v4 1927 is the dying slot to drop. Do not upload without 提交.",
+  "next_chassis": "yusuke_fieldbook (cut 10). Not v5. Not v2 wheat front-run (Fieldbook sell-lead explicitly skips wheat/fertilizer). Not Crop Dusta BC. Not tetsuya (no kernel).",
+  "hold": true
+}

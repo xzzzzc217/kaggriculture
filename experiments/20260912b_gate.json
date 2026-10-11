@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912b",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Writefile SHA acf7c664 identical to live cut 14. DECISIONS 226/360/433. Do not re-upload."
+    },
+    {
+      "kernel": "crystalbaby/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_sale_overlay",
+      "note": "Decompressed main.py SHA 94c1c2c0 = Ahmed v37 Shop0909 overlay. Cells not executed. Did not extract to candidates/."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+      "verdict": "reject_sale_overlay",
+      "note": "sale_horizon=5 ROUTE_STEP=144 FINAL_PLAN_STEP=648 ADVANCE_START=288. Not later-block."
+    },
+    {
+      "kernel": "municef1/lb-2448-single-file-kaggriculture-agent",
+      "verdict": "reject_fixed_tape",
+      "note": "Fixed 719-step tape, router=None. Not after-216 farm reselect."
+    },
+    {
+      "kernel": "bernubritz/kaggriculture-h4-best",
+      "verdict": "reject_actions_json_tape",
+      "note": "actions.json gzip tape, not Python later-block."
+    },
+    {
+      "kernel": "melomanpanda/main-py",
+      "verdict": "reject_heuristic",
+      "note": "2g1c1s heuristic. Not later-block."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Author list 2026-09-12b: still newest Yusuke kernel (2026-09-11 08:38). Day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1695.1,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1323.5,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912b",
+  "hunt_report": "experiments/20260912b_hunt_report.json",
+  "named_kernels_scanned": [
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+    "crystalbaby/kaggriculture-dynamic-route-agent",
+    "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+    "municef1/lb-2448-single-file-kaggriculture-agent",
+    "bernubritz/kaggriculture-h4-best",
+    "melomanpanda/main-py"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1695.1 partnered with newer shopbag 56151155 COMPLETE 1323.5 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No legal after-216 public-state Python appeared this fire (y3uanm v20 is cut 14; crystalbaby is Ahmed v37 Shop0909; dmitrii is sale_horizon=5 144/648; municef1/bernubritz are tapes; Yusuke/king/Thomas author lists have no new later-block). Did not extract, did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: 09-12 rolling game 108010033 already bought extra sheep at 227/242/266 (10c8s) and still lost to 8c6s3g; this window's 8c6s3g losses bought sheep at 314."
+}

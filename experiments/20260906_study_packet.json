@@ -1,0 +1,105 @@
+{
+  "title": "Kaggriculture study packet 2026-09-06",
+  "no_upload": "Uploaded 56028043. Do not reupload boatlee. Newest-2 after COMPLETE: six-day + shopbag 55962761.",
+  "not_the_0905_packet": true,
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260906/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-04T10:48:46.csv",
+    "newest_daily_zip": "artifacts/kaggle_runs/episodes_20260903/kaggriculture-episodes-2026-09-03.zip",
+    "daily_zip_status": "No 09-04 daily zip published. Newest Fieldbook/keiz/Yusuke publics are 09-04 09:25–10:41 UTC via kaggleusercontent episode JSON + EpisodeService. 09-03 zip remains local fallback.",
+    "fieldbook_replays": "artifacts/kaggle_runs/fieldbook_20260906",
+    "top_replays": "artifacts/kaggle_runs/top_20260906",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260906"
+  },
+  "live": {
+    "fieldbook": 55962758,
+    "sixday": 56028043,
+    "score": 1883.4,
+    "rank": 898,
+    "n_teams": 7586,
+    "shopbag_reupload": 55962761,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "public": {"n": 372, "wtl": [133, 60, 179], "mean_margin": 585.1},
+    "gold21": 2812.4,
+    "rank10": {"team": "edteoh", "score": 2850.3}
+  },
+  "rolling12": {
+    "previous": "experiments/20260905_fieldbook_rolling12.json",
+    "live_fieldbook": "experiments/20260906_fieldbook_rolling12.json",
+    "ids": [105442209, 105441370, 105440855, 105438192, 105434714, 105433902, 105432943, 105431376, 105429650, 105428753, 105428617, 105426158],
+    "ids_differ_from_0905": true,
+    "wtl": [4, 3, 5],
+    "mean_margin": 2565.1,
+    "loss_class": "Still freeze-after-day-9 vs later 9c9s / heavier wheat tails; this window is mostly 9c5s self-clone coin-flips (ties and -343 to -1237) plus Ramesh 416-vs-380 wheat, not a new Fieldbook tape."
+  },
+  "top_board": {
+    "source": "experiments/20260906_top10_games.json",
+    "not_copied_from": ["experiments/20260904_top10_games.json", "experiments/20260905_top10_games.json"],
+    "keiz": {
+      "land": [151, 266],
+      "herd": ["7c6s+1g", "11c11s+1g", "8c6s+1g", "5c14s+1g"],
+      "wheat": [304, 444],
+      "shops": ["BRUNCH_SPOT", "ICE_CREAM_SHOP", "PET_CAFE", "FARMERS_MARKET"],
+      "clone": "mixed",
+      "melon": [72, 120],
+      "goose": 1,
+      "note": "Rank 2. Absent from 09-04 and 09-05 top-board files. Always one goose. Beat Jesse and Crop Dusta. Not Giulio 9c5s, not Knight dump, not Jesse 5c13s/11c5s."
+    }
+  },
+  "reselect_vs_patch": {
+    "source": "experiments/20260906_yusuke_reselect_vs_patch.json",
+    "submission": 55975994,
+    "episodes": [105395079, 105391598, 105388041, 105384084, 105440805, 105437312],
+    "is_balanced_tail_patch": false,
+    "is_later_block_reselect": false,
+    "vs_balanced_0_216": {"farmer": 180, "hands": 209, "market": 101, "first": 1},
+    "vs_balanced_217_266_no_sheep": {"farmer": 41, "hands": 50, "market": 43, "first": 217},
+    "pairwise_identical_0_266": true,
+    "verdict": "Neither later-block reselect after 216 nor a Fieldbook BALANCED-tail patch. Yusuke live is one shop-independent tape through 266. Extra SHEEP 227/242/266 sit on that tape after a 5th sheep at 218."
+  },
+  "cut10_screen": {
+    "agent": "experiments/candidates/yusuke_fieldbook/main.py",
+    "sha256_prefix": "de668f7f",
+    "clone": "3-0",
+    "v5": "superseded",
+    "windows_agent_so": false
+  },
+  "cut11": {
+    "name": "Yusuke six-day public-state Fieldbook",
+    "hold": false,
+    "uploaded": 56028043,
+    "python_port": "experiments/candidates/yusuke_sixday/",
+    "windows_agent_so": false,
+    "clone_g5_screen": "experiments/candidates/yusuke_sixday/screen.json",
+    "why": "Python port of six-day trees + 144-turn blocks uploaded 56028043 PENDING. Not a 227/242/266 BALANCED wrap. Do not claim Windows ran agent.so.",
+    "notes": "experiments/candidates/yusuke_sixday/README.md"
+  },
+  "next_chassis": "Yusuke six-day public-state Fieldbook (cut 11 Python port, live 56028043 PENDING). Shopbag 55962761 stays newest-2. No 227 wrap. Do not compile-and-hope agent.so on Windows.",
+  "hunt": [
+    {
+      "kernel": "yhay81/six-day-public-state-fieldbook",
+      "verdict": "uploaded_56028043",
+      "note": "Python port uploaded. Linux agent.so not used."
+    },
+    {
+      "kernel": "evgendvorkin/kaggriculture",
+      "verdict": "reject_lineage",
+      "note": "Absent from 09-05 packet hunt. Last run 09-04 10:32. Kaito v27 disassembly, not 9c9s later-block."
+    },
+    {
+      "kernel": "yhay81/three-day-shop-router",
+      "verdict": "reject_for_now",
+      "note": "Absent from 09-05 packet hunt. C++ step-360 patch. Same agent.so bar."
+    },
+    {
+      "kernel": "lynnsakurai/farming-score-v5-timing-optimized",
+      "verdict": "reject_lineage",
+      "note": "Absent from 09-05 packet hunt. Kenjo shop-window cow/sheep swap. Not Yusuke 9c9s tape."
+    },
+    {
+      "kernel": "reyhanksatria/adaptive-route-agent-v2",
+      "verdict": "reject_opaque",
+      "note": "Absent from 09-05 packet hunt. zlib PAYLOAD. Cells not executed."
+    }
+  ]
+}

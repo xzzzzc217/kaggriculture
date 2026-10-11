@@ -1,0 +1,84 @@
+{
+  "title": "Kaggriculture study packet 2026-09-08",
+  "not_the_0907_packet": true,
+  "no_upload": "Hold. No cut 13. Do not reupload boatlee 55710781. Newest-2 stays 56028043 + 55962761.",
+  "sources": {
+    "leaderboard_zip": "artifacts/kaggle_runs/lb_20260909/kaggriculture.zip",
+    "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-05T12:59:29.csv",
+    "episodes": "experiments/episodes_56028043.json",
+    "sixday_replays": "artifacts/kaggle_runs/sixday_20260908",
+    "hunt_dir": "artifacts/public_sources/_hunt_20260909",
+    "cut13_probe": "experiments/20260908_cut13_probe.json"
+  },
+  "live": {
+    "sixday": 56028043,
+    "score": 1888.3,
+    "status": "COMPLETE",
+    "team_score": 1888.3,
+    "rank": 939,
+    "n_teams": 7723,
+    "shopbag_reupload": 55962761,
+    "shopbag_score": 1606.9,
+    "fieldbook": 55962758,
+    "fieldbook_score": 1762.9,
+    "root_main_py": "h2 65e6f5cd... unchanged",
+    "gold21": 2766.8,
+    "rank10": {"team": "Atakan Aldemir", "score": 2838.1},
+    "public": {"n": 78, "wtl": [44, 0, 34], "mean_margin": -7317.7}
+  },
+  "rolling": {
+    "previous": "experiments/20260907_sixday_rolling.json",
+    "live_sixday": "experiments/20260908_sixday_rolling.json",
+    "ids": [105798735, 105797728, 105795787, 105794752, 105793818, 105792905, 105791984, 105791046, 105790145, 105789244, 105788352, 105787453],
+    "ids_not_identical_to_0907": true,
+    "n": 12,
+    "wtl": [3, 0, 9],
+    "mean_margin": -40727.3,
+    "loss_class": "mixed: (1) opening-broke no-land — Tatu/Zimin Q=1, 0 cows/sheep, cash 0 by step 24, BUY_LAND at 150/265 no-ops; shakedamo Q=2 0 cows; not fixable after 216. (2) clone 9c5s/8c9s later-block wool-crash — Stefano -21909, fufu -11025, Fih/weihao/Akira/dauletto. Not freeze-after-day-9 9c9s. Not the failed s3 milk-heavy cut 12."
+  },
+  "tatu": {
+    "id": 105797728,
+    "margin": -167313,
+    "clone": false,
+    "Q": [1, 3],
+    "cow": [0, 9],
+    "sheep": [0, 8],
+    "cash_24": 0,
+    "cash_144": 2
+  },
+  "stefano": {
+    "id": 105798735,
+    "margin": -21909,
+    "clone": true,
+    "buy_opp": {"COW": 9, "SHEEP": 5},
+    "wool_price_432": 24,
+    "cash_gap_576": -15740
+  },
+  "cut12": {
+    "hold": true,
+    "reused": false,
+    "why": "Already lost recorded-seat vs Deskbo. This cycle did not re-upload it."
+  },
+  "cut13": {
+    "name": "s4 route 3 when cash_gap<0 and milk>150",
+    "hold": true,
+    "why": "Last-block milk-heavy tape (140 milk vs 96, also SELL:COW 5). Recorded-seat: Deskbo L -18470 (worse than live -15628), Stefano L -22834 (worse), fufu L -8724 (better than -11025, still L). Not a 227/242/266 BALANCED wrap. Not cut 12."
+  },
+  "hunt": [
+    {
+      "kernel": "foysalemonshanto/3day-shop-router-with-projected-same-turn-sell-cap",
+      "verdict": "reject_for_now",
+      "note": "Yusuke three-day C++ plus terminal all-product sweep. agent.so. 360 splice is BAKERY/PET_CAFE only. Cells not executed."
+    },
+    {
+      "kernel": "avioon/kaggriculture-apex-v7-god-emperor",
+      "verdict": "reject_for_now",
+      "note": "Same three-day C++ 72-turn chassis. agent.so. Cells not executed."
+    },
+    {
+      "kernel": "prvsiyan/where-the-wheat-remembers-tomorrow-kaggriculture",
+      "verdict": "reject_tape_swap",
+      "note": "LagrangianLocomotive tape swap. Cells not executed."
+    }
+  ]
+}

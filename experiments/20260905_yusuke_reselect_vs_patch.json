@@ -1,0 +1,1651 @@
+{
+  "episodes": [
+    {
+      "id": 105395079,
+      "opp": "mtmr_s1",
+      "shops72": [
+        "PIZZA_SHOP"
+      ],
+      "shops216": [
+        "PIZZA_SHOP",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep_217_266": [
+        {
+          "step": 218,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 227,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 242,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            2
+          ]
+        },
+        {
+          "step": 266,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        }
+      ],
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_balanced_217_266_no_sheep_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "HARVEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "EAST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "PLACE",
+            "WOOL",
+            4
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ],
+      "vs_yarn_late_217_266_no_sheep": {
+        "farmer": 44,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_yarn_engine_0_216": {
+        "farmer": 184,
+        "hands": 209,
+        "market": 105
+      },
+      "prefix_samples": [
+        {
+          "step": 1,
+          "parts": [
+            "farmer",
+            "market"
+          ],
+          "a_farmer": [
+            "PASS"
+          ],
+          "b_farmer": [
+            "NORTH"
+          ],
+          "a_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ]
+        },
+        {
+          "step": 2,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              8
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 3,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105391598,
+      "opp": "Morylov Yehor",
+      "shops72": [
+        "ICE_CREAM_SHOP"
+      ],
+      "shops216": [
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep_217_266": [
+        {
+          "step": 218,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 227,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 242,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            2
+          ]
+        },
+        {
+          "step": 266,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        }
+      ],
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_balanced_217_266_no_sheep_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "HARVEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "EAST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "PLACE",
+            "WOOL",
+            4
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ],
+      "vs_yarn_late_217_266_no_sheep": {
+        "farmer": 44,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_yarn_engine_0_216": {
+        "farmer": 184,
+        "hands": 209,
+        "market": 105
+      },
+      "prefix_samples": [
+        {
+          "step": 1,
+          "parts": [
+            "farmer",
+            "market"
+          ],
+          "a_farmer": [
+            "PASS"
+          ],
+          "b_farmer": [
+            "NORTH"
+          ],
+          "a_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ]
+        },
+        {
+          "step": 2,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              8
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 3,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105388041,
+      "opp": "My second life",
+      "shops72": [
+        "PET_CAFE"
+      ],
+      "shops216": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "sheep_217_266": [
+        {
+          "step": 218,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 227,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 242,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            2
+          ]
+        },
+        {
+          "step": 266,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        }
+      ],
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_balanced_217_266_no_sheep_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "HARVEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "EAST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "PLACE",
+            "WOOL",
+            4
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ],
+      "vs_yarn_late_217_266_no_sheep": {
+        "farmer": 44,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_yarn_engine_0_216": {
+        "farmer": 184,
+        "hands": 209,
+        "market": 105
+      },
+      "prefix_samples": [
+        {
+          "step": 1,
+          "parts": [
+            "farmer",
+            "market"
+          ],
+          "a_farmer": [
+            "PASS"
+          ],
+          "b_farmer": [
+            "NORTH"
+          ],
+          "a_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ]
+        },
+        {
+          "step": 2,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              8
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 3,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105384084,
+      "opp": "OverfitOracle",
+      "shops72": [
+        "BAKERY"
+      ],
+      "shops216": [
+        "BAKERY",
+        "PIZZA_SHOP",
+        "YARN_STORE"
+      ],
+      "sheep_217_266": [
+        {
+          "step": 218,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 227,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        },
+        {
+          "step": 242,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            2
+          ]
+        },
+        {
+          "step": 266,
+          "order": [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        }
+      ],
+      "vs_balanced_0_216": {
+        "farmer": 180,
+        "hands": 209,
+        "market": 101
+      },
+      "vs_balanced_217_266_no_sheep": {
+        "farmer": 41,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_balanced_217_266_no_sheep_samples": [
+        {
+          "step": 217,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              4
+            ],
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              3
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 218,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "HARVEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "FERTILIZER",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        {
+          "step": 219,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "EAST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ],
+          "b_market": []
+        },
+        {
+          "step": 220,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "EAST"
+          ],
+          "b_farmer": [
+            "PLACE",
+            "WOOL",
+            4
+          ],
+          "a_market": [],
+          "b_market": [
+            [
+              "SELL",
+              "WOOL",
+              4
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ],
+      "vs_yarn_late_217_266_no_sheep": {
+        "farmer": 44,
+        "hands": 50,
+        "market": 43
+      },
+      "vs_yarn_engine_0_216": {
+        "farmer": 184,
+        "hands": 209,
+        "market": 105
+      },
+      "prefix_samples": [
+        {
+          "step": 1,
+          "parts": [
+            "farmer",
+            "market"
+          ],
+          "a_farmer": [
+            "PASS"
+          ],
+          "b_farmer": [
+            "NORTH"
+          ],
+          "a_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ]
+        },
+        {
+          "step": 2,
+          "parts": [
+            "farmer",
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "NORTH"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              8
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              12
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              2
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              2
+            ]
+          ],
+          "b_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "step": 3,
+          "parts": [
+            "hands",
+            "market"
+          ],
+          "a_farmer": [
+            "WEST"
+          ],
+          "b_farmer": [
+            "WEST"
+          ],
+          "a_market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ],
+          "b_market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "a": 105395079,
+      "b": 105391598,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    },
+    {
+      "a": 105395079,
+      "b": 105388041,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    },
+    {
+      "a": 105395079,
+      "b": 105384084,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    },
+    {
+      "a": 105391598,
+      "b": 105388041,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    },
+    {
+      "a": 105391598,
+      "b": 105384084,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    },
+    {
+      "a": 105388041,
+      "b": 105384084,
+      "prefix_0_216": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_217_266_no_sheep": {
+        "farmer": 0,
+        "hands": 0,
+        "market": 0
+      },
+      "tail_samples": []
+    }
+  ],
+  "verdict": "BALANCED-tail patch: Yusuke 9c9s games share one action stream 0-266 except the extra SHEEP buys at 227/242/266",
+  "pairwise_prefix_identical": true,
+  "pairwise_tail_no_sheep_identical": true
+}

@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912e",
+  "kernels_not_in_0912d_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912e",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260912e.py",
+    "experiments/candidates/inspect_hunt_20260912e_focus.py",
+    "experiments/candidates/scan_hunt_20260912e.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_sha_only",
+  "compare_0912d": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260912d",
+    "hunt_report": "experiments/20260912d_hunt_report.json",
+    "gate": "experiments/20260912d_gate.json",
+    "note": "0912d already rejected nusrati V35 reprint SHA 294e7e4d, sunil v4 Shop0909 T4 overlay, two zhincez analysis notes. This packet is one new slug: lokesh0252/kaggriculture-v1 (Ahmed V37 reprint SHA 94c1c2c0, already rejected as crystalbaby). None is a new after-216 farm reselect."
+  },
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "lokesh0252/kaggriculture-v1"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "hunt": [
+    {
+      "kernel": "lokesh0252/kaggriculture-v1",
+      "path": "artifacts/public_sources/_hunt_20260912e/lokesh0252__kaggriculture-v1/kaggriculture-v1.ipynb",
+      "notebook_sha256": "4db689ac512bbeb7d1f1858bf6de28ebb04b786a959ed26539374f0ce2fb4ad6",
+      "notebook_bytes": 318842,
+      "n_cells": 13,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 4,
+        "name": "main.py",
+        "bytes": 285100,
+        "sha256": "94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c"
+      },
+      "expected_main_sha256": "94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c",
+      "flags": {
+        "ROUTE_STEP": false,
+        "FINAL_PLAN_STEP": false,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "DECISIONS": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "day6": "step>=144",
+        "day27": "step>=648",
+        "terminal_planner": [
+          712,
+          718
+        ],
+        "milk_livestock_sub": "216<=step<=227",
+        "sale_reservations_from": 288
+      },
+      "verdict": "reject_v37_reprint",
+      "licensed_for_extract": false,
+      "note": "Reprint of Ahmed V37. Title 'Kaggriculture V37 \u2014 More Yield, Smarter Labor'. Python %%writefile main.py cell 4 sha256 94c1c2c0 equals crystalbaby / Ahmed V37 (Shop0909 144/648 + 288 four-turn + 712 planner + 216-227 milk livestock). Distinct slug from 0912d nusrati V35 294e7e4d and 0912c Ahmed V38 a2047ebd. Already rejected as crystalbaby. Not after-216 farm reselect. No ctypes.CDLL/agent.so. Cells not executed. Did not extract."
+    }
+  ]
+}

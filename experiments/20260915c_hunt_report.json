@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915c",
+  "kernels_not_in_0915b_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260915c",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260915c.py",
+    "experiments/candidates/inspect_hunt_20260915c.py",
+    "experiments/candidates/_inspect_hunt_payloads_20260915c.py",
+    "experiments/candidates/_extract_hunt_payloads_20260915c.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_static_hash_only",
+  "compare_0915b": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260915b",
+    "hunt_report": "experiments/20260915b_hunt_report.json",
+    "gate": "experiments/20260915b_gate.json",
+    "note": "4 new slugs vs _hunt_20260915b. Public search newest is now alperen5252525/turn-one-market-advantage-kaggriculture (lastRunTime 2026-09-15 13:24:02.117000). Did not re-pull rejected kernels (anandkumar369o analysis SHA 595d29fe, nathanjacob pipe-4 SHA 7a37397f, kenanzhang9 SHA 602ae8be, xuantianfengwu terminal-logistics SHA 364ca885, taylorclark637 sovereign-swarm SHA ffc0e6e2, ahmedberatozer v43 SHA 919fc1d6, prvsiyan field-clock, alperen adaptive-route SHA 77cf6772, destbreso telemetry, alperen harvestforge SHA 01f0cd47, nathanjacob clustering, hosen42 validation, nathanjacob pipe-2 SHA 728fdfb4, leoprovorov god-s-mode, sunil v6 SHA 8951ff93, xuantianfengwu hour-4 SHA dc07c7a9, guruprasaathas111 fully-dynamic SHA f4e3935c, rohitt94 SHA 62a80706, xuantianfengwu r10 SHA 3b8a1d4d, aurax7 v5, lime0001 t23, Ahmed V41 SHA 8951ff93, yhay81 0913, y3uanm rollback-v20)."
+  },
+  "public_search_newest": "alperen5252525/turn-one-market-advantage-kaggriculture",
+  "public_search_newest_lastRunTime": "2026-09-15 13:24:02.117000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "alperen5252525/turn-one-market-advantage-kaggriculture",
+    "alperen5252525/public-state-market-control-kaggriculture",
+    "alperen5252525/market-momentum-farming-kaggriculture",
+    "alperen5252525/market-smart-recovery-kaggriculture"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "alperen5252525/turn-one-market-advantage-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915c/alperen5252525__turn-one-market-advantage-kaggriculture/turn-one-market-advantage-kaggriculture.ipynb",
+      "verdict": "reject_v43_c9_opening_shop0909_overlay_reprint",
+      "sha256": "7a37397fdb29cbbb17aaf7577352bef910fb4dd0f19bf763b9dcaff68595da54",
+      "note": "New slug vs _hunt_20260915b (lastRunTime 2026-09-15 13:24:02.117000; public-search newest by dateCreated). Exact reprint of already-rejected nathanjacob pipe-4. B85/gzip static reconstruct SHA 7a37397f... pipe-4 = Ahmed V43 Shop0909 chassis plus C9 turn-1 opening. Day-6 144/648 plus _R37_HORIZONS from 288 plus 712 terminal planner. 216<=step<=227 is milk-shop livestock sub; C9 opening is step 0/24/25, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "alperen5252525/public-state-market-control-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915c/alperen5252525__public-state-market-control-kaggriculture/public-state-market-control-kaggriculture.ipynb",
+      "verdict": "reject_v58_day6_shop_prefix_plus_clone_latch_360",
+      "sha256": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+      "note": "New slug vs _hunt_20260915b (lastRunTime 2026-09-15 13:16:12.917000). b85/gzip static reconstruct SHA b041058e... Distinct from live cuts 14/15/16 and alperen harvestforge SHA 01f0cd47 / 0913 reprint 77cf6772. v58 compiled tape library. Mode selected at step 72; second-shop branches at step>=144 (SMOOTHIE/YARN/PET). Yarn first-shop clone latch at step==360 if mirror_streak>=240, then clone tape. Not a farm/route reselect after 216. Not day-6 144/648 later-block license. No ROUTE_STEP/PROGRAM/sale_horizon/ADVANCE_START. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "alperen5252525/market-momentum-farming-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915c/alperen5252525__market-momentum-farming-kaggriculture/market-momentum-farming-kaggriculture.ipynb",
+      "verdict": "reject_frozen_shop_prefix_tape_portfolio_no_later_block",
+      "sha256": "5fd73afd3c5337e391958a0621e40c84d6c47e4050ff82f42c78b4a1c239193e",
+      "note": "New slug vs _hunt_20260915b (lastRunTime 2026-09-15 13:11:44.253000). gzip/base64 static reconstruct SHA 5fd73afd... Frozen public-route portfolio (`research/route_factory`). Route index by shop prefix depth 1 at step 72 and depth 2 at step 144. No 216/226/288/360/432/576/648/712 reselect. No ROUTE_STEP/PROGRAM/sale_horizon/ADVANCE_START. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "alperen5252525/market-smart-recovery-kaggriculture",
+      "path": "artifacts/public_sources/_hunt_20260915c/alperen5252525__market-smart-recovery-kaggriculture/market-smart-recovery-kaggriculture.ipynb",
+      "verdict": "reject_v43_reprint_shop0909_overlay",
+      "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+      "note": "New slug vs _hunt_20260915b (lastRunTime 2026-09-15 13:03:18.593000). SOURCE_BYTES static reconstruct SHA 919fc1d6... Exact reprint of already-rejected ahmedberatozer V43. Shop0909 day-6 144/648 plus 288 four-turn sale overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

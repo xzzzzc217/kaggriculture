@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-12",
+  "kernels_not_in_0911b_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260912.py",
+    "experiments/candidates/inspect_hunt_20260912_focus.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": false,
+  "compare_0911b": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260911b",
+    "hunt_report": "experiments/20260911b_hunt_report.json",
+    "gate": "experiments/20260911b_gate.json",
+    "note": "0911b already rejected Yusuke 0911-simple (144/648), Ahmed v35 Shop0909 sale overlay SHA 294e7e4d, sunil/leoprovorov sale-window (router 3a444a70 / 11d05230), lucifer19 sale-rhythm, xuantianfengwu heuristic. This packet is four new slugs: Ahmed v34 re-pull (byte-identical to 0911 notebooka4fc70fd19, not in 0911b), Ahmed v36/v37 (v35 descendants), hgh1024 herd-safe v2 sale_horizon=2 (same router.py 3a444a70 as 0911b sunil / 0911 dmitrii herd-safe). None is a new after-216 farm reselect."
+  },
+  "live_cuts_not_matched": {
+    "cut14": {"name": "y3uanm_router_v5", "sha256_prefix": "acf7c664", "reselect": [226, 360, 433]},
+    "cut15": {"name": "thomastschinkel_psr_938", "sha256_prefix": "b87a27ed", "reselect": [144, 288, 432, 576]},
+    "cut16": {"name": "yamakawanin_king_v4e_rc4", "sha256_prefix": "26ffba52", "reselect": ["P3+", 288, 360, 432, 576], "extra_sheep": [226, 241, 265]}
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "ahmedberatozer/kaggriculture-v34-observed-market-timing",
+    "ahmedberatozer/kaggriculture-v36-guarded-four-turn-sales",
+    "ahmedberatozer/more-yield-smarter-labor",
+    "hgh1024/kaggriculture-herd-safe-v2-sale-horizon-2"
+  ],
+  "hunt": [
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v34-observed-market-timing",
+      "path": "artifacts/public_sources/_hunt_20260912/ahmedberatozer__kaggriculture-v34-observed-market-timing/kaggriculture-v34-observed-market-timing.ipynb",
+      "notebook_sha256": "905d5665eadc8cb212a6f3d732cd4c6de1b3846ea2ad56385581a9d366a43eed",
+      "notebook_bytes": 274923,
+      "n_cells": 13,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 4,
+        "name": "main.py",
+        "bytes": 254081,
+        "sha256": "58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869"
+      },
+      "expected_main_sha256": "58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869",
+      "flags": {
+        "ROUTE_STEP": false,
+        "FINAL_PLAN_STEP": false,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "reselect_steps": [144, 648],
+        "day6": "step>=144",
+        "day27": "step>=648",
+        "terminal_planner": [712, 718],
+        "milk_livestock_sub": "216<=step<=227",
+        "sale_reservations_from": 288
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "Python %%writefile main.py cell 4 sha256 58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869; EXPECTED_MAIN_SHA256 same. Notebook byte-identical to 0911 packet ahmedberatozer/notebooka4fc70fd19 (nb sha 905d5665…). Shop0909 chassis (step>=144 day6 / step>=648 day27) plus 712-718 terminal planner, Harvest Nocturne sale-block ordering / three-turn reservations from 288, and 216-227 milk-shop livestock sub. No ROUTE_STEP/FINAL_PLAN_STEP/sale_horizon/ADVANCE_START/PROGRAM/reselect/later-block. No ctypes.CDLL/agent.so. 226/360/433 are not y3uanm DECISIONS. Distinct from live cuts 14/15/16. Not a 227/242/266 Fieldbook BALANCED wrap (Fieldbook is Shop0909 attribution only). Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v36-guarded-four-turn-sales",
+      "path": "artifacts/public_sources/_hunt_20260912/ahmedberatozer__kaggriculture-v36-guarded-four-turn-sales/kaggriculture-v36-guarded-four-turn-sales.ipynb",
+      "notebook_sha256": "525762be712b28b5cc5b34b4e218bc983836081d5769509f839545b1b101d252",
+      "notebook_bytes": 301239,
+      "n_cells": 13,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 4,
+        "name": "main.py",
+        "bytes": 267360,
+        "sha256": "7eb5ab6c48581c82906ab6fa6b2cc5c9607513249ef59b2c45fcd6176e8653dd"
+      },
+      "expected_main_sha256": "7eb5ab6c48581c82906ab6fa6b2cc5c9607513249ef59b2c45fcd6176e8653dd",
+      "flags": {
+        "ROUTE_STEP": false,
+        "FINAL_PLAN_STEP": false,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "reselect_steps": [144, 648],
+        "day6": "step>=144",
+        "day27": "step>=648",
+        "terminal_planner": [712, 718],
+        "milk_livestock_sub": "216<=step<=227",
+        "sale_reservations_from": 288,
+        "four_turn_sales": "288<=step<696 _R37_HORIZONS=4 (EXP179)"
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "Python %%writefile main.py cell 4 sha256 7eb5ab6c48581c82906ab6fa6b2cc5c9607513249ef59b2c45fcd6176e8653dd; EXPECTED_MAIN_SHA256 same. Distinct from 0911 v34 58f3cbf9 and 0911b v35 294e7e4d. Markdown: keeps V35 farm routes; only change is that from turns 288-695 physically available stock may satisfy an eligible scheduled sale up to four turns early (EXP179 _R37_HORIZONS=4). Still Shop0909 144/648 chassis + 712 terminal planner + 216-227 milk-shop livestock sub + EXP-173 opening sequence + day-12 sheep expansion from v35. Not a public-state farm/route reselect after 216. No ctypes/agent.so/reselect/later-block/PROGRAM/DECISIONS. Distinct from cuts 14/15/16. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/more-yield-smarter-labor",
+      "path": "artifacts/public_sources/_hunt_20260912/ahmedberatozer__more-yield-smarter-labor/more-yield-smarter-labor.ipynb",
+      "notebook_sha256": "5895410a9b3d62973ff94e8d2631f04b57489088566dfbcec1c798d6ad7c5466",
+      "notebook_bytes": 314476,
+      "n_cells": 13,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 4,
+        "name": "main.py",
+        "bytes": 285100,
+        "sha256": "94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c"
+      },
+      "expected_main_sha256": "94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c",
+      "flags": {
+        "ROUTE_STEP": false,
+        "FINAL_PLAN_STEP": false,
+        "sale_horizon": false,
+        "ADVANCE_START": false,
+        "PROGRAM": false,
+        "ctypes": false,
+        "CDLL": false,
+        "agent.so": false,
+        "reselect": false,
+        "reselect_steps": [144, 648],
+        "day6": "step>=144",
+        "day27": "step>=648",
+        "terminal_planner": [712, 718],
+        "milk_livestock_sub": "216<=step<=227",
+        "sale_reservations_from": 288,
+        "four_turn_sales": "288<=step<696 _R37_HORIZONS=4",
+        "v37_overlay": "finite crop fertilization + guarded warehouse sales + shared tomato-worker assignments on V36 parent"
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "V37 notebook. Python %%writefile main.py cell 4 sha256 94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c; EXPECTED_MAIN_SHA256 same. Markdown: V37 adds finite crop fertilization projects, guarded warehouse sales and shared tomato-worker assignments to V36; extra work only after the parent farm's committed requests. Parent remains Shop0909 144/648 + 288 four-turn sale overlay + 712 planner + 216-227 livestock sub. Loose inspect 'PROGRAM' hit is markdown 'program(s)', not a king-v4e PROGRAM table. No farm/route reselect after 216. No ctypes/agent.so/reselect/later-block/DECISIONS. Distinct from v34/v35/v36 and from live cuts 14/15/16. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "hgh1024/kaggriculture-herd-safe-v2-sale-horizon-2",
+      "path": "artifacts/public_sources/_hunt_20260912/hgh1024__kaggriculture-herd-safe-v2-sale-horizon-2/kaggriculture-herd-safe-v2-sale-horizon-2.ipynb",
+      "notebook_sha256": "1ff3a8ede89779afececcd3a04b60da6a463e5cdf746e3a27229cd01e4f46f5b",
+      "notebook_bytes": 283241,
+      "n_cells": 17,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": [
+        {
+          "cell": 7,
+          "name": "main.py",
+          "bytes": 1083,
+          "sha256": "495bfa4825c9e58638e804aeeb62a9537826f6d4d869222815e1bbeefd84d3dc"
+        },
+        {
+          "cell": 8,
+          "name": "policy.py",
+          "bytes": 835,
+          "sha256": "5bc8d5635d90462e813569123de17b012762c30f3817b20457365a1155d6b908"
+        },
+        {
+          "cell": 9,
+          "name": "router.py",
+          "bytes": 44013,
+          "sha256": "3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380"
+        }
+      ],
+      "settings": {"sale_horizon": 2},
+      "flags": {
+        "ROUTE_STEP": 144,
+        "FINAL_PLAN_STEP": 648,
+        "sale_horizon": 2,
+        "ADVANCE_START": 288,
+        "PROGRAM": false,
+        "ctypes": false,
+        "CDLL": "gzip-asset substring false positive; no ctypes.CDLL/agent.so in plaintext writefiles",
+        "agent.so": false,
+        "reselect": false,
+        "reselect_steps": [144, 648],
+        "V226": "wheat topup, not yarn later-block",
+        "actions_json_gzip_sha256": "17d503f2fd20d59f9c0f14024d1e74a8add8bb9b5561d4d908b45deecb5495ef"
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "Python writefiles main.py/policy.py/router.py. router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380 identical to 0911 dmitrii herd-safe / 0911b sunil sale-window. SETTINGS sale_horizon=2 (same as 0911 two-coins-one-sheep, not sunil's 3). ROUTE_STEP=144, FINAL_PLAN_STEP=648, ADVANCE_START=288. Markdown: first twelve days stay with the parent; 2-action sale window from day 12 step 288. V226 is wheat topup. gzip actions.json sha 17d503f2…; CDLL/.so/P3+ substring is embedded-asset digits, not ctypes.CDLL/agent.so or king-v4e P3+. Not a later-block farm reselect. Distinct notebook slug/sha from 0911 two-coins but same overlay class. Cells not executed. Did not decode gzip assets. Did not extract."
+    }
+  ],
+  "author_list_20260912": {
+    "yhay81_newest": "yhay81/shop-router-0911-simple",
+    "yamakawanin_newest": "yamakawanin/king-v4e-rc4",
+    "thomastschinkel_newest_later_block": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel_95_5": "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing remains reject_day6_only",
+    "y3uanm_newest": "y3uanm/kaggriculture-conservative-market-router-v5",
+    "destbreso_newest_agentlike": "destbreso/who-is-beating-you-and-is-it-you reject_eda (09-11); x-ray-your-agent lastRun 09-11 23:31 still EDA",
+    "no_new_later_block": true
+  },
+  "why": "HOLD for later-block extract. All four kernels are Windows-runnable Python writefiles, but none is a public-state farm/route RESELECT after step 216 distinct from live cuts 14/15/16. Ahmed v34 is a byte-identical re-pull of the 0911 v34 Shop0909+288+712 overlay. Ahmed v36/v37 keep that chassis and only change sale-horizon (four-turn from 288) plus V37 fert/labor/warehouse overlays on the parent farm. hgh1024 is the known Moon/Shop0909 sale_horizon=2 / ADVANCE_START=288 overlay (router 3a444a70). Author lists: no Yusuke later-block, no king rc5, no y3uanm v6, Thomas 95.5 still day-6. No ctypes native agent. No 227/242/266 Fieldbook BALANCED wrap. Did not execute cells, did not decode payloads as code, did not extract, did not edit root main.py, did not kaggle submit."
+}

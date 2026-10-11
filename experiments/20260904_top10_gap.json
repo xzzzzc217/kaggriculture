@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-04",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-09-04T04:01:32.csv",
+  "rank": 808,
+  "score": 1946.5,
+  "n_teams": 7546,
+  "gold21": 2827.0,
+  "gold_buffer": -880.5,
+  "rank10": {"team": "sbol ball", "score": 2873.5, "gap": 927.0},
+  "top5": [
+    ["Crop Dusta", 3021.1],
+    ["Giulio Ravasio", 2956.4],
+    ["Jesse Bullard", 2942.9],
+    ["Knight of Favonius", 2940.8],
+    ["AI是我的豆包", 2919.1]
+  ],
+  "newest_2": {
+    "fieldbook": {
+      "id": 55962758,
+      "score": 1946.5,
+      "public": {"n": 315, "wtl": [116, 51, 148], "mean_margin": 1051.0},
+      "rolling12": {"wtl": [2, 2, 8], "mean_margin": -2160.9}
+    },
+    "shopbag_reupload": {
+      "id": 55962761,
+      "public": {"n": 166, "wtl": [73, 3, 90], "mean_margin": 293.0},
+      "rolling12": {"wtl": [3, 0, 9], "mean_margin": -9764.8}
+    }
+  },
+  "drop_reason": "Fieldbook freeze-after-day-9. Rolling-12 2-2-8 all but one clone, land 151/266, 17 pastures, melon 72. Ties are exact YARN_ENGINE 6c11s. Losses are later 9c9s (Yusuke live), Knight-class 1000+ hinge dumps, heavier wheat tails, and one non-clone 7c5s+2g goose.",
+  "rolling12_classes": [
+    "exact YARN_ENGINE self-clone ties: mimi / rhythm master 6c11s wheat 357-358 wool 285 melon 72",
+    "later 9c9s vs frozen BALANCED 9c5s: datnt114 / yasu / Kaggriculture Agent wool 262 vs 138",
+    "Knight-class dump on clone latch: chocolat wheat 2386 melon 2074 fert 1554",
+    "non-clone goose: Chiranjieev 7c5s+2g -20786",
+    "same-herd heavier wheat tail: Liquidus 434 vs 391; Ryutaro 434 vs 377"
+  ],
+  "summit_from_cdn_official_json": {
+    "Giulio Ravasio": {
+      "class": "Fieldbook-band 151/266, not tetsuya 169/241",
+      "clone": true,
+      "sample": "9c5s wheat 406-414 fert 333 melon 72; one 7c5s+2g",
+      "note": "No public kernel."
+    },
+    "Knight of Favonius": {
+      "class": "151/266 plus 1000+ wheat/wool/fert/melon/hinge dump",
+      "clone": "mixed",
+      "sample": "wheat 1391-1888 melon 1071-1075 fert 1468-1554 carrot/egg/tomato ~1000",
+      "note": "Beat Crop Dusta +2505 with geese; lost -21527 without. No public kernel."
+    },
+    "sbol ball": {
+      "class": "shop-routed Kenjo/Fieldbook including 4c14s",
+      "clone": true,
+      "sample": "6c11s / 7c6s / 4c14s / 9c5s; wheat 360-448 melon 72",
+      "note": "No public kernel."
+    },
+    "Crop Dusta": {
+      "class": "still live wheat mountain; second land now 200-201",
+      "clone": false,
+      "sample": "wheat 1556-2561; geese 0-7; yarn-first 3c17s",
+      "note": "Newer publics than 09-01 122/199 rows. No source."
+    },
+    "Yusuke Hayashi": {
+      "class": "later-block 9c9s on 151/266",
+      "clone": true,
+      "sample": "all four newest publics 9c9s even when first shop is BAKERY or SMOOTHIE",
+      "note": "Live evidence that cut 10 freeze-after-day-9 is behind Yusuke's current agent."
+    }
+  },
+  "next_chassis": "Yusuke six-day public-state Fieldbook (cut 11). Live cut 10 stays. v5 remains superseded. Do not compile-and-hope the .so. Do not BC Crop Dusta. Do not re-upload boatlee.",
+  "hold": true
+}

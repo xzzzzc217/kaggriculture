@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-15",
+  "packet": "20260915d",
+  "kernels_not_in_0915c_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260915d",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260915d.py",
+    "experiments/candidates/inspect_hunt_20260915d.py",
+    "experiments/candidates/_extract_hunt_payloads_20260915d.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_static_hash_only",
+  "compare_0915c": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260915c",
+    "hunt_report": "experiments/20260915c_hunt_report.json",
+    "gate": "experiments/20260915c_gate.json",
+    "note": "1 new slug vs _hunt_20260915c. Public search newest is now ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race (lastRunTime 2026-09-15 14:58:50.740000). Did not re-pull rejected kernels (alperen pipe-4 reprint SHA 7a37397f, public-state v58 SHA b041058e, momentum SHA 5fd73afd, market-smart V43 reprint SHA 919fc1d6, anandkumar369o analysis SHA 595d29fe, nathanjacob pipe-4 SHA 7a37397f, kenanzhang9 SHA 602ae8be)."
+  },
+  "public_search_newest": "ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race",
+  "public_search_newest_lastRunTime": "2026-09-15 14:58:50.740000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "kernels": [
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race",
+      "path": "artifacts/public_sources/_hunt_20260915d/ahmedberatozer__kaggriculture-v44-winning-the-same-turn-sale-race/kaggriculture-v44-winning-the-same-turn-sale-race.ipynb",
+      "verdict": "reject_v43_shop0909_plus_same_turn_sale_race_overlay",
+      "sha256": "797d9bca309d481e18cdbb675ce6d6de9967d266cbafb4c2352c68fb10264e2f",
+      "note": "New slug vs _hunt_20260915c (lastRunTime 2026-09-15 14:58:50.740000; public-search newest by dateCreated). SOURCE_BYTES static reconstruct SHA 797d9bca... Distinct from already-rejected Ahmed V43 SHA 919fc1d6, V42 728fdfb4, V41 8951ff93, and live cuts 14/15/16. Notebook embeds cut15 SHA b87a27ed and yhay81 shop-router-0913 SHA 77cf6772 as comments/payloads; payload itself is 797d9bca. V44 keeps complete V43 Shop0909 policy and adds a same-turn sale-race overlay (_RACE_HORIZON_CLONE=8 / _RACE_HORIZON_ESCALATED=24 wrapping _R37_HORIZONS). Day-6 144/648 plus _R37_HORIZONS=4 from 288 plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ROUTE_STEP/PROGRAM/sale_horizon/ADVANCE_START identifiers. No ctypes/agent.so. Cells not executed. Payload dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    }
+  ]
+}

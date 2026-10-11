@@ -1,0 +1,694 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914e",
+  "role": "strategy/algorithm analyst",
+  "no_upload": true,
+  "root_main_py": "unchanged",
+  "windows_agent_so": false,
+  "cells_executed": false,
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e",
+      "score_complete": 1799.3,
+      "dropped_from_newest_2": true
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522",
+      "score_complete": 1864.4,
+      "dropped_from_newest_2": true
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "submissionId": 56151152,
+      "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d",
+      "score_complete_0912": 1730.1,
+      "csv_0913_team_score": 1683.4,
+      "csv_0913b_team_score": 1691.4,
+      "csv_0913c_team_score": 1696.4,
+      "csv_0913d_team_score": 1698.7,
+      "csv_0913e_team_score": 1695.5,
+      "csv_0913f_team_score": 1697.5,
+      "csv_0913g_team_score": 1702.8,
+      "csv_0913h_team_score": 1691.5,
+      "csv_0913i_team_score": 1696.4,
+      "csv_0913j_team_score": 1692.8,
+      "csv_0913k_team_score": 1688.5,
+      "csv_0913l_team_score": 1692.2,
+      "csv_0913m_team_score": 1693.4,
+      "csv_0913n_team_score": 1693.6,
+      "csv_0913o_team_score": 1690.5,
+      "csv_0913p_team_score": 1682.9,
+      "csv_0913q_team_score": 1687.3,
+      "csv_0913r_team_score": 1680.9,
+      "status": "COMPLETE",
+      "csv_0913s_team_score": 1670.2,
+      "csv_0913t_team_score": 1673.8,
+      "csv_0913u_team_score": 1669.1,
+      "csv_0913v_team_score": 1681.2,
+      "csv_0914_team_score": 1654.7,
+      "csv_0914b_team_score": 1644.6,
+      "csv_0914c_team_score": 1639.4,
+      "csv_0914d_team_score": 1640.5,
+      "csv_0914e_team_score": 1637.6
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "lineage": 55962761,
+      "score_complete": 1309.1,
+      "newer_than_cut16": true
+    },
+    "newest_2": [
+      56151155,
+      56151152
+    ],
+    "rank_csv_0913r": 2011,
+    "rank_csv_0913s": 2026,
+    "rank_csv_0913t": 2027,
+    "rank_csv_0913u": 2040,
+    "rank_csv_0913v": 2022,
+    "rank_csv_0914": 2068,
+    "rank_csv_0914b": 2088,
+    "rank_csv_0914c": 2093,
+    "rank_csv_0914d": 2089,
+    "rank_csv_0914e": 2103
+  },
+  "cut16_live_failure_class": {
+    "0913q": {
+      "file": "experiments/20260913q_cut16_rolling.json",
+      "ids": [
+        108534412,
+        108504670,
+        108472548,
+        108461768,
+        108432563,
+        108429814,
+        108426937,
+        108422886,
+        108399266,
+        108371627,
+        108369265,
+        108366745
+      ],
+      "wtl": [
+        6,
+        0,
+        6
+      ],
+      "mean_margin": -533.2,
+      "class": "extra-animal 8c6s3g plus extra-animal YARN 6c11s plus identical-clone extra-goose"
+    },
+    "0913r": {
+      "file": "experiments/20260913r_cut16_rolling.json",
+      "ids": [
+        108550653,
+        108545775,
+        108520439,
+        108509931,
+        108489181,
+        108484081,
+        108445221,
+        108441448,
+        108441305,
+        108412731,
+        108383915,
+        108377691
+      ],
+      "wtl": [
+        3,
+        0,
+        9
+      ],
+      "mean_margin": -7018.0,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-goose plus extra-animal YARN 6c11s plus extra-sheep 15s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108550653,
+          "opp": "AQiDA19",
+          "margin": -21800,
+          "shops72": [
+            "BAKERY"
+          ],
+          "buy": "7c6s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108412731,
+          "opp": "haonan zhengh",
+          "margin": -18535,
+          "shops72": [
+            "ICE_CREAM_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        }
+      ]
+    },
+    "0913s": {
+      "file": "experiments/20260913s_cut16_rolling.json",
+      "ids": [
+        108568560,
+        108559476,
+        108534412,
+        108504670,
+        108472548,
+        108461768,
+        108432563,
+        108429814,
+        108426937,
+        108422886,
+        108399266,
+        108374873
+      ],
+      "wtl": [
+        4,
+        0,
+        8
+      ],
+      "mean_margin": -1150.5,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-goose plus extra-animal YARN 6c11s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108568560,
+          "opp": "alcanta",
+          "margin": -19224,
+          "shops72": [
+            "SMOOTHIE_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108432563,
+          "opp": "wuwuwu",
+          "margin": -10575,
+          "shops72": [
+            "YARN_STORE"
+          ],
+          "buy": "6c11s vs 7c11s",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 237
+        }
+      ]
+    },
+    "0913t": {
+      "file": "experiments/20260913t_cut16_rolling.json",
+      "ids": [
+        108586169,
+        108550653,
+        108545775,
+        108520439,
+        108509931,
+        108489181,
+        108484081,
+        108445221,
+        108441448,
+        108441305,
+        108412731,
+        108383915
+      ],
+      "wtl": [
+        4,
+        0,
+        8
+      ],
+      "mean_margin": -6592.2,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-goose plus extra-animal YARN 6c11s plus extra-sheep 15s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108550653,
+          "opp": "AQiDA19",
+          "margin": -21800,
+          "shops72": [
+            "BAKERY"
+          ],
+          "buy": "7c6s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108412731,
+          "opp": "haonan zhengh",
+          "margin": -18535,
+          "shops72": [
+            "ICE_CREAM_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        }
+      ]
+    },
+    "0913u": {
+      "file": "experiments/20260913u_cut16_rolling.json",
+      "ids": [
+        108594800,
+        108568560,
+        108559476,
+        108534412,
+        108504670,
+        108472548,
+        108461768,
+        108432563,
+        108429814,
+        108426937,
+        108422886,
+        108399266
+      ],
+      "wtl": [
+        4,
+        0,
+        8
+      ],
+      "mean_margin": -962.8,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-goose plus extra-animal YARN 6c11s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108568560,
+          "opp": "alcanta",
+          "margin": -19224,
+          "shops72": [
+            "SMOOTHIE_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108432563,
+          "opp": "wuwuwu",
+          "margin": -10575,
+          "shops72": [
+            "YARN_STORE"
+          ],
+          "buy": "6c11s vs 7c11s",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 237
+        }
+      ]
+    },
+    "0913v": {
+      "file": "experiments/20260913v_cut16_rolling.json",
+      "ids": [
+        108608562,
+        108604498,
+        108586169,
+        108550653,
+        108545775,
+        108520439,
+        108509931,
+        108489181,
+        108484081,
+        108445221,
+        108441448,
+        108441305
+      ],
+      "wtl": [
+        6,
+        0,
+        6
+      ],
+      "mean_margin": -3106.3,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-sheep 15s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108550653,
+          "opp": "AQiDA19",
+          "margin": -21800,
+          "shops72": [
+            "BAKERY"
+          ],
+          "buy": "7c6s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108545775,
+          "opp": "Hanaro",
+          "margin": -14377,
+          "shops72": [
+            "PIZZA_SHOP"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        }
+      ]
+    },
+    "0914": {
+      "file": "experiments/20260914_cut16_rolling.json",
+      "ids": [
+        108723413,
+        108704919,
+        108686716,
+        108669139,
+        108658948,
+        108656070,
+        108642657,
+        108636667,
+        108635673,
+        108620320,
+        108594800,
+        108568560
+      ],
+      "wtl": [
+        2,
+        0,
+        10
+      ],
+      "mean_margin": -7857.2,
+      "clone": "11/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-sheep 8c9s/16s/15s plus extra-goose 6g/3g plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108636667,
+          "opp": "LuanHengYu",
+          "margin": -20223,
+          "shops72": [
+            "PET_CAFE"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108568560,
+          "opp": "alcanta",
+          "margin": -19224,
+          "shops72": [
+            "SMOOTHIE_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        }
+      ]
+    },
+    "0914b": {
+      "file": "experiments/20260914b_cut16_rolling.json",
+      "ids": [
+        108753975,
+        108751924,
+        108744906,
+        108741805,
+        108608562,
+        108604498,
+        108586169,
+        108559476,
+        108550653,
+        108545775,
+        108534412,
+        108520439
+      ],
+      "wtl": [
+        5,
+        0,
+        7
+      ],
+      "mean_margin": -3771.8,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-sheep 11s plus extra-animal YARN 6c11s plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108550653,
+          "opp": "AQiDA19",
+          "margin": -21800,
+          "shops72": [
+            "BAKERY"
+          ],
+          "buy": "7c6s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108545775,
+          "opp": "Hanaro",
+          "margin": -14377,
+          "shops72": [
+            "PIZZA_SHOP"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        }
+      ]
+    },
+    "0914c": {
+      "file": "experiments/20260914c_cut16_rolling.json",
+      "ids": [
+        108762693,
+        108723413,
+        108704919,
+        108686716,
+        108669139,
+        108658948,
+        108656070,
+        108642657,
+        108636667,
+        108635673,
+        108620320,
+        108594800
+      ],
+      "wtl": [
+        2,
+        0,
+        10
+      ],
+      "mean_margin": -6781.9,
+      "clone": "11/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-sheep plus extra-goose plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108636667,
+          "opp": "LuanHengYu",
+          "margin": -20223,
+          "shops72": [
+            "PET_CAFE"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108656070,
+          "opp": "Gracie",
+          "margin": -14565,
+          "shops72": [
+            "PIZZA_SHOP"
+          ],
+          "buy": "9c8s vs 7c16s1g",
+          "us216": [
+            227,
+            242,
+            266
+          ],
+          "clone": 0
+        }
+      ]
+    },
+    "0914d": {
+      "file": "experiments/20260914d_cut16_rolling.json",
+      "ids": [
+        108784373,
+        108781918,
+        108753975,
+        108751924,
+        108744906,
+        108741805,
+        108608562,
+        108604498,
+        108586169,
+        108568560,
+        108559476,
+        108550653
+      ],
+      "wtl": [
+        5,
+        0,
+        7
+      ],
+      "mean_margin": -4571.9,
+      "clone": "12/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-goose plus identical-clone extra-goose plus extra-sheep plus extra-animal YARN",
+      "heavy": [
+        {
+          "id": 108550653,
+          "opp": "AQiDA19",
+          "margin": -21800,
+          "shops72": [
+            "BAKERY"
+          ],
+          "buy": "7c6s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108568560,
+          "opp": "alcanta",
+          "margin": -19224,
+          "shops72": [
+            "SMOOTHIE_SHOP"
+          ],
+          "buy": "9c5s vs 9c5s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ]
+        }
+      ]
+    },
+    "0914e": {
+      "file": "experiments/20260914e_cut16_rolling.json",
+      "ids": [
+        108787437,
+        108762693,
+        108723413,
+        108704919,
+        108686716,
+        108669139,
+        108658948,
+        108656070,
+        108642657,
+        108636667,
+        108635673,
+        108620320
+      ],
+      "wtl": [
+        2,
+        0,
+        10
+      ],
+      "mean_margin": -7273.5,
+      "clone": "11/12",
+      "class": "same extra-animal family: extra-animal 8c6s3g plus extra-sheep plus extra-goose plus identical-clone extra-goose",
+      "heavy": [
+        {
+          "id": 108636667,
+          "opp": "LuanHengYu",
+          "margin": -20223,
+          "shops72": [
+            "PET_CAFE"
+          ],
+          "buy": "9c5s vs 8c6s3g",
+          "opp216": [
+            218,
+            227,
+            242,
+            266
+          ],
+          "wool_px_360": 1
+        },
+        {
+          "id": 108656070,
+          "opp": "Gracie",
+          "margin": -14565,
+          "shops72": [
+            "PIZZA_SHOP"
+          ],
+          "buy": "9c8s vs 7c16s1g",
+          "clone": 0
+        }
+      ]
+    }
+  },
+  "q1_reselect_after_216": {
+    "licensed_this_fire": false,
+    "note": "No new Windows Python farm/route reselect after 216 distinct from cuts 14/15/16. 1 new public slug vs _hunt_20260914d, not licensed (arsgorynich v40-challenger SHA 546c4224 Ahmed V40 reprint Shop0909 overlay). Author lists otherwise unchanged (no king rc5 / y3uanm v6 / Thomas new tree / Yusuke later-block)."
+  }
+}

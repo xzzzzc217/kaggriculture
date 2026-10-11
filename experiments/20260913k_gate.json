@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913k",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "crystalbaby/kaggriculture-v38-public-submission",
+      "verdict": "reject_v38_reprint",
+      "note": "Still public-search newest 2026-09-13 04:15:33. 0913j already rejected SHA a2047ebd Ahmed V38 Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/notebookda72f457f5",
+      "verdict": "reject_v39_shop0909_overlay",
+      "note": "Still a public search hit. 0913e already rejected SHA 708c7485 Shop0909 144/648 + 288/712 overlay. Did not re-pull."
+    },
+    {
+      "kernel": "prvsiyan/kaggriculture-market-ledger-seasonal-counterplay",
+      "verdict": "reject_educational_framework",
+      "note": "0913c already rejected SHA 1c98c297. Did not re-pull."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-timed-six-cow",
+      "verdict": "reject_heuristic_six_cow",
+      "note": "0913b already rejected SHA 5dc0c68c. Did not re-pull."
+    },
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v38-smarter-feed-stronger-margins",
+      "verdict": "reject_v38_reprint",
+      "note": "0913b already rejected SHA a2047ebd. Did not re-pull."
+    },
+    {
+      "kernel": "lokesh0252/kaggriculture-v1",
+      "verdict": "reject_v37_reprint",
+      "note": "Still a public search hit. 0912e already rejected SHA 94c1c2c0. Did not re-pull."
+    },
+    {
+      "kernel": "melomanpanda/main-py",
+      "verdict": "reject_heuristic",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "crystalbaby/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_v37_reprint",
+      "note": "Already rejected SHA 94c1c2c0. Did not re-pull."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Author list: still newest y3uanm kaggriculture kernel. Writefile SHA acf7c664 = live cut 14. Did not re-pull."
+    },
+    {
+      "kernel": "municef1/lb-2448-single-file-kaggriculture-agent",
+      "verdict": "reject_tape",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "zhincez/the-base-schedule-is-a-plateau-not-a-lever",
+      "verdict": "reject_analysis",
+      "note": "Already rejected plateau tape 07f6c806 + analysis nbs. Did not re-pull."
+    },
+    {
+      "kernel": "bernubritz/kaggriculture-h4-best",
+      "verdict": "reject_tape",
+      "note": "Already rejected. Did not re-pull."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+      "verdict": "reject_sale_horizon",
+      "note": "Already rejected sale_horizon=5. Did not re-pull."
+    },
+    {
+      "kernel": "nusrati/2650-score",
+      "verdict": "reject_sale_overlay",
+      "note": "0912d already rejected Ahmed V35 reprint SHA 294e7e4d. Did not re-pull."
+    },
+    {
+      "kernel": "sunil123kumar/kaggriculture-v4",
+      "verdict": "reject_shop0909_t4_overlay",
+      "note": "0912d already rejected Shop0909 T4 overlay / 712 planner. Did not re-pull."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Author list 2026-09-13k: still newest Yusuke kaggriculture kernel (2026-09-11 08:38). Day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g / extra-animal YARN 6c11s / extra-sheep 16s is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1688.5,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1327.7,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260913k",
+  "hunt_report": "experiments/20260913k_hunt_report.json",
+  "named_kernels_scanned": [],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1688.5 partnered with newer shopbag 56151155 COMPLETE 1327.7 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No new public slug this fire vs _hunt_20260913j. Public search newest still crystalbaby/kaggriculture-v38-public-submission writefile SHA a2047ebd Ahmed V38 reprint (already rejected). Yusuke/king/Thomas/y3uanm author lists have no new later-block. Did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: Ju lost 9c5s vs 8c6s3g after opp extra sheep 218/227 extra geese 242/266; wuwuwu already bought extra sheep 218/242/266 and lost YARN 6c11s; carlos/linyifang lost extra-animal 8c6s3g after opp extra sheep 218/227 extra geese 242/266; Artem already bought 227/242/266 and lost extra-sheep 16s; automatylicza already bought 218/242/266 and lost YARN extra-sheep; Joyal already bought 218/242/266 and won vs 9c5s3g; Sidharth already bought extra geese 227/242 and won 9c5s3g vs 9c5s4g."
+}

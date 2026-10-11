@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-13",
+  "packet": "20260913s",
+  "live": "yamakawanin king-v4e-rc4",
+  "submission": 56151152,
+  "team": "heralces",
+  "ids": [
+    108568560,
+    108559476,
+    108534412,
+    108504670,
+    108472548,
+    108461768,
+    108432563,
+    108429814,
+    108426937,
+    108422886,
+    108399266,
+    108374873
+  ],
+  "ids_0913r": [
+    108550653,
+    108545775,
+    108520439,
+    108509931,
+    108489181,
+    108484081,
+    108445221,
+    108441448,
+    108441305,
+    108412731,
+    108383915,
+    108377691
+  ],
+  "disjoint_from_0913r": true,
+  "all_720_done_done": true,
+  "wtl": [
+    4,
+    0,
+    8
+  ],
+  "mean_margin": -1150.5,
+  "clone_n": 12,
+  "land_pattern": "all 12 BUY_LAND 151/266 succeeded (prev_Q 1 then 2)",
+  "cash_24_range": [
+    3.0,
+    24.0
+  ],
+  "wool_360": {
+    "108568560": 1,
+    "108559476": 245,
+    "108534412": 236,
+    "108504670": 43,
+    "108472548": 1,
+    "108461768": 224,
+    "108432563": 237,
+    "108429814": 1,
+    "108426937": 1,
+    "108422886": 240,
+    "108399266": 43,
+    "108374873": 11
+  },
+  "wool_432": {
+    "108568560": 1,
+    "108559476": 246,
+    "108534412": 232,
+    "108504670": 1,
+    "108472548": 55,
+    "108461768": 189,
+    "108432563": 227,
+    "108429814": 5,
+    "108426937": 5,
+    "108422886": 241,
+    "108399266": 1,
+    "108374873": 1
+  },
+  "same_class_as_0913c": true,
+  "same_class_note": "Same extra-animal family as 09-13c/09-13r: extra-animal 8c6s3g plus extra-goose plus extra-animal YARN 6c11s plus identical-clone extra-goose. WTL 4-0-8 mean -1150.5 vs 09-13r 3-0-9 mean -7018.0. New window games are alcanta 108568560 extra-goose -19224 and Farmer Shuang 108559476 extra-animal YARN 6c11s -418. clone=12/12.",
+  "loss_class": "mixed extra-animal 8c6s3g (linyifangzhenshuai 108426937 7c6s vs 8c6s3g clone=1 BRUNCH extra sheep 218/227 extra geese 242/266 wheat 486 vs 17346 -9514; carlos-tagosaku 108429814 7c6s vs 8c6s3g FARMERS_MARKET extra sheep 218/227 extra geese 242/266 -8454; Brian Chua 108472548 9c5s vs 8c6s3g SMOOTHIE extra sheep 218/227 extra geese 242/266 -659) + extra-goose (alcanta 108568560 9c5s vs 9c5s3g extra cow 218 extra sheep 227 extra geese 242/266 wheat 426 vs 17337 -19224; Sophie555 108374873 9c5s3g vs 6c6s6g extra geese 227/242 already bought -3339) + extra-animal YARN 6c11s (wuwuwu 108432563 6c11s vs 7c11s clone=1 YARN extra sheep 218/242/266 already bought -10575; Farmer Shuang 108559476 6c11s vs 7c11s extra sheep 218/242/266 already bought -418) + identical-clone extra-goose (maverick_ss_26 108504670 9c5s3g vs 9c5s3g extra geese 227/242 already bought -1920). Wins: Joyal 108422886 6c11s vs 9c5s3g +27397 extra sheep 218/242/266 already bought; zg l1218 108534412 6c12s vs 8c6s3g +8548 extra sheep 218/242/266 already bought; Sidharth Hulyalkar 108399266 9c5s3g vs 9c5s4g +2525 extra geese 227/242 already bought; Andrey Shpigar 108461768 9c8s vs 6c6s6g +1827 extra sheep 227/242/266. clone=12/12, Q=3/3 (Joyal opp Q=4), BUY_LAND 151/266 succeeded, cash_24 3-24 not 0. Not opening-broke no-land. Not freeze-after-day-9 9c9s. Not a 227/242/266 license: alcanta extra cow 218 extra sheep 227 extra geese 242/266 and we lost; linyi/carlos/Brian lost extra-animal after opp extra sheep 218/227 extra geese 242/266; wuwuwu/Farmer Shuang already bought 218/242/266 and lost YARN 6c11s; maverick already bought extra geese 227/242 and lost identical-clone -1920; Sophie555 already bought extra geese 227/242 and lost vs 6c6s6g; Joyal/zg l1218 already bought 218/242/266 and won; Sidharth already bought extra geese 227/242 and won.",
+  "worst_losses": [
+    {
+      "id": 108568560,
+      "opp": "alcanta",
+      "margin": -19224.0,
+      "herd_us": "9c5s",
+      "herd_opp": "9c5s3g",
+      "shops": [
+        "SMOOTHIE_SHOP"
+      ]
+    }
+  ]
+}

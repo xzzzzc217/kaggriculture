@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-14",
+  "packet": "20260914",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260914",
+  "inspect_scripts": [
+    "experiments/candidates/scan_hunt_20260914.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "writefile_sha_only_no_candidates",
+  "public_search_newest": "nathanjacob/no-cow-left-behind-v40-autopsy-fix",
+  "public_search_newest_lastRunTime": "2026-09-14 01:37:45.493000",
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "ahmedberatozer/kaggriculture-v41-review-candidate",
+    "nathanjacob/no-cow-left-behind-v40-autopsy-fix",
+    "prvsiyan/kaggriculture-reserve-garden-counterfactuals",
+    "alperen5252525/kaggriculture-metacounter-r1-scored-agent",
+    "xuantianfengwu/kaggriculture-adaptive-land-allocator"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0913",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "thomastschinkel/kaggriculture-95-5-win-rate-via-replay-routing",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "author_list_note": "yhay81 newest kaggriculture kernel is still shop-router-0913 2026-09-13 09:39 day-6 144/648. yamakawanin no rc5. Thomas no new tree. y3uanm no v6.",
+  "hunt": [
+    {
+      "kernel": "ahmedberatozer/kaggriculture-v41-review-candidate",
+      "path": "artifacts/public_sources/_hunt_20260914/ahmedberatozer__kaggriculture-v41-review-candidate/kaggriculture-v41-review-candidate.ipynb",
+      "verdict": "reject_v41_shop0909_overlay",
+      "sha256": "8951ff93742015cba535b125223cf2e541bb7b602080fc4584f30c2613d210f3",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 22:21:39.587000). Python %%writefile main.py SHA 8951ff93... Distinct from V40 SHA 546c4224 and V39 708c7485 and live cuts 14/15/16. Shop0909 day-6 144/648 plus 288/696 sales overlay plus step==712 terminal planner. 216<=step<=227 is milk-shop livestock sub, not a farm/route reselect after 216. No ctypes/agent.so. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "nathanjacob/no-cow-left-behind-v40-autopsy-fix",
+      "path": "artifacts/public_sources/_hunt_20260914/nathanjacob__no-cow-left-behind-v40-autopsy-fix/no-cow-left-behind-v40-autopsy-fix.ipynb",
+      "verdict": "reject_analysis_dataset_wrapper",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-14 01:37:45.493000; public-search newest by dateCreated). Analysis of Ahmed V40 plus shutil.copy of companion dataset submission.tar.gz. No %%writefile agent. Cells not executed. Did not pull the dataset. Not a later-block."
+    },
+    {
+      "kernel": "prvsiyan/kaggriculture-reserve-garden-counterfactuals",
+      "path": "artifacts/public_sources/_hunt_20260914/prvsiyan__kaggriculture-reserve-garden-counterfactuals/kaggriculture-reserve-garden-counterfactuals.ipynb",
+      "verdict": "reject_educational_framework",
+      "sha256": null,
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 21:15:06.187000). Educational Path.write_text reserve_garden_policy.py, not %%writefile main.py. Distinct from already-rejected prvsiyan market-ledger SHA 1c98c297. No farm/route reselect after 216. Cells not executed. Not copied to candidates/."
+    },
+    {
+      "kernel": "alperen5252525/kaggriculture-metacounter-r1-scored-agent",
+      "path": "artifacts/public_sources/_hunt_20260914/alperen5252525__kaggriculture-metacounter-r1-scored-agent/kaggriculture-metacounter-r1-scored-agent.py",
+      "verdict": "reject_day6_144_648_and_712_overlay",
+      "sha256": "85c8b53208a311e9101cf27ce02918e90b925e5b108d572a306d3b08a83dbdc3",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 22:03:43.617000). Script kernel SHA 85c8b532... day-6 144/648 plus Shop0909 288 quote overlay. Distinct from already-rejected analysis metacounter-r1 (no writefile). Not a farm/route reselect after 216. No ctypes/agent.so. Not copied to candidates/; not clone/G5."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-adaptive-land-allocator",
+      "path": "artifacts/public_sources/_hunt_20260914/xuantianfengwu__kaggriculture-adaptive-land-allocator/kaggriculture-adaptive-land-allocator.ipynb",
+      "verdict": "reject_heuristic_six_cow_allocator",
+      "sha256": "d12f29875f137e7429dec73e1d5aadf33147a21f3b3505c7d49d60d094ae454b",
+      "note": "New slug vs _hunt_20260913v (lastRunTime 2026-09-13 18:25:50.667000). Python %%writefile submission.py SHA d12f2987... heuristic 6-cow (`[\"COW\"] * 6`). Distinct from land-labor-capital SHA b49709bd and timed-six-cow SHA 5dc0c68c. No later-block after 216. Cells not executed. Writefile dumped in hunt dir for SHA only; not copied to candidates/."
+    }
+  ],
+  "kernels_not_in_0913v_packet": true,
+  "compare_0913v": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260913v",
+    "hunt_report": "experiments/20260913v_hunt_report.json",
+    "gate": "experiments/20260913v_gate.json",
+    "note": "Five new slugs vs _hunt_20260913v. Public search newest is now nathanjacob/no-cow-left-behind-v40-autopsy-fix (lastRunTime 2026-09-14 01:37:45.493000). Did not re-pull already-rejected kernels (renjistarfall V39 reprint, alperen metacounter-r1 analysis, xuantianfengwu land-labor-capital, Ahmed V40, guru V39, yhay81 0913, wei v46d review, Ahmed V39, aurax7 v4, crystalbaby V38, Ahmed V39 notebookda72f457f5, prvsiyan market-ledger, timed-six-cow, lokesh V37, crystalbaby dynamic-route, nusrati V35, sunil v4, dmitrii sale_horizon, municef1/bernubritz tapes, melomanpanda, zhincez, y3uanm rollback-v20, yhay81 0911-simple)."
+  }
+}

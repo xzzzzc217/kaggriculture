@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912c",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "ahmedberatozer/smarter-feed-stronger-margins",
+      "verdict": "reject_sale_overlay",
+      "note": "V38 writefile SHA a2047ebd. Shop0909 144/648 + 288 four-turn + 712 planner + 216-227 milk livestock. Not later-block. Cells not executed. Did not extract to candidates/."
+    },
+    {
+      "kernel": "zhincez/the-base-schedule-is-a-plateau-not-a-lever",
+      "verdict": "reject_tape_mosaic",
+      "note": "Decompressed main.py SHA 07f6c806 tape-mosaic switch_day=3 / day-6 shop route. Not after-216 farm reselect."
+    },
+    {
+      "kernel": "zhincez/your-score-peaked-because-you-met-weak-opponents",
+      "verdict": "reject_analysis",
+      "note": "No agent."
+    },
+    {
+      "kernel": "zhincez/the-shop-that-eats-double",
+      "verdict": "reject_analysis",
+      "note": "No agent."
+    },
+    {
+      "kernel": "zhincez/a-gate-you-already-beat-cannot-measure-anything",
+      "verdict": "reject_analysis",
+      "note": "No agent."
+    },
+    {
+      "kernel": "yhay81/shop-router-0911-simple",
+      "verdict": "reject_day6_only",
+      "note": "Author list 2026-09-12c: still newest Yusuke kaggriculture kernel (2026-09-11 08:38). Day-6 144/648. Did not re-pull."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Author list: no rc5. Already uploaded as 56151152 SHA 26ffba52. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed. Do not re-upload."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "verdict": "cut14_already_live",
+      "note": "Author list: still newest y3uanm kaggriculture kernel. Writefile SHA acf7c664 = live cut 14. Did not re-pull."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Extra-animal 8c6s3g is not a milk-heavy license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "submissionId": 56111821,
+      "sha256": "acf7c664"
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "submissionId": 56146106,
+      "sha256": "b87a27ed"
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "submissionId": 56151152,
+      "score_complete": 1682.4,
+      "sha256": "26ffba52"
+    },
+    "shopbag": {
+      "submissionId": 56151155,
+      "score_complete": 1328.2,
+      "newer_than_cut16": true
+    }
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912c",
+  "hunt_report": "experiments/20260912c_hunt_report.json",
+  "named_kernels_scanned": [
+    "ahmedberatozer/smarter-feed-stronger-margins",
+    "zhincez/the-base-schedule-is-a-plateau-not-a-lever",
+    "zhincez/your-score-peaked-because-you-met-weak-opponents",
+    "zhincez/the-shop-that-eats-double",
+    "zhincez/a-gate-you-already-beat-cannot-measure-anything"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1682.4 partnered with newer shopbag 56151155 COMPLETE 1328.2 < 1500. A new cut uploaded alone would drop 56151152 and keep shopbag as newest-2 partner (shopbag id is newer). Pairing a new cut with cut 16 would require a cut-16 reupload (600-provisional, two quota). freeze is false because of this upload-bail, not because a licensed later-block is ready. No legal after-216 public-state Python appeared this fire (Ahmed V38 is Shop0909 144/648 sale overlay SHA a2047ebd; zhincez plateau is day-3/6 tape-mosaic SHA 07f6c806; other zhincez are analysis; Yusuke/king/Thomas/y3uanm author lists have no new later-block). Did not extract, did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded. 227/242/266 wrap not licensed: this window's 8c6s3g losses bought sheep at 314 or not after 216; Shaw Sebastian 108057422 already bought extra sheep at 227/242/266 (9c8s) and still lost."
+}

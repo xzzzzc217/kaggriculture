@@ -1,0 +1,62 @@
+[
+  {
+    "out": "experiments/candidates/_hunt_20260920_extract/metav4_v13/main.py",
+    "bytes": 1004288,
+    "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+    "expected": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+    "sha_match": true,
+    "compile_ok": true,
+    "compile_err": null,
+    "has_agent": true,
+    "slug": "thomastschinkel__the-metav4-farm-submission-v13",
+    "ok": true
+  },
+  {
+    "out": "experiments/candidates/_hunt_20260920_extract/guru_v4_reprint/main.py",
+    "bytes": 1004288,
+    "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+    "expected": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+    "sha_match": true,
+    "compile_ok": true,
+    "compile_err": null,
+    "has_agent": true,
+    "slug": "guruprasaathas111__kaggriculture-master-engine-v4",
+    "ok": true
+  },
+  {
+    "out": "experiments/candidates/_hunt_20260920_extract/nathan_pipe16/main.py",
+    "bytes": 1010931,
+    "sha256": "827ddf2997fa442e80baadebc4cc91ffaeedec1ff333c1fa7d872b0f1d448181",
+    "expected": "827ddf2997fa442e80baadebc4cc91ffaeedec1ff333c1fa7d872b0f1d448181",
+    "sha_match": true,
+    "compile_ok": true,
+    "compile_err": null,
+    "has_agent": true,
+    "slug": "nathanjacob__kaggriculture-pipe16-idle-workers",
+    "ok": true
+  },
+  {
+    "out": "experiments/candidates/_hunt_20260920_extract/tetsutani_demand/main.py",
+    "bytes": 460800,
+    "sha256": "29a0de060b50e667c8c2f94d918d7188b0906ec33fc9a73644d1de362ebe2be3",
+    "expected": "1aa3717b3201997a95920c80cf5612c23f78f8716c7b1084b6a345ca4eae7e4f",
+    "sha_match": false,
+    "compile_ok": false,
+    "compile_err": "PyCompileError('SyntaxError: source code string cannot contain null bytes\\n', 'SyntaxError', SyntaxError('source code string cannot contain null bytes'), 'D:\\\\kaggle\\\\kaggriculture\\\\experiments\\\\candidates\\\\_hunt_20260920_extract\\\\tetsutani_demand\\\\main.py')",
+    "has_agent": true,
+    "slug": "tetsutani__demand-preserving-turn-sale-timing",
+    "ok": true
+  },
+  {
+    "out": "experiments/candidates/_hunt_20260920_extract/jaxa_2802/main.py",
+    "bytes": 350794,
+    "sha256": "944aa64c5ae1296a9a17eb7961ed8d5a96d0b80183d41e954389983d73420a56",
+    "expected": null,
+    "sha_match": null,
+    "compile_ok": true,
+    "compile_err": null,
+    "has_agent": true,
+    "slug": "jaxa623__2802-two-identical-agents-90-points-apart",
+    "ok": true
+  }
+]

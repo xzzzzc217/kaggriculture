@@ -1,0 +1,37 @@
+{
+  "title": "Kaggriculture study packet 2026-09-03",
+  "no_upload": "Do not submit Yusuke six-day until the user says 提交 and Linux clone/G5 exists.",
+  "live": {
+    "fieldbook": 55962758,
+    "score": 2071.0,
+    "rank": 650,
+    "shopbag_reupload": 55962761,
+    "root_main_py": "h2 65e6f5cd... unchanged"
+  },
+  "rolling12": {
+    "pre_upload_shopbag_v4": "experiments/20260901_rolling12_autopsy.json",
+    "live_fieldbook": "experiments/20260903_fieldbook_rolling12.json",
+    "loss_class": "Fieldbook freeze-after-day-9 vs later ShopForge: exact BALANCED 9c5s ties, PET_CAFE-first 8c9s blowouts, same-herd heavier wheat tails. All clone, land 151/266, 17 pastures, melon 72."
+  },
+  "top_board": {
+    "source": "experiments/20260901_top10_games.json",
+    "tetsuya": "land 169/241, clone=false, wheat 402-509, optional geese",
+    "crop_dusta": "land 122/199, wheat 338-2112, carrot 26-234",
+    "kenjo_shopforge": "land 151/266, melon 72, 9c5s or 6c11s or 8c9s"
+  },
+  "cut10_screen": {
+    "agent": "experiments/candidates/yusuke_fieldbook/main.py",
+    "sha256_prefix": "de668f7f",
+    "screen": "experiments/candidates/yusuke_fieldbook/screen.json",
+    "g5": "experiments/candidates/yusuke_fieldbook/g5.json",
+    "clone": "3-0",
+    "mtn_yusuke_hanserong": "3/3 positive",
+    "v5": "superseded"
+  },
+  "cut11": {
+    "name": "Yusuke six-day public-state Fieldbook",
+    "hold": true,
+    "why": "Reselect at 144/288/432/576; C++ agent.so; no Windows clone/G5",
+    "notes": "experiments/candidates/yusuke_sixday/README.md"
+  }
+}

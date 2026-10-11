@@ -1,0 +1,96 @@
+{
+  "agent": "yusuke_sixday",
+  "windows_agent_so": false,
+  "agent_path": "D:/kaggle/kaggriculture/experiments/candidates/yusuke_sixday/main.py",
+  "main_sha256": "2c17d784f6b9010e322963ad2709249de4aec60ca409b1fa54cc67ddd9c7f042",
+  "n": 5,
+  "wins": 5,
+  "missing": [],
+  "rows": {
+    "prvsiyan_clone": {
+      "margin": 1274.0,
+      "base": 5964,
+      "delta": -4690.0,
+      "scores": [
+        96357.0,
+        95083.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 24.03,
+      "episode_id": 100348898
+    },
+    "fufu_clone": {
+      "margin": 8532.0,
+      "base": 6937,
+      "delta": 1595.0,
+      "scores": [
+        62898.0,
+        54366.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.47,
+      "episode_id": 100504057
+    },
+    "masa_clone": {
+      "margin": 1193.0,
+      "base": 7511,
+      "delta": -6318.0,
+      "scores": [
+        71230.0,
+        70037.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.56,
+      "episode_id": 100444645
+    },
+    "subin_97399969": {
+      "margin": 32946.0,
+      "base": 17659,
+      "delta": 15287.0,
+      "scores": [
+        81502.0,
+        48556.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 25.62,
+      "episode_id": 97399969
+    },
+    "james_95677563": {
+      "margin": 35432.0,
+      "base": 51097,
+      "delta": -15665.0,
+      "scores": [
+        131125.0,
+        95693.0
+      ],
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "runtime": 26.78,
+      "episode_id": 95677563
+    }
+  }
+}

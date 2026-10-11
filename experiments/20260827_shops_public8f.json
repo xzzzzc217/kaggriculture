@@ -1,0 +1,395 @@
+{
+  "n": 8,
+  "wtl": [
+    0,
+    0,
+    8
+  ],
+  "mean_margin": -7743.75,
+  "games": [
+    {
+      "episode": 100695427,
+      "seed": 2088738643,
+      "opp": "Vibe Farmer",
+      "teams": [
+        "Vibe Farmer",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -499.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        60166.0,
+        59667.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 260,
+      "median_distance": 2
+    },
+    {
+      "episode": 100695369,
+      "seed": 995765622,
+      "opp": "CroDoc",
+      "teams": [
+        "heralces",
+        "CroDoc"
+      ],
+      "seat": 0,
+      "margin": -12230.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        95100.0,
+        107330.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 271,
+      "median_distance": 5
+    },
+    {
+      "episode": 100686232,
+      "seed": 2077628225,
+      "opp": "HD h Joratos",
+      "teams": [
+        "HD h Joratos",
+        "heralces"
+      ],
+      "seat": 1,
+      "margin": -3950.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        148178.0,
+        144228.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        313
+      ],
+      "clone": true,
+      "max_near": 284,
+      "median_distance": 1
+    },
+    {
+      "episode": 100679303,
+      "seed": 1464839900,
+      "opp": "Izzoudine Mohamed KANTA",
+      "teams": [
+        "heralces",
+        "Izzoudine Mohamed KANTA"
+      ],
+      "seat": 0,
+      "margin": -10636.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        77277.0,
+        87913.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        10
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        314
+      ],
+      "clone": true,
+      "max_near": 204,
+      "median_distance": 6
+    },
+    {
+      "episode": 100674969,
+      "seed": 587388824,
+      "opp": "CoorDi",
+      "teams": [
+        "heralces",
+        "CoorDi"
+      ],
+      "seat": 0,
+      "margin": -164.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        82133.0,
+        82297.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        400
+      ],
+      "wheat": [
+        326,
+        326
+      ],
+      "clone": true,
+      "max_near": 720,
+      "median_distance": 0
+    },
+    {
+      "episode": 100645310,
+      "seed": 1466706683,
+      "opp": "yjshyfy",
+      "teams": [
+        "heralces",
+        "yjshyfy"
+      ],
+      "seat": 0,
+      "margin": -9085.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        69382.0,
+        78467.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        4
+      ],
+      "cow": [
+        11,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        397
+      ],
+      "wheat": [
+        326,
+        2952
+      ],
+      "clone": true,
+      "max_near": 257,
+      "median_distance": 6
+    },
+    {
+      "episode": 100617984,
+      "seed": 1390517448,
+      "opp": "jasonstillchasin",
+      "teams": [
+        "heralces",
+        "jasonstillchasin"
+      ],
+      "seat": 0,
+      "margin": -21603.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        117389.0,
+        138992.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        10,
+        4
+      ],
+      "cow": [
+        3,
+        11
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        299,
+        262
+      ],
+      "wheat": [
+        216,
+        198
+      ],
+      "clone": true,
+      "max_near": 159,
+      "median_distance": 30
+    },
+    {
+      "episode": 100581549,
+      "seed": 1581332456,
+      "opp": "gogogo",
+      "teams": [
+        "heralces",
+        "gogogo"
+      ],
+      "seat": 0,
+      "margin": -3783.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        70406.0,
+        74189.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        11,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        400,
+        2935
+      ],
+      "wheat": [
+        326,
+        856
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 19
+    }
+  ]
+}

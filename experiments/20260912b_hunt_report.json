@@ -1,0 +1,190 @@
+{
+  "date": "2026-09-12",
+  "packet": "20260912b",
+  "kernels_not_in_0912_packet": true,
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "cells_executed": false,
+  "extracted_later_block_agent": false,
+  "later_block_python_after_216": false,
+  "any_licensed_for_extract": false,
+  "licensed_kernel": null,
+  "root_main_py": "unchanged",
+  "hunt_dir": "artifacts/public_sources/_hunt_20260912b",
+  "inspect_scripts": [
+    "experiments/candidates/inspect_hunt_20260912b.py",
+    "experiments/candidates/inspect_hunt_20260912b_focus.py",
+    "experiments/candidates/scan_hunt_20260912b.py"
+  ],
+  "python": "D:\\kaggle\\kaggriculture\\.venv\\Scripts\\python.exe",
+  "payload_decode": "crystalbaby_b85_zlib_sha_only",
+  "compare_0912": {
+    "hunt_dir": "artifacts/public_sources/_hunt_20260912",
+    "hunt_report": "experiments/20260912_hunt_report.json",
+    "gate": "experiments/20260912_gate.json",
+    "note": "0912 already rejected Ahmed v34/v36/v37 Shop0909 sale overlays and hgh1024 sale_horizon=2. This packet is six new slugs: y3uanm rollback-v20 (byte-identical cut 14), crystalbaby dynamic-route (decompressed SHA = Ahmed v37 94c1c2c0), dmitrii smaller-market-shock sale_horizon=5, municef1 evolved 719 tape, bernubritz actions.json tape, melomanpanda 2g1c1s heuristic. None is a new after-216 farm reselect."
+  },
+  "live_cuts_not_matched": {
+    "cut14": {
+      "name": "y3uanm_router_v5",
+      "sha256_prefix": "acf7c664",
+      "reselect": [
+        226,
+        360,
+        433
+      ]
+    },
+    "cut15": {
+      "name": "thomastschinkel_psr_938",
+      "sha256_prefix": "b87a27ed",
+      "reselect": [
+        144,
+        288,
+        432,
+        576
+      ]
+    },
+    "cut16": {
+      "name": "yamakawanin_king_v4e_rc4",
+      "sha256_prefix": "26ffba52",
+      "reselect": [
+        "P3+",
+        288,
+        360,
+        432,
+        576
+      ],
+      "extra_sheep": [
+        226,
+        241,
+        265
+      ]
+    }
+  },
+  "not_227_242_266_fieldbook_balanced_wrap": true,
+  "named_kernels_scanned": [
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+    "crystalbaby/kaggriculture-dynamic-route-agent",
+    "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+    "municef1/lb-2448-single-file-kaggriculture-agent",
+    "bernubritz/kaggriculture-h4-best",
+    "melomanpanda/main-py"
+  ],
+  "author_list_no_new_later_block": [
+    "yhay81/shop-router-0911-simple",
+    "yamakawanin/king-v4e-rc4",
+    "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "y3uanm/kaggriculture-conservative-market-router-v5",
+    "y3uanm/kaggriculture-safe-baseline-rollback-v20"
+  ],
+  "hunt": [
+    {
+      "kernel": "y3uanm/kaggriculture-safe-baseline-rollback-v20",
+      "path": "artifacts/public_sources/_hunt_20260912b/y3uanm__kaggriculture-safe-baseline-rollback-v20/kaggriculture-safe-baseline-rollback-v20.ipynb",
+      "notebook_sha256": "a18f76cfea37afb0b583703a4358df199b6941174517f1f656144fdba8d4a941",
+      "notebook_bytes": 57186,
+      "n_cells": 11,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 5,
+        "name": "main.py",
+        "bytes": 47657,
+        "sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e"
+      },
+      "verdict": "cut14_already_live",
+      "licensed_for_extract": false,
+      "note": "Title is rollback v20; %%writefile main.py SHA acf7c664 identical to live cut 14 y3uanm_router_v5. DECISIONS 226/360/433. No ctypes/agent.so. Cells not executed. Did not extract. Do not re-upload."
+    },
+    {
+      "kernel": "crystalbaby/kaggriculture-dynamic-route-agent",
+      "path": "artifacts/public_sources/_hunt_20260912b/crystalbaby__kaggriculture-dynamic-route-agent/kaggriculture-dynamic-route-agent.ipynb",
+      "notebook_sha256": "fcd0042f08aca2bd558410e97a7ea484f62001694296a0142b286033fc36f536",
+      "notebook_bytes": 188580,
+      "n_cells": 2,
+      "execution_count": null,
+      "outputs": 0,
+      "decompressed_main_sha256": "94c1c2c05ae7cde8fca9ee3957b01112c1cbab82c7434aae6a5f24fa7485bc4c",
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "No %%writefile. Static b85+zlib hash of reconstructed main.py equals Ahmed v37 more-yield-smarter-labor SHA 94c1c2c0 (Shop0909 144/648 + 288 four-turn + 712). Header EXP-173/shop-router-0911-simple. Did not write extracted main.py under candidates/. Cells not executed."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+      "path": "artifacts/public_sources/_hunt_20260912b/dmitriigluzdov__kaggriculture-a-smaller-market-shock/kaggriculture-a-smaller-market-shock.ipynb",
+      "notebook_sha256": "4f9bfc716385c7a9b19a965d1776b9f0a16840bdb46ce94508ae847b082600c1",
+      "notebook_bytes": 292929,
+      "n_cells": 17,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": [
+        {
+          "cell": 7,
+          "name": "main.py",
+          "bytes": 1083,
+          "sha256": "495bfa4825c9e58638e804aeeb62a9537826f6d4d869222815e1bbeefd84d3dc"
+        },
+        {
+          "cell": 8,
+          "name": "policy.py",
+          "bytes": 839,
+          "sha256": "7bba4627d009925f309376da5112ba9724bd7d49154d7057980853ae3d8e9be2"
+        },
+        {
+          "cell": 9,
+          "name": "router.py",
+          "bytes": 53879,
+          "sha256": "8a7407f4a4ae0da3557746a3338b884d1f8b47b98d2775ae14adf8749af44ad2"
+        }
+      ],
+      "settings": {
+        "sale_horizon": 5
+      },
+      "verdict": "reject_sale_overlay",
+      "licensed_for_extract": false,
+      "note": "SETTINGS sale_horizon=5. router.py ROUTE_STEP=144 FINAL_PLAN_STEP=648 ADVANCE_START=288 plus 712 planner. Shop0909 sale overlay, not after-216 farm reselect. Distinct router SHA from 0912 hgh1024 3a444a70. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "municef1/lb-2448-single-file-kaggriculture-agent",
+      "path": "artifacts/public_sources/_hunt_20260912b/municef1__lb-2448-single-file-kaggriculture-agent/lb-2448-single-file-kaggriculture-agent.ipynb",
+      "notebook_sha256": "b21daf9da6c4f0e361efb048b35cdc0317ecddd463a499ce28a3e410768a5a08",
+      "notebook_bytes": 167004,
+      "n_cells": 4,
+      "execution_count": null,
+      "outputs": 0,
+      "writefile": {
+        "cell": 1,
+        "name": "main.py",
+        "bytes": 142816,
+        "sha256": "cd0173d4ae3d1a00851dbbad5bf94ceb0a427cd56040c71d4dc404f1b767bfa8"
+      },
+      "verdict": "reject_fixed_tape",
+      "licensed_for_extract": false,
+      "note": "Fixed 719-step evolved tape from yhay81 shop-router route 0 plus seven reactive layers. router=None. No DECISIONS/PROGRAM/ROUTE_STEP/reselect after 216. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "bernubritz/kaggriculture-h4-best",
+      "path": "artifacts/public_sources/_hunt_20260912b/bernubritz__kaggriculture-h4-best/kaggriculture-h4-best.ipynb",
+      "notebook_sha256": "9d42f87188274f5a4d1c78d57a1e9ad41c4f7e10174d5e42794cdec5e3af674b",
+      "notebook_bytes": 230688,
+      "n_cells": 2,
+      "execution_count": null,
+      "outputs": 0,
+      "verdict": "reject_actions_json_tape",
+      "licensed_for_extract": false,
+      "note": "Packs gzip/base64 actions.json into submission.tar.gz. Not a Python later-block farm reselect. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "melomanpanda/main-py",
+      "path": "artifacts/public_sources/_hunt_20260912b/melomanpanda__main-py/main-py.ipynb",
+      "notebook_sha256": "4d1ed82d459f635828607644386a66e1bd75b7cd9c98494b518f2369fa38e23f",
+      "notebook_bytes": 16241,
+      "n_cells": 1,
+      "execution_count": null,
+      "outputs": 0,
+      "verdict": "reject_heuristic",
+      "licensed_for_extract": false,
+      "note": "Inline heuristic v20.1 targeting 2 goose + 1 cow + 1 sheep. No later-block reselect. Not live-five. Cells not executed. Did not extract."
+    }
+  ]
+}

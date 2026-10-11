@@ -1,0 +1,218 @@
+{
+  "date": "2026-09-11",
+  "freeze": false,
+  "hold": true,
+  "candidate": null,
+  "clone_g5_run": false,
+  "extracted_later_block_agent": false,
+  "cells_executed": false,
+  "rejected": [
+    {
+      "kernel": "xuantianfengwu/kaggriculture-fixed-hybrid-core",
+      "verdict": "reject_baseline",
+      "note": "Newest kernel (2026-09-11 07:11). Python %%writefile submission.py sha256 06d7584c3d8a0abfa75849ae89906894b1bb6ea96eb13dc91e1b1962d061a822. Heuristic 7c2s + 2-melon hybrid (HYBRID_HERD/HYBRID_CROP_SPECS). No 144/216/226/288/360/432/576/648/712 in source. Not a public-state farm reselect after 216. No ctypes/agent.so. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "ahmedberatozer/notebooka4fc70fd19",
+      "verdict": "reject_shop0909_sale_overlay",
+      "note": "v34 writefile SHA 58f3cbf957c267b464ec0bcfdc9ba7940f708e6ae77c7219b09f07a00a083869. Shop0909 chassis (step>=144 / step>=648) plus 712-718 terminal planner, three-turn sale reservations from 288, and 216-227 milk-shop cattle substitution. Not a later-block farm reselect after 216. No ctypes.CDLL/agent.so. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-herd-safe-sale-window",
+      "verdict": "reject_sale_overlay",
+      "note": "Moon/Shop0909 parent. SETTINGS sale_horizon=3; ADVANCE_START=288 two/three-turn sale window from day 12; ROUTE_STEP=144; FINAL_PLAN_STEP=648. router.py sha256 3a444a70ea9dd89f3cb857676fcc0180ebf1dfb7ede89f7f0cc82a2ef384e380 (same as two-coins). First twelve days identical to parent. Not a later-block farm reselect. Gzip CDLL substring only; no ctypes.CDLL/agent.so in plaintext. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep",
+      "verdict": "reject_sale_overlay",
+      "note": "New slug vs prior two-coins-one-sheep-lb-2700. SETTINGS sale_horizon=2 from day 12 step 288. Same router.py sha256 3a444a70…. Not a later-block farm reselect. Cells not executed. Did not extract."
+    },
+    {
+      "kernel": "destbreso/who-is-beating-you-and-is-it-you",
+      "verdict": "reject_eda",
+      "note": "Defeat-lineage diagnosis notebook. No %%writefile agent. Opening-agreement / reveal-calendar EDA only. Cells not executed."
+    },
+    {
+      "kernel": "navazshfathi/shop-router-0908",
+      "verdict": "reject_ctypes_native",
+      "note": "Hunt-worker overlap (no kernel-metadata). Base64 submission.tar.gz sha256 cec3d03192814962b4f52c888bdfbf32c5ea2cf4dafede32ecdf58481ed05de2. Members main.py/observation.py/model.json/actions.json. observation.py is ShopForge ctypes.CDLL native policy (hybrid_shopforge_3day_frontier_state_router_r5). Windows cannot honestly clone/G5 it. Did not run agent.so. Not a Python later-block."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-two-coins-one-sheep-lb-2700",
+      "verdict": "reject_sale_overlay",
+      "note": "Prior cycle. Same router 3a444a70 sale-window overlay. Not a later-block."
+    },
+    {
+      "kernel": "lucifer19/harvest-nocturne-the-market-has-a-rhythm",
+      "verdict": "reject_sale_rhythm_144",
+      "note": "Prior cycle. Shop-pair plans at step 144 plus observation-based selling rhythm. Not later-block farm reselect."
+    },
+    {
+      "kernel": "shashwat12a/kaggriculture-rl-model",
+      "verdict": "reject_rl_baseline",
+      "note": "Prior cycle. Online Q-table crop RL vs random. No later-block tape reselect."
+    },
+    {
+      "kernel": "crystalbaby/market-smart-farming-kaggriculture",
+      "verdict": "reject_eda",
+      "note": "Prior cycle. No %%writefile agent."
+    },
+    {
+      "kernel": "xuantianfengwu/kaggriculture-melon-baseline-v4",
+      "verdict": "reject_baseline",
+      "note": "Prior cycle. Heuristic melon baseline. Parent of this-cycle hybrid-core."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook20e618e50b",
+      "verdict": "reject_shop0909_sale_overlay",
+      "note": "Prior cycle v33 SHA ee7ce9f3. Shop0909 144/648 plus 712-718 and sale reservations. Parent of this-cycle v34."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook5d4a0f4e5c",
+      "verdict": "reject_shop0909_plus_712",
+      "note": "Prior cycle. v31 crop_public_order on Shop0909 tapes. Reselect 144/648 plus 712-718."
+    },
+    {
+      "kernel": "ahmedberatozer/notebookfea7d71a35",
+      "verdict": "reject_shop0909",
+      "note": "Prior cycle. Shop0909 144/648 chassis."
+    },
+    {
+      "kernel": "ahmedberatozer/notebook07b5f4563e",
+      "verdict": "reject_shop0908_144_648",
+      "note": "Prior cycle. v25 Shop0908 production, sale lead, terminal cargo. Reselect 144/648 only."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-7-turn-rescue-historical-lb-2800",
+      "verdict": "reject_terminal_overlay",
+      "note": "Prior cycle. Shop0909 plus 712-718 harvest overlay."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-last-mile-harvest-planner-lb-2409",
+      "verdict": "reject_terminal_overlay",
+      "note": "Prior cycle. Thomas public-state-router parent plus last-mile planner from step 710."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-goose-portfolio-historical-lb-2615",
+      "verdict": "reject_before_216",
+      "note": "Prior cycle. Goose vs cow portfolio decision at step 150."
+    },
+    {
+      "kernel": "dmitriigluzdov/kaggriculture-cow-placement-historical-lb-2531",
+      "verdict": "reject_repair_only",
+      "note": "Prior cycle. Historical PLACE-COW/BUILD_PASTURE repair. No later-block reselect."
+    },
+    {
+      "kernel": "yhay81/shop-router-0909",
+      "verdict": "reject_day6_only",
+      "note": "Prior cycle. Shop-pair plan at 144; shared ending from 648."
+    },
+    {
+      "kernel": "aurax7/kaggriculture-shop-router-reactive-v2",
+      "verdict": "reject_day6_only",
+      "note": "Prior cycle. ROUTE_STEP 144, FINAL_PLAN_STEP 648."
+    },
+    {
+      "kernel": "flexonafft/kaggriculture-most-powerfull-route",
+      "verdict": "reject_copy",
+      "note": "Prior cycle. Byte-same 712 overlay as dmitrii 7-turn rescue."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-market-impact-router-v4",
+      "verdict": "reject_cut14_family",
+      "note": "Prior cycle. Same 226/360/433 as live cut 14."
+    },
+    {
+      "kernel": "y3uanm/kaggriculture-conservative-market-router-v5",
+      "verdict": "cut14_already_live",
+      "note": "Already uploaded as 56111821 SHA acf7c664. Do not re-upload."
+    },
+    {
+      "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+      "verdict": "cut15_already_live",
+      "note": "Already uploaded as 56146106 SHA b87a27ed reselect 144/288/432/576. Do not re-upload."
+    },
+    {
+      "kernel": "yamakawanin/king-v4e-rc4",
+      "verdict": "cut16_already_live",
+      "note": "Already uploaded as 56151152 SHA 26ffba52 shop-family P3+ 288/360/432/576. Do not re-upload."
+    },
+    {
+      "kernel": "yamakawanin/kaggriculture-2312-9-q30-v2a",
+      "verdict": "reject_older_parent",
+      "note": "Prior cycle. Parent of king-v4e-rc4 without RC3 241/385 overlays."
+    },
+    {
+      "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+      "verdict": "reject_known_older",
+      "note": "Prior cycle. Older v29. Boatlee 55710781 never re-upload."
+    },
+    {
+      "kernel": "mzcao7/kaggriculture-forkable-baseline-paired-tests",
+      "verdict": "reject_baseline",
+      "note": "Prior cycle. COK-ZhangZiliang V7 five-route shop controller."
+    },
+    {
+      "kernel": "nathanjacob/colosseum-876-2600-agent-testing-framework",
+      "verdict": "reject_no_agent",
+      "note": "Prior cycle. Tournament harness. No %%writefile agent."
+    },
+    {
+      "kernel": "tokenjunkielabs/titan-kaggriculture-frontier-source",
+      "verdict": "reject_no_later_block",
+      "note": "Prior cycle. Gzip of Kaito-style v43 two shop-branch opening."
+    },
+    {
+      "kernel": "kirderf/seed-recover-live-test-thom95-v2",
+      "verdict": "reject_ctypes_native",
+      "note": "Prior cycle. ctypes.CDLL('/tmp/seedbf.so'). Windows cannot honestly clone/G5 it."
+    },
+    {
+      "kernel": "yhay81/shop-router-0908",
+      "verdict": "reject_ctypes_native",
+      "note": "Prior cycle. ShopForge ctypes.CDLL native policy. Same family as navazshfathi 0908."
+    },
+    {
+      "kernel": "nusrati/2715-6",
+      "verdict": "reject_copy",
+      "note": "Prior cycle. Same shop-router-0908 tar.gz payload as yhay81."
+    },
+    {
+      "kernel": "souvikdbiswas/kaggriculture-v5-hybrid-agent",
+      "verdict": "reject_no_agent",
+      "note": "Prior cycle. No %%writefile agent."
+    },
+    {
+      "kernel": "reyhanksatria/kaggriculture-dynamic-route-agent",
+      "verdict": "reject_no_agent",
+      "note": "Prior cycle. Base85 blob not decoded; cells not executed."
+    }
+  ],
+  "cut12_hold": true,
+  "cut13_hold": true,
+  "cut12_13_note": "No new recorded-seat flipping evidence vs Deskbo 105744091 AND Stefano 105798735 or fufu 105790145. Prior losses stand. Opening-broke is not a later-block license. Did not re-screen.",
+  "not_227_wrap": true,
+  "root_main_untouched": true,
+  "root_main_sha256": "65e6f5cd8e582803aea4446a7b2bfabb050bbee382d771c60c9c66aec8fc3dbe",
+  "no_upload": true,
+  "no_kaggle_submit": true,
+  "windows_agent_so": false,
+  "engine": "kaggle-environments==1.32.7",
+  "live": {
+    "cut14": {"name": "y3uanm_router_v5", "submissionId": 56111821, "sha256": "acf7c664"},
+    "cut15": {"name": "thomastschinkel_psr_938", "submissionId": 56146106, "sha256": "b87a27ed"},
+    "cut16": {"name": "yamakawanin_king_v4e_rc4", "submissionId": 56151152, "score_complete": 1799.2, "sha256": "26ffba52"},
+    "shopbag": {"submissionId": 56151155, "score_complete": 1402.4}
+  },
+  "upload_bail": true,
+  "hunt_dir": "artifacts/public_sources/_hunt_20260911",
+  "hunt_report": "experiments/20260911_hunt_report.json",
+  "hunt_worker_overlap": "navazshfathi/shop-router-0908 (no kernel-metadata; ctypes 0908 tar)",
+  "named_kernels_scanned": [
+    "xuantianfengwu/kaggriculture-fixed-hybrid-core",
+    "ahmedberatozer/notebooka4fc70fd19",
+    "dmitriigluzdov/kaggriculture-herd-safe-sale-window",
+    "dmitriigluzdov/kaggriculture-two-coins-one-sheep"
+  ],
+  "why": "HOLD. Upload-bail is live: newest cut 56151152 COMPLETE 1799.2 partnered with shopbag 56151155 COMPLETE 1402.4 < 1500. A new cut would drop the >=1500 COMPLETE without a >=1500 COMPLETE remaining as newest-2 partner (re-upload of that agent is a 600-provisional, not a partner). freeze is false because of this upload-bail, not because a licensed later-block is ready. No legal after-216 public-state Python appeared this fire (hybrid-core is a 7c2s melon heuristic; Ahmed v34 and both Dmitrii notebooks are Shop0909 144/648 sale/712 overlays; destbreso is EDA; navazshfathi is ctypes ShopForge 0908). Did not extract, did not clone/G5-screen, did not pack or upload. Cut 12/13 stay Hold. Root main.py SHA untouched. Boatlee 55710781 never re-upload. Live cuts 14/15/16 not re-uploaded."
+}

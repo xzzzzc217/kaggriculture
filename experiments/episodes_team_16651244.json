@@ -1,0 +1,85 @@
+{
+  "episodes": [
+    {
+      "id": 16651244,
+      "createTime": "2021-02-11T01:34:37.370841500Z",
+      "endTime": "2021-02-11T01:37:09.609913400Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 37060475,
+          "submissionId": 19276237,
+          "reward": 652,
+          "initialScore": 914.1671787057935,
+          "updatedScore": 923.2765256887287,
+          "teamId": 6002848
+        },
+        {
+          "id": 37060476,
+          "submissionId": 18847187,
+          "reward": 611,
+          "index": 1,
+          "initialScore": 929.3114134065553,
+          "updatedScore": 919.5252765022668,
+          "teamId": 5999989
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": 18847187,
+      "dateSubmitted": "2020-12-27T06:05:20.520Z",
+      "teamId": 5999989,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19276237,
+      "dateSubmitted": "2021-01-26T13:51:32.440Z",
+      "teamId": 6002848,
+      "status": "COMPLETE"
+    }
+  ],
+  "teams": [
+    {
+      "id": 5999989,
+      "teamName": "JiachengPan",
+      "competitionId": 24539,
+      "teamLeaderId": 349844,
+      "submissionCount": 29,
+      "lastSubmissionDate": "2021-01-31T15:40:20.826666700Z",
+      "publicLeaderboardSubmissionId": 18847391,
+      "teamMembers": [
+        {
+          "displayName": "Jiacheng Pan",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png",
+          "url": "/jiachengpan",
+          "userName": "jiachengpan",
+          "tier": "CONTRIBUTOR",
+          "id": 349844
+        }
+      ]
+    },
+    {
+      "id": 6002848,
+      "teamName": "Mike Kim",
+      "competitionId": 24539,
+      "teamLeaderId": 64626,
+      "medal": 3,
+      "submissionCount": 98,
+      "lastSubmissionDate": "2021-02-01T22:24:32.300Z",
+      "publicLeaderboardSubmissionId": 19378057,
+      "teamMembers": [
+        {
+          "displayName": "Mike Kim",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/64626-fb.jpg",
+          "url": "/mikeskim",
+          "userName": "mikeskim",
+          "tier": "GRANDMASTER",
+          "id": 64626
+        }
+      ]
+    }
+  ]
+}

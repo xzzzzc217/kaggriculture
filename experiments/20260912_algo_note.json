@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-12",
+  "role": "strategy/algorithm analyst",
+  "no_upload": true,
+  "root_main_py": "unchanged",
+  "windows_agent_so": false,
+  "cells_executed": false,
+  "live": {
+    "cut14": {"name": "y3uanm_router_v5", "kernel": "y3uanm/kaggriculture-conservative-market-router-v5", "submissionId": 56111821, "sha256": "acf7c66442d304b6ca210949c970b44a798864fdedf99cf437b347119007639e", "score_complete": 1799.3, "dropped_from_newest_2": true},
+    "cut15": {"name": "thomastschinkel_psr_938", "kernel": "thomastschinkel/kaggriculture-93-8-win-rate-public-state-router", "submissionId": 56146106, "sha256": "b87a27ed614a33329be85f1b662e51cf4078a019fee937afcebbbbf2f51f8522", "score_complete": 1864.4, "dropped_from_newest_2": true},
+    "cut16": {"name": "yamakawanin_king_v4e_rc4", "kernel": "yamakawanin/king-v4e-rc4", "submissionId": 56151152, "sha256": "26ffba5273e4432dbc4ec822d5a65b09d3e9f1473c3ce813c528812eeb45779d", "score_complete_0911b": 1757.2, "csv_0912_team_score": 1730.1, "status": "COMPLETE"},
+    "shopbag": {"submissionId": 56151155, "lineage": 55962761, "score_complete": 1383.3, "newer_than_cut16": true, "note": "id 56151155 > 56151152; submitted 10s after cut 16 at 2026-09-10 20:20:39"},
+    "newest_2": [56151155, 56151152],
+    "rank_csv_0912": 1797,
+    "cut11_sixday": {"submissionId": 56028043, "score_complete": 1590.8, "dropped": true},
+    "cut10_fieldbook": {"submissionId": 55962758, "dropped": true}
+  },
+  "cut16_live_failure_class": {
+    "0911b": {
+      "file": "experiments/20260911b_cut16_rolling.json",
+      "ids": [107839952, 107839705, 107828353, 107825481, 107821475, 107814299, 107813885, 107804995, 107804802, 107802193, 107795450, 107789318],
+      "wtl": [1, 0, 11],
+      "mean_margin": -11764.1,
+      "clone": "11/12",
+      "class": "extra-animal clones + PET_CAFE-family wool-crash; not opening-broke no-land; not freeze-after-day-9 9c9s; not s3/s4 milk-heavy",
+      "examples": [
+        {"id": 107814299, "opp": "faye", "margin": -36695, "shops72": ["PET_CAFE"], "buy": "9c5s vs 8c6s3g", "opp_sheep_after_216": [218, 227], "us_sheep_after_216": [314], "wool_px": {"360": 183, "432": 198, "576": 200}, "note": "extra-goose clone; wheat 396 vs 17280; wool did not hit $1"},
+        {"id": 107821475, "opp": "Variiiiiii", "margin": -30222, "shops72": ["PET_CAFE"], "buy": "9c5s vs 8c6s3g", "wool_px": {"360": 37, "432": 5, "576": 72}},
+        {"id": 107828353, "opp": "Yusuraume", "margin": -25695, "shops72": ["PET_CAFE"], "buy": "9c5s vs 8c6s3g", "wool_px": {"360": 37, "432": 5, "576": 1}}
+      ]
+    },
+    "0912": {
+      "file": "experiments/20260912_cut16_rolling.json",
+      "ids": [108002820, 108000306, 107994448, 107990300, 107990012, 107989781, 107988750, 107978396, 107973398, 107970942, 107959708, 107948487],
+      "wtl": [7, 0, 5],
+      "mean_margin": -1888.6,
+      "clone": "10/12",
+      "class": "same extra-animal clone diet; PET_CAFE 8c6s3g still the heavy losses; wool=$1-by-432 is not universal on this 12",
+      "heavy": [
+        {"id": 108002820, "opp": "@Suzumaru_1666", "margin": -17701, "shops": ["SMOOTHIE_SHOP", "PET_CAFE"], "buy": "9c5s vs 8c6s3g", "us216": [314], "opp216": [218, 227], "wool_px_432": 161},
+        {"id": 107990012, "opp": "BlueSky_sora", "margin": -18477, "clone": false, "shops72": ["PET_CAFE"], "buy": "9c5s vs 8c6s3g", "us216": [314], "opp216": [218, 227], "wool_px_432": 187}
+      ]
+    }
+  },
+  "q1_reselect_after_216": {
+    "table": [
+      {
+        "cut": 14,
+        "agent": "y3uanm_router_v5",
+        "reselect_steps_after_216": [226, 360, 433],
+        "kind": "prefix-guarded tape tails",
+        "state_features": {
+          "shops": "226 only: unlocked_shops.count(YARN_STORE) >= 1",
+          "prices": "360 only: CARROT price >= 42, and only if already on YARN tail",
+          "cash_gap": false,
+          "wool": "not used; yarn shop is a wool-leaning proxy, not wool price",
+          "PROGRAM_family": false,
+          "extra_animals": false,
+          "other": "433 milk market inventory >= 10067, MAIN tail only; _switch_ok requires byte-identical prefix"
+        },
+        "extra_sheep_200_267": [217, 265],
+        "extra_sheep_all_main": [1, 195, 217, 265],
+        "not_227_242_266": true
+      },
+      {
+        "cut": 15,
+        "agent": "thomastschinkel_psr_938",
+        "reselect_steps_after_216": [288, 432, 576],
+        "kind": "public-state tree every 144 turns (t%144==0)",
+        "state_features": {
+          "vector_includes": "own/rival money, cash_gap, 9 prices including WOOL, 9 inventory deltas, 8 shop counts including PET_CAFE and YARN, demand, own/rival crop+GOOSE+COW+SHEEP counts, yields, weeds, Q, shed, seeds",
+          "shops": "block1 (144) splits on shop_YARN_STORE and demand_6 (milk-shop demand). After 216: unused",
+          "prices": "block4 (576) splits only on px_CARROT. Wool price is in the vector and unused",
+          "cash_gap": "in vector, unused in all five trees",
+          "wool": "in vector (px_WOOL index 10); no split uses it",
+          "PROGRAM_family": false,
+          "extra_animals": "own/rival SHEEP/COW/GOOSE in vector; no split uses them",
+          "later_block_trees": "block2 (288) stump 0 splits; block3 (432) stump 0 splits; block4 (576) 1 split px_CARROT"
+        },
+        "extra_sheep_200_267_live": [265],
+        "tape_sheep_200_267": {"0": [265], "1": [265], "2": [265], "3": [265], "4": [217, 226, 241, 265]},
+        "clone_path_note": "prvsiyan clone: tape 2 at 144, tape 0 at 288, tape 3 at 576; extra sheep 265 only",
+        "not_227_242_266": true
+      },
+      {
+        "cut": 16,
+        "agent": "yamakawanin_king_v4e_rc4",
+        "reselect_steps_after_216": [240, 241, 288, 360, 385, 432, 504, 576],
+        "kind": "shop-family 72-turn PROGRAM phases P3+ plus YARN_SECOND>=240 and RC3 overlays",
+        "state_features": {
+          "shops": "family from shop prefix: YARN_FIRST / YARN_SECOND / YARN_THIRD / BAL / MILK / PET. P3=216, P4=288, P5=360, P6=432, P7=504, P8=576, P9=648",
+          "prices": "not used to pick PROGRAM key. q30 overlays may extra-SELL WOOL if yarn unlocked and wool px>=35 or >=150",
+          "cash_gap": false,
+          "wool": "PROGRAM family does not read wool price. MARKET_LIB _feat uses market inventory (incl WOOL inv) plus own cows/sheep/goose to swap market orders inside the same family key",
+          "PROGRAM_family": true,
+          "extra_animals": "own herd in MARKET_LIB distance only; opponent extra animals never select a family. RC3 +1 sheep at 241 iff YARN_STORE already unlocked and future PICKUP/PLACE SHEEP exceeds shed+buy",
+          "YARN_SECOND": "latched at 144 if shops[1]==YARN_STORE and shops[0]!=YARN_STORE; from step 240 replays q30_v2a YARN_SECOND market option"
+        },
+        "extra_sheep_200_267": [226, 241, 265],
+        "not_227_242_266": true,
+        "p3_plus_keys": ["P3_BAL", "P3_MILK", "P3_PET", "P3_YARN_FIRST", "P3_YARN_SECOND", "P3_YARN_THIRD"]
+      }
+    ],
+    "dropped_comparators": [
+      {
+        "cut": 10,
+        "agent": "yusuke_fieldbook",
+        "reselect_after_216": "terminal choice at 216 on third shop + day-6 cached cash_gap/land_gap, then freeze",
+        "cash_gap": "yes, cached from step 144",
+        "wool": false,
+        "extra_sheep_BALANCED": [],
+        "extra_sheep_yarn_routes": [217, 241, 265],
+        "note": "freeze-after-day-9 is the old rolling class, not cut 16's"
+      },
+      {
+        "cut": 11,
+        "agent": "yusuke_sixday",
+        "reselect_after_216": [288, 432, 576],
+        "state_features": {
+          "144": "price_carrot, rival_weed_y_sum, plus shop-bag override if YARN_STORE absent -> route 1",
+          "288": "fixed bridge (selector returns 0)",
+          "432": "fertilizer stock, price_tomato/milk/strawberry, rival weed geometry — not extra animals, not wool",
+          "576": "price_wool, cash_gap, price_carrot/fertilizer/strawberry (only later-block in-repo that splits on wool price)"
+        },
+        "extra_sheep_route0": [[217, 1], [226, 1], [241, 2], [265, 1]],
+        "extra_sheep_route1": [[226, 1], [241, 2], [265, 1]],
+        "note": "uploaded 56028043, COMPLETE 1590.8, dropped. Wool-price leaf is at 576, after the 432 crash"
+      }
+    ]
+  },
+  "q2_why_cut16_still_dies": {
+    "short": "Cut 16 reselects farm PROGRAM by shop family, not by opponent extra animals or wool price. PET_CAFE-first stays P*_PET 9c5s while clones buy goose/sheep at 218/227. Wool-price crash is visible in the market but no later-block changes the herd.",
+    "extra_animal_clones": {
+      "mechanism": "Opp extra SHEEP/GOOSE after 216 (typical 218 qty1 + 227 qty1) while King PET/MILK/BAL families stay 9c5s or 9c5s3g. RC3 sheep@241 is yarn-gated. YARN_SECOND from 240 is second-shop yarn, not PET_CAFE.",
+      "examples_0912": "Suzumaru/BlueSky 9c5s vs 8c6s3g, us sheep 314 only; Sybery 9c5s3g vs 6c6s6g",
+      "MARKET_LIB": "after-216 lib has 48 BUY_ANIMAL options and 843 SELL_WOOL options, but they are nearest-neighbor swaps inside the already-chosen P*_FAMILY key using own-farm _feat. Opponent herd is not a feature."
+    },
+    "pet_cafe_wool_crash": {
+      "mechanism": "No live cut branches on wool PRICE after 216. Cut 14 yarn switch is shop presence. Cut 15 trees include px_WOOL but 288/432 are stumps and 576 splits on carrot. Cut 16 overlays extra-SELL wool when yarn is unlocked; PET_CAFE-first often has no yarn, so the overlay does not fire, and extra SELL would not buy the missing goose/sheep anyway.",
+      "wool_1_by_432": "Named from 09-11b Variiiiiii/Yusuraume (px 37 at 360, 5 at 432; Yusuraume 1 at 576). faye -36695 is the extra-animal PET_CAFE clone with wool still ~183-198. 09-12 PET_CAFE heavies did not reach $1 by 432 (Suzumaru 161, BlueSky 187)."
+    },
+    "which_later_block_looks_at_wool_or_extra_animals_after_216": {
+      "cut14": "neither wool price nor extra animals; yarn shop at 226 is the only wool-adjacent switch",
+      "cut15": "vector has both; trees after 216 do not use them (288/432 stumps; 576 carrot only)",
+      "cut16": "PROGRAM family = shops only. MARKET_LIB sees own animals + wool inventory, not wool price, not opponent extras. RC3 sheep@241 = own yarn+future PLACE, not crash response",
+      "sixday_dropped": "576 select_segment_4 uses price_wool and cash_gap — only in-repo later-block that actually splits on wool price, and it is too late for a 432 crash. 432 tree does not use wool or extra animals",
+      "fieldbook_dropped": "cash_gap at 216 from day-6 cache; no wool; freeze after 216",
+      "cut12_cut13": "s3/s4 milk-heavy Hold on six-day later blocks; already lost Deskbo/Stefano/fufu; not extra-animal/wool-price reselect; do not reuse"
+    }
+  },
+  "q3_unused_extracted_windows_python": {
+    "question": "Is there an already-extracted Windows Python later-block in experiments/candidates/ that is distinct from 14/15/16 and was never uploaded?",
+    "answer": false,
+    "licensed_later_block_exists": false,
+    "searched": ["yhay81", "yamakawanin", "thomas", "thomastschinkel", "y3uanm", "aurax", "king rc3", "king rc5", "psr"],
+    "extracted_never_uploaded": [
+      {
+        "path": "experiments/candidates/y3uanm_router_v4/main.py",
+        "sha256": "639ca6fd2e82bc57f800ac51a5a258e49df0ee3bedf8973507f470730225640f",
+        "verdict": "not_distinct_later_block",
+        "note": "Same DECISIONS 226 yarn / 360 carrot / 433 milk as live cut 14. SHA differs from v5 acf7c664 (blob/repair). Gate: reject_cut14_family. Never uploaded as its own cut because v5 superseded it."
+      },
+      {
+        "path": "experiments/candidates/thomastschinkel_psr_745/main.py",
+        "sha256": "197b1ceef97d2ee20b833457ecbf06c0969832086c086ee6596bd0752e57a3c1",
+        "verdict": "not_distinct_later_block",
+        "note": "Header and DECISIONS are the y3uanm 226/360/433 router, not the 93.8 144/288/432/576 trees. SHA != cut14 and != v4. Never uploaded. Not a new after-216 family."
+      },
+      {
+        "path": "experiments/candidates/yhay81_shop_router_0909/main.py",
+        "sha256": "d6d74997dc5b483db63d8e39cafa1afeec0f366824e75107e109123f111e866b",
+        "verdict": "reject_day6_only",
+        "note": "ROUTE_STEP=144 shop-pair, FINAL_PLAN_STEP=648 shared ending. Extracted, never uploaded. No farm reselect after 216."
+      },
+      {
+        "path": "experiments/candidates/aurax7_reactive_v2/main.py",
+        "sha256": "f2b220fc188ef8682debf729ea76f377b8a23a424c05eb375ef287dbc5533281",
+        "verdict": "reject_day6_only",
+        "note": "Same 144/648 shop-router chassis as yhay81 0909 (SHA differs). Extracted, never uploaded."
+      },
+      {
+        "path": "experiments/candidates/yamakawanin_v21/main.py",
+        "sha256": "9b5e1157af3d4a643fcd818f5c290003d2672230d5ae8c0024fae0836cc894df",
+        "verdict": "reject_not_later_block",
+        "note": "Moon second-yarn route-label (6c8 prefix-aligned until 216). Not P3+/226/288 public-state farm reselect. Not cut 16."
+      }
+    ],
+    "never_extracted": [
+      {
+        "kernel": "yamakawanin/kaggriculture-2312-9-q30-v2a",
+        "verdict": "reject_older_parent",
+        "note": "Parent of king-v4e-rc4 without RC3 241/385 overlays. Hunt explicitly did not extract and did not overwrite king. Not a new later-block family."
+      },
+      {
+        "kernel": "yamakawanin/king-v4e-rc3",
+        "verdict": "not_in_repo",
+        "note": "RC3 is an overlay inside live rc4, not a standalone extracted agent."
+      },
+      {
+        "kernel": "yamakawanin/king-v4e-rc5",
+        "verdict": "not_in_repo",
+        "note": "No rc5 kernel, notebook, or candidate main.py."
+      }
+    ],
+    "already_uploaded_not_unused": [
+      "yusuke_fieldbook cut 10 55962758",
+      "yusuke_sixday cut 11 56028043",
+      "y3uanm_router_v5 cut 14 56111821",
+      "thomastschinkel_psr_938 cut 15 56146106",
+      "yamakawanin_king_v4e_rc4 cut 16 56151152"
+    ],
+    "hunt_0912_not_extracted": [
+      {"kernel": "ahmedberatozer/kaggriculture-v36-guarded-four-turn-sales", "verdict": "reject_sale_overlay", "note": "V35 farm routes; 288-695 four-turn early sales. Not later-block farm reselect."},
+      {"kernel": "ahmedberatozer/more-yield-smarter-labor", "verdict": "reject_no_later_block", "note": "V37 fert/labor overlay on V36. Qualification gate failed on 2900+ field."},
+      {"kernel": "hgh1024/kaggriculture-herd-safe-v2-sale-horizon-2", "verdict": "reject_sale_overlay", "note": "Moon/Shop0909 sale-horizon overlay."},
+      {"kernel": "ahmedberatozer/kaggriculture-v34-observed-market-timing", "verdict": "reject_already_seen", "note": "Prior-cycle v34 Shop0909+sale."}
+    ]
+  },
+  "q4_legal_cut17": {
+    "must_be": "Windows-runnable Python public-state later-block after 216, distinct from live 14/15/16, clone 3-0 + G5 both-win, not cut 12/13, not 227/242/266 Fieldbook wrap, not a wheat mountain, not boatlee 55710781, do not overwrite root main.py",
+    "playbook": "prefer a later public live-five / ShopForge kernel over inventing a wheat mountain or a 227/242/266 wrap",
+    "do_not": [
+      "reuse cut 12 s3 milk-heavy",
+      "reuse cut 13 s4 milk-heavy",
+      "re-upload boatlee 55710781",
+      "overwrite main.py",
+      "upload Crop Dusta BC / averaged publics",
+      "name a 227/242/266 sheep wrap of cut 10",
+      "claim Windows ran agent.so"
+    ],
+    "what_would_count": "A new kernel whose after-216 continuation actually branches on extra animals and/or wool price (ideally at 216-288, not only 576), with a static Python extract, no ctypes/agent.so.",
+    "exists_in_repo_now": false,
+    "verdict": "Hold. No legal cut 17 freeze this cycle.",
+    "hunt_targets_if_public": [
+      "yhay81: only if a new notebook is later-block Python after 216, not shop-router-0911-simple 144/648 and not ctypes 0908 agent.so",
+      "yamakawanin: king-v4e-rc5 or a new PROGRAM that keys on wool/extra animals, not q30-v2a parent",
+      "thomastschinkel: a new tree dump whose blocks 2/3 actually split (current 938 288/432 are stumps)",
+      "y3uanm: v6+ with extra-animal or wool-price features, not v4/v5 226/360/433",
+      "ShopForge later-block Python ports (not native .so)"
+    ],
+    "not_hunt_licenses": [
+      "Majkel1337 mid-land 150 then 218-224 clone=0 — opening/mid land is not a later-block license",
+      "Ahmed v34/v35/v36/v37 Shop0909 sale overlays",
+      "dmitrii/hgh/sunil/leoprovorov sale-window 144/648 + ADVANCE_START 288"
+    ]
+  },
+  "q5_upload_slot": {
+    "shopbag": {"id": 56151155, "score": 1383.3, "lt_1500": true, "newer_than_cut16": true},
+    "cut16": {"id": 56151152, "score_complete_0911b": 1757.2, "ge_1500": true},
+    "previous_cycle_pattern": "re-upload shopbag with every new cut => newest-2 = [new_cut, shopbag], dropping the prior >=1500 cut",
+    "alternative_claimed": "upload licensed cut 17 ALONE so newest-2 = cut17 + cut16, dropping weak shopbag",
+    "slot_math": "FALSE. Shopbag 56151155 is newer than cut 16 56151152. Cut 17 alone => newest-2 = [cut17, shopbag 1383], dropping cut 16. That is upload-bail (c), not an escape from it. Historical parallel: cut 15 uploaded alone kept shopbag 56112309 and dropped cut 14.",
+    "to_actually_pair_cut17_with_cut16": "would need cut 17 then a re-upload of cut 16 (two quota). The cut-16 reupload is 600-provisional; playbook treats re-upload as not a partner until COMPLETE.",
+    "upload_bail_c": {
+      "definition": "newest cut COMPLETE >=1500, but a new cut would drop that >=1500 without a >=1500 COMPLETE remaining as newest-2 partner",
+      "applies_to_cut17_alone": true,
+      "applies_to_cut17_plus_shopbag_reupload": true
+    },
+    "recommend_upload_alone": false,
+    "reason": "Conservative rule: only recommend if a licensed later-block exists. None exists. Even if one did, upload-alone drops cut 16 and keeps shopbag 1383. Do not burn quota on a two-slot reupload of cut 16 until a licensed later-block exists and COMPLETE partner math is explicit."
+  },
+  "cut12_cut13": {
+    "hold": true,
+    "reused": false,
+    "why": "s3 milk-heavy (cut 12) and s4 milk-heavy-when-behind (cut 13) already lost recorded-seat vs Deskbo/Stefano/fufu. Not extra-animal/wool-price later-blocks. Not 227 wraps. Playbook: not reused this cycle."
+  },
+  "recommendation": "HOLD",
+  "recommendation_mode": "Hold; hunt-target authors/kernels; do not extract-and-screen unused day-6/cut14-family copies",
+  "recommendation_20_lines": [
+    "HOLD. Cut 16 live class is extra-animal clones + PET_CAFE-family wool-crash (09-11b 1-0-11; 09-12 7-5 still 8c6s3g heavies).",
+    "Do not invent a wheat mountain or a 227/242/266 Fieldbook wrap. Do not reuse cut 12/13. Do not re-upload boatlee 55710781. Do not overwrite main.py.",
+    "Cut 14 after 216: 226 yarn-shop, 360 carrot px (yarn only), 433 milk inv (main only). Extra sheep 217/265. No wool px, no extra animals, no cash_gap.",
+    "Cut 15 after 216: calls _choose at 288/432/576, but 288 and 432 trees are stumps; 576 splits only on carrot price. Vector has wool/sheep/cash_gap and does not use them.",
+    "Cut 16 after 216: P3+ shop-family PROGRAM + YARN_SECOND>=240 + RC3 sheep@241-if-yarn. Extra sheep 226/241/265. Family ignores opponent extras and wool price.",
+    "Only in-repo later-block that splits on wool price is dropped six-day at 576 — too late for wool=$1 by 432. Cut 12/13 milk-heavy patches of that chassis already failed.",
+    "PET_CAFE-first King stays P*_PET 9c5s; clones buy goose/sheep at 218/227. RC3 and YARN_SECOND do not fire. MARKET_LIB can retune sells inside PET, not the herd.",
+    "No already-extracted Windows Python later-block distinct from 14/15/16 was never uploaded.",
+    "y3uanm_v4 and thomas_psr_745 are cut-14-family 226/360/433 (SHAs 639ca6fd / 197b1cee). Do not extract-and-screen them as cut 17.",
+    "yhay81_0909 and aurax7_v2 are extracted 144/648 day-6 routers, never uploaded, not after-216. Do not screen.",
+    "yamakawanin_v21 is Moon second-yarn, not later-block. q30-v2a was never extracted (older parent of rc4). No king rc3 standalone, no rc5 in repo.",
+    "09-12 hunt (Ahmed v36/v37, herd-safe v2, v34) is sale-overlay / labor overlay on Shop0909. Not later-block. Do not extract.",
+    "LEGAL cut 17 = new public live-five/ShopForge Python kernel that reselects after 216 on extra animals and/or wool price, clone/G5, no agent.so.",
+    "Hunt-target authors: yhay81 (later-block Python only), yamakawanin (rc5+ or wool/herd PROGRAM), thomastschinkel (trees whose 288/432 actually split), y3uanm v6+.",
+    "Not licenses: Majkel1337 mid-land 150/218-224; Ahmed sale windows; ctypes ShopForge .so.",
+    "Upload-alone does NOT yield cut17+cut16. Shopbag 56151155 is newer than cut16 56151152, so cut17 alone = cut17 + shopbag 1383, dropping 1757. That is upload-bail (c).",
+    "Re-uploading shopbag with cut 17 also drops cut 16. Pairing cut17 with cut16 needs a cut-16 reupload (600-provisional, two quota). Do not do that without a licensed later-block.",
+    "Because no licensed later-block exists, do not recommend any upload tactic. Quota stays unspent.",
+    "Next action is hunt, not extract-and-screen of files already in experiments/candidates/.",
+    "Hold newest-2 as cut 16 56151152 + shopbag 56151155 until a real after-216 kernel appears."
+  ]
+}

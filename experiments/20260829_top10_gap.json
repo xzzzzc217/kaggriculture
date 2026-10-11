@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-29",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-08-29T15:20:40.csv",
+  "rank": 20,
+  "score": 2737.0,
+  "n_teams": 6857,
+  "gold21": 2723.9,
+  "gold_buffer": 13.1,
+  "rank10": {"team": "One Zero001", "score": 2806.1, "gap": 69.1},
+  "newest": {"id": 55840543, "name": "moon_shopbag_v1", "score": 2737.0},
+  "second": {"id": 55832272, "name": "moon_v189c", "score": 1610.3},
+  "public_all": {"n": 105, "wtl": [71, 3, 31], "mean_margin": 6928.74},
+  "rolling12": {"wtl": [3, 0, 9], "mean_margin": -4120.25},
+  "drop_reason": "11-sheep near-clones of the Ramesh tape densified at the 2700 band, not a new Milan wheat-mountain diet",
+  "new_blowouts": [
+    {"episode": 102571934, "opp": "MtN", "margin": -17420, "opp_wheat": 362, "opp_sheep": 11, "our_sheep": 8, "clone": true, "yarn_first": true},
+    {"episode": 102538447, "opp": "Yusuke Hayashi", "margin": -13434, "opp_wheat": 328, "opp_sheep": 10, "our_sheep": 7, "clone": true, "yarn_second_144": true},
+    {"episode": 102538503, "opp": "vkhydras", "margin": -7015, "opp_wheat": 329, "opp_sheep": 11, "our_sheep": 8, "clone": true, "yarn_first": true},
+    {"episode": 102346518, "opp": "lucaskna", "margin": -11389, "opp_wheat": 369, "opp_sheep": 10, "our_sheep": 8, "clone": true, "yarn_first": true}
+  ],
+  "hunt": [
+    {"kernel": "salemali7/kaggriculture-2900", "verdict": "reject", "note": "Boatlee V16-RC5 SHA f029fa0c..., reconstructed tape, not a 2900 live agent"},
+    {"kernel": "premaananda108/ecobot-v7", "sha256": "ac4058f725d6c331869f1b790baae5d775706515fa3ccf04bc139f8f0d3e041b", "verdict": "reject", "screen": {"mtn": -58466, "yusuke": -83323, "hanserong": -55384, "collin": -117144, "prvsiyan": -91215}},
+    {"kernel": "nagatakengo/kaggriculture", "verdict": "reject", "note": "depth-3 decision tree plus random; analysis notebooks, not medal chassis"},
+    {"kernel": "moon_shopbag_v2", "verdict": "hold", "note": "flips TK256 -125 to +59; does not flip 11-sheep clones"}
+  ]
+}

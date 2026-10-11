@@ -1,0 +1,102 @@
+{
+  "episodes": [
+    {
+      "id": 16674508,
+      "createTime": "2021-02-11T04:02:46.460788500Z",
+      "endTime": "2021-02-11T04:05:03.324697800Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 37107767,
+          "submissionId": 19293965,
+          "reward": 622,
+          "initialScore": 1090.1929083280859,
+          "updatedScore": 1082.0971209411641,
+          "teamId": 6091329
+        },
+        {
+          "id": 37107768,
+          "submissionId": 19191287,
+          "reward": 624,
+          "index": 1,
+          "initialScore": 1111.6554139849638,
+          "updatedScore": 1119.7422781796292,
+          "teamId": 6008564
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": 19191287,
+      "dateSubmitted": "2021-01-20T23:42:31.717Z",
+      "teamId": 6008564,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 19293965,
+      "dateSubmitted": "2021-01-27T14:53:46.017Z",
+      "teamId": 6091329,
+      "status": "COMPLETE"
+    }
+  ],
+  "teams": [
+    {
+      "id": 6008564,
+      "teamName": "s_shohei",
+      "competitionId": 24539,
+      "teamLeaderId": 2304617,
+      "medal": 2,
+      "submissionCount": 226,
+      "lastSubmissionDate": "2021-02-01T11:59:26.403333300Z",
+      "publicLeaderboardSubmissionId": 19341820,
+      "teamMembers": [
+        {
+          "displayName": "s_shohei",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/2304617-kg.png",
+          "url": "/iiyamaiiyama",
+          "userName": "iiyamaiiyama",
+          "tier": "GRANDMASTER",
+          "id": 2304617
+        }
+      ]
+    },
+    {
+      "id": 6091329,
+      "teamName": "rmc",
+      "competitionId": 24539,
+      "teamLeaderId": 4949673,
+      "medal": 2,
+      "submissionCount": 87,
+      "lastSubmissionDate": "2021-02-01T14:03:45.640Z",
+      "publicLeaderboardSubmissionId": 19240762,
+      "teamMembers": [
+        {
+          "displayName": "AYepifanov",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png",
+          "url": "/ayepifa",
+          "userName": "ayepifa",
+          "tier": "CONTRIBUTOR",
+          "id": 41616
+        },
+        {
+          "displayName": "sib",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png",
+          "url": "/svetlanab",
+          "userName": "svetlanab",
+          "tier": "CONTRIBUTOR",
+          "id": 466379
+        },
+        {
+          "displayName": "rmc",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png",
+          "url": "/iampasta",
+          "userName": "iampasta",
+          "tier": "CONTRIBUTOR",
+          "id": 4949673
+        }
+      ]
+    }
+  ]
+}

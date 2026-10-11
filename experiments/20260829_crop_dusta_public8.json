@@ -1,0 +1,402 @@
+{
+  "n": 8,
+  "wtl": [
+    4,
+    0,
+    4
+  ],
+  "games": [
+    {
+      "episode": 102060633,
+      "seed": 1800146268,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Milan Leonard",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -763.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        93938.0,
+        93175.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        6
+      ],
+      "cow": [
+        1,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        215,
+        329
+      ],
+      "wheat": [
+        724,
+        435
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 31,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102060633.json"
+    },
+    {
+      "episode": 102058608,
+      "seed": 933463286,
+      "opp": "Michael Timbs",
+      "teams": [
+        "Michael Timbs",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": 15270.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        89576.0,
+        104846.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        5,
+        4
+      ],
+      "cow": [
+        3,
+        7
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        186,
+        759
+      ],
+      "wheat": [
+        2910,
+        697
+      ],
+      "clone": false,
+      "max_near": 1,
+      "median_distance": 44,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102058608.json"
+    },
+    {
+      "episode": 102056186,
+      "seed": 1135077510,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Crop Dusta",
+        "Milan Leonard"
+      ],
+      "seat": 0,
+      "margin": 7296.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        101029.0,
+        93733.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        1,
+        6
+      ],
+      "cow": [
+        11,
+        7
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        183,
+        309
+      ],
+      "wheat": [
+        2903,
+        460
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 28,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102056186.json"
+    },
+    {
+      "episode": 102051705,
+      "seed": 588141822,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Milan Leonard",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -3211.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        96400.0,
+        93189.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        1,
+        5
+      ],
+      "cow": [
+        6,
+        7
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        140,
+        271
+      ],
+      "wheat": [
+        2124,
+        441
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 32,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102051705.json"
+    },
+    {
+      "episode": 102049470,
+      "seed": 1209899991,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Crop Dusta",
+        "Milan Leonard"
+      ],
+      "seat": 0,
+      "margin": 2033.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        80646.0,
+        78613.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        2,
+        5
+      ],
+      "cow": [
+        5,
+        8
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        176,
+        319
+      ],
+      "wheat": [
+        2478,
+        411
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 38,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102049470.json"
+    },
+    {
+      "episode": 102047250,
+      "seed": 1230786905,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Milan Leonard",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -6506.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        76423.0,
+        69917.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        1,
+        5
+      ],
+      "cow": [
+        3,
+        7
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        183,
+        294
+      ],
+      "wheat": [
+        1071,
+        412
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 35,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102047250.json"
+    },
+    {
+      "episode": 102045249,
+      "seed": 2027675477,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Milan Leonard",
+        "Crop Dusta"
+      ],
+      "seat": 1,
+      "margin": -4164.0,
+      "win": false,
+      "tie": false,
+      "rewards": [
+        73410.0,
+        69246.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        4,
+        7
+      ],
+      "cow": [
+        0,
+        6
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        136,
+        296
+      ],
+      "wheat": [
+        1942,
+        445
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 24,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102045249.json"
+    },
+    {
+      "episode": 102045018,
+      "seed": 1448121658,
+      "opp": "Milan Leonard",
+      "teams": [
+        "Crop Dusta",
+        "Milan Leonard"
+      ],
+      "seat": 0,
+      "margin": 25053.0,
+      "win": true,
+      "tie": false,
+      "rewards": [
+        91953.0,
+        66900.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "Q": [
+        3,
+        3
+      ],
+      "sheep": [
+        3,
+        8
+      ],
+      "cow": [
+        3,
+        4
+      ],
+      "melon": [
+        0,
+        0
+      ],
+      "fert": [
+        199,
+        308
+      ],
+      "wheat": [
+        2891,
+        518
+      ],
+      "clone": false,
+      "max_near": 5,
+      "median_distance": 31,
+      "path": "D:\\kaggle\\kaggriculture\\artifacts\\kaggle_runs\\episodes_20260828\\102045018.json"
+    }
+  ]
+}

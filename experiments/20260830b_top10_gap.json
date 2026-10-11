@@ -1,0 +1,95 @@
+{
+  "date": "2026-08-30",
+  "leaderboard_csv": "kaggriculture-publicleaderboard-2026-08-30T08:33:35.csv",
+  "rank": 42,
+  "score": 2628.9,
+  "n_teams": 6919,
+  "gold21": 2726.8,
+  "gold_buffer": -97.9,
+  "rank10": {"team": "Jiro2", "score": 2801.3, "gap": 172.4},
+  "top5": [
+    ["Crop Dusta", 3033.7],
+    ["Milan Leonard", 3024.3],
+    ["Yusuke Hayashi", 2929.6],
+    ["tiki tiki tiki", 2885.0],
+    ["MtN", 2876.2]
+  ],
+  "newest": {"id": 55840543, "name": "moon_shopbag_v1", "score": 2628.9},
+  "public_all": {"n": 153, "wtl": [82, 4, 67], "mean_margin": 3474.5},
+  "rolling12": {"wtl": [3, 0, 9], "mean_margin": -4912.5, "all_clone": true},
+  "drop_reason": "matchmaking band is Ramesh-opening near-clones; yarn games lose to 10-11 sheep / 17 pastures; no-yarn games lose to +1-3 extra cows. Rolling 12 is 3-9 all clone=true.",
+  "wins": {
+    "Munal Singh 103118565": {"margin": 7295, "note": "clone 8c4s vs 6c6s, no yarn"},
+    "nir afek 103100831": {"margin": 1744, "note": "clone 8c4s vs 11c4s"},
+    "Lynxx 103051723": {"margin": 9240, "note": "yarn fired, 4c8s vs 9c6s"}
+  },
+  "losses_classes": [
+    "no-yarn clone extra-cow: Hanserong/Remielle/Ryo Takaki/chupaletas/Hiroyasu, we 8c4s they 7-11c + 4-6s, pastures 14 vs 17",
+    "yarn 10-11 sheep: Tom3 4c10s 17 pastures vs our 4c8s 14 pastures"
+  ],
+  "hunt": [
+    {
+      "kernel": "yhay81/public-match-history-router-rating-2929-aug-30",
+      "agent": "two-shop ShopForge demo SHA ac615297...",
+      "verdict": "reject_upload",
+      "screen": {
+        "mtn": -9019,
+        "yusuke": 0,
+        "hanserong": -4677,
+        "pavlo": -6172,
+        "prvsiyan_clone": -8108
+      },
+      "note": "Not the submitted CR2 (68-18, LB 2929). Closes 11-sheep gap, destroys clone defense. Method is the next chassis: shop-pair route library, shopbag as default."
+    },
+    {
+      "kernel": "yhay81/replay-public-episode-actions-across-seeds-in-c",
+      "verdict": "infra",
+      "note": "C++ evaluator on nikital7 4000x port. destbreso 24k eps/s is the same port patched to 1.32.7. Search infra, not an agent."
+    },
+    {
+      "kernel": "tetsutani/shape-the-shop-work-the-pasture-kaggriculture",
+      "verdict": "already_screened",
+      "note": "E776-class archive, same parent SHAs as indarkarhana 20260829."
+    },
+    {
+      "kernel": "evelyn3976 kaito v27 public safety v7",
+      "verdict": "reject",
+      "note": "Kaito v27 lineage, below current live-five."
+    },
+    {
+      "kernel": "binasalama v31 early livestock",
+      "verdict": "reject",
+      "note": "V16-RC5 tape, boatlee lineage."
+    },
+    {
+      "kernel": "mansiaggarwal 550-lb reactive / songoku AgroBoss greedy",
+      "verdict": "skip_screen",
+      "note": "capstone/greedy, ~550 or unranked heuristic."
+    },
+    {
+      "github": "deepeshumrao / Amey / PufferLib 8aa699e",
+      "verdict": "already_screened_weak_or_pipeline"
+    }
+  ],
+  "cuts": {
+    "v2_wheat_FR": "coded, not uploaded, does not fix 11-sheep",
+    "E776": "Pavlo flip, still 0-3 on MtN/Yusuke/Hanserong",
+    "yusuke_demo": "0-4-1 vs panel, clone -8108",
+    "moon_shopbag_v3": {
+      "sha256": "8f83bbc3327a1d6c3640963059d110d2c888eb8a46d4da7438404802d16d5b1b",
+      "idea": "one extra shop-aligned animal into serviced empty pasture (7,4) via hand4 PASS 255-260",
+      "screen": {
+        "clone3": "identical 3-0",
+        "mtn": 0,
+        "yusuke": 3138,
+        "hanserong_11": 0,
+        "hanserong_clone": 0,
+        "lynxx": 0
+      },
+      "verdict": "hold",
+      "note": "Fires only when 223 PLACE left (7,4) empty. Most seeds already occupy that tile. Not 2/3 flips."
+    }
+  },
+  "next_chassis": "shopbag default (clone) + Kenjo 102125420 yarn specialist (5c11s, 17 pastures, extra sheep 218/223/242/250/266, land 151/266). Yusuke published this as one of ten routed histories. Do not upload a single Kenjo tape. Do not submit Crop Dusta BC.",
+  "hold": true
+}
