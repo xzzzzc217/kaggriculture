@@ -4290,3 +4290,16 @@
 - Verdict: **no-winner**. Did not submit. Newest submission remains
   `56435986` at 2026-09-21 15:38:45 (public score on this listing
   1648.1). Root `main.py` still h2 SHA `65e6f5cd`. Not gold.
+
+## 2026-10-11 — competition deadline and active pair refresh
+
+- Authenticated Kaggle API now reports final submission deadline
+  **2026-10-14 23:59 UTC**, 10,148 entered teams, and `heralces` at rank
+  **2721**. The first leaderboard page shows a leader at 3275.1.
+- Newest active submissions are `56679778` (“kaggriculture challenger”),
+  **1376.7 COMPLETE**, and `56679782` (“kaggriculture reupload then-best”),
+  **1309.6 COMPLETE**. The previous newest pair `56395547` / `56395540`
+  is no longer active.
+- This API snapshot replaces the stale September 20 live-pair status. No
+  candidate passed the paired-replacement quality gate in this check, so no
+  new submission was made.

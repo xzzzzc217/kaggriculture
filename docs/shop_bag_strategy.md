@@ -11,7 +11,7 @@ x-ray cell 24, Moon V189C inner tape `experiments/20260828_moon_v189c_tape.json`
 
 | Layer | Now (legal) | North star (Crop Dusta class) |
 |---|---|---|
-| Live Agent | 2026-09-20 gold pair: metav4 v13 `56395547` SHA `9d634946` + 2945 farm `56395540` SHA `bfee70e9` (PENDING at upload). Cut 16 `56151152` and shopbag `56151155` dropped from newest-2. Prior cut 16 had decayed to **1358.1 COMPLETE**. Rank before upload **2946 / 9643**, gold_cut 29 / 2918.0. 夺金 overrides upload-bail. | Live five, not Flex/V21 |
+| Live Agent | 2026-10-11 API: challenger `56679778` **1376.7 COMPLETE** + then-best reupload `56679782` **1309.6 COMPLETE**. Newest-two; metav4 `56395547` and 2945 farm `56395540` have been displaced. Current API rank **2721 / 10148**; final deadline **2026-10-14 23:59 UTC**. Hold for a paired replacement that clears the frozen gates. | Live five, not Flex/V21 |
 | Inner plan | Thomas six-day trees reselect at 144/288/432/576 | Six-day reselect at 144/288/432/576 |
 | Land | 3Q at steps 150, 265 | 3Q at steps 122, 200 |
 | Herd | Fieldbook 9c5s / 6c11s / YARN_LATE 9c9s at **218/242/266** | Yusuke live extra sheep **227/242/266** even without first-two yarn |
@@ -27,10 +27,13 @@ Dusta average or a PufferLib BC clone.
 ## Adopted rules
 
 1. **Stay in the live-five class.** Frozen V21/Flex 2932-fert dumps and
-   400-fert shop clones are a dying diet. Newest-2 after 2026-09-20
-   upload: metav4 v13 `56395547` + 2945 farm `56395540` (gold-class pair;
-   夺金 overrides the 09-15e upload-bail). Cut 16 `56151152` and shopbag
-   `56151155` dropped. Do not re-upload boatlee.
+   400-fert shop clones are a dying diet. The current newest-two are
+   `56679778` and `56679782`, both COMPLETE at 1376.7 and 1309.6. Earlier
+   metav4 `56395547` and 2945 farm `56395540` have been displaced. Require a
+   validated paired-replacement plan before another upload; do not re-upload
+   boatlee.
+   Historical cut-16 API observations before it left newest-two (retain for audit and regression fixtures): 1799.2 COMPLETE; 1757.2 COMPLETE; 1730.1 COMPLETE; 1695.1 COMPLETE; 1682.4 COMPLETE; 1686.8 COMPLETE; 1682.0 COMPLETE; 1683.4 COMPLETE; 1691.4 COMPLETE; 1696.4 COMPLETE; 1698.7 COMPLETE; 1695.5 COMPLETE; 1697.5 COMPLETE; 1702.8 COMPLETE; 1691.5 COMPLETE; 1692.8 COMPLETE; 1688.5 COMPLETE; 1692.2 COMPLETE; 1693.4 COMPLETE; 1693.6 COMPLETE; 1690.5 COMPLETE; 1682.9 COMPLETE; 1680.9 COMPLETE; 1670.2 COMPLETE; 1673.8 COMPLETE; 1669.1 COMPLETE; 1681.2 COMPLETE; 1654.7 COMPLETE; 1644.6 COMPLETE; 1639.4 COMPLETE; 1640.5 COMPLETE; 1637.6 COMPLETE; 1643.7 COMPLETE; 1636.0 COMPLETE; 1636.5 COMPLETE; 1632.1 COMPLETE; 1627.8 COMPLETE; 1619.1 COMPLETE.
+   Historical shopbag scores: 1300.3 COMPLETE; 1300.7 COMPLETE; 1293.6 COMPLETE; 1286.1 COMPLETE; 1282.2 COMPLETE.
 2. **Read the whole shop bag, not `shops[0]`.** Crop Dusta’s strongest
    measured adaptation is yarn-count → wool (r 0.893). Pet cafe → carrot
    (0.694), bakery → egg (0.582), pizza → tomato (0.578). Farmers market

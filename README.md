@@ -1,9 +1,21 @@
 # Kaggriculture medal sprint
 
-Status as of 2026-09-20: newest-two are gold-class Thomas pair metav4 v13
-`56395547` (SHA `9d634946`) plus 2945 farm `56395540` (SHA `bfee70e9`).
-Cut 16 `56151152` and shopbag `56151155` dropped. Before upload, heralces
-was rank 2946 / 9643 at 1358.1 vs gold_cut 29 / 2918.0. Playbook:
+Archived research snapshot, published after the submission deadline. Authenticated Kaggle API
+checked on 2026-10-22 reports deadline 2026-10-14 23:59 UTC and user rank 2734.
+This rank is an API observation, not a verified final medal result. Older scores below are dated
+historical observations. The root agent is a local baseline, not necessarily the last online submission.
+
+Source, experiment definitions and research notes are preserved here. Local virtual environments,
+replays, caches, downloaded competition data and generated artifacts are excluded; historical
+commands referencing those paths require regenerating or downloading the inputs.
+See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licensing scope.
+
+Status as of 2026-10-11: Kaggle reports 10,148 entered teams, user rank 2,721,
+and final submission deadline 2026-10-14 23:59 UTC. The newest active pair is
+`56679778` (“kaggriculture challenger”, public 1376.7) and `56679782`
+(“kaggriculture reupload then-best”, public 1309.6), both `COMPLETE`.
+Submissions `56395547` and `56395540` have been displaced. The first leaderboard
+page showed a leader at 3275.1. Playbook:
 [`docs/shop_bag_strategy.md`](docs/shop_bag_strategy.md).
 
 ## Competition and medal objective
@@ -202,4 +214,4 @@ is made. The result strengthens the adversarial test requirement but does not au
 
 ## Repository visibility
 
-Private while the competition is ongoing (deadline verified on 2026-10-11).
+Public research archive after the competition submission deadline.
